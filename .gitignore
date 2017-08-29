@@ -4,9 +4,13 @@
 # A Powerful General Purpose Framework
 # More information in: https://aurora-fw.github.io/
 
+# Documentation Output
 .out_latex/
 .out_html/
 .out_rtf/
 .out_man/
 .out_xml/
 .out_docbook/
+
+# Doxygen temp files
+*.tmp
