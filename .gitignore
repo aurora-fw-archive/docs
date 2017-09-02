@@ -14,9 +14,13 @@
 # ensure the GNU Lesser General Public License version 3 requirements
 # will be met: https://www.gnu.org/licenses/lgpl-3.0.html.
 
+# Documentation Output
 .out_latex/
 .out_html/
 .out_rtf/
 .out_man/
 .out_xml/
 .out_docbook/
+
+# Doxygen temp files
+*.tmp
