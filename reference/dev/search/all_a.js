@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['setx',['setX',['../d7/dc9/structAuroraFW_1_1Math_1_1Vector2D.html#ac1e5d4917e4b9279f52ef50627d7d0c2',1,'AuroraFW::Math::Vector2D::setX()'],['../de/d8d/structAuroraFW_1_1Math_1_1Vector3D.html#a1f25113e75a7d5ab2fc479cc4b9cfffb',1,'AuroraFW::Math::Vector3D::setX()']]],
+  ['sety',['setY',['../d7/dc9/structAuroraFW_1_1Math_1_1Vector2D.html#af71193314fdcce22b854ee75043ca63c',1,'AuroraFW::Math::Vector2D::setY()'],['../de/d8d/structAuroraFW_1_1Math_1_1Vector3D.html#a85a19d5d2e0ebb8d05c1205702c6c24e',1,'AuroraFW::Math::Vector3D::setY()']]],
+  ['setz',['setZ',['../de/d8d/structAuroraFW_1_1Math_1_1Vector3D.html#a56786bea7621dcdb7bcd239f989c1e90',1,'AuroraFW::Math::Vector3D']]],
+  ['socket',['Socket',['../d4/d33/classSocket.html',1,'']]],
+  ['subtract',['subtract',['../d7/dc9/structAuroraFW_1_1Math_1_1Vector2D.html#a5d5ee3b39e057b1422908cc236df6ca3',1,'AuroraFW::Math::Vector2D::subtract(const Vector2D &amp;)'],['../d7/dc9/structAuroraFW_1_1Math_1_1Vector2D.html#a0ceb5d5a066549e4975fa3cf59562d16',1,'AuroraFW::Math::Vector2D::subtract(float)'],['../d7/dc9/structAuroraFW_1_1Math_1_1Vector2D.html#a17a72e44d55d607b53965b5ab41c24e5',1,'AuroraFW::Math::Vector2D::subtract(float, float)'],['../de/d8d/structAuroraFW_1_1Math_1_1Vector3D.html#ab0918f184f399cc36ecaf66f9124d294',1,'AuroraFW::Math::Vector3D::subtract(const Vector3D &amp;)'],['../de/d8d/structAuroraFW_1_1Math_1_1Vector3D.html#ae9cd63580532e0deca224dca67ede0aa',1,'AuroraFW::Math::Vector3D::subtract(float)'],['../de/d8d/structAuroraFW_1_1Math_1_1Vector3D.html#adcdea3d5adfc37001327c6d2c7d3395f',1,'AuroraFW::Math::Vector3D::subtract(float, float, float)']]]
+];
