@@ -90,9 +90,9 @@ To name our code we use typical method adopted in programming to know whats the 
 #### Types
 For types such as a `class`, `struct`, `typedef`, `enum`, `namespace`, etc, you should use PascalCase which means that the first letter of each concatenated word is capitalized. Here some examples:
 
-- BackColor
-- TimeUtc
-- Timer
+- `BackColor`
+- `TimeUtc`
+- `Timer`
 
 #### Functions
 For functions you should use camelCase which means that the first word is in lowercases and the rest of the words starts with a capital letter. Here some examples:
