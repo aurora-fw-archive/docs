@@ -17,7 +17,7 @@ This document explains the codestyle that the Aurora Framework uses. We use this
 - [Lines](#lines)
 	- [Length](#length)
 	- [Ending](#ending)
-	- [If/else conditions](#if/else-conditions)
+	- [If else conditions](#if-else-conditions)
 - [File encoding](#file-encodig)
 - [Braces](#braces)
 - [Tab idention](#tab-idention)
@@ -120,8 +120,8 @@ When talking about soft limit, the lines should not pass 80 characters. For hard
 #### Ending
 For line ending we use Unix LF (linefeed). If you are developing on Windows, you should use a linefeed compatible editor.
 
-#### If/else conditions
-If/else conditions should **ALWAYS** have braces, even if the code inside is just one line long. This improves readability and makes it easier to understand.
+#### If else conditions
+If/else conditions must **ALWAYS** have braces, even if the code inside is just one line long. This improves readability and makes it easier to understand.
 ```cpp
 if(condition) {
 	return variable;	// Makes it easier to understand it's inside the first condition
