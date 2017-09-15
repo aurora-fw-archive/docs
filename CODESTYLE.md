@@ -17,6 +17,7 @@ This document explains the codestyle that the Aurora Framework uses. We use this
 - [Lines](#lines)
 	- [Length](#length)
 	- [Ending](#ending)
+	- [If/else conditions](#if/else-conditions)
 - [File encoding](#file-encodig)
 - [Braces](#braces)
 - [Tab idention](#tab-idention)
@@ -27,7 +28,7 @@ This document explains the codestyle that the Aurora Framework uses. We use this
 In Aurora code files, we have a very well defined anatomy for comment blocks. You have three types of comments: the initial comments, documentation comments and code comments. All of them need to be written in English and well explained for easier development of other programmers that want to contribute to the project.
 
 #### Initial Comments
-Initial comments have general information about the file and should be present on ALL source code files. We have a boilerplate for C-like languages and languages that have `#` as 'keyword' for comment blocks. Depending on the license of the repository, you should use GPL-3.0 and LGPL-3.0 boilerplates. You can found it [here](BOILERPLATES.md).
+Initial comments have general information about the file and should be present on ALL source code files. We have a boilerplate for C-like languages and languages that have `#` as 'keyword' for comment blocks. Depending on the license of the repository, you should use GPL-3.0 and LGPL-3.0 boilerplates. You can find them [here](BOILERPLATES.md).
 
 
 #### Documentation Comments
@@ -45,7 +46,7 @@ or this, in case of a non C-like language:
 #
 ```
 
-You should use special commands to Doxygen know what you want to do with this comment. Here is some useful and most used commands:
+You should use special commands so Doxygen knows what you want to do with the comment. Here are some useful and most used commands:
 -   `@file`
 -   `@param`
 -   `@return`
@@ -73,57 +74,67 @@ Here is a practical example of a documentation comment:
 ```
 You can also use single comments for documentation: `///`.
 
-On this comments you should use a formal and clear language, because the purpose of that comments is to automatically create the documentation reference of the framework.
+In these comments you should use a formal and clear language, because the purpose of those comments are to automatically create the documentation reference of the framework.
 
 #### Code Comments
-This type of comments can be used on on headers and source files. The purpose of that comments is to help people understand an instruction or even a block of code. That use the common syntax of a comment: `//` and:
+These types of comments can be used on headers and source files. The purpose of these comments is to help people understand an instruction or even a block of code. We use the common syntax of a comment: `//` and:
 ```cpp
 /*
 block comments
 */
 ```
-Here you just need to be clear on what you want to explain to the programmer, so no formal language needed and for better communication, use easy words.
+Here you just need to be clear on what you want to explain to the programmer, so no formal language is needed and, for better communication, use easy words.
 
 ### Naming
-To name our code we use typical method adopted in programming to know whats the type of the instructions used. We use a different name idention for types, functions and objects/variables.
+To name our code we use typical methods adopted in programming to know what's the type of the instructions used. We use a different name idention for types, functions and objects/variables.
 
 #### Types
-For types such as a `class`, `struct`, `typedef`, `enum`, `namespace`, etc, you should use PascalCase which means that the first letter of each concatenated word is capitalized. Here some examples:
+For types such as a `class`, `struct`, `typedef`, `enum`, `namespace`, etc, you should use PascalCase, which means that the first letter of each concatenated word is capitalized. Here are some examples:
 
 - `BackColor`
 - `TimeUtc`
 - `Timer`
 
 #### Functions
-For functions you should use camelCase which means that the first word is in lowercases and the rest of the words starts with a capital letter. Here some examples:
+For functions you should use camelCase, which means that the first word is in lowercase and the rest of the words start with a capital letter. Here are some examples:
 - `getName()`
 - `setName()`
 - `isNull()`
 
 #### Objects and Variables
-For objects or variables we use all in lowercase. Specifically, for private members use an `_` at the begin.
+For objects or variables we write them in lowercase. Specifically, for private members use an `_` at the begin.
 
-**Note**: Words that is already assigned by the language (keywords), you should use an `_` at the end.
+**Note**: Words that are already assigned by the language (keywords) should have an `_` at the end.
 
 #### Acronyms
-If the first letter is uppercase then the whole acronym should have uppercase letters. Else if the first letter is lowercase then the whole acronym should have lowercase letters. Here some examples:
+If the first letter is uppercase then the whole acronym should have uppercase letters. Else if the first letter is lowercase then the whole acronym should have lowercase letters. Here are some examples:
 - `ASCIIArt`
 - `asciiArt`
 
 ### Lines
-Line structure is important for programmers. If lines are separated and with a length limit, code readability is improved and the development workflow is way better. It's important that blank lines exists and may added to separate different blocks of code.
+Line structure is important for programmers. If lines are separated and with a length limit, code readability is improved and the development workflow is way better. It's important that blank lines exist and may be added to separate different blocks of code. It doesn't affect the compiler in any way, so there's no excuse for not using them.
 
 #### Length
 When talking about soft limit, the lines should not pass 80 characters. For hard limit, lines must not pass 120 characters.
 
 #### Ending
-For line ending we use Unix LF (linefeed). When you are developing on Windows, you should use a linefeed compatible editor.
+For line ending we use Unix LF (linefeed). If you are developing on Windows, you should use a linefeed compatible editor.
+
+#### If/else conditions
+If/else conditions should **ALWAYS** have braces, even if the code inside is just one line long. This improves readability and makes it easier to understand.
+```cpp
+if(condition) {
+	return variable;	// Makes it easier to understand it's inside the first condition
+} else {
+	//...
+}
+```
 
 ### File encoding
 You must use 8-bit unicode, UTF-8.
 
 ### Braces
-If its a function, don't open braces in the same line as the declarations, else please open it in the same line. To close braces you must always do it in a new line, unless its has no body.
+If it's a function, don't open braces in the same line as the declarations, else please open it in the same line. To close braces you must always do it in a new line, unless its has no body.
 
 ### Tab idention
 Use tab instead of spaces for tab idention and configure your editor for 4 spaces in a single tab. Then, for alignment, use spaces. This helps to reduce the project size.
