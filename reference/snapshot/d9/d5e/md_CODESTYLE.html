@@ -64,19 +64,44 @@ $(function() {
 <div class="contents">
 <div class="textblock"><p>This document explains the codestyle that the Aurora Framework uses. We use this rules to keep our code spaghetti safe and with a better look.</p>
 <h2>Aurora Codestyle Specification</h2>
+<p>This specification is based on K&amp;R variants: 1TBS, Stroustrup, Linux kernel and BSD KNF codestyles.</p>
 <ul>
 <li><a href="../../#comments">Comments</a><ul>
 <li><a href="../../#initial-comments">Initial Comments</a></li>
 <li><a href="../../#documentation-comments">Documentation Comments</a></li>
+<li><a href="../../#code-comments">Code Comments</a></li>
 </ul>
 </li>
+<li><a href="../../#naming">Naming</a><ul>
+<li><a href="../../#types">Types</a></li>
+<li><a href="../../#functions">Functions</a></li>
+<li><a href="../../#objects-and-variables">Objects and Variables</a></li>
+<li><a href="../../#acronyms">Acronyms</a></li>
+</ul>
+</li>
+<li><a href="../../#lines">Lines</a><ul>
+<li><a href="../../#length">Length</a></li>
+<li><a href="../../#ending">Ending</a></li>
+</ul>
+</li>
+<li><a href="../../#file-encodig">File encoding</a></li>
+<li><a href="../../#braces">Braces</a></li>
+<li><a href="../../#tab-idention">Tab idention</a><ul>
+<li><a href="../../#single-and-multiple-statements">Single and multiple statements</a></li>
+</ul>
+</li>
+<li><a href="../../#spaces">Spaces</a><ul>
+<li><a href="../../#pointers">Pointers</a></li>
+</ul>
+</li>
+<li><a href="../../#headers">Headers</a></li>
 </ul>
 <h3>Comments</h3>
-<p>In Aurora code files we have a very well defined anatomy for comment blocks. You have three types of comments: the initial comments, documentation comments and code comments.</p>
+<p>In Aurora code files, we have a very well defined anatomy for comment blocks. You have three types of comments: the initial comments, documentation comments and code comments. All of them need to be written in English and well explained for easier development of other programmers that want to contribute to the project.</p>
 <h4>Initial Comments</h4>
-<p>Initial comments have general information about the file and should be present on ALL source code files. We have a boilerplate for C-like languages and languages that have <code>#</code> as 'keyword' for comment blocks. Depending on the license of the repository, you should use GPL-3.0 and LGPL-3.0 boilerplates. You can found it <a class="el" href="../../d9/de6/md_BOILERPLATES.html">here</a>.</p>
+<p>Initial comments have general information about the file and should be present on ALL source code files. We have a boilerplate for C-like languages and languages that have <code>#</code> as 'keyword' for comment blocks. Depending on the license of the repository, you should use GPL-3.0 and LGPL-3.0 boilerplates. You can find them <a class="el" href="../../d9/de6/md_BOILERPLATES.html">here</a>.</p>
 <h4>Documentation Comments</h4>
-<p>To compile our documentation we use Doxygen, which uses JavaDoc Style for C-like languages and Doxygen style for other languages as a comment standard for automatically code structure detection. When you write a code file you should use this structure on header files: </p><div class="fragment"><div class="line"></div></div><!-- fragment --><p> or this, in case of a non C-like language: </p><div class="fragment"><div class="line">## Example comment</div><div class="line"># Another comment</div><div class="line">#</div></div><!-- fragment --><p>You should use special commands to Doxygen know what you want to do with this comment. Here is some useful and most used commands:</p><ul>
+<p>To compile our documentation we use Doxygen, which uses JavaDoc Style for C-like languages and Doxygen style for other languages as a comment standard for automatically code structure detection. When you write a code file you should use this structure on header files: </p><div class="fragment"><div class="line"></div></div><!-- fragment --><p> or this, in case of a non C-like language: </p><div class="fragment"><div class="line">## Example comment</div><div class="line"># Another comment</div><div class="line">#</div></div><!-- fragment --><p>You should use special commands so Doxygen knows what you want to do with the comment. Here are some useful and most used commands:</p><ul>
 <li>` </li>
 </ul>
 </div></div><!-- contents -->
