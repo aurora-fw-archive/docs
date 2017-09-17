@@ -73,6 +73,18 @@ Here is a practical example of a documentation comment:
 ```
 You can also use single comments for documentation: `///`.
 
+Each file must have a brief description, a `@file` tag, which have a partial path of the file and a `@since` tag to determinate when this file was created (framework version). Can also have the general author and contributers of the file, using `@author` or `@authors`.
+
+`@file` tag must have this syntax: `module-name/src/File.cpp` or `AuroraFW/Module/Header.h`.
+
+Each function must have an initial comment which explains:
+- What its purpose or use is.
+- What arguments it requires or accepts and what their use is.
+- What value(s) the function returns.
+- The version number of the framework since the first implementation.
+
+It can also have the creator of the function, but its not mandatory.
+
 On this comments you should use a formal and clear language, because the purpose of that comments is to automatically create the documentation reference of the framework.
 
 #### Code Comments
@@ -126,4 +138,4 @@ You must use 8-bit unicode, UTF-8.
 If its a function, don't open braces in the same line as the declarations, else please open it in the same line. To close braces you must always do it in a new line, unless its has no body.
 
 ### Tab idention
-Use tab instead of spaces for tab idention and configure your editor for 4 spaces in a single tab. Then, for alignment, use spaces. This helps to reduce the project size.
+Use tab instead of spaces for tab idention, if supported in the language, and configure your editor for 4 spaces in a single tab. Then, for alignment, use spaces. This helps to reduce significantly the project size.
