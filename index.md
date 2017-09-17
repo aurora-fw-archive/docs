@@ -4,3 +4,8 @@ This page help you on the Aurora Framework development and usage. Here you find 
 ## Code references
 - stable
 - [nightly](reference/snapshot)
+
+## Guides
+- [Building](BUILD)
+- [Installation](INSTALL)
+- [Codestyle](CODESTYLE)
