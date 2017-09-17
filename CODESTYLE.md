@@ -3,6 +3,8 @@
 This document explains the codestyle that the Aurora Framework uses. We use this rules to keep our code spaghetti safe and with a better look.
 
 ## Aurora Codestyle Specification
+This specification is based on K&R variants: 1TBS, Stroustrup, Linux kernel and BSD KNF codestyles.
+
 <!-- TOC depthFrom:3 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Comments](#comments)
@@ -46,12 +48,12 @@ or this, in case of a non C-like language:
 #
 ```
 
-You should use special commands so Doxygen knows what you want to do with the comment. Here are some useful and most used commands:
--   `@file`
--   `@param`
--   `@return`
--   `@see`
--   `@author`
+You should use special commands so Doxygen knows what you want to do with the comment. Here are some useful and most used commands: 
+- `@file`
+- `@param`
+- `@return`
+- `@see`
+- `@author`
 
 You can find the full list [here](http://www.stack.nl/~dimitri/doxygen/manual/commands.html).
 
@@ -132,21 +134,50 @@ When talking about soft limit, the lines should not pass 80 characters. For hard
 #### Ending
 For line ending we use Unix LF (linefeed). If you are developing on Windows, you should use a linefeed compatible editor.
 
-#### If else conditions
-If/else conditions must **ALWAYS** have braces, even if the code inside is just one line long. This improves readability and makes it easier to understand.
-```cpp
-if(condition) {
-	return variable;	// Makes it easier to understand it's inside the first condition
-} else {
-	//...
-}
-```
-
 ### File encoding
 You must use 8-bit unicode, UTF-8.
 
 ### Braces
 If it's a function, don't open braces in the same line as the declarations, else please open it in the same line. To close braces you must always do it in a new line, unless its has no body.
 
+#### Single and multiple statements
+Do not unnecessarily use braces where a single statement will do.
+```cpp
+if (condition)
+	action();
+```
+and
+```cpp
+if (condition)
+	do_this();
+else
+	do_that();
+```
+
+This does not apply if only one branch of a conditional statement is a single statement; in the latter case use braces in both branches:
+```cpp
+if (condition) {
+	do_this();
+	do_that();
+} else {
+	otherwise();
+}
+```
+
 ### Tab idention
 Use tab instead of spaces for tab idention, if supported in the language, and configure your editor for 4 spaces in a single tab. Then, for alignment, use spaces. This helps to reduce significantly the project size.
+
+### Spaces
+Use a space after these keywords: `if`, `switch`, `case`, `for`, `do`, `while`, but not with `sizeof`, `typeof`, `alignof`, or `__attribute__`. Also don't add spaces around (inside) parenthesized expressions.
+
+#### Pointers
+When declaring pointer data or a function that returns a pointer type, the preferred use of * is adjacent to the data name or function name and not adjacent to the type name. For example:
+```cpp
+char *name;
+unsigned int memory(char *ptr, char **retptr);
+char *convert(string *s);
+```
+
+### Headers
+In header files, you should write functions without argument names, or if needed, use very short names, like `s`, `t`, `str`, `n`, `i`, etc.
+Always use the global header on ALL headers (`AuroraFW/Global.h`). Use aurora defined data types, like `ArInt_t`, `ArInt8_t`, etc.
