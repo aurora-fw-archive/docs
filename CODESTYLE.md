@@ -19,10 +19,13 @@ This specification is based on K&R variants: 1TBS, Stroustrup, Linux kernel and 
 - [Lines](#lines)
 	- [Length](#length)
 	- [Ending](#ending)
-	- [If else conditions](#if-else-conditions)
 - [File encoding](#file-encodig)
 - [Braces](#braces)
 - [Tab idention](#tab-idention)
+	- [Single and multiple statements](#single-and-multiple-statements)
+- [Spaces](#spaces)
+	- [Pointers](#pointers)
+- [Headers](#headers)
 
 <!-- /TOC -->
 
