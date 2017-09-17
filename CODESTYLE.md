@@ -68,18 +68,7 @@ For better codestyle we activated the `JAVADOC_AUTOBRIEF`, which means that you 
 ```
 **Note:** Because of the aesthetics, use the brief in the first line (follow the example) whenever possible.
 
-Here is a practical example of a documentation comment:
-```cpp
-/** Constructs a vector with the given coordinates.
- * @param x The x value for the x coordinate.
- * @param y The y value for the y coordinate.
- * @see Vector2D( )
- * @see Vector2D(float )
- */
-```
-You can also use single comments for documentation: `///`.
-
-Each file must have a brief description, a `@file` tag, which have a partial path of the file and a `@since` tag to determinate when this file was created (framework version). Can also have the general author and contributers of the file, using `@author` or `@authors`.
+Each file must have a brief description, a `@file` tag, which has a partial path of the file and a `@since` tag to determinate when this file was created (framework version). It can also have the general author and contributers of the file, using `@author` or `@authors`.
 
 `@file` tag must have this syntax: `module-name/src/File.cpp` or `AuroraFW/Module/Header.h`.
 
@@ -92,6 +81,19 @@ Each function must have an initial comment which explains:
 It can also have the creator of the function, but its not mandatory.
 
 In these comments you should use a formal and clear language, because the purpose of those comments are to automatically create the documentation reference of the framework.
+
+Here is a practical example of a documentation comment:
+```cpp
+/** Constructs a vector with the given coordinates.
+ * @param x The x value for the x coordinate.
+ * @param y The y value for the y coordinate.
+ * @see Vector2D( )
+ * @see Vector2D(float )
+ */
+```
+You can see the result [here](https://aurora-fw.github.io/docs/reference/snapshot/d7/dc9/structAuroraFW_1_1Math_1_1Vector2D.html#aa1573e1f3c75fae2b0e8ebcbd3a59adc).
+
+You can also use single comments for documentation: `///`.
 
 #### Code Comments
 These types of comments can be used on headers and source files. The purpose of these comments is to help people understand an instruction or even a block of code. We use the common syntax of a comment: `//` and:
