@@ -8,4 +8,4 @@ This page help you on the Aurora Framework development and usage. Here you find 
 ## Guides
 - [Building](BUILD)
 - [Installation](INSTALL)
-- [Codestyle](CODESTYLE)
+- [Indent style](CODESTYLE)
