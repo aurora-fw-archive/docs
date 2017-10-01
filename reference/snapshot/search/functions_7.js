@@ -1,7 +1,28 @@
 var searchData=
 [
-  ['setx',['setX',['../d7/dc9/structAuroraFW_1_1Math_1_1Vector2D.html#ac1e5d4917e4b9279f52ef50627d7d0c2',1,'AuroraFW::Math::Vector2D::setX()'],['../de/d8d/structAuroraFW_1_1Math_1_1Vector3D.html#a1f25113e75a7d5ab2fc479cc4b9cfffb',1,'AuroraFW::Math::Vector3D::setX()']]],
-  ['sety',['setY',['../d7/dc9/structAuroraFW_1_1Math_1_1Vector2D.html#af71193314fdcce22b854ee75043ca63c',1,'AuroraFW::Math::Vector2D::setY()'],['../de/d8d/structAuroraFW_1_1Math_1_1Vector3D.html#a85a19d5d2e0ebb8d05c1205702c6c24e',1,'AuroraFW::Math::Vector3D::setY()']]],
-  ['setz',['setZ',['../de/d8d/structAuroraFW_1_1Math_1_1Vector3D.html#a56786bea7621dcdb7bcd239f989c1e90',1,'AuroraFW::Math::Vector3D']]],
-  ['subtract',['subtract',['../d7/dc9/structAuroraFW_1_1Math_1_1Vector2D.html#a5d5ee3b39e057b1422908cc236df6ca3',1,'AuroraFW::Math::Vector2D::subtract(const Vector2D &amp;)'],['../d7/dc9/structAuroraFW_1_1Math_1_1Vector2D.html#a0ceb5d5a066549e4975fa3cf59562d16',1,'AuroraFW::Math::Vector2D::subtract(float)'],['../d7/dc9/structAuroraFW_1_1Math_1_1Vector2D.html#a17a72e44d55d607b53965b5ab41c24e5',1,'AuroraFW::Math::Vector2D::subtract(float, float)'],['../de/d8d/structAuroraFW_1_1Math_1_1Vector3D.html#ab0918f184f399cc36ecaf66f9124d294',1,'AuroraFW::Math::Vector3D::subtract(const Vector3D &amp;)'],['../de/d8d/structAuroraFW_1_1Math_1_1Vector3D.html#ae9cd63580532e0deca224dca67ede0aa',1,'AuroraFW::Math::Vector3D::subtract(float)'],['../de/d8d/structAuroraFW_1_1Math_1_1Vector3D.html#adcdea3d5adfc37001327c6d2c7d3395f',1,'AuroraFW::Math::Vector3D::subtract(float, float, float)']]]
+  ['getalignment',['getAlignment',['../d2/d28/classAuroraFW_1_1GUI_1_1Label.html#ae7ab75fb5aca78417fddb8ccc0657a66',1,'AuroraFW::GUI::Label']]],
+  ['getarchitecture',['getArchitecture',['../d6/d70/namespaceAuroraFW_1_1Info_1_1OS.html#a909bff69574e4699930eba06c9842ba0',1,'AuroraFW::Info::OS']]],
+  ['getdebugstatus',['getDebugStatus',['../da/d3a/namespaceAuroraFW_1_1Debug.html#a4d155e04c525a8e4fa34417e69911166',1,'AuroraFW::Debug']]],
+  ['getfreephysicalmemory',['getFreePhysicalMemory',['../d9/db6/namespaceAuroraFW_1_1Info_1_1RAM.html#ab860b004d08621b6108f8ed413e301c2',1,'AuroraFW::Info::RAM']]],
+  ['getfreevirtualmemory',['getFreeVirtualMemory',['../d9/db6/namespaceAuroraFW_1_1Info_1_1RAM.html#aad63bda64d9409e7b91c95064c3aabcd',1,'AuroraFW::Info::RAM']]],
+  ['getglversion',['getGLVersion',['../df/d57/namespaceAuroraFW_1_1GEngine.html#a4b8efe2031d9df9a1e350ad23e90ba8b',1,'AuroraFW::GEngine']]],
+  ['getheight',['getHeight',['../dd/d43/classAuroraFW_1_1GEngine_1_1Window.html#a0ee0cc86544845bdfe5ce6b7c9db0647',1,'AuroraFW::GEngine::Window']]],
+  ['getinstance',['getInstance',['../d8/de7/classAuroraFW_1_1GEngine_1_1AssetManager.html#a839f134e4c6b06c52abf89a46dee0e1f',1,'AuroraFW::GEngine::AssetManager']]],
+  ['getmanufacturer',['getManufacturer',['../d6/d70/namespaceAuroraFW_1_1Info_1_1OS.html#a68986f552ecf461782d69668928010cb',1,'AuroraFW::Info::OS']]],
+  ['getmouseposition',['getMousePosition',['../d0/d69/classAuroraFW_1_1GEngine_1_1InputManager.html#a2df6a743d3fadb408eae6a82ef51d26d',1,'AuroraFW::GEngine::InputManager']]],
+  ['getname',['getName',['../d6/d70/namespaceAuroraFW_1_1Info_1_1OS.html#af16c688f04df961839fd40b5cf9c7f36',1,'AuroraFW::Info::OS']]],
+  ['getscrollposition',['getScrollPosition',['../d0/d69/classAuroraFW_1_1GEngine_1_1InputManager.html#a8175620c02a7fbf9754c9a9c81a8631e',1,'AuroraFW::GEngine::InputManager']]],
+  ['gettext',['getText',['../d2/d28/classAuroraFW_1_1GUI_1_1Label.html#a746938212ac6bfd2900a879af31d4f42',1,'AuroraFW::GUI::Label']]],
+  ['gettotalphysicalmemory',['getTotalPhysicalMemory',['../d9/db6/namespaceAuroraFW_1_1Info_1_1RAM.html#a03fea16f48f44b322af99f8e8b441632',1,'AuroraFW::Info::RAM']]],
+  ['gettotalvirtualmemory',['getTotalVirtualMemory',['../d9/db6/namespaceAuroraFW_1_1Info_1_1RAM.html#ae29798b3a91389131c8bbf157285fe1a',1,'AuroraFW::Info::RAM']]],
+  ['getusedphysicalmemory',['getUsedPhysicalMemory',['../d9/db6/namespaceAuroraFW_1_1Info_1_1RAM.html#addf5aba2cac954ab91074f065cf7ac81',1,'AuroraFW::Info::RAM']]],
+  ['getusedvirtualmemory',['getUsedVirtualMemory',['../d9/db6/namespaceAuroraFW_1_1Info_1_1RAM.html#a168767d40d7c44939048513e65f2293c',1,'AuroraFW::Info::RAM']]],
+  ['getusercomputername',['getUserComputerName',['../d6/d70/namespaceAuroraFW_1_1Info_1_1OS.html#ab05eb4304ecbcbffafd685934c85ea8c',1,'AuroraFW::Info::OS']]],
+  ['getversion',['getVersion',['../d6/d70/namespaceAuroraFW_1_1Info_1_1OS.html#a5351fc3b0b271fc7185b2f8e13d75d76',1,'AuroraFW::Info::OS']]],
+  ['getwidth',['getWidth',['../dd/d43/classAuroraFW_1_1GEngine_1_1Window.html#a8eb5d0848ebc93c297d986294c9438d2',1,'AuroraFW::GEngine::Window']]],
+  ['getwrapmode',['getWrapMode',['../d2/d28/classAuroraFW_1_1GUI_1_1Label.html#ab9b63b6a7dbfb948d529a6f73edec5bd',1,'AuroraFW::GUI::Label']]],
+  ['getxalignment',['getXAlignment',['../d2/d28/classAuroraFW_1_1GUI_1_1Label.html#a801802e15f906a42e6514d5681be43b1',1,'AuroraFW::GUI::Label']]],
+  ['getyalignment',['getYAlignment',['../d2/d28/classAuroraFW_1_1GUI_1_1Label.html#a32627743ce08a4d1f1c76c1d3043bdfe',1,'AuroraFW::GUI::Label']]],
+  ['green',['green',['../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a5f20841c9f40a1e3b4870517cae69206',1,'AuroraFW::GEngine::BaseColor::green() const'],['../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a1c7f11a0ca9a21ab8ba77c7fd2215b88',1,'AuroraFW::GEngine::BaseColor::green() const'],['../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a9802f674cd9d16a099bddfc6b64c9532',1,'AuroraFW::GEngine::BaseColor::green() const']]],
+  ['greenf',['greenF',['../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#aeea76284c66a34ddb8ec8f811a22cc08',1,'AuroraFW::GEngine::BaseColor::greenF() const'],['../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a73424e6c7000a60b2d90ffe53f27706f',1,'AuroraFW::GEngine::BaseColor::greenF() const'],['../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a90cba7d0f24e84a7f3904730fbce30a1',1,'AuroraFW::GEngine::BaseColor::greenF() const']]]
 ];

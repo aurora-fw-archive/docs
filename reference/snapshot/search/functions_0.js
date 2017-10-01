@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['add',['add',['../d7/dc9/structAuroraFW_1_1Math_1_1Vector2D.html#a3b28f6f95f40be009d76e7e5dd629db2',1,'AuroraFW::Math::Vector2D::add(const Vector2D &amp;)'],['../d7/dc9/structAuroraFW_1_1Math_1_1Vector2D.html#afb75a2a50f50ff588696e2c7f9983060',1,'AuroraFW::Math::Vector2D::add(float)'],['../d7/dc9/structAuroraFW_1_1Math_1_1Vector2D.html#a6399a49342ecc24867bf96f66aa2ed61',1,'AuroraFW::Math::Vector2D::add(float, float)'],['../de/d8d/structAuroraFW_1_1Math_1_1Vector3D.html#ab3b29d12e5a04a5e4f2e6efb4c2362c3',1,'AuroraFW::Math::Vector3D::add(const Vector3D &amp;)'],['../de/d8d/structAuroraFW_1_1Math_1_1Vector3D.html#a04fa8dabdd2a2f0656724bee9440ea86',1,'AuroraFW::Math::Vector3D::add(float)'],['../de/d8d/structAuroraFW_1_1Math_1_1Vector3D.html#af47eb87ad55c18f3623bf6783a5fa679',1,'AuroraFW::Math::Vector3D::add(float, float, float)']]]
+  ['_5f_5flog',['__Log',['../d1/ddd/namespaceAuroraFW_1_1CLI.html#a765dff0babf5974945fce673771ff2bc',1,'AuroraFW::CLI::__Log(const T &amp;t)'],['../d1/ddd/namespaceAuroraFW_1_1CLI.html#af97fa83900ffc1bd62f8d1ba7a7308d2',1,'AuroraFW::CLI::__Log(const T &amp;t, const R &amp;... args)']]]
 ];

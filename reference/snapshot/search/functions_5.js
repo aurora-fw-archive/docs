@@ -1,5 +1,10 @@
 var searchData=
 [
-  ['normalize',['normalize',['../d7/dc9/structAuroraFW_1_1Math_1_1Vector2D.html#a87901130e9a91726ec14c1e6b43b6779',1,'AuroraFW::Math::Vector2D::normalize()'],['../de/d8d/structAuroraFW_1_1Math_1_1Vector3D.html#a6491f559bdad003f16822edcd4c6a202',1,'AuroraFW::Math::Vector3D::normalize()']]],
-  ['normalized',['normalized',['../d7/dc9/structAuroraFW_1_1Math_1_1Vector2D.html#ae395e023a3f0ccb9623ee0fa2a417a37',1,'AuroraFW::Math::Vector2D::normalized()'],['../de/d8d/structAuroraFW_1_1Math_1_1Vector3D.html#a27d0384e7f65d1e800db593ce9e92fdc',1,'AuroraFW::Math::Vector3D::normalized()']]]
+  ['elapsed',['Elapsed',['../d5/dc5/classAuroraFW_1_1IO_1_1Timer.html#a1336aa9965608148d07c3656e61893a0',1,'AuroraFW::IO::Timer']]],
+  ['elapsedmillis',['ElapsedMillis',['../d5/dc5/classAuroraFW_1_1IO_1_1Timer.html#ae7d286e9d68798a32f63322b35528cdf',1,'AuroraFW::IO::Timer']]],
+  ['enabledebug',['enableDebug',['../da/d3a/namespaceAuroraFW_1_1Debug.html#abff666206e692dab26dc8d5407ec731a',1,'AuroraFW::Debug']]],
+  ['encrypt',['encrypt',['../d4/db2/classAuroraFW_1_1AES.html#ace652d4090fcc18b7cb81b5c7b589f89',1,'AuroraFW::AES']]],
+  ['endline',['EndLine',['../d1/ddd/namespaceAuroraFW_1_1CLI.html#ab3fd096b4eab35dbfd288f4b7aca86dd',1,'AuroraFW::CLI']]],
+  ['exitfail',['ExitFail',['../d2/d13/classAuroraFW_1_1Application.html#a8d114fc3111ab25c4cf14dcc57f43247',1,'AuroraFW::Application']]],
+  ['exitsuccess',['ExitSuccess',['../d2/d13/classAuroraFW_1_1Application.html#a6c12fbf9728867b4e1119c4fcc691a5d',1,'AuroraFW::Application']]]
 ];

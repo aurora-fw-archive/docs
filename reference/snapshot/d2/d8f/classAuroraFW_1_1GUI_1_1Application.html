@@ -58,7 +58,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><b>AuroraFW</b></li><li class="navelem"><b>GUI</b></li><li class="navelem"><a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html">Application</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../df/d5d/namespaceAuroraFW.html">AuroraFW</a></li><li class="navelem"><a class="el" href="../../de/d2c/namespaceAuroraFW_1_1GUI.html">GUI</a></li><li class="navelem"><a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html">Application</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -70,48 +70,248 @@ $(function() {
 <div class="title">AuroraFW::GUI::Application Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="../../d6/d3b/gui_2include_2AuroraFW_2GUI_2Application_8h_source.html">Application.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ab6e45ca9683d88670312f5e8f48dd4fa"><td class="memItemLeft" align="right" valign="top"><a id="ab6e45ca9683d88670312f5e8f48dd4fa"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>ApplicationFlags</b> { <br />
-&#160;&#160;<b>NoneFlag</b>, 
-<b>ServiceFlag</b>, 
-<b>LauncherFlag</b>, 
-<b>HandlesOpenFlag</b>, 
+<tr class="memitem:ab6e45ca9683d88670312f5e8f48dd4fa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#ab6e45ca9683d88670312f5e8f48dd4fa">ApplicationFlags</a> { <br />
+&#160;&#160;<a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#ab6e45ca9683d88670312f5e8f48dd4faa25684b091b2d10390ee0f59959ef9d7f">NoneFlag</a>, 
+<a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#ab6e45ca9683d88670312f5e8f48dd4faab4740f4993e44982309db1c4da5d9a91">ServiceFlag</a>, 
+<a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#ab6e45ca9683d88670312f5e8f48dd4faa077f79d5553d9fe5a6f05e4c1b5d19f0">LauncherFlag</a>, 
+<a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#ab6e45ca9683d88670312f5e8f48dd4faa4cbd1ae1f8e67d262b83462c300e7896">HandlesOpenFlag</a>, 
 <br />
-&#160;&#160;<b>HandlesCommandLineFlag</b>, 
-<b>SendEnvironmentFlag</b>, 
-<b>NonUniqueFlag</b>, 
-<b>OverrideAppIDFlag</b>
+&#160;&#160;<a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#ab6e45ca9683d88670312f5e8f48dd4faaa5c9516c34e256234ac7ea8980cb6179">HandlesCommandLineFlag</a>, 
+<a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#ab6e45ca9683d88670312f5e8f48dd4faa010106a2866f4de287b2850cabd743d6">SendEnvironmentFlag</a>, 
+<a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#ab6e45ca9683d88670312f5e8f48dd4faa81e8b6f3c929d61f561981890254c15c">NonUniqueFlag</a>, 
+<a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#ab6e45ca9683d88670312f5e8f48dd4faa510a519b36b7c6a4a2b54ec354c8b4d1">OverrideAppIDFlag</a>
 <br />
  }</td></tr>
 <tr class="separator:ab6e45ca9683d88670312f5e8f48dd4fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af5624dec1ab6288af726171557518390"><td class="memItemLeft" align="right" valign="top"><a id="af5624dec1ab6288af726171557518390"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Application</b> (std::string pkgname=&quot;org.aurora.example&quot;, ApplicationFlags flags=NoneFlag, void(*mainfunction)()=[]{}, int argc=0, char *argv[]=NULL)</td></tr>
-<tr class="separator:af5624dec1ab6288af726171557518390"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ed3b97a620ef6af3aeb1766f8830ff3"><td class="memItemLeft" align="right" valign="top"><a id="a7ed3b97a620ef6af3aeb1766f8830ff3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Application</b> (const <a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html">Application</a> &amp;x)=delete</td></tr>
+<tr class="memitem:af40f1debe18419821be4acadd7da4f73"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#af40f1debe18419821be4acadd7da4f73">Application</a> (const std::string &amp;pkgname=&quot;org.aurora.example&quot;, const <a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#ab6e45ca9683d88670312f5e8f48dd4fa">ApplicationFlags</a> &amp;flags=<a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#ab6e45ca9683d88670312f5e8f48dd4faa25684b091b2d10390ee0f59959ef9d7f">NoneFlag</a>, void(*mainfunction)()=[]{}, int argc=0, char *argv[]=<a class="el" href="../../d7/db7/Type_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td></tr>
+<tr class="separator:af40f1debe18419821be4acadd7da4f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0167084bcb7a3e789cb173e1c80d38f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#a0167084bcb7a3e789cb173e1c80d38f8">~Application</a> ()</td></tr>
+<tr class="separator:a0167084bcb7a3e789cb173e1c80d38f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ed3b97a620ef6af3aeb1766f8830ff3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#a7ed3b97a620ef6af3aeb1766f8830ff3">Application</a> (const <a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html">Application</a> &amp;x)=delete</td></tr>
 <tr class="separator:a7ed3b97a620ef6af3aeb1766f8830ff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7096fbe7530a6f4e8ddbdf837c87f316"><td class="memItemLeft" align="right" valign="top"><a id="a7096fbe7530a6f4e8ddbdf837c87f316"></a>
-<a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html">Application</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html">Application</a> &amp;x)=delete</td></tr>
+<tr class="memitem:a7096fbe7530a6f4e8ddbdf837c87f316"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html">Application</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#a7096fbe7530a6f4e8ddbdf837c87f316">operator=</a> (const <a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html">Application</a> &amp;x)=delete</td></tr>
 <tr class="separator:a7096fbe7530a6f4e8ddbdf837c87f316"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14d27bb1c7341ac57dec46c1c50e364e"><td class="memItemLeft" align="right" valign="top"><a id="a14d27bb1c7341ac57dec46c1c50e364e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>connect</b> (std::string detailedSignal, void(*signalFunction)(), void *signalData=NULL)</td></tr>
-<tr class="separator:a14d27bb1c7341ac57dec46c1c50e364e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ccc451bb765fa912f97cf761adefa31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#a8ccc451bb765fa912f97cf761adefa31">connect</a> (const std::string &amp;detailedSignal, void(*signalFunction)(), void *signalData=<a class="el" href="../../d7/db7/Type_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td></tr>
+<tr class="separator:a8ccc451bb765fa912f97cf761adefa31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:a87c259605458935cfda6ff8e4ba2bbdc"><td class="memItemLeft" align="right" valign="top"><a id="a87c259605458935cfda6ff8e4ba2bbdc"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>AppStatus</b></td></tr>
-<tr class="separator:a87c259605458935cfda6ff8e4ba2bbdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a139f7b65fd00501098196ebe2fd5a645"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#a139f7b65fd00501098196ebe2fd5a645">appStatus</a></td></tr>
+<tr class="separator:a139f7b65fd00501098196ebe2fd5a645"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d6/d3b/gui_2include_2AuroraFW_2GUI_2Application_8h_source.html#l00031">31</a> of file <a class="el" href="../../d6/d3b/gui_2include_2AuroraFW_2GUI_2Application_8h_source.html">Application.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+<p class="definition">Definition at line <a class="el" href="../../d6/d3b/gui_2include_2AuroraFW_2GUI_2Application_8h_source.html#l00030">30</a> of file <a class="el" href="../../d6/d3b/gui_2include_2AuroraFW_2GUI_2Application_8h_source.html">Application.h</a>.</p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="ab6e45ca9683d88670312f5e8f48dd4fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6e45ca9683d88670312f5e8f48dd4fa">&#9670;&nbsp;</a></span>ApplicationFlags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#ab6e45ca9683d88670312f5e8f48dd4fa">AuroraFW::GUI::Application::ApplicationFlags</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab6e45ca9683d88670312f5e8f48dd4faa25684b091b2d10390ee0f59959ef9d7f"></a>NoneFlag&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab6e45ca9683d88670312f5e8f48dd4faab4740f4993e44982309db1c4da5d9a91"></a>ServiceFlag&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab6e45ca9683d88670312f5e8f48dd4faa077f79d5553d9fe5a6f05e4c1b5d19f0"></a>LauncherFlag&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab6e45ca9683d88670312f5e8f48dd4faa4cbd1ae1f8e67d262b83462c300e7896"></a>HandlesOpenFlag&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab6e45ca9683d88670312f5e8f48dd4faaa5c9516c34e256234ac7ea8980cb6179"></a>HandlesCommandLineFlag&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab6e45ca9683d88670312f5e8f48dd4faa010106a2866f4de287b2850cabd743d6"></a>SendEnvironmentFlag&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab6e45ca9683d88670312f5e8f48dd4faa81e8b6f3c929d61f561981890254c15c"></a>NonUniqueFlag&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab6e45ca9683d88670312f5e8f48dd4faa510a519b36b7c6a4a2b54ec354c8b4d1"></a>OverrideAppIDFlag&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d6/d3b/gui_2include_2AuroraFW_2GUI_2Application_8h_source.html#l00032">32</a> of file <a class="el" href="../../d6/d3b/gui_2include_2AuroraFW_2GUI_2Application_8h_source.html">Application.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="af40f1debe18419821be4acadd7da4f73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af40f1debe18419821be4acadd7da4f73">&#9670;&nbsp;</a></span>Application() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AuroraFW::GUI::Application::Application </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pkgname</em> = <code>&quot;org.aurora.example&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#ab6e45ca9683d88670312f5e8f48dd4fa">ApplicationFlags</a> &amp;&#160;</td>
+          <td class="paramname"><em>flags</em> = <code><a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#ab6e45ca9683d88670312f5e8f48dd4faa25684b091b2d10390ee0f59959ef9d7f">NoneFlag</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*)()&#160;</td>
+          <td class="paramname"><em>mainfunction</em> = <code>[]{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>argv</em>[] = <code><a class="el" href="../../d7/db7/Type_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d58/gui_2src_2Application_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../dd/d58/gui_2src_2Application_8cpp_source.html">Application.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a0167084bcb7a3e789cb173e1c80d38f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0167084bcb7a3e789cb173e1c80d38f8">&#9670;&nbsp;</a></span>~Application()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AuroraFW::GUI::Application::~Application </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d58/gui_2src_2Application_8cpp_source.html#l00039">39</a> of file <a class="el" href="../../dd/d58/gui_2src_2Application_8cpp_source.html">Application.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a7ed3b97a620ef6af3aeb1766f8830ff3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ed3b97a620ef6af3aeb1766f8830ff3">&#9670;&nbsp;</a></span>Application() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AuroraFW::GUI::Application::Application </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html">Application</a> &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8ccc451bb765fa912f97cf761adefa31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ccc451bb765fa912f97cf761adefa31">&#9670;&nbsp;</a></span>connect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AuroraFW::GUI::Application::connect </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>detailedSignal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*)()&#160;</td>
+          <td class="paramname"><em>signalFunction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>signalData</em> = <code><a class="el" href="../../d7/db7/Type_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d58/gui_2src_2Application_8cpp_source.html#l00046">46</a> of file <a class="el" href="../../dd/d58/gui_2src_2Application_8cpp_source.html">Application.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a7096fbe7530a6f4e8ddbdf837c87f316"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7096fbe7530a6f4e8ddbdf837c87f316">&#9670;&nbsp;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html">Application</a>&amp; AuroraFW::GUI::Application::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html">Application</a> &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Field Documentation</h2>
+<a id="a139f7b65fd00501098196ebe2fd5a645"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a139f7b65fd00501098196ebe2fd5a645">&#9670;&nbsp;</a></span>appStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AuroraFW::GUI::Application::appStatus</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/d3b/gui_2include_2AuroraFW_2GUI_2Application_8h_source.html#l00050">50</a> of file <a class="el" href="../../d6/d3b/gui_2include_2AuroraFW_2GUI_2Application_8h_source.html">Application.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/ljmf00/workspace/Programming/Native/Git/Github/aurora-fw/aurora/modules/gui/include/AuroraFW/GUI/<a class="el" href="../../d6/d3b/gui_2include_2AuroraFW_2GUI_2Application_8h_source.html">Application.h</a></li>
 <li>/home/ljmf00/workspace/Programming/Native/Git/Github/aurora-fw/aurora/modules/gui/src/<a class="el" href="../../dd/d58/gui_2src_2Application_8cpp_source.html">Application.cpp</a></li>
 </ul>
