@@ -24,3 +24,4 @@
 
 # Doxygen temp files
 *.tmp
+*.bak
