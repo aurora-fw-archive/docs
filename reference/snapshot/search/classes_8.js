@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['window',['Window',['../dd/d43/classAuroraFW_1_1GEngine_1_1Window.html',1,'AuroraFW::GEngine::Window'],['../d4/da3/classAuroraFW_1_1GUI_1_1Window.html',1,'AuroraFW::GUI::Window']]],
-  ['windowproperties',['WindowProperties',['../d2/d16/structAuroraFW_1_1GEngine_1_1WindowProperties.html',1,'AuroraFW::GEngine']]]
+  ['vec2',['vec2',['../d7/d33/structAuroraFW_1_1Math_1_1vec2.html',1,'AuroraFW::Math']]],
+  ['vec3',['vec3',['../d3/d12/structAuroraFW_1_1Math_1_1vec3.html',1,'AuroraFW::Math']]],
+  ['vec4',['vec4',['../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html',1,'AuroraFW::Math']]]
 ];

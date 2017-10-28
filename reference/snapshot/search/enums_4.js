@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['messagestatus',['MessageStatus',['../d1/ddd/namespaceAuroraFW_1_1CLI.html#ad597a652989d062a3f04e8b318c5e8aa',1,'AuroraFW::CLI']]]
+  ['justifymode',['JustifyMode',['../de/d2c/namespaceAuroraFW_1_1GUI.html#ab2e256262fd290ec2be0505750f2a02c',1,'AuroraFW::GUI']]]
 ];
