@@ -135,7 +135,7 @@ Compiling Aurora</h1>
 <p>To compile Aurora, you must run this CMake command on the root of the project:</p>
 <h2><a class="anchor" id="compiling-user"></a>
 For regular users</h2>
-<div class="fragment"><div class="line">cmake -DCMAKE_BUILD_TYPE=Release -DAURORA_TARGET_DOCUMENTATION=OFF -GNinja .</div></div><!-- fragment --><p>CMake will then generate a <code>build.ninja</code> file on the root of the <code>aurora-fw</code> folder. Now you just need to run:</p>
+<div class="fragment"><div class="line">cmake -GNinja .</div></div><!-- fragment --><p>CMake will then generate a <code>build.ninja</code> file on the root of the <code>aurora-fw</code> folder. Now you just need to run:</p>
 <div class="fragment"><div class="line">ninja</div></div><!-- fragment --><p>The binaries will be located in the <code>bin</code> folder.</p>
 <h2><a class="anchor" id="compiling-developer"></a>
 For developers</h2>
