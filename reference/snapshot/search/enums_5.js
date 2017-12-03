@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['messagestatus',['MessageStatus',['../d1/ddd/namespaceAuroraFW_1_1CLI.html#ad597a652989d062a3f04e8b318c5e8aa',1,'AuroraFW::CLI']]]
+  ['imageflags',['ImageFlags',['../d0/d4b/namespaceAuroraFW_1_1ImageManager.html#aae286801bc55666534c0bb6588c0e2e1',1,'AuroraFW::ImageManager']]]
 ];

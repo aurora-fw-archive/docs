@@ -3,8 +3,9 @@ var searchData=
   ['afw_5faes_5fmulti',['AFW_AES_MULTI',['../d9/d83/AES_8h.html#a3223ef1026b4aa72c7315c7ec50078c1',1,'AES.h']]],
   ['afw_5faes_5fnum',['AFW_AES_NUM',['../d9/d83/AES_8h.html#a0758872d0f3f84f6c6cdd91ece3e2a1c',1,'AES.h']]],
   ['afw_5faes_5ftime',['AFW_AES_TIME',['../d9/d83/AES_8h.html#ae58a613e0b3ed0f54f3b94fb5e2d3582',1,'AES.h']]],
+  ['afw_5fdebugbreak',['AFW_DEBUGBREAK',['../de/dbb/core_2include_2AuroraFW_2Global_8h.html#ac5b571d334da3df4062ed94a768deec2',1,'Global.h']]],
   ['afw_5fdontcare',['AFW_DONTCARE',['../d7/db7/Type_8h.html#a0ef9185cddfaddcc8571c672d4e99469',1,'Type.h']]],
-  ['afw_5fexport',['AFW_EXPORT',['../d5/d8f/Export_8h.html#a96373ade613503028b8e1823f83b47ac',1,'Export.h']]],
+  ['afw_5fexport',['AFW_EXPORT',['../de/dbb/core_2include_2AuroraFW_2Global_8h.html#a96373ade613503028b8e1823f83b47ac',1,'Global.h']]],
   ['afw_5fgengine',['AFW_GENGINE',['../df/da8/__GEngine_8h.html#ab01edb1bc5815f5582ff18766871657c',1,'_GEngine.h']]],
   ['afw_5fgengine_5finput_5fmax_5fkeys',['AFW_GENGINE_INPUT_MAX_KEYS',['../db/d2f/gengine_2core_2include_2AuroraFW_2GEngine_2Input_8h.html#ab6ca48c5eb4f6e0f0c6951e51c60b250',1,'Input.h']]],
   ['afw_5fgengine_5finput_5fmax_5fmouse_5fbuttons',['AFW_GENGINE_INPUT_MAX_MOUSE_BUTTONS',['../db/d2f/gengine_2core_2include_2AuroraFW_2GEngine_2Input_8h.html#ab38bcbb67165c12068189f99304e5911',1,'Input.h']]],
@@ -97,5 +98,7 @@ var searchData=
   ['afw_5fstring_5fmax_5finput_5fsize',['AFW_STRING_MAX_INPUT_SIZE',['../d9/dba/String_8h.html#a8d3632fda9cd5128668c6f172b2bf514',1,'String.h']]],
   ['afw_5ftarget_5fcc',['AFW_TARGET_CC',['../d7/d9f/Language_8h.html#a7fad4dd0f15a4722a48058baae770111',1,'Language.h']]],
   ['afw_5ftarget_5fwordsize',['AFW_TARGET_WORDSIZE',['../db/d74/Wordsize_8h.html#af8fbb7c9e1bd4158df13dcaf763b5653',1,'Wordsize.h']]],
+  ['apientry',['APIENTRY',['../dc/d0b/Loader_8h.html#a428a91acf2c2439dc1a257708ee1f805',1,'Loader.h']]],
+  ['apientryp',['APIENTRYP',['../dc/d0b/Loader_8h.html#aef0d9e5e275e1b7becf54b6aa9ce3911',1,'Loader.h']]],
   ['aurorafw_5f',['AURORAFW_',['../de/dbb/core_2include_2AuroraFW_2Global_8h.html#a3c87d2c63efa2479ac19e9deb9833ddf',1,'Global.h']]]
 ];
