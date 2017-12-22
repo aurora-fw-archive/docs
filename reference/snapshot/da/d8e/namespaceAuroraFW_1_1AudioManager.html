@@ -66,7 +66,9 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Data Structures</a>  </div>
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">AuroraFW::AudioManager Namespace Reference</div>  </div>
 </div><!--header-->
@@ -76,11 +78,271 @@ $(function() {
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d33/classAuroraFW_1_1AudioManager_1_1AudioBackend.html">AudioBackend</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d9d/classAuroraFW_1_1AudioManager_1_1AudioDeviceNotFoundException.html">AudioDeviceNotFoundException</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de2/structAuroraFW_1_1AudioManager_1_1AudioDevice.html">AudioDevice</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dce/classAuroraFW_1_1AudioManager_1_1AudioFile.html">AudioFile</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d30/classAuroraFW_1_1AudioManager_1_1AudioFileNotFound.html">AudioFileNotFound</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d78/classAuroraFW_1_1AudioManager_1_1AudioListener.html">AudioListener</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de7/classAuroraFW_1_1AudioManager_1_1AudioNotInitializedException.html">AudioNotInitializedException</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d05/structAuroraFW_1_1AudioManager_1_1AudioSource.html">AudioSource</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5d/structAuroraFW_1_1AudioManager_1_1AudioStream.html">AudioStream</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d37/classAuroraFW_1_1AudioManager_1_1PAErrorException.html">PAErrorException</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a424a81a9b454a237b811c0c938aa606f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8e/namespaceAuroraFW_1_1AudioManager.html#a424a81a9b454a237b811c0c938aa606f">AudioFallout</a> { <a class="el" href="../../da/d8e/namespaceAuroraFW_1_1AudioManager.html#a424a81a9b454a237b811c0c938aa606fa32a843da6ea40ab3b17a3421ccdf671b">AudioFallout::Linear</a>, 
+<a class="el" href="../../da/d8e/namespaceAuroraFW_1_1AudioManager.html#a424a81a9b454a237b811c0c938aa606fa682390b68aa7a26fa5fe65d9cc1b3fe6">AudioFallout::Exponencial</a>
+ }</td></tr>
+<tr class="separator:a424a81a9b454a237b811c0c938aa606f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a465e5d21cc3872d8383098f84027bb4d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8e/namespaceAuroraFW_1_1AudioManager.html#a465e5d21cc3872d8383098f84027bb4d">AudioLoopMode</a> { <a class="el" href="../../da/d8e/namespaceAuroraFW_1_1AudioManager.html#a465e5d21cc3872d8383098f84027bb4da7020426cfb0a204051be4b3053d2acc8">AudioLoopMode::Repeat</a>, 
+<a class="el" href="../../da/d8e/namespaceAuroraFW_1_1AudioManager.html#a465e5d21cc3872d8383098f84027bb4da99e52704462d3580db3528cad7ea9660">AudioLoopMode::PingPong</a>
+ }</td></tr>
+<tr class="separator:a465e5d21cc3872d8383098f84027bb4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a341f33cc7f1f950226d71e669de748dc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8e/namespaceAuroraFW_1_1AudioManager.html#a341f33cc7f1f950226d71e669de748dc">AudioStatus</a> { <a class="el" href="../../da/d8e/namespaceAuroraFW_1_1AudioManager.html#a341f33cc7f1f950226d71e669de748dcade3c731be5633838089a07179d301d7b">AudioStatus::Play</a>, 
+<a class="el" href="../../da/d8e/namespaceAuroraFW_1_1AudioManager.html#a341f33cc7f1f950226d71e669de748dca105b296a83f9c105355403f3332af50f">AudioStatus::Pause</a>, 
+<a class="el" href="../../da/d8e/namespaceAuroraFW_1_1AudioManager.html#a341f33cc7f1f950226d71e669de748dca11a755d598c0c417f9a36758c3da7481">AudioStatus::Stop</a>, 
+<a class="el" href="../../da/d8e/namespaceAuroraFW_1_1AudioManager.html#a341f33cc7f1f950226d71e669de748dcae2db34b03fa1c7b5c2f8fda38796ead5">AudioStatus::CallbackStop</a>
+ }</td></tr>
+<tr class="separator:a341f33cc7f1f950226d71e669de748dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a9cc2da0e02d25790522b18bf2f15277a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8e/namespaceAuroraFW_1_1AudioManager.html#a9cc2da0e02d25790522b18bf2f15277a">audioCallback</a> (const void *, void *, unsigned long, const PaStreamCallbackTimeInfo *, PaStreamCallbackFlags, void *)</td></tr>
+<tr class="separator:a9cc2da0e02d25790522b18bf2f15277a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0846ebe7743be6df22ddba686198ee70"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8e/namespaceAuroraFW_1_1AudioManager.html#a0846ebe7743be6df22ddba686198ee70">debugCallback</a> (const void *, void *, unsigned long, const PaStreamCallbackTimeInfo *, PaStreamCallbackFlags, void *)</td></tr>
+<tr class="separator:a0846ebe7743be6df22ddba686198ee70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaba51590ac8abb25ad0c2b1bf8a88c6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8e/namespaceAuroraFW_1_1AudioManager.html#aaba51590ac8abb25ad0c2b1bf8a88c6c">getPAError</a> (const PaError &amp;error)</td></tr>
+<tr class="separator:aaba51590ac8abb25ad0c2b1bf8a88c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a424a81a9b454a237b811c0c938aa606f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a424a81a9b454a237b811c0c938aa606f">&#9670;&nbsp;</a></span>AudioFallout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../da/d8e/namespaceAuroraFW_1_1AudioManager.html#a424a81a9b454a237b811c0c938aa606f">AuroraFW::AudioManager::AudioFallout</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a424a81a9b454a237b811c0c938aa606fa32a843da6ea40ab3b17a3421ccdf671b"></a>Linear&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a424a81a9b454a237b811c0c938aa606fa682390b68aa7a26fa5fe65d9cc1b3fe6"></a>Exponencial&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/daa/Audio_8h_source.html#l00031">31</a> of file <a class="el" href="../../d8/daa/Audio_8h_source.html">Audio.h</a>.</p>
+
+</div>
+</div>
+<a id="a465e5d21cc3872d8383098f84027bb4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a465e5d21cc3872d8383098f84027bb4d">&#9670;&nbsp;</a></span>AudioLoopMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../da/d8e/namespaceAuroraFW_1_1AudioManager.html#a465e5d21cc3872d8383098f84027bb4d">AuroraFW::AudioManager::AudioLoopMode</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a465e5d21cc3872d8383098f84027bb4da7020426cfb0a204051be4b3053d2acc8"></a>Repeat&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a465e5d21cc3872d8383098f84027bb4da99e52704462d3580db3528cad7ea9660"></a>PingPong&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/daa/Audio_8h_source.html#l00036">36</a> of file <a class="el" href="../../d8/daa/Audio_8h_source.html">Audio.h</a>.</p>
+
+</div>
+</div>
+<a id="a341f33cc7f1f950226d71e669de748dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a341f33cc7f1f950226d71e669de748dc">&#9670;&nbsp;</a></span>AudioStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../da/d8e/namespaceAuroraFW_1_1AudioManager.html#a341f33cc7f1f950226d71e669de748dc">AuroraFW::AudioManager::AudioStatus</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a341f33cc7f1f950226d71e669de748dcade3c731be5633838089a07179d301d7b"></a>Play&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a341f33cc7f1f950226d71e669de748dca105b296a83f9c105355403f3332af50f"></a>Pause&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a341f33cc7f1f950226d71e669de748dca11a755d598c0c417f9a36758c3da7481"></a>Stop&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a341f33cc7f1f950226d71e669de748dcae2db34b03fa1c7b5c2f8fda38796ead5"></a>CallbackStop&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/daa/Audio_8h_source.html#l00041">41</a> of file <a class="el" href="../../d8/daa/Audio_8h_source.html">Audio.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a9cc2da0e02d25790522b18bf2f15277a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cc2da0e02d25790522b18bf2f15277a">&#9670;&nbsp;</a></span>audioCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AuroraFW::AudioManager::audioCallback </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>inputBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>outputBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long&#160;</td>
+          <td class="paramname"><em>framesPerBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PaStreamCallbackTimeInfo *&#160;</td>
+          <td class="paramname"><em>timeInfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PaStreamCallbackFlags&#160;</td>
+          <td class="paramname"><em>statusFlags</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>userData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d48/Audio_8cpp_source.html#l00034">34</a> of file <a class="el" href="../../dc/d48/Audio_8cpp_source.html">Audio.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a0846ebe7743be6df22ddba686198ee70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0846ebe7743be6df22ddba686198ee70">&#9670;&nbsp;</a></span>debugCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AuroraFW::AudioManager::debugCallback </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>inputBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>outputBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long&#160;</td>
+          <td class="paramname"><em>framesPerBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PaStreamCallbackTimeInfo *&#160;</td>
+          <td class="paramname"><em>timeInfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PaStreamCallbackFlags&#160;</td>
+          <td class="paramname"><em>statusFlags</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>userData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d48/Audio_8cpp_source.html#l00084">84</a> of file <a class="el" href="../../dc/d48/Audio_8cpp_source.html">Audio.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aaba51590ac8abb25ad0c2b1bf8a88c6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaba51590ac8abb25ad0c2b1bf8a88c6c">&#9670;&nbsp;</a></span>getPAError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AuroraFW::AudioManager::getPAError </td>
+          <td>(</td>
+          <td class="paramtype">const PaError &amp;&#160;</td>
+          <td class="paramname"><em>error</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d4b/AudioBackend_8h_source.html#l00131">131</a> of file <a class="el" href="../../dd/d4b/AudioBackend_8h_source.html">AudioBackend.h</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

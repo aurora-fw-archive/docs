@@ -6,7 +6,7 @@ Before proceeding, make sure you already [built Aurora](@ref getting-started).
 
 @tableofcontents
 
-@section summary Summary
+@section summary-afw-app Summary
 
 After this tutorial, you'll know how to make the equivalent of this:
 
@@ -26,7 +26,7 @@ int main(int agrc, char *argv[])
 
 using Aurora.
 
-@section prerequisites Prerequisites
+@section prerequisites-afw-app Prerequisites
 
 This tutorial will use the two following Aurora modules:
 
@@ -112,7 +112,7 @@ delete app;
 return EXIT_SUCCESS;
 ```
 
-So this is the basic code you must write to use Aurora. But this does not print anything. Let's use the method CLI::Log from the cli module to actually print something.
+So this is the basic code you must write to use Aurora. But this does not print anything. Let's use the method CLI::Log() from the cli module to actually print something.
 
 @section printing Printing something
 

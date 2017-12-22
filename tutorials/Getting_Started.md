@@ -19,7 +19,8 @@ Some Aurora modules have dependencies, which you must also have installed:
 
 **Audio Module**
 
-- <a href="https://www.openal.org/">OpenAL</a>
+- <a href="http://portaudio.com/">PortAudio</a>
+- <a href="http://www.mega-nerd.com/libsndfile/">libsndfile</a>
 
 **GEngine-Core Module**
 

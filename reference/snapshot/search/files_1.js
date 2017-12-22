@@ -2,7 +2,7 @@ var searchData=
 [
   ['aes_2ecpp',['AES.cpp',['../d4/deb/AES_8cpp.html',1,'']]],
   ['aes_2eh',['AES.h',['../d9/d83/AES_8h.html',1,'']]],
-  ['algorithm_2eh',['Algorithm.h',['../d7/d36/Algorithm_8h.html',1,'']]],
+  ['algorithm_2eh',['Algorithm.h',['../d1/d0f/math_2include_2AuroraFW_2Math_2Algorithm_8h.html',1,'(Global Namespace)'],['../de/de1/stdl_2include_2AuroraFW_2STDL_2STL_2Algorithm_8h.html',1,'(Global Namespace)']]],
   ['api_2eh',['API.h',['../dd/d11/API_8h.html',1,'']]],
   ['application_2ecpp',['Application.cpp',['../d6/def/core_2src_2Application_8cpp.html',1,'(Global Namespace)'],['../d1/de3/gengine_2core_2src_2Application_8cpp.html',1,'(Global Namespace)'],['../dd/d58/gui_2src_2Application_8cpp.html',1,'(Global Namespace)']]],
   ['application_2eh',['Application.h',['../d1/d27/core_2include_2AuroraFW_2Core_2Application_8h.html',1,'(Global Namespace)'],['../d9/ddc/gengine_2core_2include_2AuroraFW_2GEngine_2Application_8h.html',1,'(Global Namespace)'],['../d6/d3b/gui_2include_2AuroraFW_2GUI_2Application_8h.html',1,'(Global Namespace)']]],

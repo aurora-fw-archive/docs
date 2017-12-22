@@ -1,7 +1,11 @@
 var searchData=
 [
-  ['wchar_2eh',['WChar.h',['../d7/da5/WChar_8h.html',1,'']]],
-  ['window_2ecpp',['Window.cpp',['../d8/dc8/gengine_2core_2src_2Window_8cpp.html',1,'(Global Namespace)'],['../d3/d86/gui_2src_2Window_8cpp.html',1,'(Global Namespace)']]],
-  ['window_2eh',['Window.h',['../df/df6/gengine_2core_2include_2AuroraFW_2GEngine_2Window_8h.html',1,'(Global Namespace)'],['../d4/dcb/gui_2include_2AuroraFW_2GUI_2Window_8h.html',1,'(Global Namespace)']]],
-  ['wordsize_2eh',['Wordsize.h',['../db/d74/Wordsize_8h.html',1,'']]]
+  ['vector_2eh',['Vector.h',['../d6/dbe/Vector_8h.html',1,'']]],
+  ['vector2d_2ecpp',['Vector2D.cpp',['../dc/d0e/Vector2D_8cpp.html',1,'']]],
+  ['vector2d_2eh',['Vector2D.h',['../d3/db0/Vector2D_8h.html',1,'']]],
+  ['vector3d_2ecpp',['Vector3D.cpp',['../df/d89/Vector3D_8cpp.html',1,'']]],
+  ['vector3d_2eh',['Vector3D.h',['../d5/dd9/Vector3D_8h.html',1,'']]],
+  ['vector4d_2ecpp',['Vector4D.cpp',['../da/df6/Vector4D_8cpp.html',1,'']]],
+  ['vector4d_2eh',['Vector4D.h',['../d3/d6d/Vector4D_8h.html',1,'']]],
+  ['vertexarray_2eh',['VertexArray.h',['../d5/dae/VertexArray_8h.html',1,'']]]
 ];

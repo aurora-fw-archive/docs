@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['b',['b',['../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#ac7566227c7bd4f9b2feed570bdab7b27',1,'AuroraFW::GEngine::BaseColor']]]
+  ['classifiers',['classifiers',['../dd/dc4/namespacesetup.html#abe96a9c38c1c61f9f0fdb002c482f785',1,'setup']]],
+  ['comment',['comment',['../d5/de6/classglloader_1_1parse_1_1Enum.html#ac4eafacb15dd1a68950dd47c6a402efd',1,'glloader::parse::Enum']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['r',['r',['../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a185566d23f2736862aaa71bc90b57c98',1,'AuroraFW::GEngine::BaseColor::r()'],['../d9/d92/structAuroraFW_1_1Math_1_1mat4.html#aab7836ca011d98005190b4c9034e1058',1,'AuroraFW::Math::mat4::r()']]]
+  ['keywords',['keywords',['../dd/dc4/namespacesetup.html#a73ae9ecb109f0dcab6f0b6a89043c5c3',1,'setup']]],
+  ['khrplatform',['KHRPLATFORM',['../d7/d6f/namespaceglloader_1_1lang_1_1c_1_1generator.html#a3235e3bd58d638c3ced10fd44f0d5d6e',1,'glloader::lang::c::generator']]]
 ];

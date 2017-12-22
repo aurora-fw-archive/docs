@@ -9,5 +9,7 @@ var searchData=
   ['lightgrey',['LightGrey',['../d1/ddd/namespaceAuroraFW_1_1CLI.html#a527b14bb403c1e0e62800a26d792bf13a36e47cf925a1a349abe5ce1d2f1264f0',1,'AuroraFW::CLI']]],
   ['lightmagenta',['LightMagenta',['../d1/ddd/namespaceAuroraFW_1_1CLI.html#a527b14bb403c1e0e62800a26d792bf13af1ec64ef9f82e9fb86b094f8b548f9f1',1,'AuroraFW::CLI']]],
   ['lightred',['LightRed',['../d1/ddd/namespaceAuroraFW_1_1CLI.html#a527b14bb403c1e0e62800a26d792bf13af9a96fb667261a141d10021a66d6ad0f',1,'AuroraFW::CLI']]],
-  ['lightyellow',['LightYellow',['../d1/ddd/namespaceAuroraFW_1_1CLI.html#a527b14bb403c1e0e62800a26d792bf13afaf948b65bda38f44b17d156177d1728',1,'AuroraFW::CLI']]]
+  ['lightyellow',['LightYellow',['../d1/ddd/namespaceAuroraFW_1_1CLI.html#a527b14bb403c1e0e62800a26d792bf13afaf948b65bda38f44b17d156177d1728',1,'AuroraFW::CLI']]],
+  ['linear',['Linear',['../da/d8e/namespaceAuroraFW_1_1AudioManager.html#a424a81a9b454a237b811c0c938aa606fa32a843da6ea40ab3b17a3421ccdf671b',1,'AuroraFW::AudioManager']]],
+  ['loglength',['LogLength',['../df/d57/namespaceAuroraFW_1_1GEngine.html#aad0e7e5e0be563e3b39138fb8a6a63afa6cb209e33f1df60b848d487b388378cf',1,'AuroraFW::GEngine']]]
 ];

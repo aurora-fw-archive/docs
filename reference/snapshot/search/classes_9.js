@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['window',['Window',['../dd/d43/classAuroraFW_1_1GEngine_1_1Window.html',1,'AuroraFW::GEngine::Window'],['../d4/da3/classAuroraFW_1_1GUI_1_1Window.html',1,'AuroraFW::GUI::Window']]],
-  ['windowproperties',['WindowProperties',['../d2/d16/structAuroraFW_1_1GEngine_1_1WindowProperties.html',1,'AuroraFW::GEngine']]]
+  ['mat4',['mat4',['../d9/d92/structAuroraFW_1_1Math_1_1mat4.html',1,'AuroraFW::Math']]],
+  ['matrix',['Matrix',['../d1/d47/structAuroraFW_1_1Math_1_1Matrix.html',1,'AuroraFW::Math']]],
+  ['modularparser',['ModularParser',['../d2/da8/classAuroraFW_1_1Parser_1_1ModularParser.html',1,'AuroraFW::Parser']]],
+  ['modulartoken',['ModularToken',['../dc/dd4/classAuroraFW_1_1Parser_1_1ModularToken.html',1,'AuroraFW::Parser']]]
 ];
