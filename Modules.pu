@@ -1,0 +1,77 @@
+@startuml
+title Aurora Modules Structure
+
+skinparam monochrome true
+
+package "Core Group" {
+    [Core Module\naurora-core] as Core
+    [Core Library\naurora-corelib] as CoreLib
+    [Standard Template Library Implementation\naurora-stdl-stl] as STDLSTL
+    [ANSI C Library Implementation\naurora-stdl-libc] as STDLLIBC
+    CoreLib ..|> STDLLIBC
+
+    note "Only built-in system dependencies" as N1
+    STDLSTL .. N1
+    STDLLIBC .. N1
+}
+
+[Audio Module\naurora-audio] as Audio
+[Cryptography Module\naurora-crypto] as Crypto
+[Graphical User Interface Module\naurora-gui] as GUI
+[Image Manipulation Module\naurora-image] as Image
+[Input and Output Module\naurora-io] as IO
+[Network Sockets Module\naurora-netsocks] as Netsocks
+[Artificial Intelligence Module\naurora-ai] as AI
+[Deep Learning Module\naurora-mlearn] as MLearn
+[Command Line Interface Module\naurora-cli] as CLI
+[Graphical Engine Module: Core\naurora-gengine-core] as GEngine_Core
+[Graphical Engine Module: OpenGL\naurora-gengine-opengl] as GEngine_OpenGL
+[Graphical Engine Module: OpenGL Loader\naurora-gengine-opengl-loader] as GEngine_OpenGL_Loader
+[Graphical Engine Module: Vulkan\naurora-gengine-vulkan] as GEngine_Vulkan
+[Graphical Engine Module: Direct3D\naurora-gengine-direct3d] as GEngine_Direct3D
+[Graphical Engine Module: 2D\naurora-gengine-2d] as GEngine_2D
+[Graphical Engine Module: 3D\naurora-gengine-3d] as GEngine_3D
+
+package "Parse Group" {
+    [Parse Submodule: JSON\naurora-parse-json] as ParseJSON
+    [Parse Submodule: XML\naurora-parse-xml] as ParseXML
+    [Parse Module\naurora-parse] as Parse
+
+    ParseJSON --o Parse
+    ParseXML --o Parse
+}
+ParseJSON .* Core
+ParseXML .* Core
+
+package "Math Group" {
+    [Math Submodule: Parser\naurora-math-parser] as MathParser
+    [Math Module\naurora-math] as Math
+    [Math Module: Core\naurora-math-core] as MathCore
+    Math o-- MathParser
+    Math o-- MathCore
+    MathCore <|.. MathParser
+}
+MathParser .* Core
+Core *. Math
+
+package "System on Chip Group" {
+    [System on Chip Module\naurora-soc] as SoC
+    [System on Chip Module: Android\naurora-soc-android] as SoCAndroid
+    [System on Chip Module: AVR\naurora-soc-avr] as SoCAVR
+    [System on Chip Module: ARM\naurora-soc-arm] as SoCARM
+    [System on Chip AVR Submodule: Core\naurora-soc-avr-core] as SoCAVRCore
+    [System on Chip AVR Submodule: Arduino\naurora-soc-avr-arduino] as SoCAVRArduino
+
+    SoC o-- SoCAndroid
+    SoC o-- SoCAVR
+    SoCAVR o-- SoCAVRCore
+    SoCAVR o-- SoCAVRArduino
+    SoC o-- SoCARM
+
+    SoCAVRCore <|.. SoCAVRArduino
+}
+SoCAVRCore .* Core
+SoCAndroid .* Core
+SoCARM .* Core
+
+@enduml
