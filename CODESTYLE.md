@@ -8,23 +8,23 @@ This specification is based on K&R variants: 1TBS, Stroustrup, Linux kernel and 
 <!-- TOC depthFrom:3 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Comments](#comments)
-    - [Initial Comments](#initial-comments)
-    - [Documentation Comments](#documentation-comments)
-    - [Code Comments](#code-comments)
+	- [Initial Comments](#initial-comments)
+	- [Documentation Comments](#documentation-comments)
+	- [Code Comments](#code-comments)
 - [Naming](#naming)
-    - [Types](#types)
-    - [Functions](#functions)
-    - [Objects and Variables](#objects-and-variables)
-    - [Acronyms](#acronyms)
+	- [Types](#types)
+	- [Functions](#functions)
+	- [Objects and Variables](#objects-and-variables)
+	- [Acronyms](#acronyms)
 - [Lines](#lines)
-    - [Length](#length)
-    - [Ending](#ending)
+	- [Length](#length)
+	- [Ending](#ending)
 - [File encoding](#file-encodig)
 - [Braces](#braces)
 - [Tab idention](#tab-idention)
-    - [Single and multiple statements](#single-and-multiple-statements)
+	- [Single and multiple statements](#single-and-multiple-statements)
 - [Spaces](#spaces)
-    - [Pointers](#pointers)
+	- [Pointers](#pointers)
 - [Headers](#headers)
 
 <!-- /TOC -->
@@ -149,23 +149,23 @@ If it's a function, don't open braces in the same line as the declarations, else
 Do not unnecessarily use braces where a single statement will do.
 ```cpp
 if (condition)
-    action();
+	action();
 ```
 and
 ```cpp
 if (condition)
-    do_this();
+	do_this();
 else
-    do_that();
+	do_that();
 ```
 
 This does not apply if only one branch of a conditional statement is a single statement; in the latter case use braces in both branches:
 ```cpp
 if (condition) {
-    do_this();
-    do_that();
+	do_this();
+	do_that();
 } else {
-    otherwise();
+	otherwise();
 }
 ```
 
@@ -178,9 +178,9 @@ Use a space after these keywords: `if`, `switch`, `case`, `for`, `do`, `while`, 
 #### Pointers
 When declaring pointer data or a function that returns a pointer type, the preferred use of * is adjacent to the data name or function name and not adjacent to the type name. For example:
 ```cpp
-char *name;
-unsigned int memory(char *ptr, char **retptr);
-char *convert(string *s);
+char* name;
+unsigned int memory(char* ptr, char** retptr);
+char* convert(string* s);
 ```
 
 ### Headers
@@ -196,10 +196,10 @@ Generally, inline functions are preferable to macros resembling functions.
 Macros with multiple statements should be enclosed in a do - while block:
 ```cpp
 #define macrofun(a, b, c)    \
-    do {                     \
-        if (a == 5)          \
-        do_this(b, c);       \
-    } while (0)
+	do {                     \
+		if (a == 5)          \
+		do_this(b, c);       \
+	} while (0)
 ```
 
 Global macros must be defined on headers and shouldn't be used on source files (only if strictly needed).
