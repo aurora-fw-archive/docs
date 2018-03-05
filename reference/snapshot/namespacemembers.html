@@ -9,10 +9,25 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -20,9 +35,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.gif"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Aurora Framework
    </div>
+   <div id="projectbrief">A Powerful General Purpose Framework</div>
   </td>
  </tr>
  </tbody>
@@ -46,6 +63,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('namespacemembers.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -65,579 +98,18 @@ $(function() {
 
 <h3><a id="index__"></a>- _ -</h3><ul>
 <li>__Log()
-: <a class="el" href="d1/ddd/namespaceAuroraFW_1_1CLI.html#a765dff0babf5974945fce673771ff2bc">AuroraFW::CLI</a>
-, <a class="el" href="da/d3a/namespaceAuroraFW_1_1Debug.html#a1fd2d75a52e83033063270bddbcf1c95">AuroraFW::Debug</a>
-</li>
-</ul>
-
-
-<h3><a id="index_a"></a>- a -</h3><ul>
-<li>acos()
-: <a class="el" href="d8/d06/namespaceAuroraFW_1_1Math.html#a3c5eeac202fc8e569aed841d3fd6e21f">AuroraFW::Math</a>
-</li>
-<li>activeShaderProgram()
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#a8866995b530a628cfda779762715f55d">AuroraFW::GEngine::GL</a>
-</li>
-<li>activeTexture()
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#a7c3654194ad8d76860e835c37402cd4a">AuroraFW::GEngine::GL</a>
-</li>
-<li>AlignMode
-: <a class="el" href="de/d2c/namespaceAuroraFW_1_1GUI.html#a57b454fae89cc0ddc715462fdfcaee57">AuroraFW::GUI</a>
-</li>
-<li>api_name()
-: <a class="el" href="d5/df5/namespaceglloader_1_1util.html#a6b936f16c6e04d6c49f09647e5dd73a2">glloader.util</a>
-</li>
-<li>Append
-: <a class="el" href="de/d19/namespaceAuroraFW_1_1IO.html#a0dd88e3c5a7761f0ad80825e0f43b9eaa72f60da7b9ad2f898899c60a6433a110">AuroraFW::IO</a>
-</li>
-<li>Array
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#af1933a2be9e25bf7e3f98c42ee53c467a1284c95f0eef1a4071033130ac4ee4ec">AuroraFW::GEngine::GL</a>
-</li>
-<li>asin()
-: <a class="el" href="d8/d06/namespaceAuroraFW_1_1Math.html#a1b26af73511b102731d608a72bba702b">AuroraFW::Math</a>
-</li>
-<li>AssetType
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#adf3dbb935b84041d2fa85c8e3a244e4a">AuroraFW::GEngine</a>
-</li>
-<li>atan()
-: <a class="el" href="d8/d06/namespaceAuroraFW_1_1Math.html#a8af9ab220551f247ce74805c0328c51b">AuroraFW::Math</a>
-</li>
-<li>audioCallback()
-: <a class="el" href="da/d8e/namespaceAuroraFW_1_1AudioManager.html#a9cc2da0e02d25790522b18bf2f15277a">AuroraFW::AudioManager</a>
-</li>
-<li>AudioFallout
-: <a class="el" href="da/d8e/namespaceAuroraFW_1_1AudioManager.html#a424a81a9b454a237b811c0c938aa606f">AuroraFW::AudioManager</a>
-</li>
-<li>AudioLoopMode
-: <a class="el" href="da/d8e/namespaceAuroraFW_1_1AudioManager.html#a465e5d21cc3872d8383098f84027bb4d">AuroraFW::AudioManager</a>
-</li>
-<li>AudioStatus
-: <a class="el" href="da/d8e/namespaceAuroraFW_1_1AudioManager.html#a341f33cc7f1f950226d71e669de748dc">AuroraFW::AudioManager</a>
-</li>
-<li>author
-: <a class="el" href="dd/dc4/namespacesetup.html#a3a57a4772d418a06835249cbade0d86a">setup</a>
-</li>
-<li>author_email
-: <a class="el" href="dd/dc4/namespacesetup.html#a5b08034343aa2be607722a8b315f3625">setup</a>
-</li>
-</ul>
-
-
-<h3><a id="index_b"></a>- b -</h3><ul>
-<li>basestring
-: <a class="el" href="df/d22/namespaceglloader_1_1lang_1_1d_1_1generator.html#aa23302a415c209fd00fbcc0c3f2fcd28">glloader.lang.d.generator</a>
-, <a class="el" href="d7/d3e/namespaceglloader_1_1lang_1_1nim_1_1generator.html#a6c998e9d58ed1a64ca999c9779d9ad8c">glloader.lang.nim.generator</a>
-, <a class="el" href="dc/d4b/namespaceglloader_1_1lang_1_1volt_1_1generator.html#a4027f312b279e31bd2700466a35631c3">glloader.lang.volt.generator</a>
-</li>
-<li>BufferType
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#af1933a2be9e25bf7e3f98c42ee53c467">AuroraFW::GEngine::GL</a>
-</li>
-<li>BufferUsage
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#adefd2ea46ccf57f29ac7997374ee7133">AuroraFW::GEngine::GL</a>
-</li>
-<li>build_urllib_opener()
-: <a class="el" href="d5/db7/namespaceglloader_1_1opener.html#a9c9850074b649d727e687f8e8fd0b1e1">glloader.opener</a>
-</li>
-</ul>
-
-
-<h3><a id="index_c"></a>- c -</h3><ul>
-<li>Cached
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#a77b58be250193834035c05dd00926a49adf70a1066355e6e42d3da84b5d819de1">AuroraFW::GEngine</a>
-</li>
-<li>clamp()
-: <a class="el" href="d8/d06/namespaceAuroraFW_1_1Math.html#ae8ad4da197b9c8a92285bcf1b612fcea">AuroraFW::Math</a>
-</li>
-<li>classifiers
-: <a class="el" href="dd/dc4/namespacesetup.html#abe96a9c38c1c61f9f0fdb002c482f785">setup</a>
-</li>
-<li>clearColor()
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#a4f1eefa0ad1c500424cfaf02f2941b1f">AuroraFW::GEngine::GL</a>
-</li>
-<li>Color
-: <a class="el" href="d1/ddd/namespaceAuroraFW_1_1CLI.html#a527b14bb403c1e0e62800a26d792bf13">AuroraFW::CLI</a>
-, <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#a7fb17df77560a6f9718b4bdfec98bc38">AuroraFW::GEngine</a>
-</li>
-<li>ColorF
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#a66db469b8cafe0985897f09b84957a14">AuroraFW::GEngine</a>
-</li>
-<li>ColorType
-: <a class="el" href="d1/ddd/namespaceAuroraFW_1_1CLI.html#a8357375a68fa0b4d93f67f85d0c0c601">AuroraFW::CLI</a>
-</li>
-<li>CommonColor
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#aede93845a3ee3970d24aee0d2d683747">AuroraFW::GEngine</a>
-</li>
-<li>CompileStatus
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#aad0e7e5e0be563e3b39138fb8a6a63afa8a20cfa6451728a12dbf0c32303c1bc3">AuroraFW::GEngine</a>
-</li>
-<li>Compute
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#a77b58be250193834035c05dd00926a49a4dbbd611eb21c168edebe5f81573631d">AuroraFW::GEngine</a>
-</li>
-<li>cos()
-: <a class="el" href="d8/d06/namespaceAuroraFW_1_1Math.html#a2172792026745e0e674c7b4255ab8e8d">AuroraFW::Math</a>
-</li>
-</ul>
-
-
-<h3><a id="index_d"></a>- d -</h3><ul>
-<li>Debug
-: <a class="el" href="d1/ddd/namespaceAuroraFW_1_1CLI.html#ad597a652989d062a3f04e8b318c5e8aaa5de4da84b471bc63b75ce0b20fe60c14">AuroraFW::CLI</a>
-</li>
-<li>DEBUG_CODE
-: <a class="el" href="da/df1/namespaceglloader_1_1lang_1_1c_1_1debug.html#afe8d1be4ba41fa6992ba4c046ead353c">glloader.lang.c.debug</a>
-</li>
-<li>DEBUG_HEADER
-: <a class="el" href="da/df1/namespaceglloader_1_1lang_1_1c_1_1debug.html#a840d9b74629b4437bf7bfcaa5d2ce4a3">glloader.lang.c.debug</a>
-</li>
-<li>debugCallback()
-: <a class="el" href="da/d8e/namespaceAuroraFW_1_1AudioManager.html#a0846ebe7743be6df22ddba686198ee70">AuroraFW::AudioManager</a>
-</li>
-<li>DEFAULT_CALLBACK
-: <a class="el" href="da/df1/namespaceglloader_1_1lang_1_1c_1_1debug.html#ad907338038b1998a5402bcca7bed42cd">glloader.lang.c.debug</a>
-</li>
-<li>DEFAULT_CALLBACK_GL
-: <a class="el" href="da/df1/namespaceglloader_1_1lang_1_1c_1_1debug.html#a5d5f2e8a8ec926291575ac2ccfcd498b">glloader.lang.c.debug</a>
-</li>
-<li>DEFAULT_DEBUG_IMPL
-: <a class="el" href="da/df1/namespaceglloader_1_1lang_1_1c_1_1debug.html#ab2d200b91b23baf03dd8dddb172493fe">glloader.lang.c.debug</a>
-</li>
-<li>DeleteStatus
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#aad0e7e5e0be563e3b39138fb8a6a63afaf7be5af135e80d4e88cad47f3b016741">AuroraFW::GEngine</a>
-</li>
-<li>DeprecationWarning
-: <a class="el" href="d2/dc1/namespacemain.html#a3a4b88acc6e1e3c332c979e2976bd2fb">main</a>
-</li>
-<li>description
-: <a class="el" href="dd/dc4/namespacesetup.html#aedf461ec52a946bda975938ba0b93ec0">setup</a>
-</li>
-<li>disableDebug()
-: <a class="el" href="da/d3a/namespaceAuroraFW_1_1Debug.html#a37c3abe22f23b3bd5d7c15caace2c3fc">AuroraFW::Debug</a>
-</li>
-<li>DTYPES
-: <a class="el" href="df/d22/namespaceglloader_1_1lang_1_1d_1_1generator.html#a48e48e500a16215e0205ed248a100977">glloader.lang.d.generator</a>
-</li>
-<li>DynamicCopy
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#adefd2ea46ccf57f29ac7997374ee7133aa06e9afe321eccf535c4739bde45168f">AuroraFW::GEngine::GL</a>
-</li>
-<li>DynamicDraw
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#adefd2ea46ccf57f29ac7997374ee7133a2c653a4d2184842b7044c57271b94d95">AuroraFW::GEngine::GL</a>
-</li>
-<li>DynamicRead
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#adefd2ea46ccf57f29ac7997374ee7133a0304207cb6ce49135a82c938b43a7248">AuroraFW::GEngine::GL</a>
-</li>
-</ul>
-
-
-<h3><a id="index_e"></a>- e -</h3><ul>
-<li>ElementArray
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#af1933a2be9e25bf7e3f98c42ee53c467a93380574f27512153f1e1bfea05989c9">AuroraFW::GEngine::GL</a>
-</li>
-<li>enableDebug()
-: <a class="el" href="da/d3a/namespaceAuroraFW_1_1Debug.html#ac3a1d39965fe0136ec7b6ab152c1ab79">AuroraFW::Debug</a>
-</li>
-<li>EndLine()
-: <a class="el" href="d1/ddd/namespaceAuroraFW_1_1CLI.html#ab3fd096b4eab35dbfd288f4b7aca86dd">AuroraFW::CLI</a>
-</li>
-<li>enforce()
-: <a class="el" href="d7/d08/namespaceglloader_1_1lang_1_1common_1_1util.html#a6d25873d3f490e09539f4c525ed19a94">glloader.lang.common.util</a>
-</li>
-<li>entry_points
-: <a class="el" href="dd/dc4/namespacesetup.html#ada7058afc98897f073d3f3b8b9157059">setup</a>
-</li>
-<li>Error
-: <a class="el" href="d1/ddd/namespaceAuroraFW_1_1CLI.html#ad597a652989d062a3f04e8b318c5e8aaa19f97896af98df53b9133b804d9a5aca">AuroraFW::CLI</a>
-</li>
-</ul>
-
-
-<h3><a id="index_f"></a>- f -</h3><ul>
-<li>Flags
-: <a class="el" href="de/d19/namespaceAuroraFW_1_1IO.html#a0dd88e3c5a7761f0ad80825e0f43b9ea">AuroraFW::IO</a>
-</li>
-<li>Flush()
-: <a class="el" href="d1/ddd/namespaceAuroraFW_1_1CLI.html#a03d083e284070f347effccd150e4b339">AuroraFW::CLI</a>
-</li>
-<li>Fragment
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#a77b58be250193834035c05dd00926a49a5d77f6f41e5ff70c7766b8c706a22775">AuroraFW::GEngine</a>
-</li>
-</ul>
-
-
-<h3><a id="index_g"></a>- g -</h3><ul>
-<li>Geometry
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#a77b58be250193834035c05dd00926a49a86bb80e73b7f74787ac7b45781d88c14">AuroraFW::GEngine</a>
-</li>
-<li>get_generator()
-: <a class="el" href="d0/dd2/namespaceglloader_1_1lang_1_1c.html#aaed23947e8769e018678649290c5fab9">glloader.lang.c</a>
-, <a class="el" href="d5/d74/namespaceglloader_1_1lang_1_1d.html#aca51f9937c904594715b1b2cfbdb460d">glloader.lang.d</a>
-, <a class="el" href="da/dd4/namespaceglloader_1_1lang.html#ae49368d12bb0c9057e7e51c4dbea11e1">glloader.lang</a>
-, <a class="el" href="dc/d9b/namespaceglloader_1_1lang_1_1nim.html#a9119855c4996ab0721a9d2c9df216b5d">glloader.lang.nim</a>
-, <a class="el" href="de/d67/namespaceglloader_1_1lang_1_1volt.html#a43e0f82ecff0df130beddf37f9bfcdcb">glloader.lang.volt</a>
-</li>
-<li>getArchitecture()
-: <a class="el" href="d6/d70/namespaceAuroraFW_1_1Info_1_1OS.html#a909bff69574e4699930eba06c9842ba0">AuroraFW::Info::OS</a>
-</li>
-<li>getDebugStatus()
-: <a class="el" href="da/d3a/namespaceAuroraFW_1_1Debug.html#a8c5a97245f7a168b7be77bdafe385095">AuroraFW::Debug</a>
-</li>
-<li>getFreePhysicalMemory()
-: <a class="el" href="d9/db6/namespaceAuroraFW_1_1Info_1_1RAM.html#ab860b004d08621b6108f8ed413e301c2">AuroraFW::Info::RAM</a>
-</li>
-<li>getFreeVirtualMemory()
-: <a class="el" href="d9/db6/namespaceAuroraFW_1_1Info_1_1RAM.html#aad63bda64d9409e7b91c95064c3aabcd">AuroraFW::Info::RAM</a>
-</li>
-<li>getManufacturer()
-: <a class="el" href="d6/d70/namespaceAuroraFW_1_1Info_1_1OS.html#a68986f552ecf461782d69668928010cb">AuroraFW::Info::OS</a>
-</li>
-<li>getName()
-: <a class="el" href="d6/d70/namespaceAuroraFW_1_1Info_1_1OS.html#af16c688f04df961839fd40b5cf9c7f36">AuroraFW::Info::OS</a>
-</li>
-<li>getPAError()
-: <a class="el" href="da/d8e/namespaceAuroraFW_1_1AudioManager.html#aaba51590ac8abb25ad0c2b1bf8a88c6c">AuroraFW::AudioManager</a>
-</li>
-<li>getTotalPhysicalMemory()
-: <a class="el" href="d9/db6/namespaceAuroraFW_1_1Info_1_1RAM.html#a03fea16f48f44b322af99f8e8b441632">AuroraFW::Info::RAM</a>
-</li>
-<li>getTotalVirtualMemory()
-: <a class="el" href="d9/db6/namespaceAuroraFW_1_1Info_1_1RAM.html#ae29798b3a91389131c8bbf157285fe1a">AuroraFW::Info::RAM</a>
-</li>
-<li>getUsedPhysicalMemory()
-: <a class="el" href="d9/db6/namespaceAuroraFW_1_1Info_1_1RAM.html#addf5aba2cac954ab91074f065cf7ac81">AuroraFW::Info::RAM</a>
-</li>
-<li>getUsedVirtualMemory()
-: <a class="el" href="d9/db6/namespaceAuroraFW_1_1Info_1_1RAM.html#a168767d40d7c44939048513e65f2293c">AuroraFW::Info::RAM</a>
-</li>
-<li>getUserComputerName()
-: <a class="el" href="d6/d70/namespaceAuroraFW_1_1Info_1_1OS.html#ab05eb4304ecbcbffafd685934c85ea8c">AuroraFW::Info::OS</a>
-</li>
-<li>getVersion()
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#ae14313d372c6a0639702bfb85fe9fb60">AuroraFW::GEngine::GL</a>
-, <a class="el" href="d6/d70/namespaceAuroraFW_1_1Info_1_1OS.html#a5351fc3b0b271fc7185b2f8e13d75d76">AuroraFW::Info::OS</a>
-</li>
-<li>GLCheckError()
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#a7d14e041f2745fdf4fd0ae124f1c274f">AuroraFW::GEngine</a>
-</li>
-<li>GLLogCall()
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#a96b2e59eb4d2f6d4917e1ccb0646e2fa">AuroraFW::GEngine</a>
-</li>
-<li>GLShaderParam
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#aad0e7e5e0be563e3b39138fb8a6a63af">AuroraFW::GEngine</a>
-</li>
-<li>GLShaderType
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#a77b58be250193834035c05dd00926a49">AuroraFW::GEngine</a>
-</li>
-<li>GraphicsAPI
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#a052481eaee05ba53b7b58ced80341c29">AuroraFW::GEngine</a>
-</li>
-</ul>
-
-
-<h3><a id="index_h"></a>- h -</h3><ul>
-<li>HEADER_TEMPLATE
-: <a class="el" href="d6/dfa/namespaceglloader_1_1lang_1_1common_1_1generator.html#a85cca6a0cbdb91ece2f2b13e0af50a97">glloader.lang.common.generator</a>
-</li>
-</ul>
-
-
-<h3><a id="index_i"></a>- i -</h3><ul>
-<li>ImageFlags
-: <a class="el" href="d0/d4b/namespaceAuroraFW_1_1ImageManager.html#aae286801bc55666534c0bb6588c0e2e1">AuroraFW::ImageManager</a>
-</li>
-<li>IndexBuffer
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#af1933a2be9e25bf7e3f98c42ee53c467abad51f977d3064bc230c48e3c6fc62ed">AuroraFW::GEngine::GL</a>
-</li>
-<li>Information
-: <a class="el" href="d1/ddd/namespaceAuroraFW_1_1CLI.html#ad597a652989d062a3f04e8b318c5e8aaa40a501a10401d0b9fe5653d7181ee2a7">AuroraFW::CLI</a>
-</li>
-<li>Input
-: <a class="el" href="d1/ddd/namespaceAuroraFW_1_1CLI.html#ad9327366ec4825f13bf3b55957933bc2">AuroraFW::CLI</a>
-</li>
-<li>install_requires
-: <a class="el" href="dd/dc4/namespacesetup.html#abead4f26b530856f858f0d44c7cf2588">setup</a>
-</li>
-<li>isVerbose
-: <a class="el" href="da/d3a/namespaceAuroraFW_1_1Debug.html#a64628ea121f2a736f4e09941adee1e1f">AuroraFW::Debug</a>
-</li>
-</ul>
-
-
-<h3><a id="index_j"></a>- j -</h3><ul>
-<li>JustifyMode
-: <a class="el" href="de/d2c/namespaceAuroraFW_1_1GUI.html#ab2e256262fd290ec2be0505750f2a02c">AuroraFW::GUI</a>
-</li>
-</ul>
-
-
-<h3><a id="index_k"></a>- k -</h3><ul>
-<li>keywords
-: <a class="el" href="dd/dc4/namespacesetup.html#a73ae9ecb109f0dcab6f0b6a89043c5c3">setup</a>
-</li>
-<li>KHRPLATFORM
-: <a class="el" href="d7/d6f/namespaceglloader_1_1lang_1_1c_1_1generator.html#a3235e3bd58d638c3ced10fd44f0d5d6e">glloader.lang.c.generator</a>
-</li>
-</ul>
-
-
-<h3><a id="index_l"></a>- l -</h3><ul>
-<li>license
-: <a class="el" href="dd/dc4/namespacesetup.html#a8ed6f50a28bd6a8794f8e1153baa6de9">setup</a>
-</li>
-<li>LOAD_OPENGL_DLL
-: <a class="el" href="dd/d79/namespaceglloader_1_1lang_1_1c_1_1loader.html#a00a520babe8ab21db592c80157065144">glloader.lang.c.loader</a>
-</li>
-<li>LOAD_OPENGL_DLL_H
-: <a class="el" href="dd/d79/namespaceglloader_1_1lang_1_1c_1_1loader.html#a4112d20db6fcaf273d702b1df17b7f67">glloader.lang.c.loader</a>
-</li>
-<li>LOAD_OPENGL_GLAPI_H
-: <a class="el" href="dd/d79/namespaceglloader_1_1lang_1_1c_1_1loader.html#a4907fcaf7ebbcacc2bbdb2af345fae42">glloader.lang.c.loader</a>
-</li>
-<li>Log()
-: <a class="el" href="d1/ddd/namespaceAuroraFW_1_1CLI.html#a02c55c62d122fd50ce124f700e65d79c">AuroraFW::CLI</a>
-, <a class="el" href="da/d3a/namespaceAuroraFW_1_1Debug.html#a450aa027bb028264effbf0106776efc8">AuroraFW::Debug</a>
-</li>
-<li>logger
-: <a class="el" href="d6/da7/namespaceglloader_1_1____main____.html#a2086a575ca8dc2ec35e22b3ef87ca8e7">glloader.__main__</a>
-, <a class="el" href="d5/db7/namespaceglloader_1_1opener.html#aa61dfa74c1e5be04bde5b23d5787ada4">glloader.opener</a>
-</li>
-<li>LogLength
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#aad0e7e5e0be563e3b39138fb8a6a63afa6cb209e33f1df60b848d487b388378cf">AuroraFW::GEngine</a>
-</li>
-<li>long_description
-: <a class="el" href="dd/dc4/namespacesetup.html#a4cda9dbfb952875376a0749fe08a5bde">setup</a>
-</li>
-</ul>
-
-
-<h3><a id="index_m"></a>- m -</h3><ul>
-<li>main()
-: <a class="el" href="d6/da7/namespaceglloader_1_1____main____.html#a06beff16ff46f9327001850f77d7ee74">glloader.__main__</a>
-</li>
-<li>make_path()
-: <a class="el" href="d7/d6f/namespaceglloader_1_1lang_1_1c_1_1generator.html#a7cd20f4f189bc0f03944e3ebf49a6074">glloader.lang.c.generator</a>
-</li>
-<li>makefiledir()
-: <a class="el" href="d7/d08/namespaceglloader_1_1lang_1_1common_1_1util.html#a77ca7bbd9fc7845a3e0c5bed9240df6d">glloader.lang.common.util</a>
-</li>
-<li>Matrix4x4
-: <a class="el" href="d8/d06/namespaceAuroraFW_1_1Math.html#a41a897f5ca357e87915e2aa8a87b794b">AuroraFW::Math</a>
-</li>
-<li>max()
-: <a class="el" href="d8/d06/namespaceAuroraFW_1_1Math.html#ac2a969c7d872cb3a9b886362083f7bee">AuroraFW::Math</a>
-</li>
-<li>merge()
-: <a class="el" href="d6/dfa/namespaceglloader_1_1lang_1_1common_1_1generator.html#a32c6e6d43f9a3ddc09d598bd6287b1f6">glloader.lang.common.generator</a>
-</li>
-<li>MessageStatus
-: <a class="el" href="d1/ddd/namespaceAuroraFW_1_1CLI.html#ad597a652989d062a3f04e8b318c5e8aa">AuroraFW::CLI</a>
-</li>
-<li>min()
-: <a class="el" href="d8/d06/namespaceAuroraFW_1_1Math.html#a613d7921cc89604b1bc84000adad0f0e">AuroraFW::Math</a>
-</li>
-</ul>
-
-
-<h3><a id="index_n"></a>- n -</h3><ul>
-<li>name
-: <a class="el" href="dd/dc4/namespacesetup.html#ab3a7a0638d76a01367c5bc3cc699447f">setup</a>
-</li>
-<li>NIMTYPES
-: <a class="el" href="d7/d3e/namespaceglloader_1_1lang_1_1nim_1_1generator.html#ac4138171275407d6d1418175406fa123">glloader.lang.nim.generator</a>
-</li>
-<li>Notice
-: <a class="el" href="d1/ddd/namespaceAuroraFW_1_1CLI.html#ad597a652989d062a3f04e8b318c5e8aaab9a54f1cab3e2f04ae6f69dbc5707a73">AuroraFW::CLI</a>
-</li>
-</ul>
-
-
-<h3><a id="index_o"></a>- o -</h3><ul>
-<li>operator &amp;()
-: <a class="el" href="d0/d4b/namespaceAuroraFW_1_1ImageManager.html#a5efde51b3e0035cc201ce5620aba7196">AuroraFW::ImageManager</a>
-, <a class="el" href="de/d19/namespaceAuroraFW_1_1IO.html#a5ce9ab9632d28bfef6018e1b7a41a5c3">AuroraFW::IO</a>
-</li>
-<li>operator&lt;&lt;()
-: <a class="el" href="d8/d06/namespaceAuroraFW_1_1Math.html#a06a230b090813366b66e0765470e6b18">AuroraFW::Math</a>
-</li>
-<li>operator|()
-: <a class="el" href="d0/d4b/namespaceAuroraFW_1_1ImageManager.html#ac610c74c107911964daf82ab27c84f54">AuroraFW::ImageManager</a>
-, <a class="el" href="de/d19/namespaceAuroraFW_1_1IO.html#a96321ae89cb6cda9d80ae92f2a19294a">AuroraFW::IO</a>
-</li>
-<li>operator~()
-: <a class="el" href="d0/d4b/namespaceAuroraFW_1_1ImageManager.html#a19e7aea3e0fe89ba3b7c2785b8335e36">AuroraFW::ImageManager</a>
-, <a class="el" href="de/d19/namespaceAuroraFW_1_1IO.html#a6ad944074b7c8cfedf2920e3fc74ff3c">AuroraFW::IO</a>
-</li>
-<li>Output
-: <a class="el" href="d1/ddd/namespaceAuroraFW_1_1CLI.html#a398f3a56c3b02b5834d5a50894bda064">AuroraFW::CLI</a>
-</li>
-</ul>
-
-
-<h3><a id="index_p"></a>- p -</h3><ul>
-<li>packages
-: <a class="el" href="dd/dc4/namespacesetup.html#aff2375a361fd5865c77bd9aa093be747">setup</a>
-</li>
-<li>PixelPack
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#af1933a2be9e25bf7e3f98c42ee53c467a142435c6f853c2e992de099b0754a621">AuroraFW::GEngine::GL</a>
-</li>
-<li>PixelUnpack
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#af1933a2be9e25bf7e3f98c42ee53c467a83f8ad30beb4ad91f0965f3bc6eeca05">AuroraFW::GEngine::GL</a>
-</li>
-<li>platforms
-: <a class="el" href="dd/dc4/namespacesetup.html#ae3da4d8e69fecb7fa1df37bcce24dccc">setup</a>
-</li>
-</ul>
-
-
-<h3><a id="index_r"></a>- r -</h3><ul>
-<li>Read
-: <a class="el" href="d0/d4b/namespaceAuroraFW_1_1ImageManager.html#aae286801bc55666534c0bb6588c0e2e1affc81b73a7e2504746971f15917c18b7">AuroraFW::ImageManager</a>
-, <a class="el" href="de/d19/namespaceAuroraFW_1_1IO.html#a0dd88e3c5a7761f0ad80825e0f43b9eaaf64bc2916f3ac55ddb394c509a5f5acc">AuroraFW::IO</a>
-</li>
-<li>readFile()
-: <a class="el" href="de/d19/namespaceAuroraFW_1_1IO.html#a65647b1431041e8df38b1444c329c2f1">AuroraFW::IO</a>
-</li>
-<li>resetColor()
-: <a class="el" href="d1/ddd/namespaceAuroraFW_1_1CLI.html#ae37c59e3669e5d7210b27046f78a489c">AuroraFW::CLI</a>
-</li>
-</ul>
-
-
-<h3><a id="index_s"></a>- s -</h3><ul>
-<li>setColor()
-: <a class="el" href="d1/ddd/namespaceAuroraFW_1_1CLI.html#a4b9b7f671c42ba7b1bf997e33fddde31">AuroraFW::CLI</a>
-</li>
-<li>setIcon()
-: <a class="el" href="de/d2c/namespaceAuroraFW_1_1GUI.html#af5ecbeacac3aa3efcfbd77c312059dcd">AuroraFW::GUI</a>
-</li>
-<li>setValue()
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#a3f08d3af87baba51d1169f82ac388d51">AuroraFW::GEngine</a>
-</li>
-<li>sin()
-: <a class="el" href="d8/d06/namespaceAuroraFW_1_1Math.html#a272a45573645af0b87dbda4f1e9ab8a2">AuroraFW::Math</a>
-</li>
-<li>SourceLength
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#aad0e7e5e0be563e3b39138fb8a6a63afa267a5f1c7152b9a458b454c5be6d81ba">AuroraFW::GEngine</a>
-</li>
-<li>SPECS
-: <a class="el" href="df/d51/namespaceglloader_1_1spec.html#afdde30e05b33ca59e7ec751b2f2529b9">glloader.spec</a>
-</li>
-<li>stacklevel
-: <a class="el" href="d2/dc1/namespacemain.html#a7c640bbda85e8351f95b1a145857fda8">main</a>
-</li>
-<li>StaticCopy
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#adefd2ea46ccf57f29ac7997374ee7133ad807e5ebbdcb7a8e4b8c861065b0e041">AuroraFW::GEngine::GL</a>
-</li>
-<li>StaticDraw
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#adefd2ea46ccf57f29ac7997374ee7133a76cfb69f2e13e0d7cc55a380390e2372">AuroraFW::GEngine::GL</a>
-</li>
-<li>StaticRead
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#adefd2ea46ccf57f29ac7997374ee7133a7f76053ace4608a4f8457350f41d2d90">AuroraFW::GEngine::GL</a>
-</li>
-<li>Status
-: <a class="el" href="da/d3a/namespaceAuroraFW_1_1Debug.html#aea4fabd19a93394a20b9575730d5b975">AuroraFW::Debug</a>
-</li>
-<li>StreamCopy
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#adefd2ea46ccf57f29ac7997374ee7133a551298ff96ce63aa3795f2d0d62b3fc4">AuroraFW::GEngine::GL</a>
-</li>
-<li>StreamDraw
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#adefd2ea46ccf57f29ac7997374ee7133ace16106d73748f729ffb76a6341d0ff8">AuroraFW::GEngine::GL</a>
-</li>
-<li>StreamRead
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#adefd2ea46ccf57f29ac7997374ee7133af5e6322184aa89bb5dc9f002f424e12c">AuroraFW::GEngine::GL</a>
-</li>
-</ul>
-
-
-<h3><a id="index_t"></a>- t -</h3><ul>
-<li>tan()
-: <a class="el" href="d8/d06/namespaceAuroraFW_1_1Math.html#afcbdf217f194db6d8ce110bb9fa73dff">AuroraFW::Math</a>
-</li>
-<li>TessellationControl
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#a77b58be250193834035c05dd00926a49a2e07343d2d73a705fbdfe5f1588a9d17">AuroraFW::GEngine</a>
-</li>
-<li>TessellationEvaluation
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#a77b58be250193834035c05dd00926a49aa80b58e4db8a3f6ef47c40a814c53551">AuroraFW::GEngine</a>
-</li>
-<li>toDegrees()
-: <a class="el" href="d8/d06/namespaceAuroraFW_1_1Math.html#a5bdf515aad86174792b80fc065ddec0a">AuroraFW::Math</a>
-</li>
-<li>toRadians()
-: <a class="el" href="d8/d06/namespaceAuroraFW_1_1Math.html#a69ac9e133226dca30dad5dab31f92a97">AuroraFW::Math</a>
-</li>
-<li>Type
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#aad0e7e5e0be563e3b39138fb8a6a63afa6b4ade6bf73f5ce08a28fec3791b7efb">AuroraFW::GEngine</a>
-</li>
-</ul>
-
-
-<h3><a id="index_u"></a>- u -</h3><ul>
-<li>Unknown
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#a77b58be250193834035c05dd00926a49ab40b34fb79b9ff8bc4dbbde7a1432488">AuroraFW::GEngine</a>
-</li>
-<li>url
-: <a class="el" href="dd/dc4/namespacesetup.html#afc13124aa5c0124e84e1d965e3f4b0fb">setup</a>
-</li>
-</ul>
-
-
-<h3><a id="index_v"></a>- v -</h3><ul>
-<li>Vector2D
-: <a class="el" href="d8/d06/namespaceAuroraFW_1_1Math.html#ad2e0449e784f8716f888b9c9819fcd87">AuroraFW::Math</a>
-</li>
-<li>Vector3D
-: <a class="el" href="d8/d06/namespaceAuroraFW_1_1Math.html#af29c1548cb210a724bfd03742f94b8e9">AuroraFW::Math</a>
-</li>
-<li>Vector4D
-: <a class="el" href="d8/d06/namespaceAuroraFW_1_1Math.html#ae5da5b68fae4f44786dcf913c1165642">AuroraFW::Math</a>
-</li>
-<li>Version
-: <a class="el" href="d6/da7/namespaceglloader_1_1____main____.html#aeaae3a1840335d46ec51e1ff57ebb858">glloader.__main__</a>
-</li>
-<li>version
-: <a class="el" href="dd/dc4/namespacesetup.html#a2aa722b36a933088812b50ea79b97a5c">setup</a>
-</li>
-<li>Vertex
-: <a class="el" href="df/d57/namespaceAuroraFW_1_1GEngine.html#a77b58be250193834035c05dd00926a49a013736941c317f3676bdd4eca3320eb0">AuroraFW::GEngine</a>
-</li>
-<li>VertexBuffer
-: <a class="el" href="d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#af1933a2be9e25bf7e3f98c42ee53c467ad37a2ad6d0bd09c553ca184569aca4c8">AuroraFW::GEngine::GL</a>
-</li>
-</ul>
-
-
-<h3><a id="index_w"></a>- w -</h3><ul>
-<li>Warning
-: <a class="el" href="d1/ddd/namespaceAuroraFW_1_1CLI.html#ad597a652989d062a3f04e8b318c5e8aaa71e9d369c4c656f7c4a80bde92e9b757">AuroraFW::CLI</a>
-</li>
-<li>wInput
-: <a class="el" href="d1/ddd/namespaceAuroraFW_1_1CLI.html#a74c4776710240568987d9d199909c8cf">AuroraFW::CLI</a>
-</li>
-<li>wOutput
-: <a class="el" href="d1/ddd/namespaceAuroraFW_1_1CLI.html#a61a3984afd22761c1a02c473a360e54e">AuroraFW::CLI</a>
-</li>
-<li>WrapMode
-: <a class="el" href="de/d2c/namespaceAuroraFW_1_1GUI.html#ac21390425bb5a5bd016de8612911adf9">AuroraFW::GUI</a>
-</li>
-<li>Write
-: <a class="el" href="d0/d4b/namespaceAuroraFW_1_1ImageManager.html#aae286801bc55666534c0bb6588c0e2e1aea4f21c4e21c8df072c2bc0d3d4098ad">AuroraFW::ImageManager</a>
-, <a class="el" href="de/d19/namespaceAuroraFW_1_1IO.html#a0dd88e3c5a7761f0ad80825e0f43b9eaa7a75eb4a22475197973138ec3f6a34ca">AuroraFW::IO</a>
-</li>
-</ul>
-
-
-<h3><a id="index_x"></a>- x -</h3><ul>
-<li>xml_frompath()
-: <a class="el" href="d7/d7b/namespaceglloader_1_1parse.html#ada690ffde82afce9c07003aece69e971">glloader.parse</a>
-</li>
-<li>xml_fromstring()
-: <a class="el" href="d7/d7b/namespaceglloader_1_1parse.html#abd150e723ba18da923071cdd4cd76a4f">glloader.parse</a>
+: <a class="el" href="d9/da3/namespace_aurora_f_w_1_1_c_l_i.html#a765dff0babf5974945fce673771ff2bc">AuroraFW::CLI</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

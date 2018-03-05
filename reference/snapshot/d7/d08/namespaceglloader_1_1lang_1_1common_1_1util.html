@@ -9,10 +9,25 @@
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -20,9 +35,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.gif"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Aurora Framework
    </div>
+   <div id="projectbrief">A Powerful General Purpose Framework</div>
   </td>
  </tr>
  </tbody>
@@ -45,6 +62,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('d7/d08/namespaceglloader_1_1lang_1_1common_1_1util.html','../../');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -59,11 +93,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="../../da/d1e/namespaceglloader.html">glloader</a></li><li class="navelem"><a class="el" href="../../da/dd4/namespaceglloader_1_1lang.html">lang</a></li><li class="navelem"><a class="el" href="../../d8/ded/namespaceglloader_1_1lang_1_1common.html">common</a></li><li class="navelem"><a class="el" href="../../d7/d08/namespaceglloader_1_1lang_1_1common_1_1util.html">util</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
@@ -74,9 +103,9 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6d25873d3f490e09539f4c525ed19a94"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d08/namespaceglloader_1_1lang_1_1common_1_1util.html#a6d25873d3f490e09539f4c525ed19a94">enforce</a> (exp, message, exc)</td></tr>
+<tr class="memitem:a6d25873d3f490e09539f4c525ed19a94"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d08/namespaceglloader_1_1lang_1_1common_1_1util.html#a6d25873d3f490e09539f4c525ed19a94">enforce</a> (exp, <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a7b6161cffb9b8aee272b3b916183d28c">message</a>, exc)</td></tr>
 <tr class="separator:a6d25873d3f490e09539f4c525ed19a94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77ca7bbd9fc7845a3e0c5bed9240df6d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d08/namespaceglloader_1_1lang_1_1common_1_1util.html#a77ca7bbd9fc7845a3e0c5bed9240df6d">makefiledir</a> (path)</td></tr>
+<tr class="memitem:a77ca7bbd9fc7845a3e0c5bed9240df6d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d08/namespaceglloader_1_1lang_1_1common_1_1util.html#a77ca7bbd9fc7845a3e0c5bed9240df6d">makefiledir</a> (<a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#ab25d8cd967ccbd19b630d7100ff8f67e">path</a>)</td></tr>
 <tr class="separator:a77ca7bbd9fc7845a3e0c5bed9240df6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -112,8 +141,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/db6/lang_2common_2util_8py_source.html#l00005">5</a> of file <a class="el" href="../../d0/db6/lang_2common_2util_8py_source.html">util.py</a>.</p>
-
 </div>
 </div>
 <a id="a77ca7bbd9fc7845a3e0c5bed9240df6d"></a>
@@ -132,16 +159,20 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/db6/lang_2common_2util_8py_source.html#l00010">10</a> of file <a class="el" href="../../d0/db6/lang_2common_2util_8py_source.html">util.py</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d6f/namespaceglloader_1_1lang_1_1c_1_1generator.html#a7cd20f4f189bc0f03944e3ebf49a6074">glloader.lang.c.generator.make_path()</a>, <a class="el" href="../../d7/dd9/classglloader_1_1lang_1_1nim_1_1generator_1_1_nim_generator.html#aec1b8be6f3ee77e4dee8a7cd8df5caf7">glloader.lang.nim.generator.NimGenerator.make_path()</a>, and <a class="el" href="../../d4/d18/classglloader_1_1lang_1_1d_1_1generator_1_1_base_d_generator.html#a4d828c5b4d7b27419386ab78a64efebc">glloader.lang.d.generator.BaseDGenerator.make_path()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="../../doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../da/d1e/namespaceglloader.html">glloader</a></li><li class="navelem"><a class="el" href="../../da/dd4/namespaceglloader_1_1lang.html">lang</a></li><li class="navelem"><a class="el" href="../../d8/ded/namespaceglloader_1_1lang_1_1common.html">common</a></li><li class="navelem"><a class="el" href="../../d7/d08/namespaceglloader_1_1lang_1_1common_1_1util.html">util</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

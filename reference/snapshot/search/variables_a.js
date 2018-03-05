@@ -1,13 +1,17 @@
 var searchData=
 [
-  ['license',['license',['../dd/dc4/namespacesetup.html#a8ed6f50a28bd6a8794f8e1153baa6de9',1,'setup']]],
-  ['load_5fgl_5fname',['LOAD_GL_NAME',['../d9/d2a/classglloader_1_1lang_1_1volt_1_1generator_1_1VoltGenerator.html#afd4c860255286e27ffb17f3810a3f412',1,'glloader::lang::volt::generator::VoltGenerator']]],
-  ['load_5fgl_5fprefix',['LOAD_GL_PREFIX',['../d0/da7/classglloader_1_1lang_1_1d_1_1generator_1_1DGenerator.html#a754268c2e6211f8ad1ec6eb6de3860e2',1,'glloader.lang.d.generator.DGenerator.LOAD_GL_PREFIX()'],['../d3/d9e/classglloader_1_1lang_1_1nim_1_1generator_1_1NimGenerator.html#a22515888de74b499203d49e44e22c5fc',1,'glloader.lang.nim.generator.NimGenerator.LOAD_GL_PREFIX()']]],
-  ['load_5fopengl_5fdll',['LOAD_OPENGL_DLL',['../dd/d79/namespaceglloader_1_1lang_1_1c_1_1loader.html#a00a520babe8ab21db592c80157065144',1,'glloader::lang::c::loader']]],
-  ['load_5fopengl_5fdll_5fh',['LOAD_OPENGL_DLL_H',['../dd/d79/namespaceglloader_1_1lang_1_1c_1_1loader.html#a4112d20db6fcaf273d702b1df17b7f67',1,'glloader::lang::c::loader']]],
-  ['load_5fopengl_5fglapi_5fh',['LOAD_OPENGL_GLAPI_H',['../dd/d79/namespaceglloader_1_1lang_1_1c_1_1loader.html#a4907fcaf7ebbcacc2bbdb2af345fae42',1,'glloader::lang::c::loader']]],
-  ['loader',['LOADER',['../d0/da7/classglloader_1_1lang_1_1d_1_1generator_1_1DGenerator.html#a8279227d42b8f5b351422e03613b28c1',1,'glloader.lang.d.generator.DGenerator.LOADER()'],['../d9/d2a/classglloader_1_1lang_1_1volt_1_1generator_1_1VoltGenerator.html#a52953870110796dffd44de6a574bc1f5',1,'glloader.lang.volt.generator.VoltGenerator.LOADER()'],['../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a251debdebed5642b1e2201c5909418f7',1,'glloader.lang.common.generator.Generator.loader()']]],
-  ['local_5ffiles',['local_files',['../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a0e93d00dcc5b8dc21a94d1ed0455c68f',1,'glloader.lang.common.generator.Generator.local_files()'],['../d4/d5d/classglloader_1_1lang_1_1common_1_1loader_1_1BaseLoader.html#ab4a48dd9af9c6dc1f4e60500b8a2a9a1',1,'glloader.lang.common.loader.BaseLoader.local_files()']]],
-  ['logger',['logger',['../d6/da7/namespaceglloader_1_1____main____.html#a2086a575ca8dc2ec35e22b3ef87ca8e7',1,'glloader.__main__.logger()'],['../d5/db7/namespaceglloader_1_1opener.html#aa61dfa74c1e5be04bde5b23d5787ada4',1,'glloader.opener.logger()']]],
-  ['long_5fdescription',['long_description',['../dd/dc4/namespacesetup.html#a4cda9dbfb952875376a0749fe08a5bde',1,'setup']]]
+  ['kern',['kern',['../d1/d3f/structstbtt__fontinfo.html#a57cc83512daea60e97ed49354d634d37',1,'stbtt_fontinfo']]],
+  ['key',['key',['../d7/db0/struct_aurora_f_w_1_1_keyboard_event.html#a695352289298f3881fb112a089ed3f23',1,'AuroraFW::KeyboardEvent::key()'],['../d4/d64/struct_im_gui_storage_1_1_pair.html#a5b37b692d2eacc7f4f5b6f233359e6ce',1,'ImGuiStorage::Pair::key()']]],
+  ['keyalt',['KeyAlt',['../d5/dbc/struct_im_gui_i_o.html#a1e64ef08a4448a2cac874496130992cb',1,'ImGuiIO']]],
+  ['keyctrl',['KeyCtrl',['../d5/dbc/struct_im_gui_i_o.html#a51de8f65dcabb80ef4e0d3c759ffcd7f',1,'ImGuiIO']]],
+  ['keymap',['KeyMap',['../d5/dbc/struct_im_gui_i_o.html#aa1cd0083960f8e5361eb6d49973c8823',1,'ImGuiIO']]],
+  ['keyrepeatdelay',['KeyRepeatDelay',['../d5/dbc/struct_im_gui_i_o.html#a390537e7cba21b98a8f89df857ea59fb',1,'ImGuiIO']]],
+  ['keyrepeatrate',['KeyRepeatRate',['../d5/dbc/struct_im_gui_i_o.html#accd71987c895c4aec6d1a8c368cc9e0e',1,'ImGuiIO']]],
+  ['keysdown',['KeysDown',['../d5/dbc/struct_im_gui_i_o.html#a182f42d74cb25a4cf611cc0f776b3848',1,'ImGuiIO']]],
+  ['keysdownduration',['KeysDownDuration',['../d5/dbc/struct_im_gui_i_o.html#a6f1da2ea6d8e3398d9526fe983cf0a6f',1,'ImGuiIO']]],
+  ['keysdowndurationprev',['KeysDownDurationPrev',['../d5/dbc/struct_im_gui_i_o.html#ac079dcd415784a08fec74388e18abb97',1,'ImGuiIO']]],
+  ['keyshift',['KeyShift',['../d5/dbc/struct_im_gui_i_o.html#a3c7642214f88862af5b8467f98ac35c9',1,'ImGuiIO']]],
+  ['keysuper',['KeySuper',['../d5/dbc/struct_im_gui_i_o.html#afda9e11e21b7ba21573671c38d9f4a81',1,'ImGuiIO']]],
+  ['keywords',['keywords',['../dd/dc4/namespacesetup.html#a73ae9ecb109f0dcab6f0b6a89043c5c3',1,'setup']]],
+  ['khrplatform',['KHRPLATFORM',['../d7/d6f/namespaceglloader_1_1lang_1_1c_1_1generator.html#a3235e3bd58d638c3ced10fd44f0d5d6e',1,'glloader::lang::c::generator']]]
 ];

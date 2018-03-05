@@ -1,7 +1,25 @@
 var searchData=
 [
-  ['h_5finclude',['h_include',['../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a5863a78c3eed58ec8bf1763fac1d8980',1,'glloader::lang::c::generator::CGenerator']]],
-  ['has_5floader',['has_loader',['../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a3d4b7226c5a579536aeb01d1af4a81a9',1,'glloader::lang::common::generator::Generator']]],
-  ['header_5ftemplate',['HEADER_TEMPLATE',['../d6/dfa/namespaceglloader_1_1lang_1_1common_1_1generator.html#a85cca6a0cbdb91ece2f2b13e0af50a97',1,'glloader::lang::common::generator']]],
-  ['height',['height',['../d2/d16/structAuroraFW_1_1GEngine_1_1WindowProperties.html#ad81b64086e9ab77040b8093faf2e653d',1,'AuroraFW::GEngine::WindowProperties::height()'],['../d6/d39/hellowindow2_8cpp.html#a45d3f53fb83f7542d154b0222bf523d6',1,'HEIGHT():&#160;hellowindow2.cpp'],['../db/dfa/simple_8c.html#ad12fc34ce789bce6c8a05d8a17138534',1,'height():&#160;simple.c']]]
+  ['g',['g',['../d3/d7d/struct_aurora_f_w_1_1_g_engine_1_1_base_color.html#a68558c40c44e488bb4951f26ec6a2dc6',1,'AuroraFW::GEngine::BaseColor']]],
+  ['getclipboardtextfn',['GetClipboardTextFn',['../d5/dbc/struct_im_gui_i_o.html#ab7face2b2efef720a22a7fb2143d415c',1,'ImGuiIO']]],
+  ['gimallocatoractiveallocationscount',['GImAllocatorActiveAllocationsCount',['../dd/d50/_im_gui_8cpp.html#a27d90179d0a52eac28d3ed63e39fd398',1,'ImGui.cpp']]],
+  ['gimallocatorallocfunc',['GImAllocatorAllocFunc',['../dd/d50/_im_gui_8cpp.html#a25a3ba7c77ba636cc6c9cfc0516fd643',1,'ImGui.cpp']]],
+  ['gimallocatorfreefunc',['GImAllocatorFreeFunc',['../dd/d50/_im_gui_8cpp.html#a52840ef95faf1287593024477d206cbc',1,'ImGui.cpp']]],
+  ['gimallocatoruserdata',['GImAllocatorUserData',['../dd/d50/_im_gui_8cpp.html#a42e3a0e8feed1a6b8fb9ffe79af9d706',1,'ImGui.cpp']]],
+  ['gimgui',['GImGui',['../d1/d3d/___im_gui_8h.html#a93caa8df61dac3cb1ab1271a755442a3',1,'GImGui():&#160;ImGui.cpp'],['../dd/d50/_im_gui_8cpp.html#a26aa67b834c0453a50c5e3970a8eba07',1,'GImGui():&#160;ImGui.cpp']]],
+  ['globalvolume',['globalVolume',['../df/dbe/class_aurora_f_w_1_1_audio_manager_1_1_audio_backend.html#a32fee67d92c76f2ee0736361dad31567',1,'AuroraFW::AudioManager::AudioBackend']]],
+  ['glversion',['GLVersion',['../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#acc98208c754da9b211df875e91d6e66b',1,'GLVersion():&#160;Loader.h'],['../db/d0f/_g_l_loader_8c.html#a53f414b3b5fbb399ef83bcc4512e4e85',1,'GLVersion():&#160;GLLoader.c']]],
+  ['glyf',['glyf',['../d1/d3f/structstbtt__fontinfo.html#a5de2129e0a415748920f6aa10ceee6e5',1,'stbtt_fontinfo']]],
+  ['glyphadvancex',['GlyphAdvanceX',['../da/d4d/struct_im_font_atlas_1_1_custom_rect.html#afb55b310d9816386f2eb2f11df9f11e2',1,'ImFontAtlas::CustomRect']]],
+  ['glyphextraspacing',['GlyphExtraSpacing',['../d5/d84/struct_im_font_config.html#a82db103689b1c434ec92875721967c07',1,'ImFontConfig']]],
+  ['glyphoffset',['GlyphOffset',['../d5/d84/struct_im_font_config.html#a290a81956fdcb7ad3b5e3152594db121',1,'ImFontConfig::GlyphOffset()'],['../da/d4d/struct_im_font_atlas_1_1_custom_rect.html#a18a84c649c382fafe75eba628b5d599e',1,'ImFontAtlas::CustomRect::GlyphOffset()']]],
+  ['glyphranges',['GlyphRanges',['../d5/d84/struct_im_font_config.html#aa174ceff80323012cd1b717d864258dd',1,'ImFontConfig']]],
+  ['glyphs',['Glyphs',['../d7/dc9/struct_im_font.html#a1a0901fc1a8cbd41d582d6cef4946bc9',1,'ImFont']]],
+  ['grabminsize',['GrabMinSize',['../d7/d12/struct_im_gui_style.html#a04db033d001b343815cdcd2491576ef7',1,'ImGuiStyle']]],
+  ['grabrounding',['GrabRounding',['../d7/d12/struct_im_gui_style.html#a42369d83032545066803a7db62936e8f',1,'ImGuiStyle']]],
+  ['group',['group',['../d1/db4/classglloader_1_1parse_1_1_enum.html#a79c25992738e97e8a482dc173d8d2f77',1,'glloader.parse.Enum.group()'],['../d9/d13/classglloader_1_1parse_1_1_param.html#a12e36889a27583f0a82ad99bcb6a20d0',1,'glloader.parse.Param.group()']]],
+  ['groupoffsetx',['GroupOffsetX',['../d8/d5e/struct_im_gui_draw_context.html#a30473e3e4b3eeba6c8d1acdaaedecba9',1,'ImGuiDrawContext']]],
+  ['groupstack',['GroupStack',['../d8/d5e/struct_im_gui_draw_context.html#aa775f16a46bdfe8e131e25cab733afe0',1,'ImGuiDrawContext']]],
+  ['gstylevarinfo',['GStyleVarInfo',['../dd/d50/_im_gui_8cpp.html#a5786dd02b435b7de611cb7cbff7f097c',1,'ImGui.cpp']]],
+  ['gsubrs',['gsubrs',['../d1/d3f/structstbtt__fontinfo.html#afc5bfc4a52ad0e3879f0f81a372da7fb',1,'stbtt_fontinfo']]]
 ];

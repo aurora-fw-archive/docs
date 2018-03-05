@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['opener_2epy',['opener.py',['../d5/da2/opener_8py.html',1,'']]],
-  ['opengl_2eh',['OpenGL.h',['../db/d8a/OpenGL_8h.html',1,'']]],
-  ['options_2eh',['Options.h',['../d5/d76/Options_8h.html',1,'']]],
-  ['os_2eh',['OS.h',['../d2/d4f/OS_8h.html',1,'']]],
-  ['ostream_2eh',['OStream.h',['../d6/d43/OStream_8h.html',1,'']]],
-  ['output_2ecpp',['Output.cpp',['../d0/d98/Output_8cpp.html',1,'']]],
-  ['output_2eh',['Output.h',['../d3/ddf/Output_8h.html',1,'']]]
+  ['egl_2epy',['egl.py',['../d9/d2d/nim_2loader_2egl_8py.html',1,'']]],
+  ['generator_2epy',['generator.py',['../d9/ddf/nim_2generator_8py.html',1,'']]],
+  ['gl_2epy',['gl.py',['../da/dfb/nim_2loader_2gl_8py.html',1,'']]],
+  ['glx_2epy',['glx.py',['../d7/ddb/nim_2loader_2glx_8py.html',1,'']]],
+  ['wgl_2epy',['wgl.py',['../db/d30/nim_2loader_2wgl_8py.html',1,'']]]
 ];

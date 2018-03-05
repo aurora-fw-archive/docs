@@ -1,11 +1,25 @@
 var searchData=
 [
-  ['packages',['packages',['../dd/dc4/namespacesetup.html#aff2375a361fd5865c77bd9aa093be747',1,'setup']]],
-  ['params',['params',['../d9/d71/classglloader_1_1parse_1_1Command.html#ae3de3ebaf13fa443651f09c42b80edbc',1,'glloader::parse::Command']]],
-  ['path',['path',['../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#ae720667e4ebe011e21938f40e42dc716',1,'glloader::lang::common::generator::Generator']]],
-  ['pitch',['pitch',['../d6/d5d/structAuroraFW_1_1AudioManager_1_1AudioStream.html#af35c8f935611ffe0d886314819d0a808',1,'AuroraFW::AudioManager::AudioStream']]],
-  ['platforms',['platforms',['../dd/dc4/namespacesetup.html#ae3da4d8e69fecb7fa1df37bcce24dccc',1,'setup']]],
-  ['position',['position',['../dd/d78/classAuroraFW_1_1AudioManager_1_1AudioListener.html#a45447b4a6e0d1a286a575052843aa944',1,'AuroraFW::AudioManager::AudioListener']]],
-  ['proto',['proto',['../d9/d71/classglloader_1_1parse_1_1Command.html#aa2b57195ec733a024b036ef7ce589339',1,'glloader::parse::Command']]],
-  ['ptype',['ptype',['../dd/dd1/classglloader_1_1parse_1_1OGLType.html#a37ac39fb6fb680b56d9afaa73ec71964',1,'glloader::parse::OGLType']]]
+  ['offset',['Offset',['../db/df8/struct_im_gui_style_var_info.html#ae900d6a02166d3d0433c18b95aec10e8',1,'ImGuiStyleVarInfo']]],
+  ['offsetnorm',['OffsetNorm',['../db/d3c/struct_im_gui_column_data.html#a9678a00f55c9fa44ed35ec14ea9b697b',1,'ImGuiColumnData']]],
+  ['offsetnormbeforeresize',['OffsetNormBeforeResize',['../db/d3c/struct_im_gui_column_data.html#aa97d00380db4a4b11ebc1f1f8ef72fc8',1,'ImGuiColumnData']]],
+  ['omit_5fkhrplatform',['omit_khrplatform',['../da/d1c/classglloader_1_1lang_1_1common_1_1generator_1_1_generator.html#a471c2222a85acab164f1fdf1a28212a1',1,'glloader::lang::common::generator::Generator']]],
+  ['opener',['opener',['../da/d1c/classglloader_1_1lang_1_1common_1_1generator_1_1_generator.html#a6021498f9d932fe45f310a9e819dbc06',1,'glloader.lang.common.generator.Generator.opener()'],['../d5/d6a/classglloader_1_1opener_1_1_u_r_l_opener.html#afb6c92ca7e4eece2b39a122eb2dc3162',1,'glloader.opener.URLOpener.opener()']]],
+  ['opener2',['opener2',['../d5/d6a/classglloader_1_1opener_1_1_u_r_l_opener.html#a7010994d137563de1f99eab98f0f2c59',1,'glloader::opener::URLOpener']]],
+  ['openframecount',['OpenFrameCount',['../d9/d83/struct_im_gui_popup_ref.html#ae234b7164134a20ab0f25fd3987692ed',1,'ImGuiPopupRef']]],
+  ['opengl',['OpenGL',['../d8/dbc/core_2include_2_aurora_f_w_2_g_engine_2_a_p_i_2_context_8h.html#a4b576285374c7563a85998d1efbc4ef6',1,'Context.h']]],
+  ['openmousepos',['OpenMousePos',['../d9/d83/struct_im_gui_popup_ref.html#ac7c323da1a0ab658494a7d875facc200',1,'ImGuiPopupRef']]],
+  ['openparentid',['OpenParentId',['../d9/d83/struct_im_gui_popup_ref.html#a4a1431f380b456cbdacf550986715609',1,'ImGuiPopupRef']]],
+  ['openpopuppos',['OpenPopupPos',['../d9/d83/struct_im_gui_popup_ref.html#a2e16a9956b94737f177d669bbaf68761',1,'ImGuiPopupRef']]],
+  ['openpopupstack',['OpenPopupStack',['../d7/da3/struct_im_gui_context.html#af6c0e07cff9641d31bdf22b7e7df2842',1,'ImGuiContext']]],
+  ['opt',['opt',['../d2/d00/struct_aurora_f_w_1_1_option_element.html#aa15e1711b4e79f0c6a96f8f45084e610',1,'AuroraFW::OptionElement']]],
+  ['optcursorblink',['OptCursorBlink',['../d5/dbc/struct_im_gui_i_o.html#a676ccbf84e205effc5a023e8d5adc6eb',1,'ImGuiIO']]],
+  ['optionhandler',['OptionHandler',['../dc/d90/struct_aurora_f_w_1_1_splited_option_element.html#af933b460ee0caef52a33335ec3846f56',1,'AuroraFW::SplitedOptionElement']]],
+  ['optmacosxbehaviors',['OptMacOSXBehaviors',['../d5/dbc/struct_im_gui_i_o.html#a99ffac55fc01f11166e8e92ca9ebda98',1,'ImGuiIO']]],
+  ['osimeposrequest',['OsImePosRequest',['../d7/da3/struct_im_gui_context.html#af98a8f8b9c96bf8b692449daedf45602',1,'ImGuiContext']]],
+  ['osimeposset',['OsImePosSet',['../d7/da3/struct_im_gui_context.html#a466a0975ad72e7e3deaea6bcfb6b446d',1,'ImGuiContext']]],
+  ['output',['Output',['../d9/da3/namespace_aurora_f_w_1_1_c_l_i.html#a0ab7fede43a108fbdb14440b0272e2ae',1,'AuroraFW::CLI']]],
+  ['overlaydrawlist',['OverlayDrawList',['../d7/da3/struct_im_gui_context.html#abc8e0592d9beea307d78661df0a38b1a',1,'ImGuiContext']]],
+  ['oversampleh',['OversampleH',['../d5/d84/struct_im_font_config.html#ab460df0d8019ffa8d124e8988c710910',1,'ImFontConfig']]],
+  ['oversamplev',['OversampleV',['../d5/d84/struct_im_font_config.html#a8018f84c60bfafb2b4629aeb77a047cb',1,'ImFontConfig']]]
 ];

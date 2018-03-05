@@ -1,0 +1,48 @@
+var class_aurora_f_w_1_1_g_u_i_1_1_window =
+[
+    [ "WindowType", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a5c0e9502cfb0d9e92cd2edce44905f3f", [
+      [ "ToplevelWindow", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a5c0e9502cfb0d9e92cd2edce44905f3fab9c282c3f0b0f049153d20d02966d68d", null ],
+      [ "PopupWindow", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a5c0e9502cfb0d9e92cd2edce44905f3fa30b0a438fb7e29b09215393665ccc064", null ]
+    ] ],
+    [ "WindowPosition", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a23c6400139c8f93f70b1562387e2c2af", [
+      [ "NonePosition", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a23c6400139c8f93f70b1562387e2c2afa6e4473ee2239f464c8e55457d433f192", null ],
+      [ "CenterPosition", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a23c6400139c8f93f70b1562387e2c2afa2176fa334757f08d9f2979906ee1fdb6", null ],
+      [ "MousePosition", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a23c6400139c8f93f70b1562387e2c2afaa2940f3b412e3f04d2e8edafdfd37efa", null ],
+      [ "AlwaysCenterPosition", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a23c6400139c8f93f70b1562387e2c2afa177e7a1e9e899f6a35f0849274cd47f1", null ],
+      [ "CenterParentPosition", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a23c6400139c8f93f70b1562387e2c2afa464e7dc08dba5d26be6008916ae47d87", null ]
+    ] ],
+    [ "Window", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a6e6c30d9c76f060de421ea3394ed633f", null ],
+    [ "setTitle", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a572068908f50524209749ab80e54a664", null ],
+    [ "setPos", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a912a0547980da5315405c17bbbd1f2a8", null ],
+    [ "resize", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a95a5c9daa3dca98debac452c1de2f375", null ],
+    [ "resize", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a469883af106575bb640ced5fb5c3aac6", null ],
+    [ "move", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a311f78cd1339a4f4e6072787b53c56e5", null ],
+    [ "move", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a556ab5137edaccfa7c0e399924bc77c2", null ],
+    [ "setOpacity", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#aa48f0e33862d4ac58d9a4abc806c5951", null ],
+    [ "setResizable", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a11b74707bade71b19563e376c4fbdb3b", null ],
+    [ "setIcon", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a29165a84e3fee5df9981b4b9bda1fd37", null ],
+    [ "setIcon", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a0796cc5918a6403c3a4dd343ea3c84b8", null ],
+    [ "setIcon", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a2f1c1a505813ea986e4f582f390dedaa", null ],
+    [ "setIcon", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a490930479f62c0e4864d8e313689fcc6", null ],
+    [ "maximize", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a230b9f2caa91e3e3e7a56c5d35a745af", null ],
+    [ "unmaximize", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#ab233c4bda7d2167a296474198ea7186d", null ],
+    [ "iconify", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a27e4e7443fa891c8186f891a03e2ac63", null ],
+    [ "deiconify", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#ac29e5adc442cb826759c0ed1ce08faae", null ],
+    [ "stick", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#aaa1ee96c4bf64c2015c0a8f6a907d06a", null ],
+    [ "unstick", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#aa4f9c0ce7c530623e981daacd39932ad", null ],
+    [ "fullscreen", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#aa13f29ccdfaa51f96592ffa982c019d7", null ],
+    [ "unfullscreen", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a984085f895388144eb611612a11188ff", null ],
+    [ "close", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a3e48b6a75dcf7fd326a5db50e3ee1aa6", null ],
+    [ "getOpacity", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a397acc3a164c12d2e956efba621421d7", null ],
+    [ "getSize", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#af2d530246343b09938fe1a6b3648c093", null ],
+    [ "getPos", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#af98003eaf6ad49a4c7e9293502cde863", null ],
+    [ "getTitle", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a8ebc7373dfe73fe888309803da801e31", null ],
+    [ "isResizable", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#ab5e09e70270f7b65dab11132413c1754", null ],
+    [ "isMaximized", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a40d28749288b535de2a602a5b1d51cc4", null ],
+    [ "isFocused", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a48bdc401dba02a7b7e9e27ce483b6729", null ],
+    [ "getNativeGtkWidget", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#aefe590210157cfd321085a5960f833d5", null ],
+    [ "connect", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a0bb30f31633a9e35d643ab4730a0018a", null ],
+    [ "start", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#ab1034b1eb4eef4799c770b57e594fa32", null ],
+    [ "Label", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a74b0083ac0ac6b3e797aa115d23e5e93", null ],
+    [ "Button", "d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#ae5c9617cce22f40fe602d9c88acfd2c3", null ]
+];

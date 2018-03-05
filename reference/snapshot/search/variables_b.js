@@ -1,7 +1,29 @@
 var searchData=
 [
-  ['m',['m',['../d1/d47/structAuroraFW_1_1Math_1_1Matrix.html#a7a989d099d4dc310bc3d5c1ce6d0aac0',1,'AuroraFW::Math::Matrix::m()'],['../d9/d92/structAuroraFW_1_1Math_1_1mat4.html#ac6a5a6c25f14cd84585a84386e467391',1,'AuroraFW::Math::mat4::m()']]],
-  ['maxdistance',['maxDistance',['../db/d05/structAuroraFW_1_1AudioManager_1_1AudioSource.html#aacf864715e6d12845b71eadc4bb8f216',1,'AuroraFW::AudioManager::AudioSource']]],
-  ['meddistance',['medDistance',['../db/d05/structAuroraFW_1_1AudioManager_1_1AudioSource.html#ae07bc12002503fef4681bdb8080fa043',1,'AuroraFW::AudioManager::AudioSource']]],
-  ['module',['MODULE',['../d0/da7/classglloader_1_1lang_1_1d_1_1generator_1_1DGenerator.html#af844a2ccc70f0bc477ff4c9866922391',1,'glloader.lang.d.generator.DGenerator.MODULE()'],['../d3/d9e/classglloader_1_1lang_1_1nim_1_1generator_1_1NimGenerator.html#ade0b35d3109f588b81186d14b1bdfc63',1,'glloader.lang.nim.generator.NimGenerator.MODULE()'],['../d9/d2a/classglloader_1_1lang_1_1volt_1_1generator_1_1VoltGenerator.html#ad1c80ba391c4e8960f0f1cdf4e5bd882',1,'glloader.lang.volt.generator.VoltGenerator.MODULE()']]]
+  ['lastframeactive',['LastFrameActive',['../d6/d8f/struct_im_gui_window.html#a6f3c194efabb4fd0a99be45fa5fe26f1',1,'ImGuiWindow']]],
+  ['lastitemdisplayrect',['LastItemDisplayRect',['../d8/d5e/struct_im_gui_draw_context.html#a328f21486b26d6d086c5059825e58021',1,'ImGuiDrawContext::LastItemDisplayRect()'],['../d3/dc0/struct_im_gui_item_hovered_data_backup.html#a8bab24e0a70229e2f0cb1aae0d510252',1,'ImGuiItemHoveredDataBackup::LastItemDisplayRect()']]],
+  ['lastitemid',['LastItemId',['../d8/d5e/struct_im_gui_draw_context.html#ad864847097dd259ce9cb69558173fe45',1,'ImGuiDrawContext::LastItemId()'],['../d3/dc0/struct_im_gui_item_hovered_data_backup.html#a5e0b18013d983269deba7976666fc501',1,'ImGuiItemHoveredDataBackup::LastItemId()']]],
+  ['lastitemrect',['LastItemRect',['../d8/d5e/struct_im_gui_draw_context.html#a214683a9c08e5812a492881791cd2f51',1,'ImGuiDrawContext::LastItemRect()'],['../d3/dc0/struct_im_gui_item_hovered_data_backup.html#ae489c222bed561950104a46ddf1387f3',1,'ImGuiItemHoveredDataBackup::LastItemRect()']]],
+  ['lastitemstatusflags',['LastItemStatusFlags',['../d8/d5e/struct_im_gui_draw_context.html#ab7e4169eff244de70b9743b42ec90fab',1,'ImGuiDrawContext::LastItemStatusFlags()'],['../d3/dc0/struct_im_gui_item_hovered_data_backup.html#a7454f4ebf549581f0e70625a010786cf',1,'ImGuiItemHoveredDataBackup::LastItemStatusFlags()']]],
+  ['layers',['Layers',['../de/d11/struct_im_draw_data_builder.html#a2d03f8c80dac68fc0e2565dd79307dea',1,'ImDrawDataBuilder']]],
+  ['layouttype',['LayoutType',['../d8/d5e/struct_im_gui_draw_context.html#a8516b32e30504c3037d34e93b7988d83',1,'ImGuiDrawContext']]],
+  ['libgl',['libGL',['../db/d0f/_g_l_loader_8c.html#a3c299869dbd023d474ce0f8d7d77a09a',1,'GLLoader.c']]],
+  ['license',['license',['../dd/dc4/namespacesetup.html#a8ed6f50a28bd6a8794f8e1153baa6de9',1,'setup']]],
+  ['load_5fgl_5fname',['LOAD_GL_NAME',['../db/d3f/classglloader_1_1lang_1_1volt_1_1generator_1_1_volt_generator.html#afd4c860255286e27ffb17f3810a3f412',1,'glloader::lang::volt::generator::VoltGenerator']]],
+  ['load_5fgl_5fprefix',['LOAD_GL_PREFIX',['../dd/d9a/classglloader_1_1lang_1_1d_1_1generator_1_1_d_generator.html#a754268c2e6211f8ad1ec6eb6de3860e2',1,'glloader.lang.d.generator.DGenerator.LOAD_GL_PREFIX()'],['../d7/dd9/classglloader_1_1lang_1_1nim_1_1generator_1_1_nim_generator.html#a22515888de74b499203d49e44e22c5fc',1,'glloader.lang.nim.generator.NimGenerator.LOAD_GL_PREFIX()']]],
+  ['load_5fopengl_5fdll',['LOAD_OPENGL_DLL',['../dd/d79/namespaceglloader_1_1lang_1_1c_1_1loader.html#a00a520babe8ab21db592c80157065144',1,'glloader::lang::c::loader']]],
+  ['load_5fopengl_5fdll_5fh',['LOAD_OPENGL_DLL_H',['../dd/d79/namespaceglloader_1_1lang_1_1c_1_1loader.html#a4112d20db6fcaf273d702b1df17b7f67',1,'glloader::lang::c::loader']]],
+  ['load_5fopengl_5fglapi_5fh',['LOAD_OPENGL_GLAPI_H',['../dd/d79/namespaceglloader_1_1lang_1_1c_1_1loader.html#a4907fcaf7ebbcacc2bbdb2af345fae42',1,'glloader::lang::c::loader']]],
+  ['loader',['LOADER',['../dd/d9a/classglloader_1_1lang_1_1d_1_1generator_1_1_d_generator.html#a8279227d42b8f5b351422e03613b28c1',1,'glloader.lang.d.generator.DGenerator.LOADER()'],['../db/d3f/classglloader_1_1lang_1_1volt_1_1generator_1_1_volt_generator.html#a52953870110796dffd44de6a574bc1f5',1,'glloader.lang.volt.generator.VoltGenerator.LOADER()'],['../da/d1c/classglloader_1_1lang_1_1common_1_1generator_1_1_generator.html#a251debdebed5642b1e2201c5909418f7',1,'glloader.lang.common.generator.Generator.loader()']]],
+  ['loca',['loca',['../d1/d3f/structstbtt__fontinfo.html#a15344195b181b50bde4f59ae7ca248c0',1,'stbtt_fontinfo']]],
+  ['local_5ffiles',['local_files',['../da/d1c/classglloader_1_1lang_1_1common_1_1generator_1_1_generator.html#a0e93d00dcc5b8dc21a94d1ed0455c68f',1,'glloader.lang.common.generator.Generator.local_files()'],['../d4/d29/classglloader_1_1lang_1_1common_1_1loader_1_1_base_loader.html#ab4a48dd9af9c6dc1f4e60500b8a2a9a1',1,'glloader.lang.common.loader.BaseLoader.local_files()']]],
+  ['logautoexpandmaxdepth',['LogAutoExpandMaxDepth',['../d7/da3/struct_im_gui_context.html#a153d8c6eee2acdd3676ca55aec7b1079',1,'ImGuiContext']]],
+  ['logclipboard',['LogClipboard',['../d7/da3/struct_im_gui_context.html#a676007461d3ce20e50a092573dc05064',1,'ImGuiContext']]],
+  ['logenabled',['LogEnabled',['../d7/da3/struct_im_gui_context.html#a2508bec1862aa4477eca2c79d6924b82',1,'ImGuiContext']]],
+  ['logfile',['LogFile',['../d7/da3/struct_im_gui_context.html#a73a73a599720fb933e4fb5e673dde131',1,'ImGuiContext']]],
+  ['logfilename',['LogFilename',['../d5/dbc/struct_im_gui_i_o.html#ae77a1beed11820366800645232a6ad1c',1,'ImGuiIO']]],
+  ['logger',['logger',['../d6/da7/namespaceglloader_1_1____main____.html#a2086a575ca8dc2ec35e22b3ef87ca8e7',1,'glloader.__main__.logger()'],['../d5/db7/namespaceglloader_1_1opener.html#aa61dfa74c1e5be04bde5b23d5787ada4',1,'glloader.opener.logger()']]],
+  ['loglineposy',['LogLinePosY',['../d8/d5e/struct_im_gui_draw_context.html#a4060735d06c860014c5359bcf76b1112',1,'ImGuiDrawContext']]],
+  ['logstartdepth',['LogStartDepth',['../d7/da3/struct_im_gui_context.html#a6ac157821b3a0eb9d0411bc477df8665',1,'ImGuiContext']]],
+  ['long_5fdescription',['long_description',['../dd/dc4/namespacesetup.html#a4cda9dbfb952875376a0749fe08a5bde',1,'setup']]]
 ];

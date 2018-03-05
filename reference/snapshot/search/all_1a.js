@@ -1,17 +1,10 @@
 var searchData=
 [
-  ['_7eapplication',['~Application',['../d2/d13/classAuroraFW_1_1Application.html#ac6c9e0aed68bb8d99a7b933b4aa7e1d8',1,'AuroraFW::Application::~Application()'],['../d6/dd2/classAuroraFW_1_1GEngine_1_1Application.html#a3deac4571a6addd5f6350c56dbf40eea',1,'AuroraFW::GEngine::Application::~Application()'],['../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#a0167084bcb7a3e789cb173e1c80d38f8',1,'AuroraFW::GUI::Application::~Application()']]],
-  ['_7eaudiobackend',['~AudioBackend',['../d9/d33/classAuroraFW_1_1AudioManager_1_1AudioBackend.html#a3a825c07f4165116e9ddb94a5858b9ee',1,'AuroraFW::AudioManager::AudioBackend']]],
-  ['_7eaudiodevice',['~AudioDevice',['../d6/de2/structAuroraFW_1_1AudioManager_1_1AudioDevice.html#acd8c3558922897d6fff873262ad92cab',1,'AuroraFW::AudioManager::AudioDevice']]],
-  ['_7eaudiolistener',['~AudioListener',['../dd/d78/classAuroraFW_1_1AudioManager_1_1AudioListener.html#ac15f3b140f6e61bf98d987369ae93850',1,'AuroraFW::AudioManager::AudioListener']]],
-  ['_7eaudiostream',['~AudioStream',['../d6/d5d/structAuroraFW_1_1AudioManager_1_1AudioStream.html#a69909e2c03033a1753477451bb525aae',1,'AuroraFW::AudioManager::AudioStream']]],
-  ['_7ebutton',['~Button',['../d0/da9/classAuroraFW_1_1GUI_1_1Button.html#a94367f77947ea0a2650a1d4efe07ee9e',1,'AuroraFW::GUI::Button']]],
-  ['_7eglbuffer',['~GLBuffer',['../d5/df2/classAuroraFW_1_1GEngine_1_1GLBuffer.html#a9cffc51708de888ae814554730869755',1,'AuroraFW::GEngine::GLBuffer']]],
-  ['_7eglprogram',['~GLProgram',['../d8/de4/classAuroraFW_1_1GEngine_1_1GLProgram.html#aa6e927505e7c9cd30fbe22605cdb9e5b',1,'AuroraFW::GEngine::GLProgram']]],
-  ['_7eglshader',['~GLShader',['../df/d81/classAuroraFW_1_1GEngine_1_1GLShader.html#a63a3a50bb8a2b2fed28e3006b47fe565',1,'AuroraFW::GEngine::GLShader']]],
-  ['_7eglvertexarray',['~GLVertexArray',['../d8/dc1/classAuroraFW_1_1GEngine_1_1GLVertexArray.html#ac759c1ae5af68d085784a8606584d8dc',1,'AuroraFW::GEngine::GLVertexArray']]],
-  ['_7eimage',['~Image',['../d1/dc4/classAuroraFW_1_1ImageManager_1_1Image.html#a2b51b70b9ebc365317e88ad6799ebbd0',1,'AuroraFW::ImageManager::Image']]],
-  ['_7einputmanager',['~InputManager',['../d0/d69/classAuroraFW_1_1GEngine_1_1InputManager.html#ad6b4b8a0c8d2c3e4b09f492501d1bae1',1,'AuroraFW::GEngine::InputManager']]],
-  ['_7elabel',['~Label',['../d2/d28/classAuroraFW_1_1GUI_1_1Label.html#a8c2ad9de94ee4b2cc28330917775f51e',1,'AuroraFW::GUI::Label']]],
-  ['_7ewindow',['~Window',['../dd/d43/classAuroraFW_1_1GEngine_1_1Window.html#a7693e1e9f09e0aee116c90d0e454ee93',1,'AuroraFW::GEngine::Window']]]
+  ['z',['z',['../de/d2a/struct_im_vec4.html#aba6a75356917a28c967954bb29133a1a',1,'ImVec4::z()'],['../df/da8/struct_aurora_f_w_1_1_math_1_1vec3.html#a91bc0734683247b173e404cb70433ed5',1,'AuroraFW::Math::vec3::z()'],['../d8/d6c/struct_aurora_f_w_1_1_math_1_1vec4.html#a6dc26017294068d74a8db1c24e697de8',1,'AuroraFW::Math::vec4::z()'],['../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a1483160fae141afea848a5393c286b2b',1,'z():&#160;Loader.h']]],
+  ['zfail',['zfail',['../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a0784d837e1696549a92220c9a838bafd',1,'Loader.h']]],
+  ['zfar',['zFar',['../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a1052a8235df129542aea6da80fbec6a1',1,'Loader.h']]],
+  ['zmax',['zmax',['../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a52fc0a3e9548e9c2ab1ad503d06b64e3',1,'Loader.h']]],
+  ['znear',['zNear',['../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a12d99226e590bbaaf0be69169eeb4834',1,'Loader.h']]],
+  ['zoffset',['zoffset',['../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a78276aa7b0c0355a1fc3501f7b8352a2',1,'Loader.h']]],
+  ['zpass',['zpass',['../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a47fbc9b2f9066297350fc4dcaa1977cc',1,'Loader.h']]]
 ];

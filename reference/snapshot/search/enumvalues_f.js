@@ -1,14 +1,6 @@
 var searchData=
 [
-  ['sendenvironmentflag',['SendEnvironmentFlag',['../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#ab6e45ca9683d88670312f5e8f48dd4faa010106a2866f4de287b2850cabd743d6',1,'AuroraFW::GUI::Application']]],
-  ['serviceflag',['ServiceFlag',['../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#ab6e45ca9683d88670312f5e8f48dd4faab4740f4993e44982309db1c4da5d9a91',1,'AuroraFW::GUI::Application']]],
-  ['shader',['Shader',['../df/d57/namespaceAuroraFW_1_1GEngine.html#adf3dbb935b84041d2fa85c8e3a244e4aaa88a92f4a0e793589f2341851a15c660',1,'AuroraFW::GEngine']]],
-  ['sourcelength',['SourceLength',['../df/d57/namespaceAuroraFW_1_1GEngine.html#aad0e7e5e0be563e3b39138fb8a6a63afa267a5f1c7152b9a458b454c5be6d81ba',1,'AuroraFW::GEngine']]],
-  ['staticcopy',['StaticCopy',['../d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#adefd2ea46ccf57f29ac7997374ee7133ad807e5ebbdcb7a8e4b8c861065b0e041',1,'AuroraFW::GEngine::GL']]],
-  ['staticdraw',['StaticDraw',['../d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#adefd2ea46ccf57f29ac7997374ee7133a76cfb69f2e13e0d7cc55a380390e2372',1,'AuroraFW::GEngine::GL']]],
-  ['staticread',['StaticRead',['../d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#adefd2ea46ccf57f29ac7997374ee7133a7f76053ace4608a4f8457350f41d2d90',1,'AuroraFW::GEngine::GL']]],
-  ['stop',['Stop',['../da/d8e/namespaceAuroraFW_1_1AudioManager.html#a341f33cc7f1f950226d71e669de748dca11a755d598c0c417f9a36758c3da7481',1,'AuroraFW::AudioManager']]],
-  ['streamcopy',['StreamCopy',['../d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#adefd2ea46ccf57f29ac7997374ee7133a551298ff96ce63aa3795f2d0d62b3fc4',1,'AuroraFW::GEngine::GL']]],
-  ['streamdraw',['StreamDraw',['../d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#adefd2ea46ccf57f29ac7997374ee7133ace16106d73748f729ffb76a6341d0ff8',1,'AuroraFW::GEngine::GL']]],
-  ['streamread',['StreamRead',['../d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html#adefd2ea46ccf57f29ac7997374ee7133af5e6322184aa89bb5dc9f002f424e12c',1,'AuroraFW::GEngine::GL']]]
+  ['read',['Read',['../db/d4d/namespace_aurora_f_w_1_1_image_manager.html#aae286801bc55666534c0bb6588c0e2e1affc81b73a7e2504746971f15917c18b7',1,'AuroraFW::ImageManager::Read()'],['../d4/df7/namespace_aurora_f_w_1_1_i_o.html#a0dd88e3c5a7761f0ad80825e0f43b9eaaf64bc2916f3ac55ddb394c509a5f5acc',1,'AuroraFW::IO::Read()']]],
+  ['red',['Red',['../d9/da3/namespace_aurora_f_w_1_1_c_l_i.html#a527b14bb403c1e0e62800a26d792bf13aee38e4d5dd68c4e440825018d549cb47',1,'AuroraFW::CLI::Red()'],['../d4/d63/namespace_aurora_f_w_1_1_g_engine.html#a753fcad509d1bf2bd9e74182276b4ceaaee38e4d5dd68c4e440825018d549cb47',1,'AuroraFW::GEngine::Red()']]],
+  ['right',['Right',['../d8/d9a/namespace_aurora_f_w_1_1_g_u_i.html#a57b454fae89cc0ddc715462fdfcaee57a92b09c7c48c520c3c55e497875da437c',1,'AuroraFW::GUI::Right()'],['../d8/d9a/namespace_aurora_f_w_1_1_g_u_i.html#ab2e256262fd290ec2be0505750f2a02ca92b09c7c48c520c3c55e497875da437c',1,'AuroraFW::GUI::Right()']]]
 ];

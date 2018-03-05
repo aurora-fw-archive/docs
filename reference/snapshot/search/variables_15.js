@@ -1,4 +1,30 @@
 var searchData=
 [
-  ['x',['x',['../d7/d33/structAuroraFW_1_1Math_1_1vec2.html#ad7c0e9072cbfb4f0332717d90c31dc54',1,'AuroraFW::Math::vec2::x()'],['../d3/d12/structAuroraFW_1_1Math_1_1vec3.html#af45f497006bc40a048a0a9f169fb05ae',1,'AuroraFW::Math::vec3::x()'],['../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#a2f243e40c74e9092f97c1ba9d9a4b642',1,'AuroraFW::Math::vec4::x()']]]
+  ['w',['w',['../de/d2a/struct_im_vec4.html#afeed5acd9f0d2043175f4da229d12a38',1,'ImVec4::w()'],['../d5/d50/structstbrp__rect.html#a248d43f1eb979c1e7b92ba6df431dec5',1,'stbrp_rect::w()'],['../d6/d7d/structstbtt____bitmap.html#afbd607426f0a457b1a871ed902eeb926',1,'stbtt__bitmap::w()'],['../d8/d6c/struct_aurora_f_w_1_1_math_1_1vec4.html#a2d10e2e7df593115b27e77194f8d078e',1,'AuroraFW::Math::vec4::w()']]],
+  ['wantcapturekeyboard',['WantCaptureKeyboard',['../d5/dbc/struct_im_gui_i_o.html#a458e4ca98d896adb16e3a41ec6d2b811',1,'ImGuiIO']]],
+  ['wantcapturekeyboardnextframe',['WantCaptureKeyboardNextFrame',['../d7/da3/struct_im_gui_context.html#a0372056c72eac8b3e6de06c404caa5b3',1,'ImGuiContext']]],
+  ['wantcapturemouse',['WantCaptureMouse',['../d5/dbc/struct_im_gui_i_o.html#af5b8add76c5d833a65df19b5456acd7e',1,'ImGuiIO']]],
+  ['wantcapturemousenextframe',['WantCaptureMouseNextFrame',['../d7/da3/struct_im_gui_context.html#a7e7a9bbeaac9519abe29818ce6c2cc3b',1,'ImGuiContext']]],
+  ['wantmovemouse',['WantMoveMouse',['../d5/dbc/struct_im_gui_i_o.html#a0bd366ca18e78bf58f674a355189eaf3',1,'ImGuiIO']]],
+  ['wanttextinput',['WantTextInput',['../d5/dbc/struct_im_gui_i_o.html#a0e53197e96187a57b2d86720bf163f4d',1,'ImGuiIO']]],
+  ['wanttextinputnextframe',['WantTextInputNextFrame',['../d7/da3/struct_im_gui_context.html#abe551d35ea5c1aa61a4d5c785c8e0d9d',1,'ImGuiContext']]],
+  ['was_5fpacked',['was_packed',['../d5/d50/structstbrp__rect.html#a74ba347755ce17f2f8a2ea66c612af49',1,'stbrp_rect']]],
+  ['wasactive',['WasActive',['../d6/d8f/struct_im_gui_window.html#ab346ec3a2f305948af05ec1871610a8f',1,'ImGuiWindow']]],
+  ['where',['where',['../d8/d4a/struct_stb_undo_record.html#a49e87adbb75a18ffba1f853ac974b31d',1,'StbUndoRecord']]],
+  ['width',['Width',['../dc/d02/struct_im_gui_menu_columns.html#a3cca7e65a4625a41a4b9c59c1aaea15d',1,'ImGuiMenuColumns::Width()'],['../da/d4d/struct_im_font_atlas_1_1_custom_rect.html#a961e02b6cda1eb69dfd2f2d40ae40d5f',1,'ImFontAtlas::CustomRect::Width()'],['../d7/dc7/structstbrp__context.html#a70cfcb2044ce8397cc440d28b30c09b2',1,'stbrp_context::width()'],['../d6/dc9/structstbtt__pack__context.html#a5da0b7b5d3b82d5fc75ea1c8945183fa',1,'stbtt_pack_context::width()'],['../d2/d9a/struct_aurora_f_w_1_1_g_engine_1_1_window_properties.html#aed7d463c1dd8383da3239bc2ea39aa02',1,'AuroraFW::GEngine::WindowProperties::width()'],['../db/dfa/simple_8c.html#a2474a5474cbff19523a51eb1de01cda4',1,'width():&#160;simple.c'],['../d6/d39/hellowindow2_8cpp.html#a02a2dea7b13a988d0086162033ed95a0',1,'WIDTH():&#160;hellowindow2.cpp']]],
+  ['window',['Window',['../d9/d83/struct_im_gui_popup_ref.html#a471027209038d1d59280a84c8d236f34',1,'ImGuiPopupRef::Window()'],['../d5/d10/struct_im_gui_nav_move_result.html#a23b95c81d85a99990560c4072a135eb6',1,'ImGuiNavMoveResult::Window()'],['../df/d57/class_aurora_f_w_1_1_g_engine_1_1_window.html#ab1458ab3df19c7a82daddb8a23e66021',1,'AuroraFW::GEngine::Window::window()']]],
+  ['windowbordersize',['WindowBorderSize',['../d6/d8f/struct_im_gui_window.html#ad51248766b9a815ce20b0d11e13b42b0',1,'ImGuiWindow::WindowBorderSize()'],['../d7/d12/struct_im_gui_style.html#a4e2af4dd711f57ee841f9c843a18bec2',1,'ImGuiStyle::WindowBorderSize()']]],
+  ['windowminsize',['WindowMinSize',['../d7/d12/struct_im_gui_style.html#a060b2f743a086d0f0fee4cd5b3f372d4',1,'ImGuiStyle']]],
+  ['windowpadding',['WindowPadding',['../d6/d8f/struct_im_gui_window.html#a538d3d70ad8f71a4ec58a6a0560b2f02',1,'ImGuiWindow::WindowPadding()'],['../d7/d12/struct_im_gui_style.html#a37f156b53e6dcc99ff57366ceafe8b50',1,'ImGuiStyle::WindowPadding()']]],
+  ['windowrectclipped',['WindowRectClipped',['../d6/d8f/struct_im_gui_window.html#ae0af9ff6c93baad6848143dd9d742ddd',1,'ImGuiWindow']]],
+  ['windowrounding',['WindowRounding',['../d6/d8f/struct_im_gui_window.html#a871ebbbfdf354600a3833c270d6e6ef4',1,'ImGuiWindow::WindowRounding()'],['../d7/d12/struct_im_gui_style.html#acd902c2ab4b53d4bb0f64da608320894',1,'ImGuiStyle::WindowRounding()']]],
+  ['windows',['Windows',['../d7/da3/struct_im_gui_context.html#a0f59a9a861d097be066c6cc106e40f3e',1,'ImGuiContext']]],
+  ['windowsactivecount',['WindowsActiveCount',['../d7/da3/struct_im_gui_context.html#a95237c5f9eb869da0f1947c54a521489',1,'ImGuiContext']]],
+  ['windowsbyid',['WindowsById',['../d7/da3/struct_im_gui_context.html#adc1e46e1c1582a0f0eb74d957efedf98',1,'ImGuiContext']]],
+  ['windowssortbuffer',['WindowsSortBuffer',['../d7/da3/struct_im_gui_context.html#af33de778de28b057fa7a42e4cbe0017a',1,'ImGuiContext']]],
+  ['windowtitlealign',['WindowTitleAlign',['../d7/d12/struct_im_gui_style.html#a3fc57a15ab8f206045f1e5dfccd8b2e7',1,'ImGuiStyle']]],
+  ['winput',['wInput',['../d9/da3/namespace_aurora_f_w_1_1_c_l_i.html#a9909b2ae2f3efca7bb4617589edf81bf',1,'AuroraFW::CLI']]],
+  ['woutput',['wOutput',['../d9/da3/namespace_aurora_f_w_1_1_c_l_i.html#a35b767627baf19696265edda723f1352',1,'AuroraFW::CLI']]],
+  ['writeaccessed',['WriteAccessed',['../d6/d8f/struct_im_gui_window.html#a3c29e870f485d115e7715e149c4dfc4d',1,'ImGuiWindow']]],
+  ['writeallfn',['WriteAllFn',['../d2/d98/struct_im_gui_settings_handler.html#a8f9d8923be4df1b5e6c17f9857b955f4',1,'ImGuiSettingsHandler']]]
 ];

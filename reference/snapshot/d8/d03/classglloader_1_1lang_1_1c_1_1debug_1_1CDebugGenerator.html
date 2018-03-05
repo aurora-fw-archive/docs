@@ -9,10 +9,19 @@
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -20,9 +29,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.gif"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Aurora Framework
+   &#160;<span id="projectnumber">${AURORAFW_VERSION}</span>
    </div>
+   <div id="projectbrief">A Powerful General Purpose Framework</div>
   </td>
  </tr>
  </tbody>
@@ -45,6 +57,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('d8/d03/classglloader_1_1lang_1_1c_1_1debug_1_1CDebugGenerator.html','../../');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -59,14 +88,10 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="../../da/d1e/namespaceglloader.html">glloader</a></li><li class="navelem"><a class="el" href="../../da/dd4/namespaceglloader_1_1lang.html">lang</a></li><li class="navelem"><a class="el" href="../../d0/dd2/namespaceglloader_1_1lang_1_1c.html">c</a></li><li class="navelem"><a class="el" href="../../da/df1/namespaceglloader_1_1lang_1_1c_1_1debug.html">debug</a></li><li class="navelem"><a class="el" href="../../d8/d03/classglloader_1_1lang_1_1c_1_1debug_1_1CDebugGenerator.html">CDebugGenerator</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Data Fields</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">glloader.lang.c.debug.CDebugGenerator Class Reference</div>  </div>
@@ -85,125 +110,531 @@ Inheritance diagram for glloader.lang.c.debug.CDebugGenerator:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a95e2f5eb66f4d978c7767a642ce7ae3c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d03/classglloader_1_1lang_1_1c_1_1debug_1_1CDebugGenerator.html#a95e2f5eb66f4d978c7767a642ce7ae3c">write_code_head</a> (self, f)</td></tr>
+<tr class="memitem:a95e2f5eb66f4d978c7767a642ce7ae3c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d03/classglloader_1_1lang_1_1c_1_1debug_1_1CDebugGenerator.html#a95e2f5eb66f4d978c7767a642ce7ae3c">write_code_head</a> (self, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a691492ec0bd6383f91200e49f6ae40ed">f</a>)</td></tr>
 <tr class="separator:a95e2f5eb66f4d978c7767a642ce7ae3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1c69117b3e66a40f0b06be9e294d956"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d03/classglloader_1_1lang_1_1c_1_1debug_1_1CDebugGenerator.html#ac1c69117b3e66a40f0b06be9e294d956">write_api_header</a> (self, f)</td></tr>
+<tr class="memitem:ac1c69117b3e66a40f0b06be9e294d956"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d03/classglloader_1_1lang_1_1c_1_1debug_1_1CDebugGenerator.html#ac1c69117b3e66a40f0b06be9e294d956">write_api_header</a> (self, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a691492ec0bd6383f91200e49f6ae40ed">f</a>)</td></tr>
 <tr class="separator:ac1c69117b3e66a40f0b06be9e294d956"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a329815edd7d0b4c09746cd1ddf50ad82"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d03/classglloader_1_1lang_1_1c_1_1debug_1_1CDebugGenerator.html#a329815edd7d0b4c09746cd1ddf50ad82">write_function_prototype</a> (self, fobj, func)</td></tr>
+<tr class="memitem:a329815edd7d0b4c09746cd1ddf50ad82"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d03/classglloader_1_1lang_1_1c_1_1debug_1_1CDebugGenerator.html#a329815edd7d0b4c09746cd1ddf50ad82">write_function_prototype</a> (self, fobj, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a18ae3ab36a07e388833b568cfdfa90c8">func</a>)</td></tr>
 <tr class="separator:a329815edd7d0b4c09746cd1ddf50ad82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26e54c07fed2b0f143351a2e781cdf55"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d03/classglloader_1_1lang_1_1c_1_1debug_1_1CDebugGenerator.html#a26e54c07fed2b0f143351a2e781cdf55">write_function</a> (self, fobj, func)</td></tr>
+<tr class="memitem:a26e54c07fed2b0f143351a2e781cdf55"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d03/classglloader_1_1lang_1_1c_1_1debug_1_1CDebugGenerator.html#a26e54c07fed2b0f143351a2e781cdf55">write_function</a> (self, fobj, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a18ae3ab36a07e388833b568cfdfa90c8">func</a>)</td></tr>
 <tr class="separator:a26e54c07fed2b0f143351a2e781cdf55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html">glloader.lang.c.generator.CGenerator</a></td></tr>
-<tr class="memitem:aa2227cb05181e8e171a41b0352d8440c inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#aa2227cb05181e8e171a41b0352d8440c">open</a> (self)</td></tr>
-<tr class="separator:aa2227cb05181e8e171a41b0352d8440c inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09660fcc54a2616da83e18568d096457 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a09660fcc54a2616da83e18568d096457">close</a> (self)</td></tr>
-<tr class="separator:a09660fcc54a2616da83e18568d096457 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbc9db52b1a0b28d3beb3be6e1cf8292 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#adbc9db52b1a0b28d3beb3be6e1cf8292">generate_header</a> (self)</td></tr>
-<tr class="separator:adbc9db52b1a0b28d3beb3be6e1cf8292 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb3025a2b2f65b8ee1f3133e14807536 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#afb3025a2b2f65b8ee1f3133e14807536">generate_loader</a> (self, features, extensions)</td></tr>
-<tr class="separator:afb3025a2b2f65b8ee1f3133e14807536 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8abca0a4ea7dc1f4e525db857f412e2c inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a8abca0a4ea7dc1f4e525db857f412e2c">generate_types</a> (self, types)</td></tr>
-<tr class="separator:a8abca0a4ea7dc1f4e525db857f412e2c inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8e548cc449de1d8765e64147e5a4db9 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#ae8e548cc449de1d8765e64147e5a4db9">generate_features</a> (self, features)</td></tr>
-<tr class="separator:ae8e548cc449de1d8765e64147e5a4db9 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa88d09adb0f34595061788bcd774735a inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#aa88d09adb0f34595061788bcd774735a">generate_extensions</a> (self, extensions, enums, functions)</td></tr>
-<tr class="separator:aa88d09adb0f34595061788bcd774735a inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3fb9eff30e1e4dc6f67b0c5042b8739 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#aa3fb9eff30e1e4dc6f67b0c5042b8739">write_functions</a> (self, f, write, written, extensions)</td></tr>
-<tr class="separator:aa3fb9eff30e1e4dc6f67b0c5042b8739 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ec16a006ba0fc756d8a16ce83419fca inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a4ec16a006ba0fc756d8a16ce83419fca">write_enums</a> (self, f, written, extensions)</td></tr>
-<tr class="separator:a4ec16a006ba0fc756d8a16ce83419fca inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31db6484770f93130f4ffe74dee567b9 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a31db6484770f93130f4ffe74dee567b9">write_api_header</a> (self, f)</td></tr>
-<tr class="separator:a31db6484770f93130f4ffe74dee567b9 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3200ea964cde3df5153a739177e9695f inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a3200ea964cde3df5153a739177e9695f">write_code_head</a> (self, f)</td></tr>
-<tr class="separator:a3200ea964cde3df5153a739177e9695f inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71e07fc3d4cf453cdaacb24221e3f5e4 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a71e07fc3d4cf453cdaacb24221e3f5e4">write_extern</a> (self, fobj)</td></tr>
-<tr class="separator:a71e07fc3d4cf453cdaacb24221e3f5e4 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e7d5c6d56bb7bb1dac504b8d1e49066 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a7e7d5c6d56bb7bb1dac504b8d1e49066">write_extern_end</a> (self, fobj)</td></tr>
-<tr class="separator:a7e7d5c6d56bb7bb1dac504b8d1e49066 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50db0c8e7410ff5773a45c3d81e37906 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a50db0c8e7410ff5773a45c3d81e37906">write_function_def</a> (self, fobj, func)</td></tr>
-<tr class="separator:a50db0c8e7410ff5773a45c3d81e37906 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9df13d76db565ec428353eaf740341bf inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a9df13d76db565ec428353eaf740341bf">write_function_prototype</a> (self, fobj, func)</td></tr>
-<tr class="separator:a9df13d76db565ec428353eaf740341bf inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b44e3c95a4c068bf4b4caa3b2ac0fd5 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a4b44e3c95a4c068bf4b4caa3b2ac0fd5">write_function</a> (self, fobj, func)</td></tr>
-<tr class="separator:a4b44e3c95a4c068bf4b4caa3b2ac0fd5 inherit pub_methods_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html">glloader.lang.common.generator.Generator</a></td></tr>
-<tr class="memitem:aca78a278b0be8c20d03ae6e244a07f97 inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#aca78a278b0be8c20d03ae6e244a07f97">__init__</a> (self, <a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#ae720667e4ebe011e21938f40e42dc716">path</a>, <a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a08f449c6d2a40229426f429b0c6338af">spec</a>, <a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#ad795e23e33dcbdccecebc7e7ef9d6ce9">api</a>, <a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a94ba6967c3968d7c981a8dbaaafc7204">extension_names</a>=None, <a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a251debdebed5642b1e2201c5909418f7">loader</a>=None, <a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a6021498f9d932fe45f310a9e819dbc06">opener</a>=None, <a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a0e93d00dcc5b8dc21a94d1ed0455c68f">local_files</a>=False, <a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a471c2222a85acab164f1fdf1a28212a1">omit_khrplatform</a>=False, header_template=<a class="el" href="../../d6/dfa/namespaceglloader_1_1lang_1_1common_1_1generator.html#a85cca6a0cbdb91ece2f2b13e0af50a97">HEADER_TEMPLATE</a>)</td></tr>
-<tr class="separator:aca78a278b0be8c20d03ae6e244a07f97 inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71a92f994d6998355fb4ff6e88fd33ab inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a71a92f994d6998355fb4ff6e88fd33ab">open</a> (self)</td></tr>
-<tr class="separator:a71a92f994d6998355fb4ff6e88fd33ab inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03f8d37b5c69ea338406fe9b1f63808d inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a03f8d37b5c69ea338406fe9b1f63808d">close</a> (self)</td></tr>
-<tr class="separator:a03f8d37b5c69ea338406fe9b1f63808d inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf1bc0c5460478fc00efa5c52e2c572c inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#abf1bc0c5460478fc00efa5c52e2c572c">__enter__</a> (self)</td></tr>
-<tr class="separator:abf1bc0c5460478fc00efa5c52e2c572c inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3866211826ba0a815f5bf110c769c708 inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a3866211826ba0a815f5bf110c769c708">__exit__</a> (self, exc_type, exc_value, traceback)</td></tr>
-<tr class="separator:a3866211826ba0a815f5bf110c769c708 inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad3c00c451595e185da833cb8a22b2da inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#aad3c00c451595e185da833cb8a22b2da">generate</a> (self)</td></tr>
-<tr class="separator:aad3c00c451595e185da833cb8a22b2da inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4878b998ebf2b7f1216a3aedc61471a8 inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a4878b998ebf2b7f1216a3aedc61471a8">header</a> (self)</td></tr>
-<tr class="separator:a4878b998ebf2b7f1216a3aedc61471a8 inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e39f35471c1a157707909f568f3577e inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a6e39f35471c1a157707909f568f3577e">commandline</a> (self)</td></tr>
-<tr class="separator:a6e39f35471c1a157707909f568f3577e inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8dda9c9ebbadf8ae28880efba6748d9c inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a8dda9c9ebbadf8ae28880efba6748d9c">online</a> (self)</td></tr>
-<tr class="separator:a8dda9c9ebbadf8ae28880efba6748d9c inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6eefa2af678529006257675e7f0a2915 inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a6eefa2af678529006257675e7f0a2915">generate_header</a> (self)</td></tr>
-<tr class="separator:a6eefa2af678529006257675e7f0a2915 inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8cb9811d6b496ed49d36afec112333a inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#ab8cb9811d6b496ed49d36afec112333a">generate_loader</a> (self, features, extensions)</td></tr>
-<tr class="separator:ab8cb9811d6b496ed49d36afec112333a inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43883b63c79ce3fc1bbba22b3d1ab03b inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a43883b63c79ce3fc1bbba22b3d1ab03b">generate_types</a> (self, types)</td></tr>
-<tr class="separator:a43883b63c79ce3fc1bbba22b3d1ab03b inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5ab26a7186c9324fedd0952ef7663bd inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#ac5ab26a7186c9324fedd0952ef7663bd">generate_features</a> (self, features)</td></tr>
-<tr class="separator:ac5ab26a7186c9324fedd0952ef7663bd inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ae88ef7e9642b44fda5457503f75949 inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a4ae88ef7e9642b44fda5457503f75949">generate_extensions</a> (self, extensions, enums, functions)</td></tr>
-<tr class="separator:a4ae88ef7e9642b44fda5457503f75949 inherit pub_methods_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2227cb05181e8e171a41b0352d8440c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#aa2227cb05181e8e171a41b0352d8440c">open</a> (self)</td></tr>
+<tr class="separator:aa2227cb05181e8e171a41b0352d8440c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09660fcc54a2616da83e18568d096457"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a09660fcc54a2616da83e18568d096457">close</a> (self)</td></tr>
+<tr class="separator:a09660fcc54a2616da83e18568d096457"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbc9db52b1a0b28d3beb3be6e1cf8292"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#adbc9db52b1a0b28d3beb3be6e1cf8292">generate_header</a> (self)</td></tr>
+<tr class="separator:adbc9db52b1a0b28d3beb3be6e1cf8292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb3025a2b2f65b8ee1f3133e14807536"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#afb3025a2b2f65b8ee1f3133e14807536">generate_loader</a> (self, features, extensions)</td></tr>
+<tr class="separator:afb3025a2b2f65b8ee1f3133e14807536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8abca0a4ea7dc1f4e525db857f412e2c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a8abca0a4ea7dc1f4e525db857f412e2c">generate_types</a> (self, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a4acc56c8d89f835adc106648c5d9f491">types</a>)</td></tr>
+<tr class="separator:a8abca0a4ea7dc1f4e525db857f412e2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8e548cc449de1d8765e64147e5a4db9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#ae8e548cc449de1d8765e64147e5a4db9">generate_features</a> (self, features)</td></tr>
+<tr class="separator:ae8e548cc449de1d8765e64147e5a4db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa88d09adb0f34595061788bcd774735a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#aa88d09adb0f34595061788bcd774735a">generate_extensions</a> (self, extensions, enums, functions)</td></tr>
+<tr class="separator:aa88d09adb0f34595061788bcd774735a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3fb9eff30e1e4dc6f67b0c5042b8739"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#aa3fb9eff30e1e4dc6f67b0c5042b8739">write_functions</a> (self, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a691492ec0bd6383f91200e49f6ae40ed">f</a>, write, written, extensions)</td></tr>
+<tr class="separator:aa3fb9eff30e1e4dc6f67b0c5042b8739"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ec16a006ba0fc756d8a16ce83419fca"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a4ec16a006ba0fc756d8a16ce83419fca">write_enums</a> (self, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a691492ec0bd6383f91200e49f6ae40ed">f</a>, written, extensions)</td></tr>
+<tr class="separator:a4ec16a006ba0fc756d8a16ce83419fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71e07fc3d4cf453cdaacb24221e3f5e4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a71e07fc3d4cf453cdaacb24221e3f5e4">write_extern</a> (self, fobj)</td></tr>
+<tr class="separator:a71e07fc3d4cf453cdaacb24221e3f5e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e7d5c6d56bb7bb1dac504b8d1e49066"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a7e7d5c6d56bb7bb1dac504b8d1e49066">write_extern_end</a> (self, fobj)</td></tr>
+<tr class="separator:a7e7d5c6d56bb7bb1dac504b8d1e49066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50db0c8e7410ff5773a45c3d81e37906"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a50db0c8e7410ff5773a45c3d81e37906">write_function_def</a> (self, fobj, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a18ae3ab36a07e388833b568cfdfa90c8">func</a>)</td></tr>
+<tr class="separator:a50db0c8e7410ff5773a45c3d81e37906"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf1bc0c5460478fc00efa5c52e2c572c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#abf1bc0c5460478fc00efa5c52e2c572c">__enter__</a> (self)</td></tr>
+<tr class="separator:abf1bc0c5460478fc00efa5c52e2c572c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3866211826ba0a815f5bf110c769c708"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a3866211826ba0a815f5bf110c769c708">__exit__</a> (self, exc_type, exc_value, traceback)</td></tr>
+<tr class="separator:a3866211826ba0a815f5bf110c769c708"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad3c00c451595e185da833cb8a22b2da"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#aad3c00c451595e185da833cb8a22b2da">generate</a> (self)</td></tr>
+<tr class="separator:aad3c00c451595e185da833cb8a22b2da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4878b998ebf2b7f1216a3aedc61471a8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a4878b998ebf2b7f1216a3aedc61471a8">header</a> (self)</td></tr>
+<tr class="separator:a4878b998ebf2b7f1216a3aedc61471a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e39f35471c1a157707909f568f3577e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a6e39f35471c1a157707909f568f3577e">commandline</a> (self)</td></tr>
+<tr class="separator:a6e39f35471c1a157707909f568f3577e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dda9c9ebbadf8ae28880efba6748d9c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a8dda9c9ebbadf8ae28880efba6748d9c">online</a> (self)</td></tr>
+<tr class="separator:a8dda9c9ebbadf8ae28880efba6748d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Data Fields</h2></td></tr>
+<tr class="memitem:a5863a78c3eed58ec8bf1763fac1d8980"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a5863a78c3eed58ec8bf1763fac1d8980">h_include</a></td></tr>
+<tr class="separator:a5863a78c3eed58ec8bf1763fac1d8980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae720667e4ebe011e21938f40e42dc716"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#ae720667e4ebe011e21938f40e42dc716">path</a></td></tr>
+<tr class="separator:ae720667e4ebe011e21938f40e42dc716"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08f449c6d2a40229426f429b0c6338af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a08f449c6d2a40229426f429b0c6338af">spec</a></td></tr>
+<tr class="separator:a08f449c6d2a40229426f429b0c6338af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad795e23e33dcbdccecebc7e7ef9d6ce9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#ad795e23e33dcbdccecebc7e7ef9d6ce9">api</a></td></tr>
+<tr class="separator:ad795e23e33dcbdccecebc7e7ef9d6ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94ba6967c3968d7c981a8dbaaafc7204"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a94ba6967c3968d7c981a8dbaaafc7204">extension_names</a></td></tr>
+<tr class="separator:a94ba6967c3968d7c981a8dbaaafc7204"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d4b7226c5a579536aeb01d1af4a81a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a3d4b7226c5a579536aeb01d1af4a81a9">has_loader</a></td></tr>
+<tr class="separator:a3d4b7226c5a579536aeb01d1af4a81a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a251debdebed5642b1e2201c5909418f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a251debdebed5642b1e2201c5909418f7">loader</a></td></tr>
+<tr class="separator:a251debdebed5642b1e2201c5909418f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6021498f9d932fe45f310a9e819dbc06"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a6021498f9d932fe45f310a9e819dbc06">opener</a></td></tr>
+<tr class="separator:a6021498f9d932fe45f310a9e819dbc06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e93d00dcc5b8dc21a94d1ed0455c68f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a0e93d00dcc5b8dc21a94d1ed0455c68f">local_files</a></td></tr>
+<tr class="separator:a0e93d00dcc5b8dc21a94d1ed0455c68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a471c2222a85acab164f1fdf1a28212a1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a471c2222a85acab164f1fdf1a28212a1">omit_khrplatform</a></td></tr>
+<tr class="separator:a471c2222a85acab164f1fdf1a28212a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a338ebf37261829f983f444d5a12bb3c6"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d03/classglloader_1_1lang_1_1c_1_1debug_1_1CDebugGenerator.html#a338ebf37261829f983f444d5a12bb3c6">NAME</a> = 'c-debug'</td></tr>
+<tr class="memitem:a338ebf37261829f983f444d5a12bb3c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d03/classglloader_1_1lang_1_1c_1_1debug_1_1CDebugGenerator.html#a338ebf37261829f983f444d5a12bb3c6">NAME</a> = '<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a1f2d7f8147412c43ba2303a56f97ee73">c</a>-debug'</td></tr>
 <tr class="separator:a338ebf37261829f983f444d5a12bb3c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab206b1acc30952f733d232dda3022b61"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d03/classglloader_1_1lang_1_1c_1_1debug_1_1CDebugGenerator.html#ab206b1acc30952f733d232dda3022b61">NAME_LONG</a> = 'C/C++ Debug'</td></tr>
+<tr class="memitem:ab206b1acc30952f733d232dda3022b61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d03/classglloader_1_1lang_1_1c_1_1debug_1_1CDebugGenerator.html#ab206b1acc30952f733d232dda3022b61">NAME_LONG</a> = 'C/C++ Debug'</td></tr>
 <tr class="separator:ab206b1acc30952f733d232dda3022b61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_static_attribs_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator')"><img src="../../closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html">glloader.lang.c.generator.CGenerator</a></td></tr>
-<tr class="memitem:adef85fbb17bbc1bbe6abef0a761996d3 inherit pub_static_attribs_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#adef85fbb17bbc1bbe6abef0a761996d3">NAME</a> = 'c'</td></tr>
-<tr class="separator:adef85fbb17bbc1bbe6abef0a761996d3 inherit pub_static_attribs_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a838c30334ca939d64cfe5c9e7d202333 inherit pub_static_attribs_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a838c30334ca939d64cfe5c9e7d202333">NAME_LONG</a> = 'C/C++'</td></tr>
-<tr class="separator:a838c30334ca939d64cfe5c9e7d202333 inherit pub_static_attribs_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_static_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator')"><img src="../../closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html">glloader.lang.common.generator.Generator</a></td></tr>
-<tr class="memitem:a16d84f9ad58b245b4b2b4c0b10d23696 inherit pub_static_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a16d84f9ad58b245b4b2b4c0b10d23696">NAME</a> = None</td></tr>
-<tr class="separator:a16d84f9ad58b245b4b2b4c0b10d23696 inherit pub_static_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32e6fe4438d308cd8af9a67a8411a090 inherit pub_static_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a32e6fe4438d308cd8af9a67a8411a090">NAME_LONG</a> = None</td></tr>
-<tr class="separator:a32e6fe4438d308cd8af9a67a8411a090 inherit pub_static_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5983b456b9640b2757e72bfe8759ed4e inherit pub_static_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a5983b456b9640b2757e72bfe8759ed4e">URL</a> = 'http://glad.dav1d.de'</td></tr>
-<tr class="separator:a5983b456b9640b2757e72bfe8759ed4e inherit pub_static_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_attribs_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator')"><img src="../../closed.png" alt="-"/>&#160;Data Fields inherited from <a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html">glloader.lang.c.generator.CGenerator</a></td></tr>
-<tr class="memitem:a5863a78c3eed58ec8bf1763fac1d8980 inherit pub_attribs_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a5863a78c3eed58ec8bf1763fac1d8980">h_include</a></td></tr>
-<tr class="separator:a5863a78c3eed58ec8bf1763fac1d8980 inherit pub_attribs_classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator')"><img src="../../closed.png" alt="-"/>&#160;Data Fields inherited from <a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html">glloader.lang.common.generator.Generator</a></td></tr>
-<tr class="memitem:ae720667e4ebe011e21938f40e42dc716 inherit pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#ae720667e4ebe011e21938f40e42dc716">path</a></td></tr>
-<tr class="separator:ae720667e4ebe011e21938f40e42dc716 inherit pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08f449c6d2a40229426f429b0c6338af inherit pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a08f449c6d2a40229426f429b0c6338af">spec</a></td></tr>
-<tr class="separator:a08f449c6d2a40229426f429b0c6338af inherit pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad795e23e33dcbdccecebc7e7ef9d6ce9 inherit pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#ad795e23e33dcbdccecebc7e7ef9d6ce9">api</a></td></tr>
-<tr class="separator:ad795e23e33dcbdccecebc7e7ef9d6ce9 inherit pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94ba6967c3968d7c981a8dbaaafc7204 inherit pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a94ba6967c3968d7c981a8dbaaafc7204">extension_names</a></td></tr>
-<tr class="separator:a94ba6967c3968d7c981a8dbaaafc7204 inherit pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d4b7226c5a579536aeb01d1af4a81a9 inherit pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a3d4b7226c5a579536aeb01d1af4a81a9">has_loader</a></td></tr>
-<tr class="separator:a3d4b7226c5a579536aeb01d1af4a81a9 inherit pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a251debdebed5642b1e2201c5909418f7 inherit pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a251debdebed5642b1e2201c5909418f7">loader</a></td></tr>
-<tr class="separator:a251debdebed5642b1e2201c5909418f7 inherit pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6021498f9d932fe45f310a9e819dbc06 inherit pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a6021498f9d932fe45f310a9e819dbc06">opener</a></td></tr>
-<tr class="separator:a6021498f9d932fe45f310a9e819dbc06 inherit pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e93d00dcc5b8dc21a94d1ed0455c68f inherit pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a0e93d00dcc5b8dc21a94d1ed0455c68f">local_files</a></td></tr>
-<tr class="separator:a0e93d00dcc5b8dc21a94d1ed0455c68f inherit pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a471c2222a85acab164f1fdf1a28212a1 inherit pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a471c2222a85acab164f1fdf1a28212a1">omit_khrplatform</a></td></tr>
-<tr class="separator:a471c2222a85acab164f1fdf1a28212a1 inherit pub_attribs_classglloader_1_1lang_1_1common_1_1generator_1_1Generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5983b456b9640b2757e72bfe8759ed4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a5983b456b9640b2757e72bfe8759ed4e">URL</a> = 'http://glad.dav1d.de'</td></tr>
+<tr class="separator:a5983b456b9640b2757e72bfe8759ed4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="../../d2/dee/debug_8py_source.html#l00067">67</a> of file <a class="el" href="../../d2/dee/debug_8py_source.html">debug.py</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="abf1bc0c5460478fc00efa5c52e2c572c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf1bc0c5460478fc00efa5c52e2c572c">&#9670;&nbsp;</a></span>__enter__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def glloader.lang.common.generator.Generator.__enter__ </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/common_2generator_8py_source.html#l00079">79</a> of file <a class="el" href="../../d5/d3a/common_2generator_8py_source.html">common/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="a3866211826ba0a815f5bf110c769c708"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3866211826ba0a815f5bf110c769c708">&#9670;&nbsp;</a></span>__exit__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def glloader.lang.common.generator.Generator.__exit__ </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>exc_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>exc_value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>traceback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/common_2generator_8py_source.html#l00083">83</a> of file <a class="el" href="../../d5/d3a/common_2generator_8py_source.html">common/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="a09660fcc54a2616da83e18568d096457"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09660fcc54a2616da83e18568d096457">&#9670;&nbsp;</a></span>close()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def glloader.lang.c.generator.CGenerator.close </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/dd3/c_2generator_8py_source.html#l00047">47</a> of file <a class="el" href="../../d2/dd3/c_2generator_8py_source.html">c/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="a6e39f35471c1a157707909f568f3577e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e39f35471c1a157707909f568f3577e">&#9670;&nbsp;</a></span>commandline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def glloader.lang.common.generator.Generator.commandline </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/common_2generator_8py_source.html#l00177">177</a> of file <a class="el" href="../../d5/d3a/common_2generator_8py_source.html">common/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="aad3c00c451595e185da833cb8a22b2da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad3c00c451595e185da833cb8a22b2da">&#9670;&nbsp;</a></span>generate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def glloader.lang.common.generator.Generator.generate </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/common_2generator_8py_source.html#l00086">86</a> of file <a class="el" href="../../d5/d3a/common_2generator_8py_source.html">common/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="aa88d09adb0f34595061788bcd774735a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa88d09adb0f34595061788bcd774735a">&#9670;&nbsp;</a></span>generate_extensions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def glloader.lang.c.generator.CGenerator.generate_extensions </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>extensions</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>enums</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>functions</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/dd3/c_2generator_8py_source.html#l00209">209</a> of file <a class="el" href="../../d2/dd3/c_2generator_8py_source.html">c/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="ae8e548cc449de1d8765e64147e5a4db9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8e548cc449de1d8765e64147e5a4db9">&#9670;&nbsp;</a></span>generate_features()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def glloader.lang.c.generator.CGenerator.generate_features </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>features</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/dd3/c_2generator_8py_source.html#l00182">182</a> of file <a class="el" href="../../d2/dd3/c_2generator_8py_source.html">c/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="adbc9db52b1a0b28d3beb3be6e1cf8292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbc9db52b1a0b28d3beb3be6e1cf8292">&#9670;&nbsp;</a></span>generate_header()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def glloader.lang.c.generator.CGenerator.generate_header </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/dd3/c_2generator_8py_source.html#l00051">51</a> of file <a class="el" href="../../d2/dd3/c_2generator_8py_source.html">c/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="afb3025a2b2f65b8ee1f3133e14807536"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb3025a2b2f65b8ee1f3133e14807536">&#9670;&nbsp;</a></span>generate_loader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def glloader.lang.c.generator.CGenerator.generate_loader </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>features</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>extensions</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/dd3/c_2generator_8py_source.html#l00060">60</a> of file <a class="el" href="../../d2/dd3/c_2generator_8py_source.html">c/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="a8abca0a4ea7dc1f4e525db857f412e2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8abca0a4ea7dc1f4e525db857f412e2c">&#9670;&nbsp;</a></span>generate_types()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def glloader.lang.c.generator.CGenerator.generate_types </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>types</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/dd3/c_2generator_8py_source.html#l00159">159</a> of file <a class="el" href="../../d2/dd3/c_2generator_8py_source.html">c/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="a4878b998ebf2b7f1216a3aedc61471a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4878b998ebf2b7f1216a3aedc61471a8">&#9670;&nbsp;</a></span>header()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def glloader.lang.common.generator.Generator.header </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/common_2generator_8py_source.html#l00148">148</a> of file <a class="el" href="../../d5/d3a/common_2generator_8py_source.html">common/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="a8dda9c9ebbadf8ae28880efba6748d9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dda9c9ebbadf8ae28880efba6748d9c">&#9670;&nbsp;</a></span>online()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def glloader.lang.common.generator.Generator.online </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/common_2generator_8py_source.html#l00198">198</a> of file <a class="el" href="../../d5/d3a/common_2generator_8py_source.html">common/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="aa2227cb05181e8e171a41b0352d8440c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2227cb05181e8e171a41b0352d8440c">&#9670;&nbsp;</a></span>open()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def glloader.lang.c.generator.CGenerator.open </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/dd3/c_2generator_8py_source.html#l00014">14</a> of file <a class="el" href="../../d2/dd3/c_2generator_8py_source.html">c/generator.py</a>.</p>
+
+</div>
+</div>
 <a id="ac1c69117b3e66a40f0b06be9e294d956"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac1c69117b3e66a40f0b06be9e294d956">&#9670;&nbsp;</a></span>write_api_header()</h2>
 
@@ -264,6 +695,132 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a4ec16a006ba0fc756d8a16ce83419fca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ec16a006ba0fc756d8a16ce83419fca">&#9670;&nbsp;</a></span>write_enums()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def glloader.lang.c.generator.CGenerator.write_enums </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>written</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>extensions</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/dd3/c_2generator_8py_source.html#l00249">249</a> of file <a class="el" href="../../d2/dd3/c_2generator_8py_source.html">c/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="a71e07fc3d4cf453cdaacb24221e3f5e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71e07fc3d4cf453cdaacb24221e3f5e4">&#9670;&nbsp;</a></span>write_extern()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def glloader.lang.c.generator.CGenerator.write_extern </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>fobj</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/dd3/c_2generator_8py_source.html#l00268">268</a> of file <a class="el" href="../../d2/dd3/c_2generator_8py_source.html">c/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="a7e7d5c6d56bb7bb1dac504b8d1e49066"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e7d5c6d56bb7bb1dac504b8d1e49066">&#9670;&nbsp;</a></span>write_extern_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def glloader.lang.c.generator.CGenerator.write_extern_end </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>fobj</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/dd3/c_2generator_8py_source.html#l00271">271</a> of file <a class="el" href="../../d2/dd3/c_2generator_8py_source.html">c/generator.py</a>.</p>
+
+</div>
+</div>
 <a id="a26e54c07fed2b0f143351a2e781cdf55"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a26e54c07fed2b0f143351a2e781cdf55">&#9670;&nbsp;</a></span>write_function()</h2>
 
@@ -297,6 +854,50 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d2/dee/debug_8py_source.html#l00098">98</a> of file <a class="el" href="../../d2/dee/debug_8py_source.html">debug.py</a>.</p>
+
+</div>
+</div>
+<a id="a50db0c8e7410ff5773a45c3d81e37906"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50db0c8e7410ff5773a45c3d81e37906">&#9670;&nbsp;</a></span>write_function_def()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def glloader.lang.c.generator.CGenerator.write_function_def </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>fobj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>func</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/dd3/c_2generator_8py_source.html#l00274">274</a> of file <a class="el" href="../../d2/dd3/c_2generator_8py_source.html">c/generator.py</a>.</p>
 
 </div>
 </div>
@@ -336,7 +937,207 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aa3fb9eff30e1e4dc6f67b0c5042b8739"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3fb9eff30e1e4dc6f67b0c5042b8739">&#9670;&nbsp;</a></span>write_functions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def glloader.lang.c.generator.CGenerator.write_functions </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>write</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>written</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>extensions</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/dd3/c_2generator_8py_source.html#l00232">232</a> of file <a class="el" href="../../d2/dd3/c_2generator_8py_source.html">c/generator.py</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Field Documentation</h2>
+<a id="ad795e23e33dcbdccecebc7e7ef9d6ce9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad795e23e33dcbdccecebc7e7ef9d6ce9">&#9670;&nbsp;</a></span>api</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glloader.lang.common.generator.Generator.api</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/common_2generator_8py_source.html#l00056">56</a> of file <a class="el" href="../../d5/d3a/common_2generator_8py_source.html">common/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="a94ba6967c3968d7c981a8dbaaafc7204"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94ba6967c3968d7c981a8dbaaafc7204">&#9670;&nbsp;</a></span>extension_names</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glloader.lang.common.generator.Generator.extension_names</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/common_2generator_8py_source.html#l00057">57</a> of file <a class="el" href="../../d5/d3a/common_2generator_8py_source.html">common/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="a5863a78c3eed58ec8bf1763fac1d8980"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5863a78c3eed58ec8bf1763fac1d8980">&#9670;&nbsp;</a></span>h_include</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glloader.lang.c.generator.CGenerator.h_include</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/dd3/c_2generator_8py_source.html#l00020">20</a> of file <a class="el" href="../../d2/dd3/c_2generator_8py_source.html">c/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="a3d4b7226c5a579536aeb01d1af4a81a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d4b7226c5a579536aeb01d1af4a81a9">&#9670;&nbsp;</a></span>has_loader</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glloader.lang.common.generator.Generator.has_loader</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/common_2generator_8py_source.html#l00059">59</a> of file <a class="el" href="../../d5/d3a/common_2generator_8py_source.html">common/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="a251debdebed5642b1e2201c5909418f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a251debdebed5642b1e2201c5909418f7">&#9670;&nbsp;</a></span>loader</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glloader.lang.common.generator.Generator.loader</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/common_2generator_8py_source.html#l00060">60</a> of file <a class="el" href="../../d5/d3a/common_2generator_8py_source.html">common/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="a0e93d00dcc5b8dc21a94d1ed0455c68f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e93d00dcc5b8dc21a94d1ed0455c68f">&#9670;&nbsp;</a></span>local_files</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glloader.lang.common.generator.Generator.local_files</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/common_2generator_8py_source.html#l00068">68</a> of file <a class="el" href="../../d5/d3a/common_2generator_8py_source.html">common/generator.py</a>.</p>
+
+</div>
+</div>
 <a id="a338ebf37261829f983f444d5a12bb3c6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a338ebf37261829f983f444d5a12bb3c6">&#9670;&nbsp;</a></span>NAME</h2>
 
@@ -347,7 +1148,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">string glloader.lang.c.debug.CDebugGenerator.NAME = 'c-debug'</td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">string</a> glloader.lang.c.debug.CDebugGenerator.NAME = '<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a1f2d7f8147412c43ba2303a56f97ee73">c</a>-debug'</td>
         </tr>
       </table>
   </td>
@@ -371,7 +1172,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">string glloader.lang.c.debug.CDebugGenerator.NAME_LONG = 'C/C++ Debug'</td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">string</a> glloader.lang.c.debug.CDebugGenerator.NAME_LONG = 'C/C++ Debug'</td>
         </tr>
       </table>
   </td>
@@ -385,15 +1186,139 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a471c2222a85acab164f1fdf1a28212a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a471c2222a85acab164f1fdf1a28212a1">&#9670;&nbsp;</a></span>omit_khrplatform</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glloader.lang.common.generator.Generator.omit_khrplatform</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/common_2generator_8py_source.html#l00069">69</a> of file <a class="el" href="../../d5/d3a/common_2generator_8py_source.html">common/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="a6021498f9d932fe45f310a9e819dbc06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6021498f9d932fe45f310a9e819dbc06">&#9670;&nbsp;</a></span>opener</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glloader.lang.common.generator.Generator.opener</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/common_2generator_8py_source.html#l00064">64</a> of file <a class="el" href="../../d5/d3a/common_2generator_8py_source.html">common/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="ae720667e4ebe011e21938f40e42dc716"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae720667e4ebe011e21938f40e42dc716">&#9670;&nbsp;</a></span>path</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glloader.lang.common.generator.Generator.path</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/common_2generator_8py_source.html#l00047">47</a> of file <a class="el" href="../../d5/d3a/common_2generator_8py_source.html">common/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="a08f449c6d2a40229426f429b0c6338af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08f449c6d2a40229426f429b0c6338af">&#9670;&nbsp;</a></span>spec</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glloader.lang.common.generator.Generator.spec</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/common_2generator_8py_source.html#l00049">49</a> of file <a class="el" href="../../d5/d3a/common_2generator_8py_source.html">common/generator.py</a>.</p>
+
+</div>
+</div>
+<a id="a5983b456b9640b2757e72bfe8759ed4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5983b456b9640b2757e72bfe8759ed4e">&#9670;&nbsp;</a></span>URL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">string</a> glloader.lang.common.generator.Generator.URL = 'http://glad.dav1d.de'</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d3a/common_2generator_8py_source.html#l00042">42</a> of file <a class="el" href="../../d5/d3a/common_2generator_8py_source.html">common/generator.py</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/ricardo/Desktop/Projetos/Aurora-FW/modules/gengine/opengl-loader/glloader/lang/c/<a class="el" href="../../d2/dee/debug_8py_source.html">debug.py</a></li>
+<li><a class="el" href="../../d2/dee/debug_8py_source.html">debug.py</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="../../doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../da/d1e/namespaceglloader.html">glloader</a></li><li class="navelem"><a class="el" href="../../da/dd4/namespaceglloader_1_1lang.html">lang</a></li><li class="navelem"><a class="el" href="../../d0/dd2/namespaceglloader_1_1lang_1_1c.html">c</a></li><li class="navelem"><a class="el" href="../../da/df1/namespaceglloader_1_1lang_1_1c_1_1debug.html">debug</a></li><li class="navelem"><a class="el" href="../../d8/d03/classglloader_1_1lang_1_1c_1_1debug_1_1CDebugGenerator.html">CDebugGenerator</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

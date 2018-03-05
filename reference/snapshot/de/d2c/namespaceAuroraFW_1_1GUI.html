@@ -9,10 +9,19 @@
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -20,9 +29,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.gif"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Aurora Framework
+   &#160;<span id="projectnumber">${AURORAFW_VERSION}</span>
    </div>
+   <div id="projectbrief">A Powerful General Purpose Framework</div>
   </td>
  </tr>
  </tbody>
@@ -45,6 +57,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('de/d2c/namespaceAuroraFW_1_1GUI.html','../../');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -59,11 +88,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="../../df/d5d/namespaceAuroraFW.html">AuroraFW</a></li><li class="navelem"><a class="el" href="../../de/d2c/namespaceAuroraFW_1_1GUI.html">GUI</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
@@ -117,7 +141,7 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af5ecbeacac3aa3efcfbd77c312059dcd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2c/namespaceAuroraFW_1_1GUI.html#af5ecbeacac3aa3efcfbd77c312059dcd">setIcon</a> (const std::string &amp;str)</td></tr>
+<tr class="memitem:af5ecbeacac3aa3efcfbd77c312059dcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2c/namespaceAuroraFW_1_1GUI.html#af5ecbeacac3aa3efcfbd77c312059dcd">setIcon</a> (const <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">std::string</a> &amp;str)</td></tr>
 <tr class="separator:af5ecbeacac3aa3efcfbd77c312059dcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
@@ -153,7 +177,7 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a57b454fae89cc0ddc715462fdfcaee57a90589c47f06eb971d548591f23c285af"></a>Custom&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d2a/Layout_8h_source.html#l00030">30</a> of file <a class="el" href="../../d5/d2a/Layout_8h_source.html">Layout.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d2a/Layout_8h_source.html#l00035">35</a> of file <a class="el" href="../../d5/d2a/Layout_8h_source.html">Layout.h</a>.</p>
 
 </div>
 </div>
@@ -183,7 +207,7 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="ab2e256262fd290ec2be0505750f2a02cadb3e3f51c9107e26c9bccf9a188ce2ed"></a>Fill&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d2a/Layout_8h_source.html#l00047">47</a> of file <a class="el" href="../../d5/d2a/Layout_8h_source.html">Layout.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d2a/Layout_8h_source.html#l00052">52</a> of file <a class="el" href="../../d5/d2a/Layout_8h_source.html">Layout.h</a>.</p>
 
 </div>
 </div>
@@ -212,7 +236,7 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="ac21390425bb5a5bd016de8612911adf9a95c35f23cab65dfef3fe2f55bbd5a2d6"></a>WordChar&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d2a/Layout_8h_source.html#l00024">24</a> of file <a class="el" href="../../d5/d2a/Layout_8h_source.html">Layout.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d2a/Layout_8h_source.html#l00029">29</a> of file <a class="el" href="../../d5/d2a/Layout_8h_source.html">Layout.h</a>.</p>
 
 </div>
 </div>
@@ -227,9 +251,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AuroraFW::GUI::setIcon </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> AuroraFW::GUI::setIcon </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">std::string</a> &amp;&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
           <td></td>
         </tr>
@@ -241,16 +265,20 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/dcb/gui_2include_2AuroraFW_2GUI_2Window_8h_source.html#l00107">107</a> of file <a class="el" href="../../d4/dcb/gui_2include_2AuroraFW_2GUI_2Window_8h_source.html">Window.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/dcb/gui_2include_2AuroraFW_2GUI_2Window_8h_source.html#l00112">112</a> of file <a class="el" href="../../d4/dcb/gui_2include_2AuroraFW_2GUI_2Window_8h_source.html">gui/include/AuroraFW/GUI/Window.h</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="../../doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../df/d5d/namespaceAuroraFW.html">AuroraFW</a></li><li class="navelem"><a class="el" href="../../de/d2c/namespaceAuroraFW_1_1GUI.html">GUI</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

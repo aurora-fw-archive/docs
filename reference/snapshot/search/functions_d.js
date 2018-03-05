@@ -1,5 +1,25 @@
 var searchData=
 [
-  ['normalize',['normalize',['../d7/d33/structAuroraFW_1_1Math_1_1vec2.html#a35ca0bcc13becfb34228b880443baace',1,'AuroraFW::Math::vec2::normalize()'],['../d3/d12/structAuroraFW_1_1Math_1_1vec3.html#ac76ebb566f4dff1769735b08b5813098',1,'AuroraFW::Math::vec3::normalize()'],['../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#acbd00cc4a4704936addfe41d6dddf843',1,'AuroraFW::Math::vec4::normalize()']]],
-  ['normalized',['normalized',['../d7/d33/structAuroraFW_1_1Math_1_1vec2.html#a6500fa0cbfe2b6d52f0a02dd45da0989',1,'AuroraFW::Math::vec2::normalized()'],['../d3/d12/structAuroraFW_1_1Math_1_1vec3.html#a7d43ee8068141a415b00cbc419f5e88e',1,'AuroraFW::Math::vec3::normalized()'],['../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#a4a8610dad3a42c5a91abc2aba929446f',1,'AuroraFW::Math::vec4::normalized()']]]
+  ['navcalcpreferredmousepos',['NavCalcPreferredMousePos',['../dd/d50/_im_gui_8cpp.html#a80005e6cf13787b8156a1c74ff7b3a0f',1,'ImGui.cpp']]],
+  ['navinitwindow',['NavInitWindow',['../df/d13/namespace_im_gui.html#ae46a79d836c4b223c7030ea432e3ec15',1,'ImGui']]],
+  ['navmoverequestbutnoresultyet',['NavMoveRequestButNoResultYet',['../dd/d50/_im_gui_8cpp.html#ac7b5b8a8ae281ebbe0d0623c28f0c3de',1,'ImGui.cpp']]],
+  ['navmoverequestcancel',['NavMoveRequestCancel',['../df/d13/namespace_im_gui.html#a43326bb080d9fa80327ed81d864d8b8d',1,'ImGui']]],
+  ['navprocessitem',['NavProcessItem',['../df/d13/namespace_im_gui.html#a294f4417f6a5aa0b6528a4d70f8922a7',1,'ImGui']]],
+  ['navprocessmoverequestwraparound',['NavProcessMoveRequestWrapAround',['../dd/d50/_im_gui_8cpp.html#a7ac2229186e562fb3e453bbbdf8c46b4',1,'ImGui.cpp']]],
+  ['navrestorelastchildnavwindow',['NavRestoreLastChildNavWindow',['../dd/d50/_im_gui_8cpp.html#a29a26b773698f2b18e24e0cc4e203b08',1,'ImGui.cpp']]],
+  ['navrestorelayer',['NavRestoreLayer',['../dd/d50/_im_gui_8cpp.html#a9ba787f7b1ae676675e10ad3676baade',1,'ImGui.cpp']]],
+  ['navsavelastchildnavwindow',['NavSaveLastChildNavWindow',['../dd/d50/_im_gui_8cpp.html#ab4218f9acd81ff7e28c89008e5559ee0',1,'ImGui.cpp']]],
+  ['navscoreitem',['NavScoreItem',['../dd/d50/_im_gui_8cpp.html#a4b8569680821551b9e1e28da458acf5b',1,'ImGui.cpp']]],
+  ['navscoreitemdistinterval',['NavScoreItemDistInterval',['../dd/d50/_im_gui_8cpp.html#a740720398cccbdf1fd1ae6ffef8f7971',1,'ImGui.cpp']]],
+  ['navscoreitemgetquadrant',['NavScoreItemGetQuadrant',['../dd/d50/_im_gui_8cpp.html#ab63935df6180e66c25317358f3d2e064',1,'ImGui.cpp']]],
+  ['navscrolltobringitemintoview',['NavScrollToBringItemIntoView',['../dd/d50/_im_gui_8cpp.html#a3fc97b3ea0cf5b6a4409db12b896e0e7',1,'ImGui.cpp']]],
+  ['navupdate',['NavUpdate',['../df/d13/namespace_im_gui.html#aab7d3ffa460af6604421e8c2d8bdef19',1,'ImGui']]],
+  ['navupdateanyrequestflag',['NavUpdateAnyRequestFlag',['../dd/d50/_im_gui_8cpp.html#acbb76ca32af07da396906eb70afaa00c',1,'ImGui.cpp']]],
+  ['navupdatewindowing',['NavUpdateWindowing',['../df/d13/namespace_im_gui.html#ad00213b916de0bc1519d6d20259391cf',1,'ImGui']]],
+  ['navupdatewindowinghighlightwindow',['NavUpdateWindowingHighlightWindow',['../dd/d50/_im_gui_8cpp.html#a24ca0e08c6e33315fd201b557aec2598',1,'ImGui.cpp']]],
+  ['newframe',['newFrame',['../d3/d2d/class_aurora_f_w_1_1_g_engine_1_1_im_gui_loader.html#a6344bafd0bd038a3644ae73db6213bb3',1,'AuroraFW::GEngine::ImGuiLoader::newFrame()'],['../df/d13/namespace_im_gui.html#ab3f1fc018f903b7ad79fd10663375774',1,'ImGui::NewFrame()']]],
+  ['newline',['NewLine',['../df/d13/namespace_im_gui.html#a77f8b0a33e5335f98661f99e720411da',1,'ImGui']]],
+  ['nextcolumn',['NextColumn',['../df/d13/namespace_im_gui.html#a8f97746d6a9d59c8400c26fb7613a2ff',1,'ImGui']]],
+  ['normalize',['normalize',['../d8/d34/struct_aurora_f_w_1_1_math_1_1vec2.html#a35ca0bcc13becfb34228b880443baace',1,'AuroraFW::Math::vec2::normalize()'],['../df/da8/struct_aurora_f_w_1_1_math_1_1vec3.html#ac76ebb566f4dff1769735b08b5813098',1,'AuroraFW::Math::vec3::normalize()'],['../d8/d6c/struct_aurora_f_w_1_1_math_1_1vec4.html#acbd00cc4a4704936addfe41d6dddf843',1,'AuroraFW::Math::vec4::normalize()']]],
+  ['normalized',['normalized',['../d8/d34/struct_aurora_f_w_1_1_math_1_1vec2.html#a6500fa0cbfe2b6d52f0a02dd45da0989',1,'AuroraFW::Math::vec2::normalized()'],['../df/da8/struct_aurora_f_w_1_1_math_1_1vec3.html#a7d43ee8068141a415b00cbc419f5e88e',1,'AuroraFW::Math::vec3::normalized()'],['../d8/d6c/struct_aurora_f_w_1_1_math_1_1vec4.html#a4a8610dad3a42c5a91abc2aba929446f',1,'AuroraFW::Math::vec4::normalized()']]]
 ];

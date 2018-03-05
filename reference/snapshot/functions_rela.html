@@ -5,14 +5,29 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Aurora Framework: Data Fields - Related Functions</title>
+<title>Aurora Framework: Class Members - Related Functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -20,9 +35,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.gif"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Aurora Framework
    </div>
+   <div id="projectbrief">A Powerful General Purpose Framework</div>
   </td>
  </tr>
  </tbody>
@@ -46,6 +63,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_rela.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -63,36 +96,49 @@ $(function() {
 <div class="contents">
 &#160;<ul>
 <li>AudioBackend
-: <a class="el" href="dd/d78/classAuroraFW_1_1AudioManager_1_1AudioListener.html#ad83ad9a1722f8acb93dc92b6ed2073be">AuroraFW::AudioManager::AudioListener</a>
+: <a class="el" href="d4/d39/class_aurora_f_w_1_1_audio_manager_1_1_audio_listener.html#ad83ad9a1722f8acb93dc92b6ed2073be">AuroraFW::AudioManager::AudioListener</a>
 </li>
-<li>audioCallback
-: <a class="el" href="d6/d5d/structAuroraFW_1_1AudioManager_1_1AudioStream.html#a04bc9b9367e82a47987d01637b27a1a7">AuroraFW::AudioManager::AudioStream</a>
+<li>audioInputCallback
+: <a class="el" href="da/d61/struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream.html#a720d7d18727699b87d604a216f1dc95d">AuroraFW::AudioManager::AudioIStream</a>
+</li>
+<li>AudioIStream
+: <a class="el" href="d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ab89c60c0fe6b722be7c3ceb8fc0b4c2e">AuroraFW::AudioManager::AudioInfo</a>
+</li>
+<li>AudioOStream
+: <a class="el" href="d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a4ba7275934e0867a9574f94fc97025ba">AuroraFW::AudioManager::AudioInfo</a>
+</li>
+<li>audioOutputCallback
+: <a class="el" href="d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#aec4328ab6b75998f1cf5e439bf797971">AuroraFW::AudioManager::AudioInfo</a>
+, <a class="el" href="d6/de8/struct_aurora_f_w_1_1_audio_manager_1_1_audio_o_stream.html#aec4328ab6b75998f1cf5e439bf797971">AuroraFW::AudioManager::AudioOStream</a>
 </li>
 <li>AudioSource
-: <a class="el" href="d6/d5d/structAuroraFW_1_1AudioManager_1_1AudioStream.html#a47dcc639ab4d4edaefbd4422fbd6c4d7">AuroraFW::AudioManager::AudioStream</a>
+: <a class="el" href="d6/de8/struct_aurora_f_w_1_1_audio_manager_1_1_audio_o_stream.html#a47dcc639ab4d4edaefbd4422fbd6c4d7">AuroraFW::AudioManager::AudioOStream</a>
 </li>
 <li>Button
-: <a class="el" href="d4/da3/classAuroraFW_1_1GUI_1_1Window.html#ae5c9617cce22f40fe602d9c88acfd2c3">AuroraFW::GUI::Window</a>
+: <a class="el" href="d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#ae5c9617cce22f40fe602d9c88acfd2c3">AuroraFW::GUI::Window</a>
 </li>
 <li>Label
-: <a class="el" href="d4/da3/classAuroraFW_1_1GUI_1_1Window.html#a74b0083ac0ac6b3e797aa115d23e5e93">AuroraFW::GUI::Window</a>
+: <a class="el" href="d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a74b0083ac0ac6b3e797aa115d23e5e93">AuroraFW::GUI::Window</a>
 </li>
 <li>operator&lt;&lt;
-: <a class="el" href="d9/d92/structAuroraFW_1_1Math_1_1mat4.html#a8925717b11ff9c4436bb09cedcf8da2c">AuroraFW::Math::mat4&lt; T &gt;</a>
-, <a class="el" href="d7/d33/structAuroraFW_1_1Math_1_1vec2.html#a2a40682533388371da925d09e1f598ab">AuroraFW::Math::vec2&lt; T &gt;</a>
-, <a class="el" href="d3/d12/structAuroraFW_1_1Math_1_1vec3.html#a8925717b11ff9c4436bb09cedcf8da2c">AuroraFW::Math::vec3&lt; T &gt;</a>
-, <a class="el" href="d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#a3bfd8d5bd5fb5097b8b4e83c7452599a">AuroraFW::Math::vec4&lt; T &gt;</a>
+: <a class="el" href="d1/df2/struct_aurora_f_w_1_1_math_1_1mat4.html#a8925717b11ff9c4436bb09cedcf8da2c">AuroraFW::Math::mat4&lt; T &gt;</a>
+, <a class="el" href="d8/d34/struct_aurora_f_w_1_1_math_1_1vec2.html#a2a40682533388371da925d09e1f598ab">AuroraFW::Math::vec2&lt; T &gt;</a>
+, <a class="el" href="df/da8/struct_aurora_f_w_1_1_math_1_1vec3.html#a8925717b11ff9c4436bb09cedcf8da2c">AuroraFW::Math::vec3&lt; T &gt;</a>
+, <a class="el" href="d8/d6c/struct_aurora_f_w_1_1_math_1_1vec4.html#a3bfd8d5bd5fb5097b8b4e83c7452599a">AuroraFW::Math::vec4&lt; T &gt;</a>
 </li>
 <li>Window
-: <a class="el" href="d6/dd2/classAuroraFW_1_1GEngine_1_1Application.html#a553f958a25683445088050a69d3de8e9">AuroraFW::GEngine::Application</a>
+: <a class="el" href="da/df1/class_aurora_f_w_1_1_g_engine_1_1_application.html#a553f958a25683445088050a69d3de8e9">AuroraFW::GEngine::Application</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

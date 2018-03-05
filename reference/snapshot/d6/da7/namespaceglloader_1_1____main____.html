@@ -9,10 +9,25 @@
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -20,9 +35,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.gif"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Aurora Framework
    </div>
+   <div id="projectbrief">A Powerful General Purpose Framework</div>
   </td>
  </tr>
  </tbody>
@@ -45,6 +62,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('d6/da7/namespaceglloader_1_1____main____.html','../../');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -59,11 +93,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="../../da/d1e/namespaceglloader.html">glloader</a></li><li class="navelem"><a class="el" href="../../d6/da7/namespaceglloader_1_1____main____.html">__main__</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#func-members">Functions</a> &#124;
@@ -80,10 +109,10 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aeaae3a1840335d46ec51e1ff57ebb858"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/namespaceglloader_1_1____main____.html#aeaae3a1840335d46ec51e1ff57ebb858">Version</a> = namedtuple('Version', ['major', 'minor'])</td></tr>
-<tr class="separator:aeaae3a1840335d46ec51e1ff57ebb858"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2086a575ca8dc2ec35e22b3ef87ca8e7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/namespaceglloader_1_1____main____.html#a2086a575ca8dc2ec35e22b3ef87ca8e7">logger</a> = logging.getLogger('glloader')</td></tr>
 <tr class="separator:a2086a575ca8dc2ec35e22b3ef87ca8e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaae3a1840335d46ec51e1ff57ebb858"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/namespaceglloader_1_1____main____.html#aeaae3a1840335d46ec51e1ff57ebb858">Version</a> = namedtuple('Version', ['major', 'minor'])</td></tr>
+<tr class="separator:aeaae3a1840335d46ec51e1ff57ebb858"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Uses the official Khronos-XML specs to generate a
@@ -105,27 +134,11 @@ the languages C, D, Nim and Volt.
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d1e/____main_____8py_source.html#l00022">22</a> of file <a class="el" href="../../d8/d1e/____main_____8py_source.html">__main__.py</a>.</p>
+<p class="reference">References <a class="el" href="../../da/dd4/namespaceglloader_1_1lang.html#ae49368d12bb0c9057e7e51c4dbea11e1">glloader.lang.get_generator()</a>, <a class="el" href="../../d6/da7/namespaceglloader_1_1____main____.html#aeaae3a1840335d46ec51e1ff57ebb858">glloader.__main__.Version</a>, and <a class="el" href="../../dd/dc4/namespacesetup.html#a2aa722b36a933088812b50ea79b97a5c">setup.version</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a2086a575ca8dc2ec35e22b3ef87ca8e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2086a575ca8dc2ec35e22b3ef87ca8e7">&#9670;&nbsp;</a></span>logger</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">glloader.__main__.logger = logging.getLogger('glloader')</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d1e/____main_____8py_source.html#l00019">19</a> of file <a class="el" href="../../d8/d1e/____main_____8py_source.html">__main__.py</a>.</p>
-
-</div>
-</div>
 <a id="aeaae3a1840335d46ec51e1ff57ebb858"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeaae3a1840335d46ec51e1ff57ebb858">&#9670;&nbsp;</a></span>Version</h2>
 
@@ -138,16 +151,34 @@ the languages C, D, Nim and Volt.
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d1e/____main_____8py_source.html#l00017">17</a> of file <a class="el" href="../../d8/d1e/____main_____8py_source.html">__main__.py</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/da7/namespaceglloader_1_1____main____.html#a06beff16ff46f9327001850f77d7ee74">glloader.__main__.main()</a>.</p>
+
+</div>
+</div>
+<a id="a2086a575ca8dc2ec35e22b3ef87ca8e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2086a575ca8dc2ec35e22b3ef87ca8e7">&#9670;&nbsp;</a></span>logger</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">glloader.__main__.logger = logging.getLogger('glloader')</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="../../doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../da/d1e/namespaceglloader.html">glloader</a></li><li class="navelem"><a class="el" href="../../d6/da7/namespaceglloader_1_1____main____.html">__main__</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

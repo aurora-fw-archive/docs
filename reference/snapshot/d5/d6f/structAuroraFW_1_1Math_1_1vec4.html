@@ -9,10 +9,19 @@
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -20,9 +29,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.gif"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Aurora Framework
+   &#160;<span id="projectnumber">${AURORAFW_VERSION}</span>
    </div>
+   <div id="projectbrief">A Powerful General Purpose Framework</div>
   </td>
  </tr>
  </tbody>
@@ -45,6 +57,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('d5/d6f/structAuroraFW_1_1Math_1_1vec4.html','../../');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -59,11 +88,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="../../df/d5d/namespaceAuroraFW.html">AuroraFW</a></li><li class="navelem"><a class="el" href="../../d8/d06/namespaceAuroraFW_1_1Math.html">Math</a></li><li class="navelem"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">vec4</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -121,15 +145,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1d48a81f62e136fc4b0c796dd4c8e23a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73ac297ed27e6b1a9249018fa0cc8eea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">vec4</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#a73ac297ed27e6b1a9249018fa0cc8eea">divide</a> (const T &amp;, const T &amp;, const T &amp;, const T &amp;)</td></tr>
 <tr class="separator:a73ac297ed27e6b1a9249018fa0cc8eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20e97c9ae369b01687f2a1640eb0f54e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#a20e97c9ae369b01687f2a1640eb0f54e">setX</a> (T)</td></tr>
+<tr class="memitem:a20e97c9ae369b01687f2a1640eb0f54e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#a20e97c9ae369b01687f2a1640eb0f54e">setX</a> (T)</td></tr>
 <tr class="separator:a20e97c9ae369b01687f2a1640eb0f54e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0656245811a3bf2656845f2feb4932ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#a0656245811a3bf2656845f2feb4932ff">setY</a> (T)</td></tr>
+<tr class="memitem:a0656245811a3bf2656845f2feb4932ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#a0656245811a3bf2656845f2feb4932ff">setY</a> (T)</td></tr>
 <tr class="separator:a0656245811a3bf2656845f2feb4932ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03cae630115ac63706b070cb2cb41470"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#a03cae630115ac63706b070cb2cb41470">setZ</a> (T)</td></tr>
+<tr class="memitem:a03cae630115ac63706b070cb2cb41470"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#a03cae630115ac63706b070cb2cb41470">setZ</a> (T)</td></tr>
 <tr class="separator:a03cae630115ac63706b070cb2cb41470"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ee063060a684fc34f1309bfb03656d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#a0ee063060a684fc34f1309bfb03656d5">setW</a> (T)</td></tr>
+<tr class="memitem:a0ee063060a684fc34f1309bfb03656d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#a0ee063060a684fc34f1309bfb03656d5">setW</a> (T)</td></tr>
 <tr class="separator:a0ee063060a684fc34f1309bfb03656d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbd00cc4a4704936addfe41d6dddf843"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#acbd00cc4a4704936addfe41d6dddf843">normalize</a> ()</td></tr>
+<tr class="memitem:acbd00cc4a4704936addfe41d6dddf843"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#acbd00cc4a4704936addfe41d6dddf843">normalize</a> ()</td></tr>
 <tr class="separator:acbd00cc4a4704936addfe41d6dddf843"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1df82cd28e17923525a101b67499b9a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#a1df82cd28e17923525a101b67499b9a1">operator==</a> (const <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">vec4</a>&lt; T &gt; &amp;) const</td></tr>
 <tr class="separator:a1df82cd28e17923525a101b67499b9a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,7 +221,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a351e06dbc15d56a2e3b7c45ad337202f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1c1c42d8e7614d32eea20be3cf24e2a"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#ab1c1c42d8e7614d32eea20be3cf24e2a">distanceToLine</a> (const <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">vec4</a>&lt; T &gt; &amp;, const <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">vec4</a>&lt; T &gt; &amp;) const</td></tr>
 <tr class="separator:ab1c1c42d8e7614d32eea20be3cf24e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac607f2c36eef2e16136d3811feffd329"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#ac607f2c36eef2e16136d3811feffd329">toString</a> () const</td></tr>
+<tr class="memitem:ac607f2c36eef2e16136d3811feffd329"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#ac607f2c36eef2e16136d3811feffd329">toString</a> () const</td></tr>
 <tr class="separator:ac607f2c36eef2e16136d3811feffd329"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -224,7 +248,7 @@ struct AuroraFW::Math::vec4&lt; T &gt;</h3>
 <p>A struct that represents a 4D vector. </p>
 <p>A struct that store's position in 4D coordinates, allows to manipulate them and also to do vector operations. </p><dl class="section since"><dt>Since</dt><dd>snapshot20171003 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/db0/Vector2D_8h_source.html#l00041">41</a> of file <a class="el" href="../../d3/db0/Vector2D_8h_source.html">Vector2D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/db0/Vector2D_8h_source.html#l00046">46</a> of file <a class="el" href="../../d3/db0/Vector2D_8h_source.html">Vector2D.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a78eaadea52b52ee0248816a6dcdba187"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a78eaadea52b52ee0248816a6dcdba187">&#9670;&nbsp;</a></span>vec4() <span class="overload">[1/8]</span></h2>
@@ -243,7 +267,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00175">175</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00180">180</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -265,7 +289,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00180">180</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00185">185</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -309,7 +333,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00185">185</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00190">190</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -331,7 +355,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00190">190</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00195">195</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -369,7 +393,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00195">195</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00200">200</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -391,7 +415,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00200">200</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00205">205</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -443,7 +467,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00205">205</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00210">210</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -466,7 +490,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00211">211</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00216">216</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -488,7 +512,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00256">256</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00261">261</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -532,7 +556,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00312">312</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00317">317</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -564,7 +588,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00504">504</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00509">509</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -586,7 +610,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00494">494</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00499">499</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -608,7 +632,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00244">244</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00249">249</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -630,7 +654,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00300">300</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00305">305</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -674,7 +698,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00345">345</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00350">350</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -696,7 +720,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00488">488</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00493">493</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -725,7 +749,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00145">145</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00150">150</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -754,7 +778,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00127">127</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00132">132</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -783,7 +807,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00133">133</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00138">138</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -812,7 +836,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00139">139</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00144">144</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -844,7 +868,7 @@ template&lt;typename T&gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::length </td>
+          <td class="memname">T <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a921fa83f7755f0139c84ba1831417a2e">length</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -852,7 +876,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00465">465</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00470">470</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -881,7 +905,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00121">121</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00126">126</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -903,7 +927,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00233">233</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00238">238</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -925,7 +949,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00278">278</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00283">283</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -969,7 +993,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00334">334</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00339">339</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -991,7 +1015,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00289">289</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00294">294</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1004,7 +1028,7 @@ template&lt;typename T &gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::normalize </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::normalize </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1012,7 +1036,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00471">471</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00476">476</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1025,7 +1049,7 @@ template&lt;typename T &gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">vec4</a>&lt; T &gt; <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::normalized </td>
+          <td class="memname"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">vec4</a>&lt; T &gt; <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a991495bc19f64c176dd83a350b8b1c88">normalized</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1033,7 +1057,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00481">481</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00486">486</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1055,7 +1079,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00435">435</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00440">440</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1097,7 +1121,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00369">369</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00374">374</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1127,7 +1151,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00393">393</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00398">398</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1157,7 +1181,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00417">417</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00422">422</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1199,7 +1223,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00357">357</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00362">362</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1229,7 +1253,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00381">381</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00386">386</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1259,7 +1283,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00405">405</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00410">410</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1301,7 +1325,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00363">363</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00368">368</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1331,7 +1355,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00387">387</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00392">392</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1361,7 +1385,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00411">411</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00416">416</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1403,7 +1427,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00375">375</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00380">380</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1433,7 +1457,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00399">399</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00404">404</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1463,7 +1487,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00423">423</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00428">428</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1485,7 +1509,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00441">441</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00446">446</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1507,7 +1531,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00447">447</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00452">452</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1529,7 +1553,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00429">429</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00434">434</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1551,7 +1575,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00453">453</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00458">458</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1573,7 +1597,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00459">459</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00464">464</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1589,7 +1613,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::setW </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::setW </td>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
@@ -1603,7 +1627,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00169">169</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00174">174</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1619,7 +1643,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::setX </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::setX </td>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
@@ -1633,7 +1657,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00151">151</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00156">156</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1649,7 +1673,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::setY </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::setY </td>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
@@ -1663,7 +1687,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00157">157</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00162">162</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1679,7 +1703,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::setZ </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::setZ </td>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
@@ -1693,7 +1717,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00163">163</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00168">168</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1715,7 +1739,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00222">222</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00227">227</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1737,7 +1761,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00267">267</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00272">272</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1781,7 +1805,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00323">323</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00328">328</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1794,7 +1818,7 @@ template&lt;typename T &gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::string <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::toString </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">std::string</a> <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::toString </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1802,7 +1826,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00510">510</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00515">515</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1845,7 +1869,7 @@ template&lt;typename t &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00516">516</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00521">521</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1859,12 +1883,12 @@ template&lt;typename t &gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::w</td>
+          <td class="memname">T <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a713abae75276598501f75c68917c5e2d">w</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00115">115</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00120">120</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1877,12 +1901,12 @@ template&lt;typename T&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::x</td>
+          <td class="memname">T <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a1af10666aa42292f407f6acc2af11948">x</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00115">115</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00120">120</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1895,12 +1919,12 @@ template&lt;typename T&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::y</td>
+          <td class="memname">T <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#af2e2675ea2e0b9a7ec6a98fcb44a938a">y</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00115">115</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00120">120</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
@@ -1913,25 +1937,29 @@ template&lt;typename T&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::z</td>
+          <td class="memname">T <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">AuroraFW::Math::vec4</a>&lt; T &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a1483160fae141afea848a5393c286b2b">z</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00115">115</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d6d/Vector4D_8h_source.html#l00120">120</a> of file <a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>/home/ricardo/Desktop/Projetos/Aurora-FW/modules/math/include/AuroraFW/Math/<a class="el" href="../../d3/db0/Vector2D_8h_source.html">Vector2D.h</a></li>
-<li>/home/ricardo/Desktop/Projetos/Aurora-FW/modules/math/include/AuroraFW/Math/<a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a></li>
+<li><a class="el" href="../../d3/db0/Vector2D_8h_source.html">Vector2D.h</a></li>
+<li><a class="el" href="../../d3/d6d/Vector4D_8h_source.html">Vector4D.h</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="../../doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../df/d5d/namespaceAuroraFW.html">AuroraFW</a></li><li class="navelem"><a class="el" href="../../d8/d06/namespaceAuroraFW_1_1Math.html">Math</a></li><li class="navelem"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">vec4</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

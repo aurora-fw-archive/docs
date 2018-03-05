@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['messagestatus',['MessageStatus',['../d1/ddd/namespaceAuroraFW_1_1CLI.html#ad597a652989d062a3f04e8b318c5e8aa',1,'AuroraFW::CLI']]]
+  ['khronos_5fboolean_5fenum_5ft',['khronos_boolean_enum_t',['../d7/d3a/khrplatform_8h.html#a0b823cfbc138820708978d43a5f26c64',1,'khrplatform.h']]]
 ];

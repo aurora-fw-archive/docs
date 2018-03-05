@@ -1,15 +1,21 @@
 var searchData=
 [
-  ['aes',['AES',['../d4/db2/classAuroraFW_1_1AES.html',1,'AuroraFW']]],
-  ['application',['Application',['../d2/d8f/classAuroraFW_1_1GUI_1_1Application.html',1,'AuroraFW::GUI::Application'],['../d2/d13/classAuroraFW_1_1Application.html',1,'AuroraFW::Application'],['../d6/dd2/classAuroraFW_1_1GEngine_1_1Application.html',1,'AuroraFW::GEngine::Application']]],
-  ['assetmanager',['AssetManager',['../d8/de7/classAuroraFW_1_1GEngine_1_1AssetManager.html',1,'AuroraFW::GEngine']]],
-  ['assetnotfoundexception',['AssetNotFoundException',['../d2/d97/classAuroraFW_1_1GEngine_1_1AssetNotFoundException.html',1,'AuroraFW::GEngine']]],
-  ['assettypeinvalidexception',['AssetTypeInvalidException',['../d4/df8/classAuroraFW_1_1GEngine_1_1AssetTypeInvalidException.html',1,'AuroraFW::GEngine']]],
-  ['audiobackend',['AudioBackend',['../d9/d33/classAuroraFW_1_1AudioManager_1_1AudioBackend.html',1,'AuroraFW::AudioManager']]],
-  ['audiodevice',['AudioDevice',['../d6/de2/structAuroraFW_1_1AudioManager_1_1AudioDevice.html',1,'AuroraFW::AudioManager']]],
-  ['audiofilenotfound',['AudioFileNotFound',['../d1/d30/classAuroraFW_1_1AudioManager_1_1AudioFileNotFound.html',1,'AuroraFW::AudioManager']]],
-  ['audiolistener',['AudioListener',['../dd/d78/classAuroraFW_1_1AudioManager_1_1AudioListener.html',1,'AuroraFW::AudioManager']]],
-  ['audionotinitializedexception',['AudioNotInitializedException',['../dc/de7/classAuroraFW_1_1AudioManager_1_1AudioNotInitializedException.html',1,'AuroraFW::AudioManager']]],
-  ['audiosource',['AudioSource',['../db/d05/structAuroraFW_1_1AudioManager_1_1AudioSource.html',1,'AuroraFW::AudioManager']]],
-  ['audiostream',['AudioStream',['../d6/d5d/structAuroraFW_1_1AudioManager_1_1AudioStream.html',1,'AuroraFW::AudioManager']]]
+  ['actualtype',['ActualType',['../d1/d69/struct_aurora_f_w_1_1_actual_type.html',1,'AuroraFW']]],
+  ['actualtype_3c_20t_20_2a_3e',['ActualType&lt; T *&gt;',['../d6/dbd/struct_aurora_f_w_1_1_actual_type_3_01_t_01_5_4.html',1,'AuroraFW']]],
+  ['aes',['AES',['../d9/d93/class_aurora_f_w_1_1_a_e_s.html',1,'AuroraFW']]],
+  ['afwglglversionstruct',['afwglGLversionStruct',['../d3/d73/structafwgl_g_lversion_struct.html',1,'']]],
+  ['application',['Application',['../dd/dec/struct_aurora_f_w_1_1_application.html',1,'AuroraFW::Application'],['../da/df1/class_aurora_f_w_1_1_g_engine_1_1_application.html',1,'AuroraFW::GEngine::Application'],['../d2/d7c/class_aurora_f_w_1_1_g_u_i_1_1_application.html',1,'AuroraFW::GUI::Application']]],
+  ['applicationcontext',['ApplicationContext',['../dc/d6f/class_aurora_f_w_1_1_application_context.html',1,'AuroraFW']]],
+  ['assetmanager',['AssetManager',['../d9/d4a/class_aurora_f_w_1_1_g_engine_1_1_asset_manager.html',1,'AuroraFW::GEngine']]],
+  ['assetnotfoundexception',['AssetNotFoundException',['../d6/de1/class_aurora_f_w_1_1_g_engine_1_1_asset_not_found_exception.html',1,'AuroraFW::GEngine']]],
+  ['assettypeinvalidexception',['AssetTypeInvalidException',['../d0/d51/class_aurora_f_w_1_1_g_engine_1_1_asset_type_invalid_exception.html',1,'AuroraFW::GEngine']]],
+  ['audiobackend',['AudioBackend',['../df/dbe/class_aurora_f_w_1_1_audio_manager_1_1_audio_backend.html',1,'AuroraFW::AudioManager']]],
+  ['audiodevice',['AudioDevice',['../d8/dd6/struct_aurora_f_w_1_1_audio_manager_1_1_audio_device.html',1,'AuroraFW::AudioManager']]],
+  ['audiofilenotfound',['AudioFileNotFound',['../de/d16/class_aurora_f_w_1_1_audio_manager_1_1_audio_file_not_found.html',1,'AuroraFW::AudioManager']]],
+  ['audioinfo',['AudioInfo',['../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html',1,'AuroraFW::AudioManager']]],
+  ['audioistream',['AudioIStream',['../da/d61/struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream.html',1,'AuroraFW::AudioManager']]],
+  ['audiolistener',['AudioListener',['../d4/d39/class_aurora_f_w_1_1_audio_manager_1_1_audio_listener.html',1,'AuroraFW::AudioManager']]],
+  ['audionotinitializedexception',['AudioNotInitializedException',['../d1/d98/class_aurora_f_w_1_1_audio_manager_1_1_audio_not_initialized_exception.html',1,'AuroraFW::AudioManager']]],
+  ['audioostream',['AudioOStream',['../d6/de8/struct_aurora_f_w_1_1_audio_manager_1_1_audio_o_stream.html',1,'AuroraFW::AudioManager']]],
+  ['audiosource',['AudioSource',['../df/d09/struct_aurora_f_w_1_1_audio_manager_1_1_audio_source.html',1,'AuroraFW::AudioManager']]]
 ];

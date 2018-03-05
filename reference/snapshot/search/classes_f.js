@@ -1,4 +1,24 @@
 var searchData=
 [
-  ['urlopener',['URLOpener',['../d2/dfd/classglloader_1_1opener_1_1URLOpener.html',1,'glloader::opener']]]
+  ['sndfileerrorexception',['SNDFILEErrorException',['../d3/da6/class_aurora_f_w_1_1_audio_manager_1_1_s_n_d_f_i_l_e_error_exception.html',1,'AuroraFW::AudioManager']]],
+  ['socket',['Socket',['../de/dba/class_socket.html',1,'']]],
+  ['spec',['Spec',['../d8/df7/classglloader_1_1parse_1_1_spec.html',1,'glloader::parse']]],
+  ['splitedoptionelement',['SplitedOptionElement',['../dc/d90/struct_aurora_f_w_1_1_splited_option_element.html',1,'AuroraFW']]],
+  ['stb_5ftexteditstate',['STB_TexteditState',['../d4/d92/struct_s_t_b___textedit_state.html',1,'']]],
+  ['stbrp_5fcontext',['stbrp_context',['../d7/dc7/structstbrp__context.html',1,'']]],
+  ['stbrp_5fnode',['stbrp_node',['../d0/dbb/structstbrp__node.html',1,'']]],
+  ['stbrp_5frect',['stbrp_rect',['../d5/d50/structstbrp__rect.html',1,'']]],
+  ['stbtexteditrow',['StbTexteditRow',['../d1/d1e/struct_stb_textedit_row.html',1,'']]],
+  ['stbtt_5f_5fbitmap',['stbtt__bitmap',['../d6/d7d/structstbtt____bitmap.html',1,'']]],
+  ['stbtt_5f_5fbuf',['stbtt__buf',['../dd/d25/structstbtt____buf.html',1,'']]],
+  ['stbtt_5faligned_5fquad',['stbtt_aligned_quad',['../d9/d0c/structstbtt__aligned__quad.html',1,'']]],
+  ['stbtt_5fbakedchar',['stbtt_bakedchar',['../d7/d70/structstbtt__bakedchar.html',1,'']]],
+  ['stbtt_5ffontinfo',['stbtt_fontinfo',['../d1/d3f/structstbtt__fontinfo.html',1,'']]],
+  ['stbtt_5fpack_5fcontext',['stbtt_pack_context',['../d6/dc9/structstbtt__pack__context.html',1,'']]],
+  ['stbtt_5fpack_5frange',['stbtt_pack_range',['../d9/d46/structstbtt__pack__range.html',1,'']]],
+  ['stbtt_5fpackedchar',['stbtt_packedchar',['../d2/d0c/structstbtt__packedchar.html',1,'']]],
+  ['stbtt_5fvertex',['stbtt_vertex',['../d4/d8d/structstbtt__vertex.html',1,'']]],
+  ['stbundorecord',['StbUndoRecord',['../d8/d4a/struct_stb_undo_record.html',1,'']]],
+  ['stbundostate',['StbUndoState',['../dd/dfa/struct_stb_undo_state.html',1,'']]],
+  ['systemmemory',['SystemMemory',['../dd/dd3/struct_aurora_f_w_1_1_i_o_1_1_info_1_1_system_memory.html',1,'AuroraFW::IO::Info']]]
 ];

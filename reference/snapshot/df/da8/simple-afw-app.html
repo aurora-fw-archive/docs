@@ -9,10 +9,25 @@
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -20,9 +35,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.gif"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Aurora Framework
    </div>
+   <div id="projectbrief">A Powerful General Purpose Framework</div>
   </td>
  </tr>
  </tbody>
@@ -45,6 +62,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('df/da8/simple-afw-app.html','../../');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -59,7 +93,6 @@ $(function() {
 </iframe>
 </div>
 
-</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">Making a simple Aurora Framework app </div>  </div>
@@ -91,29 +124,32 @@ Writing an Aurora application</h1>
 <p>There are different types of Applications. The simplest one (and the one we're using for the tutorial) comes from the Core module, and is simply an Application.</p>
 <p>A Graphical Application (from the GEngine module), for example, already creates a window and uses a GraphicsAPI backend, being suitable to immediately render graphics on the screen.</p>
 <p>For now, let's bootstrap our code:</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="../../db/d29/Aurora_8h.html">AuroraFW/Aurora.h</a>&gt;</span></div><div class="line"></div><div class="line"><span class="keyword">using namespace </span><a class="code" href="../../df/d5d/namespaceAuroraFW.html">AuroraFW</a>;</div><div class="line"></div><div class="line"><a class="code" href="../../d2/d13/classAuroraFW_1_1Application.html">Application</a> *app;</div><div class="line"></div><div class="line"><span class="keywordtype">void</span> mainAppFunction()</div><div class="line">{</div><div class="line"></div><div class="line">}</div><div class="line"></div><div class="line"><span class="keywordtype">int</span> <a class="code" href="../../db/dfa/simple_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> *argv[])</div><div class="line">{</div><div class="line">    app = <span class="keyword">new</span> <a class="code" href="../../d2/d13/classAuroraFW_1_1Application.html">Application</a>(mainAppFunction, argc, argv);</div><div class="line"></div><div class="line">    <span class="keyword">delete</span> app;</div><div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div><div class="line">}</div></div><!-- fragment --><p>If you compile and run this, nothing happens yet. However, you're already using Aurora's Application class. Let's go line by line:</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="../../db/d29/Aurora_8h.html">AuroraFW/Aurora.h</a>&gt;</span></div></div><!-- fragment --><p> This includes the <a class="el" href="../../db/d29/Aurora_8h.html">Aurora.h</a> to your program, which includes every header from the modules you're using.</p>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="../../df/d93/_aurora_8h.html">AuroraFW/Aurora.h</a>&gt;</span></div><div class="line"></div><div class="line"><span class="keyword">using namespace </span><a class="code" href="../../d2/dc7/namespace_aurora_f_w.html">AuroraFW</a>;</div><div class="line"></div><div class="line"><a class="code" href="../../dd/dec/struct_aurora_f_w_1_1_application.html">Application</a> *app;</div><div class="line"></div><div class="line"><span class="keywordtype">void</span> mainAppFunction()</div><div class="line">{</div><div class="line"></div><div class="line">}</div><div class="line"></div><div class="line"><span class="keywordtype">int</span> <a class="code" href="../../db/dfa/simple_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> *argv[])</div><div class="line">{</div><div class="line">    app = <span class="keyword">new</span> <a class="code" href="../../dd/dec/struct_aurora_f_w_1_1_application.html">Application</a>(mainAppFunction, argc, argv);</div><div class="line"></div><div class="line">    <span class="keyword">delete</span> app;</div><div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div><div class="line">}</div></div><!-- fragment --><p>If you compile and run this, nothing happens yet. However, you're already using Aurora's Application class. Let's go line by line:</p>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="../../df/d93/_aurora_8h.html">AuroraFW/Aurora.h</a>&gt;</span></div></div><!-- fragment --><p> This includes the Aurora.h to your program, which includes every header from the modules you're using.</p>
 <div class="fragment"><div class="line">Application *app;</div></div><!-- fragment --><p> Here we define a pointer to an Application so we can define it later in the <code>int <a class="el" href="../../db/dfa/simple_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a></code></p>
 <div class="fragment"><div class="line"><span class="keywordtype">void</span> mainAppFunction()</div><div class="line">{</div><div class="line"></div><div class="line">}</div></div><!-- fragment --><p>This is the method that will be executed by the Application class. Here you implement the code you want.</p>
 <div class="fragment"><div class="line"><span class="keywordtype">int</span> <a class="code" href="../../db/dfa/simple_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">int</span> *argv[])</div><div class="line">{</div><div class="line">    ...</div><div class="line">}</div></div><!-- fragment --><p>This is the main method of your program. Here you should initialize Application and, in case you're using a pointer, delete it when it's done.</p>
 <dl class="section note"><dt>Note</dt><dd>The <code>int argc, int *argv[]</code> arguments are optional, but it's a good pratice to include them, since Aurora uses them for it's own arguments</dd></dl>
 <div class="fragment"><div class="line">app = <span class="keyword">new</span> Application(mainAppFunction, argc, argv);</div></div><!-- fragment --><p>This is where the magic happens. Here you tell Application which method is your main method.</p>
-<p>You can get more details by reading the documentation for <a class="el" href="../../d2/d13/classAuroraFW_1_1Application.html">AuroraFW::Application</a>.</p>
+<p>You can get more details by reading the documentation for <a class="el" href="../../dd/dec/struct_aurora_f_w_1_1_application.html">AuroraFW::Application</a>.</p>
 <p>After your method is over, the code returns to your main method. As such, you must clean-up (in case you're using pointers):</p>
-<div class="fragment"><div class="line"><span class="keyword">delete</span> app;</div><div class="line"><span class="keywordflow">return</span> EXIT_SUCCESS;</div></div><!-- fragment --><p>So this is the basic code you must write to use Aurora. But this does not print anything. Let's use the method <a class="el" href="../../d1/ddd/namespaceAuroraFW_1_1CLI.html#a02c55c62d122fd50ce124f700e65d79c">CLI::Log()</a> from the cli module to actually print something.</p>
+<div class="fragment"><div class="line"><span class="keyword">delete</span> app;</div><div class="line"><span class="keywordflow">return</span> EXIT_SUCCESS;</div></div><!-- fragment --><p>So this is the basic code you must write to use Aurora. But this does not print anything. Let's use the method <a class="el" href="../../d9/da3/namespace_aurora_f_w_1_1_c_l_i.html#a02c55c62d122fd50ce124f700e65d79c">CLI::Log()</a> from the cli module to actually print something.</p>
 <h1><a class="anchor" id="printing"></a>
 Printing something</h1>
-<p>Here we will use the <a class="el" href="../../d1/ddd/namespaceAuroraFW_1_1CLI.html#a02c55c62d122fd50ce124f700e65d79c">CLI::Log()</a> method to print something to the console:</p>
-<div class="fragment"><div class="line"><a class="code" href="../../d1/ddd/namespaceAuroraFW_1_1CLI.html#a02c55c62d122fd50ce124f700e65d79c">CLI::Log</a>(<a class="code" href="../../d1/ddd/namespaceAuroraFW_1_1CLI.html#ad597a652989d062a3f04e8b318c5e8aaa40a501a10401d0b9fe5653d7181ee2a7">CLI::Information</a>, <span class="stringliteral">&quot;Hello world!&quot;</span>);</div></div><!-- fragment --><p>And now the code shall look like this:</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="../../db/d29/Aurora_8h.html">AuroraFW/Aurora.h</a>&gt;</span></div><div class="line"></div><div class="line"><span class="keyword">using namespace </span><a class="code" href="../../df/d5d/namespaceAuroraFW.html">AuroraFW</a>;</div><div class="line"></div><div class="line"><a class="code" href="../../d2/d13/classAuroraFW_1_1Application.html">Application</a> *app;</div><div class="line"></div><div class="line"><span class="keywordtype">void</span> mainAppFunction()</div><div class="line">{</div><div class="line">    <a class="code" href="../../d1/ddd/namespaceAuroraFW_1_1CLI.html#a02c55c62d122fd50ce124f700e65d79c">CLI::Log</a>(<a class="code" href="../../d1/ddd/namespaceAuroraFW_1_1CLI.html#ad597a652989d062a3f04e8b318c5e8aaa40a501a10401d0b9fe5653d7181ee2a7">CLI::Information</a>, <span class="stringliteral">&quot;Hello world!&quot;</span>);</div><div class="line">}</div><div class="line"></div><div class="line"><span class="keywordtype">int</span> <a class="code" href="../../db/dfa/simple_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> *argv[])</div><div class="line">{</div><div class="line">    app = <span class="keyword">new</span> <a class="code" href="../../d2/d13/classAuroraFW_1_1Application.html">Application</a>(mainAppFunction, argc, argv);</div><div class="line"></div><div class="line">    <span class="keyword">delete</span> app;</div><div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div><div class="line">}</div></div><!-- fragment --><p>If we now run this we get some output (and also colorful!):</p>
+<p>Here we will use the <a class="el" href="../../d9/da3/namespace_aurora_f_w_1_1_c_l_i.html#a02c55c62d122fd50ce124f700e65d79c">CLI::Log()</a> method to print something to the console:</p>
+<div class="fragment"><div class="line"><a class="code" href="../../d9/da3/namespace_aurora_f_w_1_1_c_l_i.html#a02c55c62d122fd50ce124f700e65d79c">CLI::Log</a>(<a class="code" href="../../d9/da3/namespace_aurora_f_w_1_1_c_l_i.html#ad597a652989d062a3f04e8b318c5e8aaa40a501a10401d0b9fe5653d7181ee2a7">CLI::Information</a>, <span class="stringliteral">&quot;Hello world!&quot;</span>);</div></div><!-- fragment --><p>And now the code shall look like this:</p>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="../../df/d93/_aurora_8h.html">AuroraFW/Aurora.h</a>&gt;</span></div><div class="line"></div><div class="line"><span class="keyword">using namespace </span><a class="code" href="../../d2/dc7/namespace_aurora_f_w.html">AuroraFW</a>;</div><div class="line"></div><div class="line"><a class="code" href="../../dd/dec/struct_aurora_f_w_1_1_application.html">Application</a> *app;</div><div class="line"></div><div class="line"><span class="keywordtype">void</span> mainAppFunction()</div><div class="line">{</div><div class="line">    <a class="code" href="../../d9/da3/namespace_aurora_f_w_1_1_c_l_i.html#a02c55c62d122fd50ce124f700e65d79c">CLI::Log</a>(<a class="code" href="../../d9/da3/namespace_aurora_f_w_1_1_c_l_i.html#ad597a652989d062a3f04e8b318c5e8aaa40a501a10401d0b9fe5653d7181ee2a7">CLI::Information</a>, <span class="stringliteral">&quot;Hello world!&quot;</span>);</div><div class="line">}</div><div class="line"></div><div class="line"><span class="keywordtype">int</span> <a class="code" href="../../db/dfa/simple_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> *argv[])</div><div class="line">{</div><div class="line">    app = <span class="keyword">new</span> <a class="code" href="../../dd/dec/struct_aurora_f_w_1_1_application.html">Application</a>(mainAppFunction, argc, argv);</div><div class="line"></div><div class="line">    <span class="keyword">delete</span> app;</div><div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div><div class="line">}</div></div><!-- fragment --><p>If we now run this we get some output (and also colorful!):</p>
 <div class="fragment"><div class="line">[INFORMATION] Hello world!</div></div><!-- fragment --><p>And that's it, congratulations! You just built your first Aurora Application!</p>
-<p>You can continue to explore more tutorials or go straight to the documentation and read everything <a class="el" href="../../df/d5d/namespaceAuroraFW.html">AuroraFW</a> can do! </p>
+<p>You can continue to explore more tutorials or go straight to the documentation and read everything <a class="el" href="../../d2/dc7/namespace_aurora_f_w.html">AuroraFW</a> can do! </p>
 </div></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="../../doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

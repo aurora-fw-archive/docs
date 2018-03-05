@@ -1,17 +1,16 @@
 var searchData=
 [
-  ['audiomanager',['AudioManager',['../da/d8e/namespaceAuroraFW_1_1AudioManager.html',1,'AuroraFW']]],
-  ['aurorafw',['AuroraFW',['../df/d5d/namespaceAuroraFW.html',1,'']]],
-  ['cli',['CLI',['../d1/ddd/namespaceAuroraFW_1_1CLI.html',1,'AuroraFW']]],
-  ['debug',['Debug',['../da/d3a/namespaceAuroraFW_1_1Debug.html',1,'AuroraFW']]],
-  ['gengine',['GEngine',['../df/d57/namespaceAuroraFW_1_1GEngine.html',1,'AuroraFW']]],
-  ['gl',['GL',['../d7/dcf/namespaceAuroraFW_1_1GEngine_1_1GL.html',1,'AuroraFW::GEngine']]],
-  ['gui',['GUI',['../de/d2c/namespaceAuroraFW_1_1GUI.html',1,'AuroraFW']]],
-  ['imagemanager',['ImageManager',['../d0/d4b/namespaceAuroraFW_1_1ImageManager.html',1,'AuroraFW']]],
-  ['info',['Info',['../d4/d69/namespaceAuroraFW_1_1Info.html',1,'AuroraFW']]],
-  ['io',['IO',['../de/d19/namespaceAuroraFW_1_1IO.html',1,'AuroraFW']]],
-  ['math',['Math',['../d8/d06/namespaceAuroraFW_1_1Math.html',1,'AuroraFW']]],
-  ['os',['OS',['../d6/d70/namespaceAuroraFW_1_1Info_1_1OS.html',1,'AuroraFW::Info']]],
-  ['parser',['Parser',['../d4/dbf/namespaceAuroraFW_1_1Parser.html',1,'AuroraFW']]],
-  ['ram',['RAM',['../d9/db6/namespaceAuroraFW_1_1Info_1_1RAM.html',1,'AuroraFW::Info']]]
+  ['afwstd',['afwstd',['../d3/dfa/namespaceafwstd.html',1,'']]],
+  ['api',['API',['../d1/df0/namespace_aurora_f_w_1_1_g_engine_1_1_a_p_i.html',1,'AuroraFW::GEngine']]],
+  ['audiomanager',['AudioManager',['../d5/d31/namespace_aurora_f_w_1_1_audio_manager.html',1,'AuroraFW']]],
+  ['aurorafw',['AuroraFW',['../d2/dc7/namespace_aurora_f_w.html',1,'']]],
+  ['cli',['CLI',['../d9/da3/namespace_aurora_f_w_1_1_c_l_i.html',1,'AuroraFW']]],
+  ['gengine',['GEngine',['../d4/d63/namespace_aurora_f_w_1_1_g_engine.html',1,'AuroraFW']]],
+  ['gl',['GL',['../d2/d16/namespace_aurora_f_w_1_1_g_engine_1_1_g_l.html',1,'AuroraFW::GEngine']]],
+  ['gui',['GUI',['../d8/d9a/namespace_aurora_f_w_1_1_g_u_i.html',1,'AuroraFW']]],
+  ['imagemanager',['ImageManager',['../db/d4d/namespace_aurora_f_w_1_1_image_manager.html',1,'AuroraFW']]],
+  ['info',['Info',['../da/d86/namespace_aurora_f_w_1_1_i_o_1_1_info.html',1,'AuroraFW::IO']]],
+  ['io',['IO',['../d4/df7/namespace_aurora_f_w_1_1_i_o.html',1,'AuroraFW']]],
+  ['math',['Math',['../da/ddc/namespace_aurora_f_w_1_1_math.html',1,'AuroraFW']]],
+  ['parser',['Parser',['../df/d14/namespace_aurora_f_w_1_1_parser.html',1,'AuroraFW']]]
 ];

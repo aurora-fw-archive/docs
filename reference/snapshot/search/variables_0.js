@@ -1,11 +1,17 @@
 var searchData=
 [
-  ['a',['a',['../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a0c2d9394583f92dc868d71aa0258380a',1,'AuroraFW::GEngine::BaseColor']]],
-  ['api',['api',['../de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#ad795e23e33dcbdccecebc7e7ef9d6ce9',1,'glloader.lang.common.generator.Generator.api()'],['../df/da3/classglloader_1_1parse_1_1Type.html#a71d8e8f659c9a36279139dfd56ea2537',1,'glloader.parse.Type.api()'],['../d8/d87/classglloader_1_1parse_1_1Feature.html#a759e9bed36bd370b9c0da313bac04e65',1,'glloader.parse.Feature.api()'],['../d9/d2a/classglloader_1_1lang_1_1volt_1_1generator_1_1VoltGenerator.html#ac07f719e1b6161eda1a73271423b70ab',1,'glloader.lang.volt.generator.VoltGenerator.API()'],['../d7/d06/classglloader_1_1parse_1_1Spec.html#aa3b95f47835728932ad61b6e86952df4',1,'glloader.parse.Spec.API()'],['../df/dc3/classglloader_1_1spec_1_1EGLSpec.html#ad46e24a3e1d1bfcb8f89ba96f5029d86',1,'glloader.spec.EGLSpec.API()'],['../d9/de0/classglloader_1_1spec_1_1GLSpec.html#a0454f3e71e7e164a940db445a0650d2b',1,'glloader.spec.GLSpec.API()'],['../d2/d1b/classglloader_1_1spec_1_1GLXSpec.html#a454057296b98702a1797c57d76395f8f',1,'glloader.spec.GLXSpec.API()'],['../db/d42/classglloader_1_1spec_1_1WGLSpec.html#a306b300757f2d5beb6e840f44a1980db',1,'glloader.spec.WGLSpec.API()']]],
-  ['apis',['apis',['../d4/d5d/classglloader_1_1lang_1_1common_1_1loader_1_1BaseLoader.html#a14dbde7c452d96e84bb7f5606a19ff29',1,'glloader::lang::common::loader::BaseLoader']]],
-  ['audioloopmode',['audioLoopMode',['../d6/d5d/structAuroraFW_1_1AudioManager_1_1AudioStream.html#a0177ca5ab8c78aa019ca731616d87c76',1,'AuroraFW::AudioManager::AudioStream']]],
-  ['author',['author',['../dd/dc4/namespacesetup.html#a3a57a4772d418a06835249cbade0d86a',1,'setup']]],
-  ['author_5femail',['author_email',['../dd/dc4/namespacesetup.html#a5b08034343aa2be607722a8b315f3625',1,'setup']]],
-  ['autoiconify',['autoIconify',['../d2/d16/structAuroraFW_1_1GEngine_1_1WindowProperties.html#ae0465c40eb59e48dda18c8106a4bc459',1,'AuroraFW::GEngine::WindowProperties']]],
-  ['auxbuffers',['auxBuffers',['../d2/d16/structAuroraFW_1_1GEngine_1_1WindowProperties.html#ab3c71168cd0388251b97b2a82b05e651',1,'AuroraFW::GEngine::WindowProperties']]]
+  ['_5fchannels',['_Channels',['../dd/d30/struct_im_draw_list.html#ae6be941728e5b2c81a03c78e4aa22629',1,'ImDrawList']]],
+  ['_5fchannelscount',['_ChannelsCount',['../dd/d30/struct_im_draw_list.html#ae3854c12dbac41400f4acb65192f5015',1,'ImDrawList']]],
+  ['_5fchannelscurrent',['_ChannelsCurrent',['../dd/d30/struct_im_draw_list.html#a143ff30108f3dca8c28c7925e23d358b',1,'ImDrawList']]],
+  ['_5fcliprectstack',['_ClipRectStack',['../dd/d30/struct_im_draw_list.html#ae950024f053f3c94dc2c763d20be609d',1,'ImDrawList']]],
+  ['_5fdata',['_Data',['../dd/d30/struct_im_draw_list.html#a606bbd354211fe6f84cc11ebe53e7903',1,'ImDrawList']]],
+  ['_5fidxwriteptr',['_IdxWritePtr',['../dd/d30/struct_im_draw_list.html#a771f4c7f71873852fe030c3e498e5843',1,'ImDrawList']]],
+  ['_5finstance',['_instance',['../dc/d5c/class_aurora_f_w_1_1_g_engine_1_1_a_p_i_1_1_context.html#a6b4d0c3ecf559808ca9022cbf085e893',1,'AuroraFW::GEngine::API::Context']]],
+  ['_5fline',['_line',['../d3/df2/class_aurora_f_w_1_1_memory_leak_tracker.html#a6c87ffd59d55545a9c2199499a265cb8',1,'AuroraFW::MemoryLeakTracker']]],
+  ['_5fownername',['_OwnerName',['../dd/d30/struct_im_draw_list.html#a643f385fb9d5fc35a431e72a10a212f5',1,'ImDrawList']]],
+  ['_5fpath',['_Path',['../dd/d30/struct_im_draw_list.html#a5bdc39abf351360500048628b8dc1b07',1,'ImDrawList::_Path()'],['../d3/df2/class_aurora_f_w_1_1_memory_leak_tracker.html#af42043d063e59221ba28eb3780514b6c',1,'AuroraFW::MemoryLeakTracker::_path()']]],
+  ['_5frapi',['_rapi',['../dc/d5c/class_aurora_f_w_1_1_g_engine_1_1_a_p_i_1_1_context.html#a83243b0e7237d8aed273a2121e4610b3',1,'AuroraFW::GEngine::API::Context']]],
+  ['_5ftextureidstack',['_TextureIdStack',['../dd/d30/struct_im_draw_list.html#a848faddd121da050214b8d8159e5e704',1,'ImDrawList']]],
+  ['_5fvtxcurrentidx',['_VtxCurrentIdx',['../dd/d30/struct_im_draw_list.html#a2228793183665bc3d8612795555fe505',1,'ImDrawList']]],
+  ['_5fvtxwriteptr',['_VtxWritePtr',['../dd/d30/struct_im_draw_list.html#a67f870f5140bf1cab14b8515b7386073',1,'ImDrawList']]]
 ];

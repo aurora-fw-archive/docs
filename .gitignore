@@ -25,3 +25,5 @@
 # Doxygen temp files
 *.tmp
 *.bak
+
+.doxygen_warn.log

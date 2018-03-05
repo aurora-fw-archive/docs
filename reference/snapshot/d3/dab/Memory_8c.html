@@ -5,14 +5,23 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Aurora Framework: /home/ricardo/Desktop/Projetos/Aurora-FW/modules/stdl/src/Memory.c File Reference</title>
+<title>Aurora Framework: Memory.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -20,9 +29,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.gif"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Aurora Framework
+   &#160;<span id="projectnumber">${AURORAFW_VERSION}</span>
    </div>
+   <div id="projectbrief">A Powerful General Purpose Framework</div>
   </td>
  </tr>
  </tbody>
@@ -45,6 +57,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('d3/dab/Memory_8c.html','../../');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -59,11 +88,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="../../dir_e05d7e2b1ecd646af5bb94391405f3b5.html">modules</a></li><li class="navelem"><a class="el" href="../../dir_bab0f952ecb39a1838f2182aa3824b0c.html">stdl</a></li><li class="navelem"><a class="el" href="../../dir_9b83aba2cb24e47b64c0cf57f2804de7.html">src</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
@@ -76,13 +100,13 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a18d9a75dd16f2db6609538cb4ddedaf1"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dab/Memory_8c.html#a18d9a75dd16f2db6609538cb4ddedaf1">memcpy</a> (void *dst, const void *src, <a class="el" href="../../df/db5/STDDef_8h.html#aea0c7eab1ce1eebb4e879ef4e23c16ee">size_t</a> n)</td></tr>
+<tr class="memitem:a18d9a75dd16f2db6609538cb4ddedaf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dab/Memory_8c.html#a18d9a75dd16f2db6609538cb4ddedaf1">memcpy</a> (<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a92034251bfd455d524a9b5610cddba00">dst</a>, const <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a72e0fdf0f845ded60b1fada9e9195cd7">src</a>, <a class="el" href="../../d6/d4a/LibC_2STDDef_8h.html#aea0c7eab1ce1eebb4e879ef4e23c16ee">size_t</a> <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae2b4646468bc89d0ba646f5cf838e051">n</a>)</td></tr>
 <tr class="separator:a18d9a75dd16f2db6609538cb4ddedaf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab899fcd8b18646556321959b86923289"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dab/Memory_8c.html#ab899fcd8b18646556321959b86923289">memmove</a> (void *dst, const void *src, <a class="el" href="../../df/db5/STDDef_8h.html#aea0c7eab1ce1eebb4e879ef4e23c16ee">size_t</a> n)</td></tr>
+<tr class="memitem:ab899fcd8b18646556321959b86923289"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dab/Memory_8c.html#ab899fcd8b18646556321959b86923289">memmove</a> (<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a92034251bfd455d524a9b5610cddba00">dst</a>, const <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a72e0fdf0f845ded60b1fada9e9195cd7">src</a>, <a class="el" href="../../d6/d4a/LibC_2STDDef_8h.html#aea0c7eab1ce1eebb4e879ef4e23c16ee">size_t</a> <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae2b4646468bc89d0ba646f5cf838e051">n</a>)</td></tr>
 <tr class="separator:ab899fcd8b18646556321959b86923289"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abad078d7023eef57c9e0a90d604df8dd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dab/Memory_8c.html#abad078d7023eef57c9e0a90d604df8dd">memcmp</a> (const void *cs, const void *ct, <a class="el" href="../../df/db5/STDDef_8h.html#aea0c7eab1ce1eebb4e879ef4e23c16ee">size_t</a> n)</td></tr>
+<tr class="memitem:abad078d7023eef57c9e0a90d604df8dd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dab/Memory_8c.html#abad078d7023eef57c9e0a90d604df8dd">memcmp</a> (const <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *cs, const <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *ct, <a class="el" href="../../d6/d4a/LibC_2STDDef_8h.html#aea0c7eab1ce1eebb4e879ef4e23c16ee">size_t</a> <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae2b4646468bc89d0ba646f5cf838e051">n</a>)</td></tr>
 <tr class="separator:abad078d7023eef57c9e0a90d604df8dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affe4254eafce5fe29ea14d29a976211d"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dab/Memory_8c.html#affe4254eafce5fe29ea14d29a976211d">memset</a> (void *s, const int c, <a class="el" href="../../df/db5/STDDef_8h.html#aea0c7eab1ce1eebb4e879ef4e23c16ee">size_t</a> n)</td></tr>
+<tr class="memitem:affe4254eafce5fe29ea14d29a976211d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dab/Memory_8c.html#affe4254eafce5fe29ea14d29a976211d">memset</a> (<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a4af680a6c683f88ed67b76f207f2e6e4">s</a>, const int <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a1f2d7f8147412c43ba2303a56f97ee73">c</a>, <a class="el" href="../../d6/d4a/LibC_2STDDef_8h.html#aea0c7eab1ce1eebb4e879ef4e23c16ee">size_t</a> <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae2b4646468bc89d0ba646f5cf838e051">n</a>)</td></tr>
 <tr class="separator:affe4254eafce5fe29ea14d29a976211d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -95,19 +119,19 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int memcmp </td>
           <td>(</td>
-          <td class="paramtype">const void *&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *&#160;</td>
           <td class="paramname"><em>cs</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const void *&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *&#160;</td>
           <td class="paramname"><em>ct</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../df/db5/STDDef_8h.html#aea0c7eab1ce1eebb4e879ef4e23c16ee">size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/d4a/LibC_2STDDef_8h.html#aea0c7eab1ce1eebb4e879ef4e23c16ee">size_t</a>&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -118,7 +142,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dab/Memory_8c_source.html#l00056">56</a> of file <a class="el" href="../../d3/dab/Memory_8c_source.html">Memory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dab/Memory_8c_source.html#l00052">52</a> of file <a class="el" href="../../d3/dab/Memory_8c_source.html">Memory.c</a>.</p>
 
 </div>
 </div>
@@ -129,21 +153,21 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void* memcpy </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>* memcpy </td>
           <td>(</td>
-          <td class="paramtype">void *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *&#160;</td>
           <td class="paramname"><em>dst</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const void *&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *&#160;</td>
           <td class="paramname"><em>src</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../df/db5/STDDef_8h.html#aea0c7eab1ce1eebb4e879ef4e23c16ee">size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/d4a/LibC_2STDDef_8h.html#aea0c7eab1ce1eebb4e879ef4e23c16ee">size_t</a>&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -154,7 +178,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dab/Memory_8c_source.html#l00025">25</a> of file <a class="el" href="../../d3/dab/Memory_8c_source.html">Memory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dab/Memory_8c_source.html#l00021">21</a> of file <a class="el" href="../../d3/dab/Memory_8c_source.html">Memory.c</a>.</p>
 
 </div>
 </div>
@@ -165,21 +189,21 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void* memmove </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>* memmove </td>
           <td>(</td>
-          <td class="paramtype">void *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *&#160;</td>
           <td class="paramname"><em>dst</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const void *&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *&#160;</td>
           <td class="paramname"><em>src</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../df/db5/STDDef_8h.html#aea0c7eab1ce1eebb4e879ef4e23c16ee">size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/d4a/LibC_2STDDef_8h.html#aea0c7eab1ce1eebb4e879ef4e23c16ee">size_t</a>&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -190,7 +214,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dab/Memory_8c_source.html#l00035">35</a> of file <a class="el" href="../../d3/dab/Memory_8c_source.html">Memory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dab/Memory_8c_source.html#l00031">31</a> of file <a class="el" href="../../d3/dab/Memory_8c_source.html">Memory.c</a>.</p>
 
 </div>
 </div>
@@ -201,9 +225,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void* memset </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>* memset </td>
           <td>(</td>
-          <td class="paramtype">void *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *&#160;</td>
           <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
@@ -215,7 +239,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../df/db5/STDDef_8h.html#aea0c7eab1ce1eebb4e879ef4e23c16ee">size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/d4a/LibC_2STDDef_8h.html#aea0c7eab1ce1eebb4e879ef4e23c16ee">size_t</a>&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -226,16 +250,20 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dab/Memory_8c_source.html#l00067">67</a> of file <a class="el" href="../../d3/dab/Memory_8c_source.html">Memory.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dab/Memory_8c_source.html#l00063">63</a> of file <a class="el" href="../../d3/dab/Memory_8c_source.html">Memory.c</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="../../doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_e05d7e2b1ecd646af5bb94391405f3b5.html">modules</a></li><li class="navelem"><a class="el" href="../../dir_bab0f952ecb39a1838f2182aa3824b0c.html">stdl</a></li><li class="navelem"><a class="el" href="../../dir_9b83aba2cb24e47b64c0cf57f2804de7.html">src</a></li><li class="navelem"><a class="el" href="../../d3/dab/Memory_8c.html">Memory.c</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

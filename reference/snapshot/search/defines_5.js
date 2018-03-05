@@ -1,4 +1,32 @@
 var searchData=
 [
-  ['intmax_5fc',['INTMAX_C',['../d9/ddf/STDInt_8h.html#a6b556b8b5f86e13f1c2a6e8f9b9b4966',1,'STDInt.h']]]
+  ['im_5farraysize',['IM_ARRAYSIZE',['../d7/d96/_im_gui_8h.html#aeabe36f60fe45cf64cbc9641bcd58cca',1,'ImGui.h']]],
+  ['im_5fassert',['IM_ASSERT',['../d7/d96/_im_gui_8h.html#acb09e7dc42e8e3cefb0ecaa197978920',1,'ImGui.h']]],
+  ['im_5fcol32',['IM_COL32',['../d7/d96/_im_gui_8h.html#a123bd4e23eb51ac9dced93eab78c4456',1,'ImGui.h']]],
+  ['im_5fcol32_5fa_5fmask',['IM_COL32_A_MASK',['../d7/d96/_im_gui_8h.html#a870161cddae56908e81835588fcf35cd',1,'ImGui.h']]],
+  ['im_5fcol32_5fa_5fshift',['IM_COL32_A_SHIFT',['../d7/d96/_im_gui_8h.html#afb678549e2c69bf52a4e3831ed368eb8',1,'ImGui.h']]],
+  ['im_5fcol32_5fb_5fshift',['IM_COL32_B_SHIFT',['../d7/d96/_im_gui_8h.html#a7684ce06ad5e130bf3ff780818cca399',1,'ImGui.h']]],
+  ['im_5fcol32_5fblack',['IM_COL32_BLACK',['../d7/d96/_im_gui_8h.html#af913082d68ba732cc66390631dd886ab',1,'ImGui.h']]],
+  ['im_5fcol32_5fblack_5ftrans',['IM_COL32_BLACK_TRANS',['../d7/d96/_im_gui_8h.html#a148ba3030783ce6495de7f573c89ddff',1,'ImGui.h']]],
+  ['im_5fcol32_5fg_5fshift',['IM_COL32_G_SHIFT',['../d7/d96/_im_gui_8h.html#a17bb28f324a8b6f4007ea22c5648e109',1,'ImGui.h']]],
+  ['im_5fcol32_5fr_5fshift',['IM_COL32_R_SHIFT',['../d7/d96/_im_gui_8h.html#a20304e1d419a45750f3a447b72143d6a',1,'ImGui.h']]],
+  ['im_5fcol32_5fwhite',['IM_COL32_WHITE',['../d7/d96/_im_gui_8h.html#a08fc9855cd3e3fcbb7fcd93b38bd7057',1,'ImGui.h']]],
+  ['im_5ff32_5fto_5fint8_5fsat',['IM_F32_TO_INT8_SAT',['../dd/d50/_im_gui_8cpp.html#a044d12ff2cdc7af4a6de58d63cd96839',1,'ImGui.cpp']]],
+  ['im_5ff32_5fto_5fint8_5funbound',['IM_F32_TO_INT8_UNBOUND',['../dd/d50/_im_gui_8cpp.html#aac14064fede4cb5a2263206baea7ffb1',1,'ImGui.cpp']]],
+  ['im_5ffmtargs',['IM_FMTARGS',['../d7/d96/_im_gui_8h.html#a1251c2f9ddac0873dbad8181bd82c9f1',1,'ImGui.h']]],
+  ['im_5ffmtlist',['IM_FMTLIST',['../d7/d96/_im_gui_8h.html#a047693beb7f899f5deab1e20202016b3',1,'ImGui.h']]],
+  ['im_5fnew',['IM_NEW',['../d1/d3d/___im_gui_8h.html#a5e3b2a8968432747cd4932c539d76723',1,'_ImGui.h']]],
+  ['im_5fnewline',['IM_NEWLINE',['../d1/d3d/___im_gui_8h.html#a1bfa04d9a2431433f9668c814fd4c3d5',1,'_ImGui.h']]],
+  ['im_5foffsetof',['IM_OFFSETOF',['../d7/d96/_im_gui_8h.html#a303f3de82ef5bc71ef6fd91d5f46d26e',1,'ImGui.h']]],
+  ['im_5fpi',['IM_PI',['../d1/d3d/___im_gui_8h.html#ab8de43e3f17a4f0081fa6c2def6af1c1',1,'_ImGui.h']]],
+  ['im_5fplacement_5fnew',['IM_PLACEMENT_NEW',['../d1/d3d/___im_gui_8h.html#a4057509225bb55db4effa9c799a0ec61',1,'_ImGui.h']]],
+  ['imgui_5fapi',['IMGUI_API',['../d7/d96/_im_gui_8h.html#a43829975e84e45d1149597467a14bbf5',1,'ImGui.h']]],
+  ['imgui_5fcdecl',['IMGUI_CDECL',['../dd/d50/_im_gui_8cpp.html#a3a504542c4837c193bd5e54911123fe1',1,'ImGui.cpp']]],
+  ['imgui_5fdebug_5fnav_5frects',['IMGUI_DEBUG_NAV_RECTS',['../dd/d50/_im_gui_8cpp.html#aee6443348cf59f4769b271e36febc80c',1,'ImGui.cpp']]],
+  ['imgui_5fdebug_5fnav_5fscoring',['IMGUI_DEBUG_NAV_SCORING',['../dd/d50/_im_gui_8cpp.html#aaedc8fff290d4893a84c62411b0ddeed',1,'ImGui.cpp']]],
+  ['imgui_5fdefine_5fmath_5foperators',['IMGUI_DEFINE_MATH_OPERATORS',['../d2/d32/_draw_8cpp.html#adf4d73301961430d50d7edd96f92ce38',1,'IMGUI_DEFINE_MATH_OPERATORS():&#160;Draw.cpp'],['../dd/d50/_im_gui_8cpp.html#adf4d73301961430d50d7edd96f92ce38',1,'IMGUI_DEFINE_MATH_OPERATORS():&#160;ImGui.cpp']]],
+  ['imgui_5fonce_5fupon_5fa_5fframe',['IMGUI_ONCE_UPON_A_FRAME',['../d7/d96/_im_gui_8h.html#a62b5062e31e8970604975d539d4129d1',1,'ImGui.h']]],
+  ['imgui_5fpayload_5ftype_5fcolor_5f3f',['IMGUI_PAYLOAD_TYPE_COLOR_3F',['../d7/d96/_im_gui_8h.html#af186ce1bc2026ef29148030fccfbd2d9',1,'ImGui.h']]],
+  ['imgui_5fpayload_5ftype_5fcolor_5f4f',['IMGUI_PAYLOAD_TYPE_COLOR_4F',['../d7/d96/_im_gui_8h.html#aa6ad2bf2eb6d56c4b5e37096360ea034',1,'ImGui.h']]],
+  ['imgui_5fversion',['IMGUI_VERSION',['../d7/d96/_im_gui_8h.html#ab3b428a231cd0b50ac87dfd0b50c8736',1,'ImGui.h']]]
 ];

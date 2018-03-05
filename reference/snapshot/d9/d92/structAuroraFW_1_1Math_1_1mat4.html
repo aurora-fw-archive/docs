@@ -9,10 +9,19 @@
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -20,9 +29,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.gif"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Aurora Framework
+   &#160;<span id="projectnumber">${AURORAFW_VERSION}</span>
    </div>
+   <div id="projectbrief">A Powerful General Purpose Framework</div>
   </td>
  </tr>
  </tbody>
@@ -45,6 +57,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('d9/d92/structAuroraFW_1_1Math_1_1mat4.html','../../');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -59,11 +88,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="../../df/d5d/namespaceAuroraFW.html">AuroraFW</a></li><li class="navelem"><a class="el" href="../../d8/d06/namespaceAuroraFW_1_1Math.html">Math</a></li><li class="navelem"><a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">mat4</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -107,15 +131,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a435ab3298289fe2c36c482c4e27f7a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1eff61c934a6ecc286040dab6f1ddd07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">mat4</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html#a1eff61c934a6ecc286040dab6f1ddd07">invert</a> ()</td></tr>
 <tr class="separator:a1eff61c934a6ecc286040dab6f1ddd07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc647f3e33703d84f51e413ae1287746"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">vec4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html#abc647f3e33703d84f51e413ae1287746">getColumn</a> (<a class="el" href="../../d7/db7/Type_8h.html#a68d3eb9e9e684c1c4e280316415e8667">afwuint_t</a>) const</td></tr>
-<tr class="separator:abc647f3e33703d84f51e413ae1287746"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1e0c1893cb5783cb6452aa5344c69ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">vec4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html#ac1e0c1893cb5783cb6452aa5344c69ea">getColumn</a> (<a class="el" href="../../d7/db7/Type_8h.html#a12a1e9b3ce141648783a82445d02b58d">uint_t</a>) const</td></tr>
+<tr class="separator:ac1e0c1893cb5783cb6452aa5344c69ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8e1be0881f913aec11c631c943ccc3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d12/structAuroraFW_1_1Math_1_1vec3.html">vec3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html#ac8e1be0881f913aec11c631c943ccc3c">getPos</a> () const</td></tr>
 <tr class="separator:ac8e1be0881f913aec11c631c943ccc3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77b519d50603e4a1c11d21d1d12fc797"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html#a77b519d50603e4a1c11d21d1d12fc797">setColumn</a> (<a class="el" href="../../d7/db7/Type_8h.html#a68d3eb9e9e684c1c4e280316415e8667">afwuint_t</a>, const <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">vec4</a>&lt; T &gt; &amp;)</td></tr>
-<tr class="separator:a77b519d50603e4a1c11d21d1d12fc797"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21781710a62f411aa0fdf4c6f879690a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html#a21781710a62f411aa0fdf4c6f879690a">setPos</a> (const <a class="el" href="../../d3/d12/structAuroraFW_1_1Math_1_1vec3.html">vec3</a>&lt; T &gt; &amp;)</td></tr>
+<tr class="memitem:a8e95b232649d2a890aab0e361a8d643d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html#a8e95b232649d2a890aab0e361a8d643d">setColumn</a> (<a class="el" href="../../d7/db7/Type_8h.html#a12a1e9b3ce141648783a82445d02b58d">uint_t</a>, const <a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">vec4</a>&lt; T &gt; &amp;)</td></tr>
+<tr class="separator:a8e95b232649d2a890aab0e361a8d643d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21781710a62f411aa0fdf4c6f879690a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html#a21781710a62f411aa0fdf4c6f879690a">setPos</a> (const <a class="el" href="../../d3/d12/structAuroraFW_1_1Math_1_1vec3.html">vec3</a>&lt; T &gt; &amp;)</td></tr>
 <tr class="separator:a21781710a62f411aa0fdf4c6f879690a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a928f608c9da0cb13ff2b212b0f7deaaf"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html#a928f608c9da0cb13ff2b212b0f7deaaf">toString</a> () const</td></tr>
+<tr class="memitem:a928f608c9da0cb13ff2b212b0f7deaaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html#a928f608c9da0cb13ff2b212b0f7deaaf">toString</a> () const</td></tr>
 <tr class="separator:a928f608c9da0cb13ff2b212b0f7deaaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -141,13 +165,13 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:a3445847b833cc0db2f72de58ac622865"><td class="memItemLeft" >union {</td></tr>
-<tr class="memitem:a450c14c04abff496b51cfca293450f97"><td class="memItemLeft" >&#160;&#160;&#160;T&#160;&#160;&#160;<a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html#ac6a5a6c25f14cd84585a84386e467391">m</a> [4][4]</td></tr>
-<tr class="separator:a450c14c04abff496b51cfca293450f97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c3eeb18d00f559748bda7b62fbe6747"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">vec4</a>&lt; T &gt;&#160;&#160;&#160;<a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html#aab7836ca011d98005190b4c9034e1058">r</a> [4]</td></tr>
-<tr class="separator:a1c3eeb18d00f559748bda7b62fbe6747"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3445847b833cc0db2f72de58ac622865"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a3445847b833cc0db2f72de58ac622865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21da7b19551649eecbd9be3e169a95d7"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:a3e214eb4158715f96a9d27f030253cb2"><td class="memItemLeft" >&#160;&#160;&#160;T&#160;&#160;&#160;<a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html#ac6a5a6c25f14cd84585a84386e467391">m</a> [4][4]</td></tr>
+<tr class="separator:a3e214eb4158715f96a9d27f030253cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc2ea93e536c782c57c6d34b9dc3fe57"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">vec4</a>&lt; T &gt;&#160;&#160;&#160;<a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html#aab7836ca011d98005190b4c9034e1058">r</a> [4]</td></tr>
+<tr class="separator:adc2ea93e536c782c57c6d34b9dc3fe57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21da7b19551649eecbd9be3e169a95d7"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a21da7b19551649eecbd9be3e169a95d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -160,7 +184,7 @@ Friends</h2></td></tr>
 struct AuroraFW::Math::mat4&lt; T &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00032">32</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00037">37</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3abf2c1cae21b0d66f74630d8fabb788"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3abf2c1cae21b0d66f74630d8fabb788">&#9670;&nbsp;</a></span>mat4() <span class="overload">[1/5]</span></h2>
@@ -179,7 +203,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00084">84</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00090">90</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
 
 </div>
 </div>
@@ -201,7 +225,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00102">102</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00108">108</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
 
 </div>
 </div>
@@ -223,7 +247,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00090">90</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00096">96</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
 
 </div>
 </div>
@@ -245,7 +269,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00112">112</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00118">118</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
 
 </div>
 </div>
@@ -289,13 +313,13 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00118">118</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00124">124</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="abc647f3e33703d84f51e413ae1287746"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc647f3e33703d84f51e413ae1287746">&#9670;&nbsp;</a></span>getColumn()</h2>
+<a id="ac1e0c1893cb5783cb6452aa5344c69ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1e0c1893cb5783cb6452aa5344c69ea">&#9670;&nbsp;</a></span>getColumn()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -305,7 +329,7 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">vec4</a>&lt;T&gt; <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">AuroraFW::Math::mat4</a>&lt; T &gt;::getColumn </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#a68d3eb9e9e684c1c4e280316415e8667">afwuint_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#a12a1e9b3ce141648783a82445d02b58d">uint_t</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
@@ -358,7 +382,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00127">127</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00133">133</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
 
 </div>
 </div>
@@ -371,7 +395,7 @@ template&lt;typename T &gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">mat4</a>&lt;T&gt;&amp; <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">AuroraFW::Math::mat4</a>&lt; T &gt;::invert </td>
+          <td class="memname"><a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">mat4</a>&lt;T&gt;&amp; <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">AuroraFW::Math::mat4</a>&lt; T &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#afcc4054e54dc14717dc9df064f152b6b">invert</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -393,7 +417,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">mat4</a>&lt;T&gt; <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">AuroraFW::Math::mat4</a>&lt; T &gt;::invert </td>
+          <td class="memname">static <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">mat4</a>&lt;T&gt; <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">AuroraFW::Math::mat4</a>&lt; T &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#afcc4054e54dc14717dc9df064f152b6b">invert</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">mat4</a>&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -471,7 +495,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00133">133</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00139">139</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
 
 </div>
 </div>
@@ -493,7 +517,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00153">153</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00159">159</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
 
 </div>
 </div>
@@ -515,7 +539,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00159">159</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00165">165</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
 
 </div>
 </div>
@@ -537,7 +561,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00165">165</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00171">171</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
 
 </div>
 </div>
@@ -579,7 +603,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00177">177</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00183">183</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
 
 </div>
 </div>
@@ -621,7 +645,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00183">183</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00189">189</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
 
 </div>
 </div>
@@ -643,7 +667,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00171">171</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00177">177</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
 
 </div>
 </div>
@@ -686,13 +710,13 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>near</em>, </td>
+          <td class="paramname"><em>near_</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>far</em>&#160;</td>
+          <td class="paramname"><em>far_</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -707,7 +731,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00189">189</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00195">195</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
 
 </div>
 </div>
@@ -811,7 +835,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">mat4</a>&lt;T&gt; <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">AuroraFW::Math::mat4</a>&lt; T &gt;::scale </td>
+          <td class="memname">static <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">mat4</a>&lt;T&gt; <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">AuroraFW::Math::mat4</a>&lt; T &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a281421b881aa7a1266842b73a3bc7655">scale</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d3/d12/structAuroraFW_1_1Math_1_1vec3.html">vec3</a>&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -827,8 +851,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="a77b519d50603e4a1c11d21d1d12fc797"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77b519d50603e4a1c11d21d1d12fc797">&#9670;&nbsp;</a></span>setColumn()</h2>
+<a id="a8e95b232649d2a890aab0e361a8d643d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e95b232649d2a890aab0e361a8d643d">&#9670;&nbsp;</a></span>setColumn()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -836,9 +860,9 @@ template&lt;typename T&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">AuroraFW::Math::mat4</a>&lt; T &gt;::setColumn </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">AuroraFW::Math::mat4</a>&lt; T &gt;::setColumn </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#a68d3eb9e9e684c1c4e280316415e8667">afwuint_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#a12a1e9b3ce141648783a82445d02b58d">uint_t</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -866,7 +890,7 @@ template&lt;typename T&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">AuroraFW::Math::mat4</a>&lt; T &gt;::setPos </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">AuroraFW::Math::mat4</a>&lt; T &gt;::setPos </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d3/d12/structAuroraFW_1_1Math_1_1vec3.html">vec3</a>&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -886,7 +910,7 @@ template&lt;typename T&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::string <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">AuroraFW::Math::mat4</a>&lt; T &gt;::toString </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">std::string</a> <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">AuroraFW::Math::mat4</a>&lt; T &gt;::toString </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -922,7 +946,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00204">204</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00210">210</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
 
 </div>
 </div>
@@ -938,7 +962,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">mat4</a>&lt;T&gt; <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">AuroraFW::Math::mat4</a>&lt; T &gt;::transpose </td>
+          <td class="memname">static <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">mat4</a>&lt;T&gt; <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">AuroraFW::Math::mat4</a>&lt; T &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a7ad291818ab127e386dec37f7e1bdb97">transpose</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">mat4</a>&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -993,13 +1017,13 @@ template&lt;typename t &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dd9/Vector3D_8h_source.html#l00942">942</a> of file <a class="el" href="../../d5/dd9/Vector3D_8h_source.html">Vector3D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/dd9/Vector3D_8h_source.html#l00947">947</a> of file <a class="el" href="../../d5/dd9/Vector3D_8h_source.html">Vector3D.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Field Documentation</h2>
-<a id="a3445847b833cc0db2f72de58ac622865"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3445847b833cc0db2f72de58ac622865">&#9670;&nbsp;</a></span>@1</h2>
+<a id="a21da7b19551649eecbd9be3e169a95d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21da7b19551649eecbd9be3e169a95d7">&#9670;&nbsp;</a></span>@13</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1021,12 +1045,12 @@ template&lt;typename t &gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">AuroraFW::Math::mat4</a>&lt; T &gt;::m[4][4]</td>
+          <td class="memname">T <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">AuroraFW::Math::mat4</a>&lt; T &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a11941354c1d09e70ec63bde35fc79d4f">m</a>[4][4]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00077">77</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00083">83</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
 
 </div>
 </div>
@@ -1039,24 +1063,28 @@ template&lt;typename T&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">vec4</a>&lt;T&gt; <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">AuroraFW::Math::mat4</a>&lt; T &gt;::r[4]</td>
+          <td class="memname"><a class="el" href="../../d5/d6f/structAuroraFW_1_1Math_1_1vec4.html">vec4</a>&lt;T&gt; <a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">AuroraFW::Math::mat4</a>&lt; T &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a42ce7cdc612e53abee15043f80220d97">r</a>[4]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00078">78</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html#l00084">84</a> of file <a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>/home/ricardo/Desktop/Projetos/Aurora-FW/modules/math/include/AuroraFW/Math/<a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a></li>
+<li><a class="el" href="../../dc/df1/Matrix4x4_8h_source.html">Matrix4x4.h</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="../../doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../df/d5d/namespaceAuroraFW.html">AuroraFW</a></li><li class="navelem"><a class="el" href="../../d8/d06/namespaceAuroraFW_1_1Math.html">Math</a></li><li class="navelem"><a class="el" href="../../d9/d92/structAuroraFW_1_1Math_1_1mat4.html">mat4</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

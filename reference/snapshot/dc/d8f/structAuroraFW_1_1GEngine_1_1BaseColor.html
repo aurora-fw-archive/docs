@@ -9,10 +9,19 @@
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -20,9 +29,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.gif"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Aurora Framework
+   &#160;<span id="projectnumber">${AURORAFW_VERSION}</span>
    </div>
+   <div id="projectbrief">A Powerful General Purpose Framework</div>
   </td>
  </tr>
  </tbody>
@@ -45,6 +57,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html','../../');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -59,11 +88,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="../../df/d5d/namespaceAuroraFW.html">AuroraFW</a></li><li class="navelem"><a class="el" href="../../df/d57/namespaceAuroraFW_1_1GEngine.html">GEngine</a></li><li class="navelem"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -79,54 +103,54 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1b9c7522794424e5420e28fee47a22d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a1b9c7522794424e5420e28fee47a22d9">BaseColor</a> (<a class="el" href="../../d7/db7/Type_8h.html#a90b31673570c87c89b684583834a4a3a">afwint_t</a>, <a class="el" href="../../d7/db7/Type_8h.html#a90b31673570c87c89b684583834a4a3a">afwint_t</a>, <a class="el" href="../../d7/db7/Type_8h.html#a90b31673570c87c89b684583834a4a3a">afwint_t</a>, <a class="el" href="../../d7/db7/Type_8h.html#a90b31673570c87c89b684583834a4a3a">afwint_t</a>=255)</td></tr>
-<tr class="separator:a1b9c7522794424e5420e28fee47a22d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af64f29af8d64e4f0be1b914f7ff5b4fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#af64f29af8d64e4f0be1b914f7ff5b4fa">BaseColor</a> (<a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>, <a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>, <a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>, <a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>=1.0f)</td></tr>
-<tr class="separator:af64f29af8d64e4f0be1b914f7ff5b4fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac28aa1e61e176da55ad8f04fb7cc1306"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#ac28aa1e61e176da55ad8f04fb7cc1306">BaseColor</a> (<a class="el" href="../../d7/db7/Type_8h.html#a17d16a1aa804aac8925a9dfe17cbcaab">afwuint32_t</a>)</td></tr>
-<tr class="separator:ac28aa1e61e176da55ad8f04fb7cc1306"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85787ef223025129a47fb3e3869595f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a85787ef223025129a47fb3e3869595f0">BaseColor</a> (<a class="el" href="../../df/d57/namespaceAuroraFW_1_1GEngine.html#aede93845a3ee3970d24aee0d2d683747">CommonColor</a>)</td></tr>
+<tr class="memitem:aebec5070f733c460f3c9f676f56c2b74"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#aebec5070f733c460f3c9f676f56c2b74">BaseColor</a> (int, int, int, int=255)</td></tr>
+<tr class="separator:aebec5070f733c460f3c9f676f56c2b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5126c02d33ccf8a26c4face7da124606"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a5126c02d33ccf8a26c4face7da124606">BaseColor</a> (float, float, float, float=1.0f)</td></tr>
+<tr class="separator:a5126c02d33ccf8a26c4face7da124606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3cae3a54c734e5403778ab9d980dfe4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#ad3cae3a54c734e5403778ab9d980dfe4">BaseColor</a> (<a class="el" href="../../d3/dec/LibC_2STDInt_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)</td></tr>
+<tr class="separator:ad3cae3a54c734e5403778ab9d980dfe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85787ef223025129a47fb3e3869595f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a85787ef223025129a47fb3e3869595f0">BaseColor</a> (<a class="el" href="../../df/d57/namespaceAuroraFW_1_1GEngine.html#a753fcad509d1bf2bd9e74182276b4cea">CommonColor</a>)</td></tr>
 <tr class="separator:a85787ef223025129a47fb3e3869595f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbe7230dd48a196ae499b942f0a21dd2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#abbe7230dd48a196ae499b942f0a21dd2">BaseColor</a> (const <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a>&lt; T &gt; &amp;)</td></tr>
 <tr class="separator:abbe7230dd48a196ae499b942f0a21dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee90d2823aac56ea702d4e06df543146"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#aee90d2823aac56ea702d4e06df543146">red</a> () const</td></tr>
 <tr class="separator:aee90d2823aac56ea702d4e06df543146"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4afd16b72d8f1ab82035edfdcd31421"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#ab4afd16b72d8f1ab82035edfdcd31421">redF</a> () const</td></tr>
-<tr class="separator:ab4afd16b72d8f1ab82035edfdcd31421"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a585eeeb097db239ebfa67e31ea5d8f2b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a585eeeb097db239ebfa67e31ea5d8f2b">redF</a> () const</td></tr>
+<tr class="separator:a585eeeb097db239ebfa67e31ea5d8f2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11889cfdfa715cc382f396f20cd2c32c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a11889cfdfa715cc382f396f20cd2c32c">green</a> () const</td></tr>
 <tr class="separator:a11889cfdfa715cc382f396f20cd2c32c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20167c739d1c974ba49937a8d4cc0842"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a20167c739d1c974ba49937a8d4cc0842">greenF</a> () const</td></tr>
-<tr class="separator:a20167c739d1c974ba49937a8d4cc0842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc4205da6b19d3846d4c74b036131e22"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#adc4205da6b19d3846d4c74b036131e22">greenF</a> () const</td></tr>
+<tr class="separator:adc4205da6b19d3846d4c74b036131e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80b9b09d31813ba276c093a8b89aa991"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a80b9b09d31813ba276c093a8b89aa991">blue</a> () const</td></tr>
 <tr class="separator:a80b9b09d31813ba276c093a8b89aa991"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1892bfaf6e361d270129517528e093f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a1892bfaf6e361d270129517528e093f3">blueF</a> () const</td></tr>
-<tr class="separator:a1892bfaf6e361d270129517528e093f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa22705c8346bc033112fa54fe2407676"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#aa22705c8346bc033112fa54fe2407676">blueF</a> () const</td></tr>
+<tr class="separator:aa22705c8346bc033112fa54fe2407676"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9622e70db11c7d7f90ad0846fb6faba6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a9622e70db11c7d7f90ad0846fb6faba6">alpha</a> () const</td></tr>
 <tr class="separator:a9622e70db11c7d7f90ad0846fb6faba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19481690f22a0ffe7da722f81c7f4268"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a19481690f22a0ffe7da722f81c7f4268">alphaF</a> () const</td></tr>
-<tr class="separator:a19481690f22a0ffe7da722f81c7f4268"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71f3b85ebe7b219cba5ddb1469ac95b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a71f3b85ebe7b219cba5ddb1469ac95b6">setRed</a> (int)</td></tr>
-<tr class="separator:a71f3b85ebe7b219cba5ddb1469ac95b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbaf7af4ef992ac0005130e9c2d9059b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#afbaf7af4ef992ac0005130e9c2d9059b">setRed</a> (<a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>)</td></tr>
-<tr class="separator:afbaf7af4ef992ac0005130e9c2d9059b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6ce69a7a4c1373ae4a9394348531480"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#ab6ce69a7a4c1373ae4a9394348531480">setGreen</a> (int)</td></tr>
-<tr class="separator:ab6ce69a7a4c1373ae4a9394348531480"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13b923095c4326d9b3f669f9e0331f0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a13b923095c4326d9b3f669f9e0331f0a">setGreen</a> (<a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>)</td></tr>
-<tr class="separator:a13b923095c4326d9b3f669f9e0331f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada377160168c29bebdcbcbc70c4a85c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#ada377160168c29bebdcbcbc70c4a85c3">setBlue</a> (int)</td></tr>
-<tr class="separator:ada377160168c29bebdcbcbc70c4a85c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17e600abbfc6d7d1b4df3e5f9c2228c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a17e600abbfc6d7d1b4df3e5f9c2228c4">setBlue</a> (<a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>)</td></tr>
-<tr class="separator:a17e600abbfc6d7d1b4df3e5f9c2228c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03ff44aa46800427e29f5c4821cf1fef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a03ff44aa46800427e29f5c4821cf1fef">setAlpha</a> (int)</td></tr>
-<tr class="separator:a03ff44aa46800427e29f5c4821cf1fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec2eea3a4b0ed70c528687a7b99cf7fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#aec2eea3a4b0ed70c528687a7b99cf7fe">setAlpha</a> (<a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>)</td></tr>
-<tr class="separator:aec2eea3a4b0ed70c528687a7b99cf7fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7c337bbadf415b9161aa691931d5477"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#ac7c337bbadf415b9161aa691931d5477">setRGB</a> (<a class="el" href="../../d7/db7/Type_8h.html#a17d16a1aa804aac8925a9dfe17cbcaab">afwuint32_t</a>)</td></tr>
-<tr class="separator:ac7c337bbadf415b9161aa691931d5477"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac245b8b25f8d734668fec40c64e33227"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#ac245b8b25f8d734668fec40c64e33227">setRGB</a> (int[3])</td></tr>
-<tr class="separator:ac245b8b25f8d734668fec40c64e33227"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27624063d2a06c075200d9340f4c5d70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a27624063d2a06c075200d9340f4c5d70">setRGBA</a> (int[4])</td></tr>
-<tr class="separator:a27624063d2a06c075200d9340f4c5d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a281df8bd16eb9cbd98405caa269e4533"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a281df8bd16eb9cbd98405caa269e4533">alphaF</a> () const</td></tr>
+<tr class="separator:a281df8bd16eb9cbd98405caa269e4533"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d15416dd9aee91cb7d060aab07a6bdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a6d15416dd9aee91cb7d060aab07a6bdb">setRed</a> (int)</td></tr>
+<tr class="separator:a6d15416dd9aee91cb7d060aab07a6bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54ca3d434fea7f1c0894c34c075dc344"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a54ca3d434fea7f1c0894c34c075dc344">setRed</a> (float)</td></tr>
+<tr class="separator:a54ca3d434fea7f1c0894c34c075dc344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73dcfc5c7018c2cb87d3a4b2f696bc00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a73dcfc5c7018c2cb87d3a4b2f696bc00">setGreen</a> (int)</td></tr>
+<tr class="separator:a73dcfc5c7018c2cb87d3a4b2f696bc00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dbb783a8e853961b8f06f65a5c66dc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a9dbb783a8e853961b8f06f65a5c66dc7">setGreen</a> (float)</td></tr>
+<tr class="separator:a9dbb783a8e853961b8f06f65a5c66dc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff528009e0222c4f67e401dcc64df61b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#aff528009e0222c4f67e401dcc64df61b">setBlue</a> (int)</td></tr>
+<tr class="separator:aff528009e0222c4f67e401dcc64df61b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a8f39976a18bc9996e98445821712fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a7a8f39976a18bc9996e98445821712fc">setBlue</a> (float)</td></tr>
+<tr class="separator:a7a8f39976a18bc9996e98445821712fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4849ea9da54530436e34fa317ca2a83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#aa4849ea9da54530436e34fa317ca2a83">setAlpha</a> (int)</td></tr>
+<tr class="separator:aa4849ea9da54530436e34fa317ca2a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7273ebde18584b24c823fc037ab1fcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#aa7273ebde18584b24c823fc037ab1fcd">setAlpha</a> (float)</td></tr>
+<tr class="separator:aa7273ebde18584b24c823fc037ab1fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf2ce74d9d67e7f1bda0757cf8a0fcf5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#abf2ce74d9d67e7f1bda0757cf8a0fcf5">setRGB</a> (<a class="el" href="../../d3/dec/LibC_2STDInt_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)</td></tr>
+<tr class="separator:abf2ce74d9d67e7f1bda0757cf8a0fcf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e080ae271b206930ffcc00bc46108aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a0e080ae271b206930ffcc00bc46108aa">setRGB</a> (int[3])</td></tr>
+<tr class="separator:a0e080ae271b206930ffcc00bc46108aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a131a02c34dfd94d8d1a6d9bd59d60519"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a131a02c34dfd94d8d1a6d9bd59d60519">setRGBA</a> (int[4])</td></tr>
+<tr class="separator:a131a02c34dfd94d8d1a6d9bd59d60519"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc91b80f865a4b9f1336bc30f4d8b005"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:acc91b80f865a4b9f1336bc30f4d8b005"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#acc91b80f865a4b9f1336bc30f4d8b005">red</a> () const</td></tr>
 <tr class="separator:acc91b80f865a4b9f1336bc30f4d8b005"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,46 +176,46 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a17876a89c40a137f37c68cb464dd9919"><td class="memTemplItemLeft" align="right" valign="top">float&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a17876a89c40a137f37c68cb464dd9919">alphaF</a> () const</td></tr>
 <tr class="separator:a17876a89c40a137f37c68cb464dd9919"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7a9f7bc0174f31041e4064c95c90909"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:ab7a9f7bc0174f31041e4064c95c90909"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#ab7a9f7bc0174f31041e4064c95c90909">setRed</a> (float _r)</td></tr>
+<tr class="memitem:ab7a9f7bc0174f31041e4064c95c90909"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#ab7a9f7bc0174f31041e4064c95c90909">setRed</a> (float _r)</td></tr>
 <tr class="separator:ab7a9f7bc0174f31041e4064c95c90909"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25a6d08c989318e72131bfa19cf170f6"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a25a6d08c989318e72131bfa19cf170f6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a25a6d08c989318e72131bfa19cf170f6">setGreen</a> (float _g)</td></tr>
+<tr class="memitem:a25a6d08c989318e72131bfa19cf170f6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a25a6d08c989318e72131bfa19cf170f6">setGreen</a> (float _g)</td></tr>
 <tr class="separator:a25a6d08c989318e72131bfa19cf170f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44b8fc65cec91795e67563af900ef6cc"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a44b8fc65cec91795e67563af900ef6cc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a44b8fc65cec91795e67563af900ef6cc">setBlue</a> (float _b)</td></tr>
+<tr class="memitem:a44b8fc65cec91795e67563af900ef6cc"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a44b8fc65cec91795e67563af900ef6cc">setBlue</a> (float _b)</td></tr>
 <tr class="separator:a44b8fc65cec91795e67563af900ef6cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12b10a80cfdf832a0413f038cd3203ed"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a12b10a80cfdf832a0413f038cd3203ed"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a12b10a80cfdf832a0413f038cd3203ed">setAlpha</a> (float _a)</td></tr>
+<tr class="memitem:a12b10a80cfdf832a0413f038cd3203ed"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a12b10a80cfdf832a0413f038cd3203ed">setAlpha</a> (float _a)</td></tr>
 <tr class="separator:a12b10a80cfdf832a0413f038cd3203ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20190112ea8ca5ee28240799436eb194"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a20190112ea8ca5ee28240799436eb194"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a20190112ea8ca5ee28240799436eb194">setRed</a> (int _r)</td></tr>
+<tr class="memitem:a20190112ea8ca5ee28240799436eb194"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a20190112ea8ca5ee28240799436eb194">setRed</a> (int _r)</td></tr>
 <tr class="separator:a20190112ea8ca5ee28240799436eb194"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6a0c01bed5d13ec208f6ef9da2da728"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:ac6a0c01bed5d13ec208f6ef9da2da728"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#ac6a0c01bed5d13ec208f6ef9da2da728">setGreen</a> (int _g)</td></tr>
+<tr class="memitem:ac6a0c01bed5d13ec208f6ef9da2da728"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#ac6a0c01bed5d13ec208f6ef9da2da728">setGreen</a> (int _g)</td></tr>
 <tr class="separator:ac6a0c01bed5d13ec208f6ef9da2da728"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ee266c9a69d98fd768beabb101b9827"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a1ee266c9a69d98fd768beabb101b9827"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a1ee266c9a69d98fd768beabb101b9827">setBlue</a> (int _b)</td></tr>
+<tr class="memitem:a1ee266c9a69d98fd768beabb101b9827"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a1ee266c9a69d98fd768beabb101b9827">setBlue</a> (int _b)</td></tr>
 <tr class="separator:a1ee266c9a69d98fd768beabb101b9827"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf985643bda6917ccd1aa71e1fdb8229"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:aaf985643bda6917ccd1aa71e1fdb8229"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#aaf985643bda6917ccd1aa71e1fdb8229">setAlpha</a> (int _a)</td></tr>
+<tr class="memitem:aaf985643bda6917ccd1aa71e1fdb8229"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#aaf985643bda6917ccd1aa71e1fdb8229">setAlpha</a> (int _a)</td></tr>
 <tr class="separator:aaf985643bda6917ccd1aa71e1fdb8229"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88e377a851fffa6b437c8bdcdf9e4f4c"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a88e377a851fffa6b437c8bdcdf9e4f4c"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a88e377a851fffa6b437c8bdcdf9e4f4c">BaseColor</a> (int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a185566d23f2736862aaa71bc90b57c98">r</a>, int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a68558c40c44e488bb4951f26ec6a2dc6">g</a>, int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#ac7566227c7bd4f9b2feed570bdab7b27">b</a>, int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a0c2d9394583f92dc868d71aa0258380a">a</a>)</td></tr>
+<tr class="memitem:a88e377a851fffa6b437c8bdcdf9e4f4c"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a88e377a851fffa6b437c8bdcdf9e4f4c">BaseColor</a> (int <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a42ce7cdc612e53abee15043f80220d97">r</a>, int <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#acaceb3a655ff28b75259860bcb868f9f">g</a>, int <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a0f71581a41fd2264c8944126dabbd010">b</a>, int <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a3309789fc188587d666cda5ece79cf82">a</a>)</td></tr>
 <tr class="separator:a88e377a851fffa6b437c8bdcdf9e4f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9972d57b4787110b9ac238717f21dd6c"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a9972d57b4787110b9ac238717f21dd6c"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a9972d57b4787110b9ac238717f21dd6c">BaseColor</a> (uint32_t hex)</td></tr>
+<tr class="memitem:a9972d57b4787110b9ac238717f21dd6c"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a9972d57b4787110b9ac238717f21dd6c">BaseColor</a> (<a class="el" href="../../d3/dec/LibC_2STDInt_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> hex)</td></tr>
 <tr class="separator:a9972d57b4787110b9ac238717f21dd6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a07461a6f0b825f0d6905f12c174fce"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a9a07461a6f0b825f0d6905f12c174fce"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a9a07461a6f0b825f0d6905f12c174fce">BaseColor</a> (<a class="el" href="../../df/d57/namespaceAuroraFW_1_1GEngine.html#aede93845a3ee3970d24aee0d2d683747">CommonColor</a> hex)</td></tr>
+<tr class="memitem:a9a07461a6f0b825f0d6905f12c174fce"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a9a07461a6f0b825f0d6905f12c174fce">BaseColor</a> (<a class="el" href="../../df/d57/namespaceAuroraFW_1_1GEngine.html#a753fcad509d1bf2bd9e74182276b4cea">CommonColor</a> hex)</td></tr>
 <tr class="separator:a9a07461a6f0b825f0d6905f12c174fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4d7a670917eeaa9e9e374e0ea0f49db"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:af4d7a670917eeaa9e9e374e0ea0f49db"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#af4d7a670917eeaa9e9e374e0ea0f49db">BaseColor</a> (uint32_t hex)</td></tr>
+<tr class="memitem:af4d7a670917eeaa9e9e374e0ea0f49db"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#af4d7a670917eeaa9e9e374e0ea0f49db">BaseColor</a> (<a class="el" href="../../d3/dec/LibC_2STDInt_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> hex)</td></tr>
 <tr class="separator:af4d7a670917eeaa9e9e374e0ea0f49db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d527e92cfa0e696c4db72d56d384a19"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a2d527e92cfa0e696c4db72d56d384a19"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a2d527e92cfa0e696c4db72d56d384a19">BaseColor</a> (<a class="el" href="../../df/d57/namespaceAuroraFW_1_1GEngine.html#aede93845a3ee3970d24aee0d2d683747">CommonColor</a> hex)</td></tr>
+<tr class="memitem:a2d527e92cfa0e696c4db72d56d384a19"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a2d527e92cfa0e696c4db72d56d384a19">BaseColor</a> (<a class="el" href="../../df/d57/namespaceAuroraFW_1_1GEngine.html#a753fcad509d1bf2bd9e74182276b4cea">CommonColor</a> hex)</td></tr>
 <tr class="separator:a2d527e92cfa0e696c4db72d56d384a19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9e987aa7d39806d775db506555360bb"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:af9e987aa7d39806d775db506555360bb"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#af9e987aa7d39806d775db506555360bb">BaseColor</a> (int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a185566d23f2736862aaa71bc90b57c98">r</a>, int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a68558c40c44e488bb4951f26ec6a2dc6">g</a>, int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#ac7566227c7bd4f9b2feed570bdab7b27">b</a>, int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a0c2d9394583f92dc868d71aa0258380a">a</a>)</td></tr>
+<tr class="memitem:af9e987aa7d39806d775db506555360bb"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#af9e987aa7d39806d775db506555360bb">BaseColor</a> (int <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a42ce7cdc612e53abee15043f80220d97">r</a>, int <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#acaceb3a655ff28b75259860bcb868f9f">g</a>, int <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a0f71581a41fd2264c8944126dabbd010">b</a>, int <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a3309789fc188587d666cda5ece79cf82">a</a>)</td></tr>
 <tr class="separator:af9e987aa7d39806d775db506555360bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7be415717074358e9620ce1dcd24ae7a"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:a7be415717074358e9620ce1dcd24ae7a"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a7be415717074358e9620ce1dcd24ae7a">red</a> () const</td></tr>
@@ -218,44 +242,40 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5ea8a2445c38a804079aa67d436ea997"><td class="memTemplItemLeft" align="right" valign="top">float&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a5ea8a2445c38a804079aa67d436ea997">alphaF</a> () const</td></tr>
 <tr class="separator:a5ea8a2445c38a804079aa67d436ea997"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7fa3864cd14f947beef9081a1883efd"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:ae7fa3864cd14f947beef9081a1883efd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#ae7fa3864cd14f947beef9081a1883efd">setRed</a> (float _r)</td></tr>
+<tr class="memitem:ae7fa3864cd14f947beef9081a1883efd"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#ae7fa3864cd14f947beef9081a1883efd">setRed</a> (float _r)</td></tr>
 <tr class="separator:ae7fa3864cd14f947beef9081a1883efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85de56377d42fa8f9e7b7a1264073c16"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a85de56377d42fa8f9e7b7a1264073c16"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a85de56377d42fa8f9e7b7a1264073c16">setGreen</a> (float _g)</td></tr>
+<tr class="memitem:a85de56377d42fa8f9e7b7a1264073c16"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a85de56377d42fa8f9e7b7a1264073c16">setGreen</a> (float _g)</td></tr>
 <tr class="separator:a85de56377d42fa8f9e7b7a1264073c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88bab01cc7a898dc9e5fafc6c5ba3f9b"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a88bab01cc7a898dc9e5fafc6c5ba3f9b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a88bab01cc7a898dc9e5fafc6c5ba3f9b">setBlue</a> (float _b)</td></tr>
+<tr class="memitem:a88bab01cc7a898dc9e5fafc6c5ba3f9b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a88bab01cc7a898dc9e5fafc6c5ba3f9b">setBlue</a> (float _b)</td></tr>
 <tr class="separator:a88bab01cc7a898dc9e5fafc6c5ba3f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad75fd3f36fcf8d31b130cb0faaad793a"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:ad75fd3f36fcf8d31b130cb0faaad793a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#ad75fd3f36fcf8d31b130cb0faaad793a">setAlpha</a> (float _a)</td></tr>
+<tr class="memitem:ad75fd3f36fcf8d31b130cb0faaad793a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#ad75fd3f36fcf8d31b130cb0faaad793a">setAlpha</a> (float _a)</td></tr>
 <tr class="separator:ad75fd3f36fcf8d31b130cb0faaad793a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a319ec9649184decacbda955c31d8a2f1"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a319ec9649184decacbda955c31d8a2f1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a319ec9649184decacbda955c31d8a2f1">setRed</a> (int _r)</td></tr>
+<tr class="memitem:a319ec9649184decacbda955c31d8a2f1"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a319ec9649184decacbda955c31d8a2f1">setRed</a> (int _r)</td></tr>
 <tr class="separator:a319ec9649184decacbda955c31d8a2f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ff2a9071db455a327c68040e83c6ee1"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a4ff2a9071db455a327c68040e83c6ee1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a4ff2a9071db455a327c68040e83c6ee1">setGreen</a> (int _g)</td></tr>
+<tr class="memitem:a4ff2a9071db455a327c68040e83c6ee1"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a4ff2a9071db455a327c68040e83c6ee1">setGreen</a> (int _g)</td></tr>
 <tr class="separator:a4ff2a9071db455a327c68040e83c6ee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add08ae37155f2b54621c0e560425d9e7"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:add08ae37155f2b54621c0e560425d9e7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#add08ae37155f2b54621c0e560425d9e7">setBlue</a> (int _b)</td></tr>
+<tr class="memitem:add08ae37155f2b54621c0e560425d9e7"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#add08ae37155f2b54621c0e560425d9e7">setBlue</a> (int _b)</td></tr>
 <tr class="separator:add08ae37155f2b54621c0e560425d9e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc547cee5807148fe7182f28e31f3828"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:acc547cee5807148fe7182f28e31f3828"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#acc547cee5807148fe7182f28e31f3828">setAlpha</a> (int _a)</td></tr>
+<tr class="memitem:acc547cee5807148fe7182f28e31f3828"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#acc547cee5807148fe7182f28e31f3828">setAlpha</a> (int _a)</td></tr>
 <tr class="separator:acc547cee5807148fe7182f28e31f3828"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a777adc59692fbf4390138e36712d7c3e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a777adc59692fbf4390138e36712d7c3e">CMYK</a> (int, int, int, int, int=255)</td></tr>
-<tr class="separator:a777adc59692fbf4390138e36712d7c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1db3464cca3281fc37434dcbfb8d6682"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a1db3464cca3281fc37434dcbfb8d6682">CMYK</a> (<a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>, <a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>, <a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>, <a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>=1.0f)</td></tr>
-<tr class="separator:a1db3464cca3281fc37434dcbfb8d6682"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba0379eb3392f1150b5fd976569fd6f6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#aba0379eb3392f1150b5fd976569fd6f6">HSL</a> (int, int, int, int=255)</td></tr>
 <tr class="separator:aba0379eb3392f1150b5fd976569fd6f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebac44df40480db123e97104bde17e06"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#aebac44df40480db123e97104bde17e06">HSL</a> (<a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>, <a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>, <a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>, <a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>=1.0f)</td></tr>
-<tr class="separator:aebac44df40480db123e97104bde17e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a134ebaf6f1838f3bda9526ee95740707"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a134ebaf6f1838f3bda9526ee95740707">HSL</a> (float, float, float, float=1.0f)</td></tr>
+<tr class="separator:a134ebaf6f1838f3bda9526ee95740707"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace5c496572329bcf4d296af227226734"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#ace5c496572329bcf4d296af227226734">HSV</a> (int, int, int, int=255)</td></tr>
 <tr class="separator:ace5c496572329bcf4d296af227226734"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24a813d8a4b9bc7c6f4aa982f2b2fb93"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a24a813d8a4b9bc7c6f4aa982f2b2fb93">HSV</a> (<a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>, <a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>, <a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>, <a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>=1.0f)</td></tr>
-<tr class="separator:a24a813d8a4b9bc7c6f4aa982f2b2fb93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c72788578df77ae49d07892d08ff542"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html#a0c72788578df77ae49d07892d08ff542">HSV</a> (float, float, float, float=1.0f)</td></tr>
+<tr class="separator:a0c72788578df77ae49d07892d08ff542"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
@@ -275,10 +295,10 @@ struct AuroraFW::GEngine::BaseColor&lt; T &gt;</h3>
 <p>A template struct that represents colors. </p>
 <p>This struct manipulates colors using a specific data type for color components. </p><dl class="section since"><dt>Since</dt><dd>snapshot20170930 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00078">78</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00083">83</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a1b9c7522794424e5420e28fee47a22d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b9c7522794424e5420e28fee47a22d9">&#9670;&nbsp;</a></span>BaseColor() <span class="overload">[1/11]</span></h2>
+<a id="aebec5070f733c460f3c9f676f56c2b74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebec5070f733c460f3c9f676f56c2b74">&#9670;&nbsp;</a></span>BaseColor() <span class="overload">[1/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -288,25 +308,25 @@ template&lt;class T&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::<a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#a90b31673570c87c89b684583834a4a3a">afwint_t</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#a90b31673570c87c89b684583834a4a3a">afwint_t</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#a90b31673570c87c89b684583834a4a3a">afwint_t</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#a90b31673570c87c89b684583834a4a3a">afwint_t</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"> = <code>255</code>&#160;</td>
         </tr>
         <tr>
@@ -319,8 +339,8 @@ template&lt;class T&gt; </div>
 
 </div>
 </div>
-<a id="af64f29af8d64e4f0be1b914f7ff5b4fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af64f29af8d64e4f0be1b914f7ff5b4fa">&#9670;&nbsp;</a></span>BaseColor() <span class="overload">[2/11]</span></h2>
+<a id="a5126c02d33ccf8a26c4face7da124606"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5126c02d33ccf8a26c4face7da124606">&#9670;&nbsp;</a></span>BaseColor() <span class="overload">[2/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -330,25 +350,25 @@ template&lt;class T&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::<a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname"> = <code>1.0f</code>&#160;</td>
         </tr>
         <tr>
@@ -361,8 +381,8 @@ template&lt;class T&gt; </div>
 
 </div>
 </div>
-<a id="ac28aa1e61e176da55ad8f04fb7cc1306"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac28aa1e61e176da55ad8f04fb7cc1306">&#9670;&nbsp;</a></span>BaseColor() <span class="overload">[3/11]</span></h2>
+<a id="ad3cae3a54c734e5403778ab9d980dfe4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3cae3a54c734e5403778ab9d980dfe4">&#9670;&nbsp;</a></span>BaseColor() <span class="overload">[3/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -372,7 +392,7 @@ template&lt;class T&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::<a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#a17d16a1aa804aac8925a9dfe17cbcaab">afwuint32_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d3/dec/LibC_2STDInt_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -392,7 +412,7 @@ template&lt;class T&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::<a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d57/namespaceAuroraFW_1_1GEngine.html#aede93845a3ee3970d24aee0d2d683747">CommonColor</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../df/d57/namespaceAuroraFW_1_1GEngine.html#a753fcad509d1bf2bd9e74182276b4cea">CommonColor</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -408,9 +428,6 @@ template&lt;class T&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::<a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a> </td>
@@ -420,11 +437,6 @@ template&lt;class T&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -469,7 +481,7 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00005">5</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00005">5</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
@@ -484,14 +496,14 @@ template&lt;&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::<a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a> </td>
           <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d3/dec/LibC_2STDInt_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
           <td class="paramname"><em>hex</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00012">12</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00012">12</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
@@ -506,14 +518,14 @@ template&lt;&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::<a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d57/namespaceAuroraFW_1_1GEngine.html#aede93845a3ee3970d24aee0d2d683747">CommonColor</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../df/d57/namespaceAuroraFW_1_1GEngine.html#a753fcad509d1bf2bd9e74182276b4cea">CommonColor</a>&#160;</td>
           <td class="paramname"><em>hex</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00019">19</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00019">19</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
@@ -526,16 +538,16 @@ template&lt;&gt; </div>
 template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#a780bd50362a995b802eb8e00f4b0c200">byte_t</a> &gt;::<a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a> </td>
+          <td class="memname"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef">byte_t</a> &gt;::<a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a> </td>
           <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d3/dec/LibC_2STDInt_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
           <td class="paramname"><em>hex</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00026">26</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00026">26</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
@@ -548,16 +560,16 @@ template&lt;&gt; </div>
 template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#a780bd50362a995b802eb8e00f4b0c200">byte_t</a> &gt;::<a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a> </td>
+          <td class="memname"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef">byte_t</a> &gt;::<a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d57/namespaceAuroraFW_1_1GEngine.html#aede93845a3ee3970d24aee0d2d683747">CommonColor</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../df/d57/namespaceAuroraFW_1_1GEngine.html#a753fcad509d1bf2bd9e74182276b4cea">CommonColor</a>&#160;</td>
           <td class="paramname"><em>hex</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00033">33</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00033">33</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
@@ -570,7 +582,7 @@ template&lt;&gt; </div>
 template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#a780bd50362a995b802eb8e00f4b0c200">byte_t</a> &gt;::<a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a> </td>
+          <td class="memname"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef">byte_t</a> &gt;::<a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a> </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>r</em>, </td>
@@ -601,7 +613,7 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00040">40</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00040">40</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
@@ -615,7 +627,7 @@ template&lt;&gt; </div>
 template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::alpha </td>
+          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ac03904b1f7e359bb2acf10a755e97c5a">alpha</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -623,7 +635,7 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00059">59</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00059">59</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
@@ -636,7 +648,7 @@ template&lt;&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::alpha </td>
+          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ac03904b1f7e359bb2acf10a755e97c5a">alpha</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -658,7 +670,7 @@ template&lt;&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#a780bd50362a995b802eb8e00f4b0c200">byte_t</a> &gt;::alpha </td>
+          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef">byte_t</a> &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ac03904b1f7e359bb2acf10a755e97c5a">alpha</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -671,7 +683,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00141">141</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00146">146</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
@@ -684,7 +696,7 @@ template&lt;&gt; </div>
 template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">float <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#a780bd50362a995b802eb8e00f4b0c200">byte_t</a> &gt;::alphaF </td>
+          <td class="memname">float <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef">byte_t</a> &gt;::alphaF </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -692,12 +704,12 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00079">79</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00079">79</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a19481690f22a0ffe7da722f81c7f4268"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19481690f22a0ffe7da722f81c7f4268">&#9670;&nbsp;</a></span>alphaF() <span class="overload">[2/3]</span></h2>
+<a id="a281df8bd16eb9cbd98405caa269e4533"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a281df8bd16eb9cbd98405caa269e4533">&#9670;&nbsp;</a></span>alphaF() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -705,7 +717,7 @@ template&lt;&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::alphaF </td>
+          <td class="memname">float <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::alphaF </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -740,7 +752,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00161">161</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00166">166</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
@@ -753,7 +765,7 @@ template&lt;&gt; </div>
 template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::blue </td>
+          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a1853b32584a90fa75432925f3e26d0e8">blue</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -761,7 +773,7 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00054">54</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00054">54</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
@@ -774,7 +786,7 @@ template&lt;&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::blue </td>
+          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a1853b32584a90fa75432925f3e26d0e8">blue</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -796,7 +808,7 @@ template&lt;&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#a780bd50362a995b802eb8e00f4b0c200">byte_t</a> &gt;::blue </td>
+          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef">byte_t</a> &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a1853b32584a90fa75432925f3e26d0e8">blue</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -809,7 +821,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00137">137</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00142">142</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
@@ -822,7 +834,7 @@ template&lt;&gt; </div>
 template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">float <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#a780bd50362a995b802eb8e00f4b0c200">byte_t</a> &gt;::blueF </td>
+          <td class="memname">float <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef">byte_t</a> &gt;::blueF </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -830,12 +842,12 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00074">74</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00074">74</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a1892bfaf6e361d270129517528e093f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1892bfaf6e361d270129517528e093f3">&#9670;&nbsp;</a></span>blueF() <span class="overload">[2/3]</span></h2>
+<a id="aa22705c8346bc033112fa54fe2407676"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa22705c8346bc033112fa54fe2407676">&#9670;&nbsp;</a></span>blueF() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -843,7 +855,7 @@ template&lt;&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::blueF </td>
+          <td class="memname">float <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::blueF </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -878,113 +890,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00156">156</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
-
-</div>
-</div>
-<a id="a777adc59692fbf4390138e36712d7c3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a777adc59692fbf4390138e36712d7c3e">&#9670;&nbsp;</a></span>CMYK() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a>&lt;T&gt; <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::CMYK </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"> = <code>255</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1db3464cca3281fc37434dcbfb8d6682"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1db3464cca3281fc37434dcbfb8d6682">&#9670;&nbsp;</a></span>CMYK() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a>&lt;T&gt; <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::CMYK </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
-          <td class="paramname"> = <code>1.0f</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00161">161</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
@@ -997,7 +903,7 @@ template&lt;class T&gt; </div>
 template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::green </td>
+          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ac14cda87cf6c751d53b65a3cd41c35a1">green</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1005,7 +911,7 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00049">49</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00049">49</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
@@ -1018,7 +924,7 @@ template&lt;&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::green </td>
+          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ac14cda87cf6c751d53b65a3cd41c35a1">green</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1040,7 +946,7 @@ template&lt;&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#a780bd50362a995b802eb8e00f4b0c200">byte_t</a> &gt;::green </td>
+          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef">byte_t</a> &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ac14cda87cf6c751d53b65a3cd41c35a1">green</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1053,7 +959,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00133">133</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00138">138</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
@@ -1066,7 +972,7 @@ template&lt;&gt; </div>
 template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">float <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#a780bd50362a995b802eb8e00f4b0c200">byte_t</a> &gt;::greenF </td>
+          <td class="memname">float <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef">byte_t</a> &gt;::greenF </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1074,12 +980,12 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00069">69</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00069">69</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a20167c739d1c974ba49937a8d4cc0842"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20167c739d1c974ba49937a8d4cc0842">&#9670;&nbsp;</a></span>greenF() <span class="overload">[2/3]</span></h2>
+<a id="adc4205da6b19d3846d4c74b036131e22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc4205da6b19d3846d4c74b036131e22">&#9670;&nbsp;</a></span>greenF() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1087,7 +993,7 @@ template&lt;&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::greenF </td>
+          <td class="memname">float <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::greenF </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1122,7 +1028,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00151">151</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00156">156</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
@@ -1176,8 +1082,8 @@ template&lt;class T&gt; </div>
 
 </div>
 </div>
-<a id="aebac44df40480db123e97104bde17e06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebac44df40480db123e97104bde17e06">&#9670;&nbsp;</a></span>HSL() <span class="overload">[2/2]</span></h2>
+<a id="a134ebaf6f1838f3bda9526ee95740707"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a134ebaf6f1838f3bda9526ee95740707">&#9670;&nbsp;</a></span>HSL() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1190,25 +1096,25 @@ template&lt;class T&gt; </div>
         <tr>
           <td class="memname">static <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a>&lt;T&gt; <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::HSL </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname"> = <code>1.0f</code>&#160;</td>
         </tr>
         <tr>
@@ -1276,8 +1182,8 @@ template&lt;class T&gt; </div>
 
 </div>
 </div>
-<a id="a24a813d8a4b9bc7c6f4aa982f2b2fb93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24a813d8a4b9bc7c6f4aa982f2b2fb93">&#9670;&nbsp;</a></span>HSV() <span class="overload">[2/2]</span></h2>
+<a id="a0c72788578df77ae49d07892d08ff542"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c72788578df77ae49d07892d08ff542">&#9670;&nbsp;</a></span>HSV() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1290,25 +1196,25 @@ template&lt;class T&gt; </div>
         <tr>
           <td class="memname">static <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a>&lt;T&gt; <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::HSV </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname"> = <code>1.0f</code>&#160;</td>
         </tr>
         <tr>
@@ -1343,7 +1249,7 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00044">44</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00044">44</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
@@ -1378,7 +1284,7 @@ template&lt;&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#a780bd50362a995b802eb8e00f4b0c200">byte_t</a> &gt;::red </td>
+          <td class="memname">int <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef">byte_t</a> &gt;::red </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1391,7 +1297,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00129">129</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00134">134</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
@@ -1404,7 +1310,7 @@ template&lt;&gt; </div>
 template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">float <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#a780bd50362a995b802eb8e00f4b0c200">byte_t</a> &gt;::redF </td>
+          <td class="memname">float <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef">byte_t</a> &gt;::redF </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1412,12 +1318,12 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00064">64</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00064">64</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
-<a id="ab4afd16b72d8f1ab82035edfdcd31421"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4afd16b72d8f1ab82035edfdcd31421">&#9670;&nbsp;</a></span>redF() <span class="overload">[2/3]</span></h2>
+<a id="a585eeeb097db239ebfa67e31ea5d8f2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a585eeeb097db239ebfa67e31ea5d8f2b">&#9670;&nbsp;</a></span>redF() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1425,7 +1331,7 @@ template&lt;&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::redF </td>
+          <td class="memname">float <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::redF </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1460,12 +1366,34 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00146">146</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00151">151</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
-<a id="a03ff44aa46800427e29f5c4821cf1fef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03ff44aa46800427e29f5c4821cf1fef">&#9670;&nbsp;</a></span>setAlpha() <span class="overload">[1/6]</span></h2>
+<a id="ad75fd3f36fcf8d31b130cb0faaad793a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad75fd3f36fcf8d31b130cb0faaad793a">&#9670;&nbsp;</a></span>setAlpha() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef">byte_t</a> &gt;::setAlpha </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>_a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00099">99</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aa4849ea9da54530436e34fa317ca2a83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4849ea9da54530436e34fa317ca2a83">&#9670;&nbsp;</a></span>setAlpha() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1473,7 +1401,7 @@ template&lt;&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setAlpha </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setAlpha </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1484,8 +1412,8 @@ template&lt;class T&gt; </div>
 
 </div>
 </div>
-<a id="aec2eea3a4b0ed70c528687a7b99cf7fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec2eea3a4b0ed70c528687a7b99cf7fe">&#9670;&nbsp;</a></span>setAlpha() <span class="overload">[2/6]</span></h2>
+<a id="aa7273ebde18584b24c823fc037ab1fcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7273ebde18584b24c823fc037ab1fcd">&#9670;&nbsp;</a></span>setAlpha() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1493,36 +1421,14 @@ template&lt;class T&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setAlpha </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setAlpha </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad75fd3f36fcf8d31b130cb0faaad793a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad75fd3f36fcf8d31b130cb0faaad793a">&#9670;&nbsp;</a></span>setAlpha() <span class="overload">[3/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#a780bd50362a995b802eb8e00f4b0c200">byte_t</a> &gt;::setAlpha </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>_a</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00099">99</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
 
 </div>
 </div>
@@ -1535,7 +1441,7 @@ template&lt;&gt; </div>
 template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::setAlpha </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::setAlpha </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>_a</em></td><td>)</td>
@@ -1544,7 +1450,7 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00119">119</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00119">119</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
@@ -1560,7 +1466,7 @@ template&lt;&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::setAlpha </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::setAlpha </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>_a</em></td><td>)</td>
@@ -1574,7 +1480,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00181">181</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00186">186</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
@@ -1590,7 +1496,7 @@ template&lt;&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#a780bd50362a995b802eb8e00f4b0c200">byte_t</a> &gt;::setAlpha </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef">byte_t</a> &gt;::setAlpha </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>_a</em></td><td>)</td>
@@ -1604,7 +1510,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00201">201</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00206">206</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
@@ -1617,7 +1523,7 @@ template&lt;&gt; </div>
 template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#a780bd50362a995b802eb8e00f4b0c200">byte_t</a> &gt;::setBlue </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef">byte_t</a> &gt;::setBlue </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>_b</em></td><td>)</td>
@@ -1626,12 +1532,12 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00094">94</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00094">94</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
-<a id="ada377160168c29bebdcbcbc70c4a85c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada377160168c29bebdcbcbc70c4a85c3">&#9670;&nbsp;</a></span>setBlue() <span class="overload">[2/6]</span></h2>
+<a id="aff528009e0222c4f67e401dcc64df61b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff528009e0222c4f67e401dcc64df61b">&#9670;&nbsp;</a></span>setBlue() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1639,7 +1545,7 @@ template&lt;&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setBlue </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setBlue </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1650,8 +1556,8 @@ template&lt;class T&gt; </div>
 
 </div>
 </div>
-<a id="a17e600abbfc6d7d1b4df3e5f9c2228c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17e600abbfc6d7d1b4df3e5f9c2228c4">&#9670;&nbsp;</a></span>setBlue() <span class="overload">[3/6]</span></h2>
+<a id="a7a8f39976a18bc9996e98445821712fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a8f39976a18bc9996e98445821712fc">&#9670;&nbsp;</a></span>setBlue() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1659,9 +1565,9 @@ template&lt;class T&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setBlue </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setBlue </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1679,7 +1585,7 @@ template&lt;class T&gt; </div>
 template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::setBlue </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::setBlue </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>_b</em></td><td>)</td>
@@ -1688,7 +1594,7 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00114">114</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00114">114</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
@@ -1704,7 +1610,7 @@ template&lt;&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::setBlue </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::setBlue </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>_b</em></td><td>)</td>
@@ -1718,7 +1624,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00176">176</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00181">181</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
@@ -1734,7 +1640,7 @@ template&lt;&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#a780bd50362a995b802eb8e00f4b0c200">byte_t</a> &gt;::setBlue </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef">byte_t</a> &gt;::setBlue </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>_b</em></td><td>)</td>
@@ -1748,7 +1654,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00196">196</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00201">201</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
@@ -1761,7 +1667,7 @@ template&lt;&gt; </div>
 template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#a780bd50362a995b802eb8e00f4b0c200">byte_t</a> &gt;::setGreen </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef">byte_t</a> &gt;::setGreen </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>_g</em></td><td>)</td>
@@ -1770,12 +1676,12 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00089">89</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00089">89</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
-<a id="ab6ce69a7a4c1373ae4a9394348531480"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6ce69a7a4c1373ae4a9394348531480">&#9670;&nbsp;</a></span>setGreen() <span class="overload">[2/6]</span></h2>
+<a id="a73dcfc5c7018c2cb87d3a4b2f696bc00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73dcfc5c7018c2cb87d3a4b2f696bc00">&#9670;&nbsp;</a></span>setGreen() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1783,7 +1689,7 @@ template&lt;&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setGreen </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setGreen </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1794,8 +1700,8 @@ template&lt;class T&gt; </div>
 
 </div>
 </div>
-<a id="a13b923095c4326d9b3f669f9e0331f0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13b923095c4326d9b3f669f9e0331f0a">&#9670;&nbsp;</a></span>setGreen() <span class="overload">[3/6]</span></h2>
+<a id="a9dbb783a8e853961b8f06f65a5c66dc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dbb783a8e853961b8f06f65a5c66dc7">&#9670;&nbsp;</a></span>setGreen() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1803,9 +1709,9 @@ template&lt;class T&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setGreen </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setGreen </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1823,7 +1729,7 @@ template&lt;class T&gt; </div>
 template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::setGreen </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::setGreen </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>_g</em></td><td>)</td>
@@ -1832,7 +1738,7 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00109">109</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00109">109</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
@@ -1848,7 +1754,7 @@ template&lt;&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::setGreen </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::setGreen </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>_g</em></td><td>)</td>
@@ -1862,7 +1768,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00171">171</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00176">176</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
@@ -1878,7 +1784,7 @@ template&lt;&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#a780bd50362a995b802eb8e00f4b0c200">byte_t</a> &gt;::setGreen </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef">byte_t</a> &gt;::setGreen </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>_g</em></td><td>)</td>
@@ -1892,7 +1798,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00191">191</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00196">196</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
@@ -1905,7 +1811,7 @@ template&lt;&gt; </div>
 template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#a780bd50362a995b802eb8e00f4b0c200">byte_t</a> &gt;::setRed </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef">byte_t</a> &gt;::setRed </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>_r</em></td><td>)</td>
@@ -1914,12 +1820,12 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00084">84</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00084">84</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a71f3b85ebe7b219cba5ddb1469ac95b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71f3b85ebe7b219cba5ddb1469ac95b6">&#9670;&nbsp;</a></span>setRed() <span class="overload">[2/6]</span></h2>
+<a id="a6d15416dd9aee91cb7d060aab07a6bdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d15416dd9aee91cb7d060aab07a6bdb">&#9670;&nbsp;</a></span>setRed() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1927,7 +1833,7 @@ template&lt;&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setRed </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setRed </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1938,8 +1844,8 @@ template&lt;class T&gt; </div>
 
 </div>
 </div>
-<a id="afbaf7af4ef992ac0005130e9c2d9059b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbaf7af4ef992ac0005130e9c2d9059b">&#9670;&nbsp;</a></span>setRed() <span class="overload">[3/6]</span></h2>
+<a id="a54ca3d434fea7f1c0894c34c075dc344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54ca3d434fea7f1c0894c34c075dc344">&#9670;&nbsp;</a></span>setRed() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1947,9 +1853,9 @@ template&lt;class T&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setRed </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setRed </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#affd6c4110716404da4a248797f5aafdd">afwfloat_t</a>&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1967,7 +1873,7 @@ template&lt;class T&gt; </div>
 template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::setRed </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::setRed </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>_r</em></td><td>)</td>
@@ -1976,7 +1882,7 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00104">104</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">Color.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html#l00104">104</a> of file <a class="el" href="../../db/d92/gengine_2core_2src_2Color_8cpp_source.html">gengine/core/src/Color.cpp</a>.</p>
 
 </div>
 </div>
@@ -1992,7 +1898,7 @@ template&lt;&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::setRed </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; float &gt;::setRed </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>_r</em></td><td>)</td>
@@ -2006,7 +1912,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00166">166</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00171">171</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
@@ -2022,7 +1928,7 @@ template&lt;&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#a780bd50362a995b802eb8e00f4b0c200">byte_t</a> &gt;::setRed </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; <a class="el" href="../../d7/db7/Type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef">byte_t</a> &gt;::setRed </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>_r</em></td><td>)</td>
@@ -2036,12 +1942,12 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00186">186</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00191">191</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
-<a id="ac7c337bbadf415b9161aa691931d5477"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7c337bbadf415b9161aa691931d5477">&#9670;&nbsp;</a></span>setRGB() <span class="overload">[1/2]</span></h2>
+<a id="abf2ce74d9d67e7f1bda0757cf8a0fcf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf2ce74d9d67e7f1bda0757cf8a0fcf5">&#9670;&nbsp;</a></span>setRGB() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2049,9 +1955,9 @@ template&lt;&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setRGB </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setRGB </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/db7/Type_8h.html#a17d16a1aa804aac8925a9dfe17cbcaab">afwuint32_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d3/dec/LibC_2STDInt_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2060,8 +1966,8 @@ template&lt;class T&gt; </div>
 
 </div>
 </div>
-<a id="ac245b8b25f8d734668fec40c64e33227"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac245b8b25f8d734668fec40c64e33227">&#9670;&nbsp;</a></span>setRGB() <span class="overload">[2/2]</span></h2>
+<a id="a0e080ae271b206930ffcc00bc46108aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e080ae271b206930ffcc00bc46108aa">&#9670;&nbsp;</a></span>setRGB() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2069,7 +1975,7 @@ template&lt;class T&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setRGB </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setRGB </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname">[3]</td><td>)</td>
@@ -2080,8 +1986,8 @@ template&lt;class T&gt; </div>
 
 </div>
 </div>
-<a id="a27624063d2a06c075200d9340f4c5d70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27624063d2a06c075200d9340f4c5d70">&#9670;&nbsp;</a></span>setRGBA()</h2>
+<a id="a131a02c34dfd94d8d1a6d9bd59d60519"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a131a02c34dfd94d8d1a6d9bd59d60519">&#9670;&nbsp;</a></span>setRGBA()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2089,7 +1995,7 @@ template&lt;class T&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/db7/Type_8h.html#a503353894c8eee83d06b48803a730fa6">afwvoid_t</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setRGBA </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::setRGBA </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname">[4]</td><td>)</td>
@@ -2110,12 +2016,12 @@ template&lt;class T&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::a</td>
+          <td class="memname">T <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a3309789fc188587d666cda5ece79cf82">a</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00111">111</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00116">116</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
@@ -2128,12 +2034,12 @@ template&lt;class T&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::b</td>
+          <td class="memname">T <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a0f71581a41fd2264c8944126dabbd010">b</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00111">111</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00116">116</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
@@ -2146,12 +2052,12 @@ template&lt;class T&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::g</td>
+          <td class="memname">T <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#acaceb3a655ff28b75259860bcb868f9f">g</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00111">111</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00116">116</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
@@ -2164,24 +2070,28 @@ template&lt;class T&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::r</td>
+          <td class="memname">T <a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">AuroraFW::GEngine::BaseColor</a>&lt; T &gt;::<a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a42ce7cdc612e53abee15043f80220d97">r</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00111">111</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html#l00116">116</a> of file <a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>/home/ricardo/Desktop/Projetos/Aurora-FW/modules/gengine/core/include/AuroraFW/GEngine/<a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">Color.h</a></li>
+<li><a class="el" href="../../da/dee/gengine_2core_2include_2AuroraFW_2GEngine_2Color_8h_source.html">gengine/core/include/AuroraFW/GEngine/Color.h</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="../../doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../df/d5d/namespaceAuroraFW.html">AuroraFW</a></li><li class="navelem"><a class="el" href="../../df/d57/namespaceAuroraFW_1_1GEngine.html">GEngine</a></li><li class="navelem"><a class="el" href="../../dc/d8f/structAuroraFW_1_1GEngine_1_1BaseColor.html">BaseColor</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

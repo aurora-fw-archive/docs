@@ -9,10 +9,19 @@
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -20,9 +29,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.gif"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Aurora Framework
+   &#160;<span id="projectnumber">${AURORAFW_VERSION}</span>
    </div>
+   <div id="projectbrief">A Powerful General Purpose Framework</div>
   </td>
  </tr>
  </tbody>
@@ -45,6 +57,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('d2/dfd/classglloader_1_1opener_1_1URLOpener.html','../../');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -59,11 +88,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="../../da/d1e/namespaceglloader.html">glloader</a></li><li class="navelem"><a class="el" href="../../d5/db7/namespaceglloader_1_1opener.html">opener</a></li><li class="navelem"><a class="el" href="../../d2/dfd/classglloader_1_1opener_1_1URLOpener.html">URLOpener</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -85,9 +109,9 @@ Inheritance diagram for glloader.opener.URLOpener:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a05f0a304177271c7bd3b1bf7491a5003"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dfd/classglloader_1_1opener_1_1URLOpener.html#a05f0a304177271c7bd3b1bf7491a5003">__init__</a> (self, user_agent='Mozilla/5.0')</td></tr>
 <tr class="separator:a05f0a304177271c7bd3b1bf7491a5003"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecb85b58fb7c335dd0f5ce79881c09bb"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dfd/classglloader_1_1opener_1_1URLOpener.html#aecb85b58fb7c335dd0f5ce79881c09bb">urlopen</a> (self, url, data=None, args, kwargs)</td></tr>
+<tr class="memitem:aecb85b58fb7c335dd0f5ce79881c09bb"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dfd/classglloader_1_1opener_1_1URLOpener.html#aecb85b58fb7c335dd0f5ce79881c09bb">urlopen</a> (self, url, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ab6787b28e84b76e9083cabab10c81630">data</a>=None, args, kwargs)</td></tr>
 <tr class="separator:aecb85b58fb7c335dd0f5ce79881c09bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd0c7685b20d64302c47875c54241b09"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dfd/classglloader_1_1opener_1_1URLOpener.html#acd0c7685b20d64302c47875c54241b09">urlretrieve</a> (self, url, filename, data=None)</td></tr>
+<tr class="memitem:acd0c7685b20d64302c47875c54241b09"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dfd/classglloader_1_1opener_1_1URLOpener.html#acd0c7685b20d64302c47875c54241b09">urlretrieve</a> (self, url, filename, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ab6787b28e84b76e9083cabab10c81630">data</a>=None)</td></tr>
 <tr class="separator:acd0c7685b20d64302c47875c54241b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab65ee3bcdfbc8ec62c7cf2110e3f9249"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dfd/classglloader_1_1opener_1_1URLOpener.html#ab65ee3bcdfbc8ec62c7cf2110e3f9249">default</a> (cls)</td></tr>
 <tr class="separator:ab65ee3bcdfbc8ec62c7cf2110e3f9249"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -292,14 +316,18 @@ only that *filname* is required.
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/ricardo/Desktop/Projetos/Aurora-FW/modules/gengine/opengl-loader/glloader/<a class="el" href="../../d5/da2/opener_8py_source.html">opener.py</a></li>
+<li><a class="el" href="../../d5/da2/opener_8py_source.html">opener.py</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="../../doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../da/d1e/namespaceglloader.html">glloader</a></li><li class="navelem"><a class="el" href="../../d5/db7/namespaceglloader_1_1opener.html">opener</a></li><li class="navelem"><a class="el" href="../../d2/dfd/classglloader_1_1opener_1_1URLOpener.html">URLOpener</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

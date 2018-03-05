@@ -9,10 +9,19 @@
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -20,9 +29,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.gif"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Aurora Framework
+   &#160;<span id="projectnumber">${AURORAFW_VERSION}</span>
    </div>
+   <div id="projectbrief">A Powerful General Purpose Framework</div>
   </td>
  </tr>
  </tbody>
@@ -45,6 +57,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('d8/dc1/classAuroraFW_1_1GEngine_1_1GLVertexArray.html','../../');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -59,11 +88,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="../../df/d5d/namespaceAuroraFW.html">AuroraFW</a></li><li class="navelem"><a class="el" href="../../df/d57/namespaceAuroraFW_1_1GEngine.html">GEngine</a></li><li class="navelem"><a class="el" href="../../d8/dc1/classAuroraFW_1_1GEngine_1_1GLVertexArray.html">GLVertexArray</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a>  </div>
@@ -78,15 +102,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6431037db546fcb0a0027a9fee71b1cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac759c1ae5af68d085784a8606584d8dc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc1/classAuroraFW_1_1GEngine_1_1GLVertexArray.html#ac759c1ae5af68d085784a8606584d8dc">~GLVertexArray</a> ()</td></tr>
 <tr class="separator:ac759c1ae5af68d085784a8606584d8dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08c63e195e32c01a4c1f4c86d7fc360c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc1/classAuroraFW_1_1GEngine_1_1GLVertexArray.html#a08c63e195e32c01a4c1f4c86d7fc360c">push</a> (<a class="el" href="../../d5/df2/classAuroraFW_1_1GEngine_1_1GLBuffer.html">GLBuffer</a> *)</td></tr>
-<tr class="separator:a08c63e195e32c01a4c1f4c86d7fc360c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a078581d2e6a5a81cd64c166e2835c5db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc1/classAuroraFW_1_1GEngine_1_1GLVertexArray.html#a078581d2e6a5a81cd64c166e2835c5db">add</a> (<a class="el" href="../../d5/df2/classAuroraFW_1_1GEngine_1_1GLBuffer.html">GLBuffer</a> *, GLint, <a class="el" href="../../d7/df8/Types_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a>)</td></tr>
-<tr class="separator:a078581d2e6a5a81cd64c166e2835c5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72d9996386df7d1aea572d8f1e083712"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc1/classAuroraFW_1_1GEngine_1_1GLVertexArray.html#a72d9996386df7d1aea572d8f1e083712">add</a> (GLint, <a class="el" href="../../d7/df8/Types_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a>)</td></tr>
-<tr class="separator:a72d9996386df7d1aea572d8f1e083712"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8da9c89e4fe3dc97798af06a4e172ab9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc1/classAuroraFW_1_1GEngine_1_1GLVertexArray.html#a8da9c89e4fe3dc97798af06a4e172ab9">bind</a> () const</td></tr>
+<tr class="memitem:a091cd4485aa2377c4bc2fd8fb01f24c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc1/classAuroraFW_1_1GEngine_1_1GLVertexArray.html#a091cd4485aa2377c4bc2fd8fb01f24c3">addBuffer</a> (const <a class="el" href="../../d5/df2/classAuroraFW_1_1GEngine_1_1GLBuffer.html">GLBuffer</a> &amp;, const <a class="el" href="../../d6/d1b/classAuroraFW_1_1GEngine_1_1GLVertexBufferLayout.html">GLVertexBufferLayout</a> &amp;)</td></tr>
+<tr class="separator:a091cd4485aa2377c4bc2fd8fb01f24c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8da9c89e4fe3dc97798af06a4e172ab9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc1/classAuroraFW_1_1GEngine_1_1GLVertexArray.html#a8da9c89e4fe3dc97798af06a4e172ab9">bind</a> () const</td></tr>
 <tr class="separator:a8da9c89e4fe3dc97798af06a4e172ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7097e003778f1be047278717fb9c640e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc1/classAuroraFW_1_1GEngine_1_1GLVertexArray.html#a7097e003778f1be047278717fb9c640e">unbind</a> () const</td></tr>
+<tr class="memitem:a7097e003778f1be047278717fb9c640e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc1/classAuroraFW_1_1GEngine_1_1GLVertexArray.html#a7097e003778f1be047278717fb9c640e">unbind</a> () const</td></tr>
 <tr class="separator:a7097e003778f1be047278717fb9c640e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -148,29 +168,23 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a078581d2e6a5a81cd64c166e2835c5db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a078581d2e6a5a81cd64c166e2835c5db">&#9670;&nbsp;</a></span>add() <span class="overload">[1/2]</span></h2>
+<a id="a091cd4485aa2377c4bc2fd8fb01f24c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a091cd4485aa2377c4bc2fd8fb01f24c3">&#9670;&nbsp;</a></span>addBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AuroraFW::GEngine::GLVertexArray::add </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> AuroraFW::GEngine::GLVertexArray::addBuffer </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/df2/classAuroraFW_1_1GEngine_1_1GLBuffer.html">GLBuffer</a> *&#160;</td>
-          <td class="paramname"><em>buffer</em>, </td>
+          <td class="paramtype">const <a class="el" href="../../d5/df2/classAuroraFW_1_1GEngine_1_1GLBuffer.html">GLBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">GLint&#160;</td>
-          <td class="paramname"><em>size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/df8/Types_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a>&#160;</td>
-          <td class="paramname"><em>index</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d6/d1b/classAuroraFW_1_1GEngine_1_1GLVertexBufferLayout.html">GLVertexBufferLayout</a> &amp;&#160;</td>
+          <td class="paramname"><em>layout</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -184,36 +198,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a72d9996386df7d1aea572d8f1e083712"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72d9996386df7d1aea572d8f1e083712">&#9670;&nbsp;</a></span>add() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AuroraFW::GEngine::GLVertexArray::add </td>
-          <td>(</td>
-          <td class="paramtype">GLint&#160;</td>
-          <td class="paramname"><em>size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/df8/Types_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a>&#160;</td>
-          <td class="paramname"><em>index</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d0/d56/GLVertexArray_8cpp_source.html#l00032">32</a> of file <a class="el" href="../../d0/d56/GLVertexArray_8cpp_source.html">GLVertexArray.cpp</a>.</p>
-
-</div>
-</div>
 <a id="a8da9c89e4fe3dc97798af06a4e172ab9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8da9c89e4fe3dc97798af06a4e172ab9">&#9670;&nbsp;</a></span>bind()</h2>
 
@@ -224,7 +208,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AuroraFW::GEngine::GLVertexArray::bind </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> AuroraFW::GEngine::GLVertexArray::bind </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -237,35 +221,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dae/VertexArray_8h_source.html#l00041">41</a> of file <a class="el" href="../../d5/dae/VertexArray_8h_source.html">VertexArray.h</a>.</p>
-
-</div>
-</div>
-<a id="a08c63e195e32c01a4c1f4c86d7fc360c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08c63e195e32c01a4c1f4c86d7fc360c">&#9670;&nbsp;</a></span>push()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AuroraFW::GEngine::GLVertexArray::push </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/df2/classAuroraFW_1_1GEngine_1_1GLBuffer.html">GLBuffer</a> *&#160;</td>
-          <td class="paramname"><em>buffer</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d5/dae/VertexArray_8h_source.html#l00049">49</a> of file <a class="el" href="../../d5/dae/VertexArray_8h_source.html">VertexArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/dae/VertexArray_8h_source.html#l00039">39</a> of file <a class="el" href="../../d5/dae/VertexArray_8h_source.html">VertexArray.h</a>.</p>
 
 </div>
 </div>
@@ -279,7 +235,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AuroraFW::GEngine::GLVertexArray::unbind </td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> AuroraFW::GEngine::GLVertexArray::unbind </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -292,20 +248,24 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dae/VertexArray_8h_source.html#l00042">42</a> of file <a class="el" href="../../d5/dae/VertexArray_8h_source.html">VertexArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/dae/VertexArray_8h_source.html#l00040">40</a> of file <a class="el" href="../../d5/dae/VertexArray_8h_source.html">VertexArray.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/ricardo/Desktop/Projetos/Aurora-FW/modules/gengine/opengl/include/AuroraFW/GEngine/GL/<a class="el" href="../../d5/dae/VertexArray_8h_source.html">VertexArray.h</a></li>
-<li>/home/ricardo/Desktop/Projetos/Aurora-FW/modules/gengine/opengl/src/<a class="el" href="../../d0/d56/GLVertexArray_8cpp_source.html">GLVertexArray.cpp</a></li>
+<li><a class="el" href="../../d5/dae/VertexArray_8h_source.html">VertexArray.h</a></li>
+<li><a class="el" href="../../d0/d56/GLVertexArray_8cpp_source.html">GLVertexArray.cpp</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="../../doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../df/d5d/namespaceAuroraFW.html">AuroraFW</a></li><li class="navelem"><a class="el" href="../../df/d57/namespaceAuroraFW_1_1GEngine.html">GEngine</a></li><li class="navelem"><a class="el" href="../../d8/dc1/classAuroraFW_1_1GEngine_1_1GLVertexArray.html">GLVertexArray</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

@@ -5,14 +5,29 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Aurora Framework: Data Fields</title>
+<title>Aurora Framework: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -20,9 +35,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.gif"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Aurora Framework
    </div>
+   <div id="projectbrief">A Powerful General Purpose Framework</div>
   </td>
  </tr>
  </tbody>
@@ -46,6 +63,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_n.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -61,83 +94,270 @@ $(function() {
 </div>
 
 <div class="contents">
-<div class="textblock">Here is a list of all struct and union fields with links to the structures/unions they belong to:</div>
+<div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index_n"></a>- n -</h3><ul>
 <li>NAME
-: <a class="el" href="d8/d03/classglloader_1_1lang_1_1c_1_1debug_1_1CDebugGenerator.html#a338ebf37261829f983f444d5a12bb3c6">glloader.lang.c.debug.CDebugGenerator</a>
-, <a class="el" href="dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#adef85fbb17bbc1bbe6abef0a761996d3">glloader.lang.c.generator.CGenerator</a>
-, <a class="el" href="de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a16d84f9ad58b245b4b2b4c0b10d23696">glloader.lang.common.generator.Generator</a>
-, <a class="el" href="de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#af4513a8579a71bfa681a082370ead405">glloader.lang.d.generator.BaseDGenerator</a>
-, <a class="el" href="d3/d9e/classglloader_1_1lang_1_1nim_1_1generator_1_1NimGenerator.html#a8b0f9e94b7c11816f335a8c89645f1d5">glloader.lang.nim.generator.NimGenerator</a>
-, <a class="el" href="d9/d2a/classglloader_1_1lang_1_1volt_1_1generator_1_1VoltGenerator.html#a4f75a83b9a5fe441312b05cbe8249912">glloader.lang.volt.generator.VoltGenerator</a>
+: <a class="el" href="d6/d2b/classglloader_1_1lang_1_1c_1_1debug_1_1_c_debug_generator.html#a338ebf37261829f983f444d5a12bb3c6">glloader.lang.c.debug.CDebugGenerator</a>
+, <a class="el" href="d5/d0b/classglloader_1_1lang_1_1c_1_1generator_1_1_c_generator.html#adef85fbb17bbc1bbe6abef0a761996d3">glloader.lang.c.generator.CGenerator</a>
+, <a class="el" href="da/d1c/classglloader_1_1lang_1_1common_1_1generator_1_1_generator.html#a16d84f9ad58b245b4b2b4c0b10d23696">glloader.lang.common.generator.Generator</a>
+, <a class="el" href="d4/d18/classglloader_1_1lang_1_1d_1_1generator_1_1_base_d_generator.html#af4513a8579a71bfa681a082370ead405">glloader.lang.d.generator.BaseDGenerator</a>
+, <a class="el" href="d7/dd9/classglloader_1_1lang_1_1nim_1_1generator_1_1_nim_generator.html#a8b0f9e94b7c11816f335a8c89645f1d5">glloader.lang.nim.generator.NimGenerator</a>
+, <a class="el" href="db/d3f/classglloader_1_1lang_1_1volt_1_1generator_1_1_volt_generator.html#a4f75a83b9a5fe441312b05cbe8249912">glloader.lang.volt.generator.VoltGenerator</a>
 </li>
 <li>name
-: <a class="el" href="d5/de6/classglloader_1_1parse_1_1Enum.html#a3defb39c3ce42b4d45e4821664911f6f">glloader.parse.Enum</a>
-, <a class="el" href="d2/da3/classglloader_1_1parse_1_1Extension.html#abb4f8a80dfc2d9e85aa6bde9e1684b32">glloader.parse.Extension</a>
-, <a class="el" href="d6/dd7/classglloader_1_1parse_1_1Group.html#add54c3ad1743e26bb13233790304d540">glloader.parse.Group</a>
-, <a class="el" href="dd/dd1/classglloader_1_1parse_1_1OGLType.html#a31e5a03cfd582b0ba6987bddab4fa8a3">glloader.parse.OGLType</a>
-, <a class="el" href="d6/d5f/classglloader_1_1parse_1_1Param.html#a93d7280b1328390c0c3e8a0f0c861160">glloader.parse.Param</a>
-, <a class="el" href="d1/dab/classglloader_1_1parse_1_1Proto.html#a67743562b1d3ac0e68a1b74b24c0a728">glloader.parse.Proto</a>
+: <a class="el" href="d1/db4/classglloader_1_1parse_1_1_enum.html#a3defb39c3ce42b4d45e4821664911f6f">glloader.parse.Enum</a>
+, <a class="el" href="d7/d3d/classglloader_1_1parse_1_1_extension.html#abb4f8a80dfc2d9e85aa6bde9e1684b32">glloader.parse.Extension</a>
+, <a class="el" href="dd/d12/classglloader_1_1parse_1_1_group.html#add54c3ad1743e26bb13233790304d540">glloader.parse.Group</a>
+, <a class="el" href="d7/dc6/classglloader_1_1parse_1_1_o_g_l_type.html#a31e5a03cfd582b0ba6987bddab4fa8a3">glloader.parse.OGLType</a>
+, <a class="el" href="d9/d13/classglloader_1_1parse_1_1_param.html#a93d7280b1328390c0c3e8a0f0c861160">glloader.parse.Param</a>
+, <a class="el" href="d8/dde/classglloader_1_1parse_1_1_proto.html#a67743562b1d3ac0e68a1b74b24c0a728">glloader.parse.Proto</a>
 </li>
 <li>NAME
-: <a class="el" href="d7/d06/classglloader_1_1parse_1_1Spec.html#a8f80cb492ff07b5b7c49cfad2ba0db19">glloader.parse.Spec</a>
+: <a class="el" href="d8/df7/classglloader_1_1parse_1_1_spec.html#a8f80cb492ff07b5b7c49cfad2ba0db19">glloader.parse.Spec</a>
 </li>
 <li>name
-: <a class="el" href="df/da3/classglloader_1_1parse_1_1Type.html#ad8c44c1f6420ae7f946cb38b55997d98">glloader.parse.Type</a>
+: <a class="el" href="df/dc4/classglloader_1_1parse_1_1_type.html#ad8c44c1f6420ae7f946cb38b55997d98">glloader.parse.Type</a>
 </li>
 <li>NAME
-: <a class="el" href="df/dc3/classglloader_1_1spec_1_1EGLSpec.html#a8be3b5a2b0709c9e7e39324d6bb00df7">glloader.spec.EGLSpec</a>
-, <a class="el" href="d9/de0/classglloader_1_1spec_1_1GLSpec.html#a77de67db2ff4d43be39a7cf70cf90a3d">glloader.spec.GLSpec</a>
-, <a class="el" href="d2/d1b/classglloader_1_1spec_1_1GLXSpec.html#a532aee271a6b8e3cea7ded9ae2337fe6">glloader.spec.GLXSpec</a>
-, <a class="el" href="db/d42/classglloader_1_1spec_1_1WGLSpec.html#a8bd37a1b591919b4bb7bd4acc4c0dba4">glloader.spec.WGLSpec</a>
+: <a class="el" href="d1/dc2/classglloader_1_1spec_1_1_e_g_l_spec.html#a8be3b5a2b0709c9e7e39324d6bb00df7">glloader.spec.EGLSpec</a>
+, <a class="el" href="d6/d2d/classglloader_1_1spec_1_1_g_l_spec.html#a77de67db2ff4d43be39a7cf70cf90a3d">glloader.spec.GLSpec</a>
+, <a class="el" href="d4/d58/classglloader_1_1spec_1_1_g_l_x_spec.html#a532aee271a6b8e3cea7ded9ae2337fe6">glloader.spec.GLXSpec</a>
+, <a class="el" href="da/dad/classglloader_1_1spec_1_1_w_g_l_spec.html#a8bd37a1b591919b4bb7bd4acc4c0dba4">glloader.spec.WGLSpec</a>
+</li>
+<li>Name
+: <a class="el" href="d5/d84/struct_im_font_config.html#abcd5db10139b42fbac90e31512c64f08">ImFontConfig</a>
+, <a class="el" href="d6/d8f/struct_im_gui_window.html#ab44252eb7d02d3f38249f5bac605037c">ImGuiWindow</a>
+, <a class="el" href="d5/db5/struct_im_gui_window_settings.html#a840259e14a45a600f84fcb940554e2d5">ImGuiWindowSettings</a>
 </li>
 <li>NAME_LONG
-: <a class="el" href="d8/d03/classglloader_1_1lang_1_1c_1_1debug_1_1CDebugGenerator.html#ab206b1acc30952f733d232dda3022b61">glloader.lang.c.debug.CDebugGenerator</a>
-, <a class="el" href="dd/d4b/classglloader_1_1lang_1_1c_1_1generator_1_1CGenerator.html#a838c30334ca939d64cfe5c9e7d202333">glloader.lang.c.generator.CGenerator</a>
-, <a class="el" href="de/d52/classglloader_1_1lang_1_1common_1_1generator_1_1Generator.html#a32e6fe4438d308cd8af9a67a8411a090">glloader.lang.common.generator.Generator</a>
-, <a class="el" href="de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a1434576d126206f8c5764b3ecac73c63">glloader.lang.d.generator.BaseDGenerator</a>
-, <a class="el" href="d3/d9e/classglloader_1_1lang_1_1nim_1_1generator_1_1NimGenerator.html#a21b16cb25c1a2cb695ebd3648bad429c">glloader.lang.nim.generator.NimGenerator</a>
-, <a class="el" href="d9/d2a/classglloader_1_1lang_1_1volt_1_1generator_1_1VoltGenerator.html#a259656172e6d299ea953fb434f4638dc">glloader.lang.volt.generator.VoltGenerator</a>
+: <a class="el" href="d6/d2b/classglloader_1_1lang_1_1c_1_1debug_1_1_c_debug_generator.html#ab206b1acc30952f733d232dda3022b61">glloader.lang.c.debug.CDebugGenerator</a>
+, <a class="el" href="d5/d0b/classglloader_1_1lang_1_1c_1_1generator_1_1_c_generator.html#a838c30334ca939d64cfe5c9e7d202333">glloader.lang.c.generator.CGenerator</a>
+, <a class="el" href="da/d1c/classglloader_1_1lang_1_1common_1_1generator_1_1_generator.html#a32e6fe4438d308cd8af9a67a8411a090">glloader.lang.common.generator.Generator</a>
+, <a class="el" href="d4/d18/classglloader_1_1lang_1_1d_1_1generator_1_1_base_d_generator.html#a1434576d126206f8c5764b3ecac73c63">glloader.lang.d.generator.BaseDGenerator</a>
+, <a class="el" href="d7/dd9/classglloader_1_1lang_1_1nim_1_1generator_1_1_nim_generator.html#a21b16cb25c1a2cb695ebd3648bad429c">glloader.lang.nim.generator.NimGenerator</a>
+, <a class="el" href="db/d3f/classglloader_1_1lang_1_1volt_1_1generator_1_1_volt_generator.html#a259656172e6d299ea953fb434f4638dc">glloader.lang.volt.generator.VoltGenerator</a>
 </li>
 <li>namespace
-: <a class="el" href="d5/de6/classglloader_1_1parse_1_1Enum.html#ae5d9a098ea253fe9e55bd38372289d11">glloader.parse.Enum</a>
+: <a class="el" href="d1/db4/classglloader_1_1parse_1_1_enum.html#ae5d9a098ea253fe9e55bd38372289d11">glloader.parse.Enum</a>
+</li>
+<li>NavActivateDownId
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a07e49e172b0aad8b1ff2ac3df71b788b">ImGuiContext</a>
+</li>
+<li>NavActivateId
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a809b5fc440a6198e4266b36150dc3396">ImGuiContext</a>
+</li>
+<li>NavActivatePressedId
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a24929a88fa69cfb49cfd41c8cb4225d0">ImGuiContext</a>
+</li>
+<li>NavActive
+: <a class="el" href="d5/dbc/struct_im_gui_i_o.html#aa63cf74a15e9dd0ad469ff09ca840ddf">ImGuiIO</a>
+</li>
+<li>NavAnyRequest
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a2bb94ad4b29cd6359f5e2a6d0f24e617">ImGuiContext</a>
+</li>
+<li>NavDisableHighlight
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a15bae5126d0c9f911ff5eacda9e6958f">ImGuiContext</a>
+</li>
+<li>NavDisableMouseHover
+: <a class="el" href="d7/da3/struct_im_gui_context.html#aee7132fe5dfc3afdecf13c319da7dbf6">ImGuiContext</a>
+</li>
+<li>NavHasScroll
+: <a class="el" href="d8/d5e/struct_im_gui_draw_context.html#a9040f0c972a448ed64d63447e9b56376">ImGuiDrawContext</a>
+</li>
+<li>NavHideHighlightOneFrame
+: <a class="el" href="d8/d5e/struct_im_gui_draw_context.html#a0f6e93a47c50de73038c075b9d896fc2">ImGuiDrawContext</a>
+</li>
+<li>NavId
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a0416d655ac426f9923dab220d95a4b6b">ImGuiContext</a>
+</li>
+<li>NavIdIsAlive
+: <a class="el" href="d7/da3/struct_im_gui_context.html#aabd1e23f5be55f6331281f2c2ea9e411">ImGuiContext</a>
+</li>
+<li>NavIdTabCounter
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a2a0858cb7aa0b8de0346e93b7f9d2cee">ImGuiContext</a>
+</li>
+<li>NavInitRequest
+: <a class="el" href="d7/da3/struct_im_gui_context.html#ac1e37ea3392df255f52f8cc53bf8180a">ImGuiContext</a>
+</li>
+<li>NavInitRequestFromMove
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a92dbda9104ae60cea64926e9e7d98702">ImGuiContext</a>
+</li>
+<li>NavInitResultId
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a1a4e4062115647df8cfc566e595fe3e1">ImGuiContext</a>
+</li>
+<li>NavInitResultRectRel
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a4d59fe60fd93303628212a3d52f6c9e0">ImGuiContext</a>
+</li>
+<li>NavInputId
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a61db117ce7f7128f90be0ea560c004b2">ImGuiContext</a>
+</li>
+<li>NavInputs
+: <a class="el" href="d5/dbc/struct_im_gui_i_o.html#a1e6e8142c2c2e09a715fa5efaa0db9fa">ImGuiIO</a>
+</li>
+<li>NavInputsDownDuration
+: <a class="el" href="d5/dbc/struct_im_gui_i_o.html#a4709a8f5435a50387d60ccb6fa928cf6">ImGuiIO</a>
+</li>
+<li>NavInputsDownDurationPrev
+: <a class="el" href="d5/dbc/struct_im_gui_i_o.html#ae2301639fd3e881177815d3b0133068f">ImGuiIO</a>
+</li>
+<li>NavJustMovedToId
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a1ad32892bff3773daf74bf39f525e2c0">ImGuiContext</a>
+</li>
+<li>NavJustTabbedId
+: <a class="el" href="d7/da3/struct_im_gui_context.html#afe76d25a666183763466ab19cd7d4816">ImGuiContext</a>
+</li>
+<li>NavLastChildNavWindow
+: <a class="el" href="d6/d8f/struct_im_gui_window.html#a7255735a59782a09b4536e633e5153dd">ImGuiWindow</a>
+</li>
+<li>NavLastIds
+: <a class="el" href="d6/d8f/struct_im_gui_window.html#af5ca9ef94d021549cbd27f0a4c0a103b">ImGuiWindow</a>
+</li>
+<li>NavLayer
+: <a class="el" href="d7/da3/struct_im_gui_context.html#ae048414959d95b70f63f9a067803956f">ImGuiContext</a>
+</li>
+<li>NavLayerActiveMask
+: <a class="el" href="d8/d5e/struct_im_gui_draw_context.html#a9bbb97506a15c04278d897f1824f388b">ImGuiDrawContext</a>
+</li>
+<li>NavLayerActiveMaskNext
+: <a class="el" href="d8/d5e/struct_im_gui_draw_context.html#a719a0fcd26d1f3df3a73c20d30ad92c3">ImGuiDrawContext</a>
+</li>
+<li>NavLayerCurrent
+: <a class="el" href="d8/d5e/struct_im_gui_draw_context.html#ab1a48d3596a21949bf93d2b5f8aff172">ImGuiDrawContext</a>
+</li>
+<li>NavLayerCurrentMask
+: <a class="el" href="d8/d5e/struct_im_gui_draw_context.html#ae59458407d0e5332f2ea8839ff7a6ca4">ImGuiDrawContext</a>
+</li>
+<li>NavMousePosDirty
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a45d87c28d8ea54ea82cb5d26c12c13db">ImGuiContext</a>
+</li>
+<li>NavMoveDir
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a20208736529ff4a1067d8d15ef17400b">ImGuiContext</a>
+</li>
+<li>NavMoveDirLast
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a74b9822c7771e7c331d72e0862910243">ImGuiContext</a>
+</li>
+<li>NavMoveFromClampedRefRect
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a5571249e733688870409369db98fde79">ImGuiContext</a>
+</li>
+<li>NavMoveRequest
+: <a class="el" href="d7/da3/struct_im_gui_context.html#ab476c1e9c5fca5e45ca80001a5fd532e">ImGuiContext</a>
+</li>
+<li>NavMoveRequestForward
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a96fd534ce6bec43e3b23cb71cda1b62c">ImGuiContext</a>
+</li>
+<li>NavMoveResultLocal
+: <a class="el" href="d7/da3/struct_im_gui_context.html#ad7d98d5f91fbbe9b0dacee866832ea6d">ImGuiContext</a>
+</li>
+<li>NavMoveResultOther
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a850becf9154be7f47580cfebc9f80127">ImGuiContext</a>
+</li>
+<li>NavNextActivateId
+: <a class="el" href="d7/da3/struct_im_gui_context.html#abc1fa0d9750d44d4595905a0ce178ded">ImGuiContext</a>
+</li>
+<li>NavRectRel
+: <a class="el" href="d6/d8f/struct_im_gui_window.html#a543b098357825e2a415d5f9f3a39adb5">ImGuiWindow</a>
+</li>
+<li>NavScoringCount
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a2ff237a66a4d995620cc03f309268e53">ImGuiContext</a>
+</li>
+<li>NavScoringRectScreen
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a066c51092023d97383ff348fed5e2a21">ImGuiContext</a>
+</li>
+<li>NavVisible
+: <a class="el" href="d5/dbc/struct_im_gui_i_o.html#a904bb563ee00c92cc6b6b072df2c7405">ImGuiIO</a>
+</li>
+<li>NavWindow
+: <a class="el" href="d7/da3/struct_im_gui_context.html#ae06077e45c894488b28baaf2d7ff8e41">ImGuiContext</a>
+</li>
+<li>NavWindowingHighlightAlpha
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a58906b21765f83b753e33b4733fa596c">ImGuiContext</a>
+</li>
+<li>NavWindowingHighlightTimer
+: <a class="el" href="d7/da3/struct_im_gui_context.html#ab7e06016056916c645bb32fc4f75b1d4">ImGuiContext</a>
+</li>
+<li>NavWindowingInputSource
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a846358015bb8e99319635b52e2da102f">ImGuiContext</a>
+</li>
+<li>NavWindowingTarget
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a90cb834d237027d39e0d2efbe3d90d04">ImGuiContext</a>
+</li>
+<li>NavWindowingToggleLayer
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a324b59dc38e7121a1aef959218d3563a">ImGuiContext</a>
+</li>
+<li>newFrame()
+: <a class="el" href="d3/d2d/class_aurora_f_w_1_1_g_engine_1_1_im_gui_loader.html#a6344bafd0bd038a3644ae73db6213bb3">AuroraFW::GEngine::ImGuiLoader</a>
+</li>
+<li>next
+: <a class="el" href="d0/dbb/structstbrp__node.html#a933cb2dd6cddc4fcaf10e3b40634bed4">stbrp_node</a>
+</li>
+<li>NextTreeNodeOpenCond
+: <a class="el" href="d7/da3/struct_im_gui_context.html#aeaca84fcb1dd6df0f9fb18df715e8460">ImGuiContext</a>
+</li>
+<li>NextTreeNodeOpenVal
+: <a class="el" href="d7/da3/struct_im_gui_context.html#aed0758191a1eb49ffed88a7682829c1f">ImGuiContext</a>
+</li>
+<li>NextWidth
+: <a class="el" href="dc/d02/struct_im_gui_menu_columns.html#a0882d287ca8718a3b5b92d0d00df839d">ImGuiMenuColumns</a>
+</li>
+<li>NextWidths
+: <a class="el" href="dc/d02/struct_im_gui_menu_columns.html#a458212d39dfc83dee9e5deb28c05ebd5">ImGuiMenuColumns</a>
+</li>
+<li>NextWindowData
+: <a class="el" href="d7/da3/struct_im_gui_context.html#a1220ef65a7464ef2dc4a6020cd1b9c47">ImGuiContext</a>
 </li>
 <li>NIM_KEYWORDS
-: <a class="el" href="d3/d9e/classglloader_1_1lang_1_1nim_1_1generator_1_1NimGenerator.html#a6739134c3403801d52585bd0e661f3e3">glloader.lang.nim.generator.NimGenerator</a>
+: <a class="el" href="d7/dd9/classglloader_1_1lang_1_1nim_1_1generator_1_1_nim_generator.html#a6739134c3403801d52585bd0e661f3e3">glloader.lang.nim.generator.NimGenerator</a>
 </li>
 <li>NIM_POINTER_MAP
-: <a class="el" href="dd/dd1/classglloader_1_1parse_1_1OGLType.html#a0b6a0478ab008a12efc59589bfa1e60b">glloader.parse.OGLType</a>
+: <a class="el" href="d7/dc6/classglloader_1_1parse_1_1_o_g_l_type.html#a0b6a0478ab008a12efc59589bfa1e60b">glloader.parse.OGLType</a>
+</li>
+<li>nodes
+: <a class="el" href="d6/dc9/structstbtt__pack__context.html#a11a73fa6860e6be1ac039fcca9db2c7c">stbtt_pack_context</a>
 </li>
 <li>NoneFlag
-: <a class="el" href="d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#ab6e45ca9683d88670312f5e8f48dd4faa25684b091b2d10390ee0f59959ef9d7f">AuroraFW::GUI::Application</a>
+: <a class="el" href="d2/d7c/class_aurora_f_w_1_1_g_u_i_1_1_application.html#ab6e45ca9683d88670312f5e8f48dd4faa25684b091b2d10390ee0f59959ef9d7f">AuroraFW::GUI::Application</a>
 </li>
 <li>NonePosition
-: <a class="el" href="d4/da3/classAuroraFW_1_1GUI_1_1Window.html#a23c6400139c8f93f70b1562387e2c2afa6e4473ee2239f464c8e55457d433f192">AuroraFW::GUI::Window</a>
+: <a class="el" href="d3/d1e/class_aurora_f_w_1_1_g_u_i_1_1_window.html#a23c6400139c8f93f70b1562387e2c2afa6e4473ee2239f464c8e55457d433f192">AuroraFW::GUI::Window</a>
 </li>
 <li>NonUniqueFlag
-: <a class="el" href="d2/d8f/classAuroraFW_1_1GUI_1_1Application.html#ab6e45ca9683d88670312f5e8f48dd4faa81e8b6f3c929d61f561981890254c15c">AuroraFW::GUI::Application</a>
+: <a class="el" href="d2/d7c/class_aurora_f_w_1_1_g_u_i_1_1_application.html#ab6e45ca9683d88670312f5e8f48dd4faa81e8b6f3c929d61f561981890254c15c">AuroraFW::GUI::Application</a>
 </li>
 <li>normalize()
-: <a class="el" href="d7/d33/structAuroraFW_1_1Math_1_1vec2.html#a35ca0bcc13becfb34228b880443baace">AuroraFW::Math::vec2&lt; T &gt;</a>
-, <a class="el" href="d3/d12/structAuroraFW_1_1Math_1_1vec3.html#ac76ebb566f4dff1769735b08b5813098">AuroraFW::Math::vec3&lt; T &gt;</a>
-, <a class="el" href="d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#acbd00cc4a4704936addfe41d6dddf843">AuroraFW::Math::vec4&lt; T &gt;</a>
+: <a class="el" href="d8/d34/struct_aurora_f_w_1_1_math_1_1vec2.html#a35ca0bcc13becfb34228b880443baace">AuroraFW::Math::vec2&lt; T &gt;</a>
+, <a class="el" href="df/da8/struct_aurora_f_w_1_1_math_1_1vec3.html#ac76ebb566f4dff1769735b08b5813098">AuroraFW::Math::vec3&lt; T &gt;</a>
+, <a class="el" href="d8/d6c/struct_aurora_f_w_1_1_math_1_1vec4.html#acbd00cc4a4704936addfe41d6dddf843">AuroraFW::Math::vec4&lt; T &gt;</a>
 </li>
-<li>normalized()
-: <a class="el" href="d7/d33/structAuroraFW_1_1Math_1_1vec2.html#a6500fa0cbfe2b6d52f0a02dd45da0989">AuroraFW::Math::vec2&lt; T &gt;</a>
-, <a class="el" href="d3/d12/structAuroraFW_1_1Math_1_1vec3.html#a7d43ee8068141a415b00cbc419f5e88e">AuroraFW::Math::vec3&lt; T &gt;</a>
-, <a class="el" href="d5/d6f/structAuroraFW_1_1Math_1_1vec4.html#a4a8610dad3a42c5a91abc2aba929446f">AuroraFW::Math::vec4&lt; T &gt;</a>
+<li>normalized
+: <a class="el" href="d5/dd5/struct_aurora_f_w_1_1_g_engine_1_1_g_l_vertex_buffer_element.html#a37a8478ee7cdd4c2ca47c5f0e257ff76">AuroraFW::GEngine::GLVertexBufferElement</a>
+, <a class="el" href="d8/d34/struct_aurora_f_w_1_1_math_1_1vec2.html#a6500fa0cbfe2b6d52f0a02dd45da0989">AuroraFW::Math::vec2&lt; T &gt;</a>
+, <a class="el" href="df/da8/struct_aurora_f_w_1_1_math_1_1vec3.html#a7d43ee8068141a415b00cbc419f5e88e">AuroraFW::Math::vec3&lt; T &gt;</a>
+, <a class="el" href="d8/d6c/struct_aurora_f_w_1_1_math_1_1vec4.html#a4a8610dad3a42c5a91abc2aba929446f">AuroraFW::Math::vec4&lt; T &gt;</a>
+</li>
+<li>num_chars
+: <a class="el" href="d1/d1e/struct_stb_textedit_row.html#a1a19bebadb3f82b4f86ea29698d77084">StbTexteditRow</a>
+, <a class="el" href="d9/d46/structstbtt__pack__range.html#a046d65b6ffb65fb998d471ba098e2e23">stbtt_pack_range</a>
+</li>
+<li>num_nodes
+: <a class="el" href="d7/dc7/structstbrp__context.html#afa8105d4ef6d3e0ae5aaf8e1ed4b2c58">stbrp_context</a>
 </li>
 <li>number
-: <a class="el" href="d8/d87/classglloader_1_1parse_1_1Feature.html#a5c1dece31ff2a0c1d8d7ee8aa18a1607">glloader.parse.Feature</a>
+: <a class="el" href="d4/d6b/classglloader_1_1parse_1_1_feature.html#a5c1dece31ff2a0c1d8d7ee8aa18a1607">glloader.parse.Feature</a>
+</li>
+<li>numGlyphs
+: <a class="el" href="d1/d3f/structstbtt__fontinfo.html#a60ad8301a98eb7cd91472ce846d9080d">stbtt_fontinfo</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

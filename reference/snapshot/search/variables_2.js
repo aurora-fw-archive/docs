@@ -1,5 +1,30 @@
 var searchData=
 [
-  ['classifiers',['classifiers',['../dd/dc4/namespacesetup.html#abe96a9c38c1c61f9f0fdb002c482f785',1,'setup']]],
-  ['comment',['comment',['../d5/de6/classglloader_1_1parse_1_1Enum.html#ac4eafacb15dd1a68950dd47c6a402efd',1,'glloader::parse::Enum']]]
+  ['b',['b',['../d3/d7d/struct_aurora_f_w_1_1_g_engine_1_1_base_color.html#ac7566227c7bd4f9b2feed570bdab7b27',1,'AuroraFW::GEngine::BaseColor::b()'],['../d7/db3/struct_im_gui_text_filter_1_1_text_range.html#a705cf9c8fb0796b3bab9cf20cb18b0ca',1,'ImGuiTextFilter::TextRange::b()']]],
+  ['backupactiveidisalive',['BackupActiveIdIsAlive',['../da/dc1/struct_im_gui_group_data.html#ac27968bcfd94ba2e4b1543b95d032f35',1,'ImGuiGroupData']]],
+  ['backupcurrentlineheight',['BackupCurrentLineHeight',['../da/dc1/struct_im_gui_group_data.html#a6e17deccf50138bdf436fa172bb453e2',1,'ImGuiGroupData']]],
+  ['backupcurrentlinetextbaseoffset',['BackupCurrentLineTextBaseOffset',['../da/dc1/struct_im_gui_group_data.html#a3745219bd1f4c6ee5080d8d0aaa8a712',1,'ImGuiGroupData']]],
+  ['backupcursormaxpos',['BackupCursorMaxPos',['../da/dc1/struct_im_gui_group_data.html#abb83c4db050ef7d20485902cc14c4a0d',1,'ImGuiGroupData']]],
+  ['backupcursorpos',['BackupCursorPos',['../da/dc1/struct_im_gui_group_data.html#a8b29e2d9081876fd4847b1cd86c60500',1,'ImGuiGroupData']]],
+  ['backupfloat',['BackupFloat',['../d4/df8/struct_im_gui_style_mod.html#af36b5cf1100de970d78a53db937be949',1,'ImGuiStyleMod']]],
+  ['backupgroupoffsetx',['BackupGroupOffsetX',['../da/dc1/struct_im_gui_group_data.html#a0cee1b14b574a4bf883ceb1be58a9332',1,'ImGuiGroupData']]],
+  ['backupindentx',['BackupIndentX',['../da/dc1/struct_im_gui_group_data.html#a9d39092c1c154ba4809ae79e47baeb64',1,'ImGuiGroupData']]],
+  ['backupint',['BackupInt',['../d4/df8/struct_im_gui_style_mod.html#a60491c95989b2a866ebb76403a562f6f',1,'ImGuiStyleMod']]],
+  ['backuploglineposy',['BackupLogLinePosY',['../da/dc1/struct_im_gui_group_data.html#af67f52c70f74a3b7bce8ce46affc856b',1,'ImGuiGroupData']]],
+  ['backupvalue',['BackupValue',['../d4/d6f/struct_im_gui_col_mod.html#a7c23f178bbf5cbdb1333332bb84f73c9',1,'ImGuiColMod']]],
+  ['baseline_5fy_5fdelta',['baseline_y_delta',['../d1/d1e/struct_stb_textedit_row.html#ad2d72b74b1a61e331949c7f7ec311880',1,'StbTexteditRow']]],
+  ['basestring',['basestring',['../df/d22/namespaceglloader_1_1lang_1_1d_1_1generator.html#aa23302a415c209fd00fbcc0c3f2fcd28',1,'glloader.lang.d.generator.basestring()'],['../d7/d3e/namespaceglloader_1_1lang_1_1nim_1_1generator.html#a6c998e9d58ed1a64ca999c9779d9ad8c',1,'glloader.lang.nim.generator.basestring()'],['../dc/d4b/namespaceglloader_1_1lang_1_1volt_1_1generator.html#a4027f312b279e31bd2700466a35631c3',1,'glloader.lang.volt.generator.basestring()']]],
+  ['begincount',['BeginCount',['../d6/d8f/struct_im_gui_window.html#aa27229a425dc17303be1cd8f4a61c17f',1,'ImGuiWindow']]],
+  ['beginorderwithincontext',['BeginOrderWithinContext',['../d6/d8f/struct_im_gui_window.html#ae0cb2f2346c1a9264210626a99997506',1,'ImGuiWindow']]],
+  ['beginorderwithinparent',['BeginOrderWithinParent',['../d6/d8f/struct_im_gui_window.html#a9299370fd06dff8c36988743db5b90fd',1,'ImGuiWindow']]],
+  ['bgalphacond',['BgAlphaCond',['../d3/dd8/struct_im_gui_next_window_data.html#af494d38cf5dcfb9cd7e08de5c6c17b31',1,'ImGuiNextWindowData']]],
+  ['bgalphaval',['BgAlphaVal',['../d3/dd8/struct_im_gui_next_window_data.html#a3597005fb1cdd4d3fa06296bbbb5a2c2',1,'ImGuiNextWindowData']]],
+  ['btn',['btn',['../dd/dda/struct_aurora_f_w_1_1_mouse_button_event.html#af29baae07fa39c725b9cbbc227359803',1,'AuroraFW::MouseButtonEvent']]],
+  ['buf',['Buf',['../da/d7d/struct_im_gui_text_buffer.html#aa6de034b1920cdae5505cc58abf14240',1,'ImGuiTextBuffer::Buf()'],['../df/def/struct_im_gui_text_edit_callback_data.html#aecd0741ee3feccbb5482e308292611bc',1,'ImGuiTextEditCallbackData::Buf()']]],
+  ['bufdirty',['BufDirty',['../df/def/struct_im_gui_text_edit_callback_data.html#a1ba304d589e00bece6400d43451d864e',1,'ImGuiTextEditCallbackData']]],
+  ['buffer',['buffer',['../da/d61/struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream.html#a3ed6a9200b1b50b6ba99061413048f2e',1,'AuroraFW::AudioManager::AudioIStream']]],
+  ['bufsize',['BufSize',['../df/def/struct_im_gui_text_edit_callback_data.html#ae22679499dd9df688f4fabf1b9e8d048',1,'ImGuiTextEditCallbackData']]],
+  ['bufsizea',['BufSizeA',['../d8/d04/struct_im_gui_text_edit_state.html#a73190bd16bf8bb58c827e66b9e28e071',1,'ImGuiTextEditState']]],
+  ['buftextlen',['BufTextLen',['../df/def/struct_im_gui_text_edit_callback_data.html#a98d0d0b8c32d8466ba2f07b7daee9c08',1,'ImGuiTextEditCallbackData']]],
+  ['buttontextalign',['ButtonTextAlign',['../d7/d12/struct_im_gui_style.html#a17246b12f4e069229d21808a87f78514',1,'ImGuiStyle']]]
 ];

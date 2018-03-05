@@ -9,10 +9,19 @@
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -20,9 +29,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.gif"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Aurora Framework
+   &#160;<span id="projectnumber">${AURORAFW_VERSION}</span>
    </div>
+   <div id="projectbrief">A Powerful General Purpose Framework</div>
   </td>
  </tr>
  </tbody>
@@ -45,6 +57,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html','../../');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -59,11 +88,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="../../da/d1e/namespaceglloader.html">glloader</a></li><li class="navelem"><a class="el" href="../../da/dd4/namespaceglloader_1_1lang.html">lang</a></li><li class="navelem"><a class="el" href="../../d5/d74/namespaceglloader_1_1lang_1_1d.html">d</a></li><li class="navelem"><a class="el" href="../../df/d22/namespaceglloader_1_1lang_1_1d_1_1generator.html">generator</a></li><li class="navelem"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html">BaseDGenerator</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -108,13 +132,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3b9be8cd91aabbd0fe1be9d9dbc9f924"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0081e04c50a94922b62344e3f3040680"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a0081e04c50a94922b62344e3f3040680">generate_extensions</a> (self, extensions, enums, functions)</td></tr>
 <tr class="separator:a0081e04c50a94922b62344e3f3040680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79dcead9cc86b67db8e210a226bf0792"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a79dcead9cc86b67db8e210a226bf0792">write_functions</a> (self, f, write, written, extensions)</td></tr>
+<tr class="memitem:a79dcead9cc86b67db8e210a226bf0792"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a79dcead9cc86b67db8e210a226bf0792">write_functions</a> (self, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a691492ec0bd6383f91200e49f6ae40ed">f</a>, write, written, extensions)</td></tr>
 <tr class="separator:a79dcead9cc86b67db8e210a226bf0792"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d828c5b4d7b27419386ab78a64efebc"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a4d828c5b4d7b27419386ab78a64efebc">make_path</a> (self, name)</td></tr>
+<tr class="memitem:a4d828c5b4d7b27419386ab78a64efebc"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a4d828c5b4d7b27419386ab78a64efebc">make_path</a> (self, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ad977737dfc9a274a62741b9500c49a32">name</a>)</td></tr>
 <tr class="separator:a4d828c5b4d7b27419386ab78a64efebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c642c7c2b95233a6bd440c11284e272"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a9c642c7c2b95233a6bd440c11284e272">write_imports</a> (self, fobj, modules, private=True)</td></tr>
 <tr class="separator:a9c642c7c2b95233a6bd440c11284e272"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa943f4cb96f57f2347b2ae05400d359f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#aa943f4cb96f57f2347b2ae05400d359f">write_module</a> (self, fobj, name)</td></tr>
+<tr class="memitem:aa943f4cb96f57f2347b2ae05400d359f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#aa943f4cb96f57f2347b2ae05400d359f">write_module</a> (self, fobj, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ad977737dfc9a274a62741b9500c49a32">name</a>)</td></tr>
 <tr class="separator:aa943f4cb96f57f2347b2ae05400d359f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04124a3d4ab21737285315481beaed70"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a04124a3d4ab21737285315481beaed70">write_prototype_pre</a> (self, fobj)</td></tr>
 <tr class="separator:a04124a3d4ab21737285315481beaed70"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,31 +156,31 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ade123394e29c3f45fe523223029c834b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f4ec49785db0a74b8cd19b43259d08b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a7f4ec49785db0a74b8cd19b43259d08b">write_shared_end</a> (self, fobj)</td></tr>
 <tr class="separator:a7f4ec49785db0a74b8cd19b43259d08b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b320a7a3d9140afcbe9ea57703a9af9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a4b320a7a3d9140afcbe9ea57703a9af9">write_function_def</a> (self, fobj, func)</td></tr>
+<tr class="memitem:a4b320a7a3d9140afcbe9ea57703a9af9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a4b320a7a3d9140afcbe9ea57703a9af9">write_function_def</a> (self, fobj, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a18ae3ab36a07e388833b568cfdfa90c8">func</a>)</td></tr>
 <tr class="separator:a4b320a7a3d9140afcbe9ea57703a9af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f95ae8018ca841af0ed677089fb1dea"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a2f95ae8018ca841af0ed677089fb1dea">write_function</a> (self, fobj, func)</td></tr>
+<tr class="memitem:a2f95ae8018ca841af0ed677089fb1dea"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a2f95ae8018ca841af0ed677089fb1dea">write_function</a> (self, fobj, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a18ae3ab36a07e388833b568cfdfa90c8">func</a>)</td></tr>
 <tr class="separator:a2f95ae8018ca841af0ed677089fb1dea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c92dd2b90f153a9618f2f0148a2e3b2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a5c92dd2b90f153a9618f2f0148a2e3b2">write_function_prototype</a> (self, fobj, func)</td></tr>
+<tr class="memitem:a5c92dd2b90f153a9618f2f0148a2e3b2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a5c92dd2b90f153a9618f2f0148a2e3b2">write_function_prototype</a> (self, fobj, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#a18ae3ab36a07e388833b568cfdfa90c8">func</a>)</td></tr>
 <tr class="separator:a5c92dd2b90f153a9618f2f0148a2e3b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09057788ba7317c544e018fcc091d9f9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a09057788ba7317c544e018fcc091d9f9">write_boolean</a> (self, fobj, name, value=False)</td></tr>
+<tr class="memitem:a09057788ba7317c544e018fcc091d9f9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a09057788ba7317c544e018fcc091d9f9">write_boolean</a> (self, fobj, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ad977737dfc9a274a62741b9500c49a32">name</a>, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ac6e066a8c9e91051799ffa957f0a20a6">value</a>=False)</td></tr>
 <tr class="separator:a09057788ba7317c544e018fcc091d9f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b0cb1b8932ce945f404a36e46cb9053"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a5b0cb1b8932ce945f404a36e46cb9053">write_enum</a> (self, fobj, name, value, _type='uint')</td></tr>
+<tr class="memitem:a5b0cb1b8932ce945f404a36e46cb9053"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a5b0cb1b8932ce945f404a36e46cb9053">write_enum</a> (self, fobj, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ad977737dfc9a274a62741b9500c49a32">name</a>, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ac6e066a8c9e91051799ffa957f0a20a6">value</a>, _type='<a class="el" href="../../d7/db7/Type_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>')</td></tr>
 <tr class="separator:a5b0cb1b8932ce945f404a36e46cb9053"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b05841b1fb59d47ecb4883f1e2e47c6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a1b05841b1fb59d47ecb4883f1e2e47c6">write_opaque_struct</a> (self, fobj, name)</td></tr>
+<tr class="memitem:a1b05841b1fb59d47ecb4883f1e2e47c6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a1b05841b1fb59d47ecb4883f1e2e47c6">write_opaque_struct</a> (self, fobj, <a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ad977737dfc9a274a62741b9500c49a32">name</a>)</td></tr>
 <tr class="separator:a1b05841b1fb59d47ecb4883f1e2e47c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fea8ba5e1ed5fbd587291216f0ae744"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a0fea8ba5e1ed5fbd587291216f0ae744">write_alias</a> (self, fobj, newn, decl)</td></tr>
 <tr class="separator:a0fea8ba5e1ed5fbd587291216f0ae744"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:af4513a8579a71bfa681a082370ead405"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#af4513a8579a71bfa681a082370ead405">NAME</a> = 'd'</td></tr>
+<tr class="memitem:af4513a8579a71bfa681a082370ead405"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#af4513a8579a71bfa681a082370ead405">NAME</a> = 'd'</td></tr>
 <tr class="separator:af4513a8579a71bfa681a082370ead405"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1434576d126206f8c5764b3ecac73c63"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a1434576d126206f8c5764b3ecac73c63">NAME_LONG</a> = 'D'</td></tr>
+<tr class="memitem:a1434576d126206f8c5764b3ecac73c63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html#a1434576d126206f8c5764b3ecac73c63">NAME_LONG</a> = 'D'</td></tr>
 <tr class="separator:a1434576d126206f8c5764b3ecac73c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00478">478</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00478">478</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a15da35ec65d45c0663aa680fde0b4b71"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a15da35ec65d45c0663aa680fde0b4b71">&#9670;&nbsp;</a></span>close()</h2>
@@ -174,7 +198,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00490">490</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00490">490</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -216,7 +240,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00673">673</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00673">673</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -246,7 +270,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00631">631</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00631">631</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -266,7 +290,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00502">502</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00502">502</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -302,7 +326,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00507">507</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00507">507</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -322,7 +346,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00621">621</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00621">621</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -352,7 +376,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00709">709</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00709">709</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -372,7 +396,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00482">482</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00482">482</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -392,7 +416,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00499">499</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00499">499</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -434,7 +458,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00763">763</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00763">763</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -476,7 +500,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00754">754</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00754">754</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -514,7 +538,7 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>_type</em> = <code>'uint'</code>&#160;</td>
+          <td class="paramname"><em>_type</em> = <code>'<a class="el" href="../../d7/db7/Type_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>'</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -524,7 +548,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00757">757</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00757">757</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -554,7 +578,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00635">635</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00635">635</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -584,7 +608,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00733">733</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00733">733</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -614,7 +638,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00736">736</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00736">736</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -644,7 +668,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00654">654</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00654">654</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -680,7 +704,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00748">748</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00748">748</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -716,7 +740,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00745">745</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00745">745</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -746,7 +770,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00730">730</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00730">730</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -776,7 +800,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00727">727</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00727">727</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -812,7 +836,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00751">751</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00751">751</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -860,7 +884,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00693">693</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00693">693</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -902,7 +926,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00715">715</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00715">715</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -938,7 +962,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00718">718</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00718">718</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -974,7 +998,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00760">760</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00760">760</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -1010,7 +1034,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00589">589</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00589">589</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -1040,7 +1064,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00724">724</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00724">724</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -1070,7 +1094,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00721">721</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00721">721</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -1106,7 +1130,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00586">586</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00586">586</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -1136,7 +1160,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00739">739</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00739">739</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -1166,7 +1190,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00742">742</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00742">742</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -1181,7 +1205,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">string glloader.lang.d.generator.BaseDGenerator.NAME = 'd'</td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">string</a> glloader.lang.d.generator.BaseDGenerator.NAME = 'd'</td>
         </tr>
       </table>
   </td>
@@ -1191,7 +1215,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00479">479</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00479">479</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
@@ -1205,7 +1229,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">string glloader.lang.d.generator.BaseDGenerator.NAME_LONG = 'D'</td>
+          <td class="memname"><a class="el" href="../../dd/d5f/opengl-loader_2include_2AuroraFW_2GEngine_2GL_2Loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">string</a> glloader.lang.d.generator.BaseDGenerator.NAME_LONG = 'D'</td>
         </tr>
       </table>
   </td>
@@ -1215,19 +1239,23 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00480">480</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/da8/d_2generator_8py_source.html#l00480">480</a> of file <a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/ricardo/Desktop/Projetos/Aurora-FW/modules/gengine/opengl-loader/glloader/lang/d/<a class="el" href="../../de/da8/d_2generator_8py_source.html">generator.py</a></li>
+<li><a class="el" href="../../de/da8/d_2generator_8py_source.html">d/generator.py</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="../../doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../da/d1e/namespaceglloader.html">glloader</a></li><li class="navelem"><a class="el" href="../../da/dd4/namespaceglloader_1_1lang.html">lang</a></li><li class="navelem"><a class="el" href="../../d5/d74/namespaceglloader_1_1lang_1_1d.html">d</a></li><li class="navelem"><a class="el" href="../../df/d22/namespaceglloader_1_1lang_1_1d_1_1generator.html">generator</a></li><li class="navelem"><a class="el" href="../../de/d42/classglloader_1_1lang_1_1d_1_1generator_1_1BaseDGenerator.html">BaseDGenerator</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>
