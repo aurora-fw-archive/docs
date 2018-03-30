@@ -176,7 +176,7 @@ Use tab instead of spaces for tab idention, if supported in the language, and co
 Use a space after these keywords: `if`, `switch`, `case`, `for`, `do`, `while`, but not with `sizeof`, `typeof`, `alignof`, or `__attribute__`. Also don't add spaces around (inside) parenthesized expressions.
 
 #### Pointers
-When declaring pointer data or a function that returns a pointer type, the preferred use of * is adjacent to the data name or function name and not adjacent to the type name. For example:
+When declaring pointer data or a function that returns a pointer type, the preferred use of * is adjacent to the type name and not adjacent to the data or function name. For example:
 ```cpp
 char* name;
 unsigned int memory(char* ptr, char** retptr);
