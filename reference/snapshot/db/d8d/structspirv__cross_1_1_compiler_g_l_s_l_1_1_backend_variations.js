@@ -1,0 +1,28 @@
+var structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations =
+[
+    [ "discard_literal", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#aaaaa790200787751b508986f99ba69d0", null ],
+    [ "float_literal_suffix", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#a1e9665e5fd874baeeabff5fd42221648", null ],
+    [ "double_literal_suffix", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#a5561c0fcdc098e7f87e5824027446092", null ],
+    [ "uint32_t_literal_suffix", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#a377a2ffbbf0cf7dc78b75cb8d0a19215", null ],
+    [ "long_long_literal_suffix", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#a149eba4e3957167b9a7449314762d130", null ],
+    [ "basic_int_type", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#ae3d3c349a12c92e853ffa2fa8208d482", null ],
+    [ "basic_uint_type", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#a4b5f5b168f580d9f9d874c095317e856", null ],
+    [ "half_literal_suffix", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#a8ee6ec8242e478bc2330d480a9e032cc", null ],
+    [ "swizzle_is_function", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#aa778cca67b49ba1d6affaa5d9156ccbb", null ],
+    [ "shared_is_implied", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#a74309be80687f211f37f75b77360df5a", null ],
+    [ "flexible_member_array_supported", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#a6c9ab79c3d942d09dacbcf21689ab988", null ],
+    [ "explicit_struct_type", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#a41e7507c6f69e6251f6f3fccc6cc7814", null ],
+    [ "use_initializer_list", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#a63ac53cb60c1022ed6761faf48c2968f", null ],
+    [ "use_typed_initializer_list", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#a5b8df37b06abe4456d15420369a480ff", null ],
+    [ "can_declare_struct_inline", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#ad9ad3f6f54bb926c0749efda0abd3920", null ],
+    [ "can_declare_arrays_inline", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#a46f29abe8221f8b66500269090005f48", null ],
+    [ "native_row_major_matrix", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#ab905de6ff6ff9ec51e4b3ba169179556", null ],
+    [ "use_constructor_splatting", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#a003c094d703f859d9abb5f3e421f948c", null ],
+    [ "boolean_mix_support", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#afbaeb5b48885d669a1f19a6ad8a1d771", null ],
+    [ "allow_precision_qualifiers", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#a4948ffc5e11c198b1c888c6af243a5eb", null ],
+    [ "can_swizzle_scalar", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#a81d064be9fb1fa543f14112bc18e6853", null ],
+    [ "force_gl_in_out_block", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#a0f16e21f71229b1811216e03af7747b9", null ],
+    [ "can_return_array", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#a87048e57ea021263575a0d32a4ae44d6", null ],
+    [ "allow_truncated_access_chain", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#a62b31d0d5d19e9641f2ca357f1e58d81", null ],
+    [ "supports_extensions", "db/d8d/structspirv__cross_1_1_compiler_g_l_s_l_1_1_backend_variations.html#aed3eddedc883c8bcb68412c88d19b51d", null ]
+];

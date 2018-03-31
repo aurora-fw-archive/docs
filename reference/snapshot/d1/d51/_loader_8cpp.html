@@ -111,9 +111,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ad181101ed89f4155bbc97eccffea135b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/_loader_8cpp.html#ad181101ed89f4155bbc97eccffea135b">MAP_ANALOG</a>(NAV_NO,  AXIS_NO,  V0,  V1)&#160;&#160;&#160;{ float <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a10a82eabcb59d2fcd74acee063775f90">v</a> = (axes_count &gt; AXIS_NO) ? axes[AXIS_NO] : V0; <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a10a82eabcb59d2fcd74acee063775f90">v</a> = (<a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a10a82eabcb59d2fcd74acee063775f90">v</a> - V0) / (V1 - V0); if (<a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a10a82eabcb59d2fcd74acee063775f90">v</a> &gt; 1.0f) v = 1.0f; if (io.NavInputs[NAV_NO] &lt; v) io.NavInputs[NAV_NO] = v; }</td></tr>
+<tr class="memitem:ad181101ed89f4155bbc97eccffea135b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/_loader_8cpp.html#ad181101ed89f4155bbc97eccffea135b">MAP_ANALOG</a>(NAV_NO,  AXIS_NO,  V0,  V1)&#160;&#160;&#160;{ float v = (axes_count &gt; AXIS_NO) ? axes[AXIS_NO] : V0; v = (v - V0) / (V1 - V0); if (v &gt; 1.0f) v = 1.0f; if (io.NavInputs[NAV_NO] &lt; v) io.NavInputs[NAV_NO] = v; }</td></tr>
 <tr class="separator:ad181101ed89f4155bbc97eccffea135b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0720760ecc7d8768f926a5b2ba4af07d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/_loader_8cpp.html#a0720760ecc7d8768f926a5b2ba4af07d">MAP_BUTTON</a>(NAV_NO,  BUTTON_NO)&#160;&#160;&#160;{ if (buttons_count &gt; BUTTON_NO &amp;&amp; buttons[BUTTON_NO] == GLFW_PRESS) io.NavInputs[NAV_NO] = 1.0f; }</td></tr>
+<tr class="memitem:a0720760ecc7d8768f926a5b2ba4af07d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/_loader_8cpp.html#a0720760ecc7d8768f926a5b2ba4af07d">MAP_BUTTON</a>(NAV_NO,  BUTTON_NO)&#160;&#160;&#160;{ if (buttons_count &gt; BUTTON_NO &amp;&amp; buttons[BUTTON_NO] == <a class="el" href="../../dc/df1/group__input.html#ga2485743d0b59df3791c45951c4195265">GLFW_PRESS</a>) io.NavInputs[NAV_NO] = 1.0f; }</td></tr>
 <tr class="separator:a0720760ecc7d8768f926a5b2ba4af07d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -138,7 +138,7 @@ Macros</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;{ if (buttons_count &gt; BUTTON_NO &amp;&amp; buttons[BUTTON_NO] == GLFW_PRESS) io.NavInputs[NAV_NO] = 1.0f; }</td>
+          <td></td><td>&#160;&#160;&#160;{ if (buttons_count &gt; BUTTON_NO &amp;&amp; buttons[BUTTON_NO] == <a class="el" href="../../dc/df1/group__input.html#ga2485743d0b59df3791c45951c4195265">GLFW_PRESS</a>) io.NavInputs[NAV_NO] = 1.0f; }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -180,7 +180,7 @@ Macros</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;{ float <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a10a82eabcb59d2fcd74acee063775f90">v</a> = (axes_count &gt; AXIS_NO) ? axes[AXIS_NO] : V0; <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a10a82eabcb59d2fcd74acee063775f90">v</a> = (<a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a10a82eabcb59d2fcd74acee063775f90">v</a> - V0) / (V1 - V0); if (<a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a10a82eabcb59d2fcd74acee063775f90">v</a> &gt; 1.0f) v = 1.0f; if (io.NavInputs[NAV_NO] &lt; v) io.NavInputs[NAV_NO] = v; }</td>
+          <td></td><td>&#160;&#160;&#160;{ float v = (axes_count &gt; AXIS_NO) ? axes[AXIS_NO] : V0; v = (v - V0) / (V1 - V0); if (v &gt; 1.0f) v = 1.0f; if (io.NavInputs[NAV_NO] &lt; v) io.NavInputs[NAV_NO] = v; }</td>
         </tr>
       </table>
 </div><div class="memdoc">

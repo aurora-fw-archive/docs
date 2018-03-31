@@ -1,6 +1,5 @@
 var struct_aurora_f_w_1_1_g_engine_1_1_window_properties =
 [
-    [ "WindowProperties", "d2/d9a/struct_aurora_f_w_1_1_g_engine_1_1_window_properties.html#a80ccef7d79b68ef7ac11e2d42e56ac70", null ],
     [ "width", "d2/d9a/struct_aurora_f_w_1_1_g_engine_1_1_window_properties.html#aed7d463c1dd8383da3239bc2ea39aa02", null ],
     [ "height", "d2/d9a/struct_aurora_f_w_1_1_g_engine_1_1_window_properties.html#ad81b64086e9ab77040b8093faf2e653d", null ],
     [ "fullscreen", "d2/d9a/struct_aurora_f_w_1_1_g_engine_1_1_window_properties.html#a8247251f4434016126de0519d4a3e122", null ],
@@ -17,5 +16,7 @@ var struct_aurora_f_w_1_1_g_engine_1_1_window_properties =
     [ "samples", "d2/d9a/struct_aurora_f_w_1_1_g_engine_1_1_window_properties.html#ac1c53712450ce3234c64c10a3332fa65", null ],
     [ "stereo", "d2/d9a/struct_aurora_f_w_1_1_g_engine_1_1_window_properties.html#a7dadea1d8c6ec70358ea1e8609030138", null ],
     [ "sRGB", "d2/d9a/struct_aurora_f_w_1_1_g_engine_1_1_window_properties.html#a37e81e4c7e300b3c59f4e0e07d31e1e3", null ],
-    [ "doubleBuffer", "d2/d9a/struct_aurora_f_w_1_1_g_engine_1_1_window_properties.html#aad9b299b4615a562c0238e7df6d29a72", null ]
+    [ "doubleBuffer", "d2/d9a/struct_aurora_f_w_1_1_g_engine_1_1_window_properties.html#aad9b299b4615a562c0238e7df6d29a72", null ],
+    [ "swapBuffers", "d2/d9a/struct_aurora_f_w_1_1_g_engine_1_1_window_properties.html#a1b9975b3ca67b976017614f579e650e4", null ],
+    [ "windowSettingsDialog", "d2/d9a/struct_aurora_f_w_1_1_g_engine_1_1_window_properties.html#a723381180b453a54de421b0935256831", null ]
 ];

@@ -3,11 +3,7 @@
   <!-- Navigation index tabs for HTML output -->
   <navindex>
     <tab type="mainpage" visible="yes" title=""/>
-    <tab type="user" visible="yes" url="@ref tutorials" title="Tutorials">
-        <tab type="user" url="@ref getting-started" title="Getting Started"/>
-        <tab type="user" url="@ref simple-afw-app" title="Making a simple Application"/>
-        <tab type="user" url="@ref image-module" title="Image Module"/>
-    </tab>
+    <tab type="user" visible="yes" url="@ref tutorials" title="Tutorials"/>
     <tab type="modules" visible="yes" title="" intro=""/>
     <tab type="namespaces" visible="yes" title="">
       <tab type="namespacelist" visible="yes" title="" intro=""/>

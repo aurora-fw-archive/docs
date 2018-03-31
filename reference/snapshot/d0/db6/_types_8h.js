@@ -11,6 +11,6 @@ var _types_8h =
     [ "GL_3_BYTES", "d0/db6/_types_8h.html#a97477fdd010f345afb61cb27382fd08e", null ],
     [ "GL_4_BYTES", "d0/db6/_types_8h.html#ae9b3d5161878336d016bf853476afc4e", null ],
     [ "GL_DOUBLE", "d0/db6/_types_8h.html#a168baa99f276efe13286cb5c8f339735", null ],
-    [ "GLenum", "d0/db6/_types_8h.html#a5d5233918a454ad3975c620a69ac5f0b", null ],
-    [ "GLuint", "d0/db6/_types_8h.html#a68c4714e43d8e827d80759f9cb864f3c", null ]
+    [ "GLenum", "d0/db6/_types_8h.html#a7efd7809e1632cdae75603fd1fee61c0", null ],
+    [ "GLuint", "d0/db6/_types_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b", null ]
 ];

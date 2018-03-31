@@ -1,0 +1,37 @@
+var structspirv__cross_1_1_s_p_i_r_type =
+[
+    [ "ImageType", "d1/db9/structspirv__cross_1_1_s_p_i_r_type_1_1_image_type.html", "d1/db9/structspirv__cross_1_1_s_p_i_r_type_1_1_image_type" ],
+    [ "type", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#a34a947263537a523f3b56c70c4feccabac5589df6f8260b39bb1b240f89d9199f", null ],
+    [ "BaseType", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ac5e7b3648cd07cc6331e50c381567786", [
+      [ "Unknown", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ac5e7b3648cd07cc6331e50c381567786a11d0af2488962ccd7f88036a7707f887", null ],
+      [ "Void", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ac5e7b3648cd07cc6331e50c381567786a224db59aed5a27670f6260877de1742d", null ],
+      [ "Boolean", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ac5e7b3648cd07cc6331e50c381567786abf2c58dc3fe8111f61fa795c6d36b364", null ],
+      [ "Char", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ac5e7b3648cd07cc6331e50c381567786ae7c4a6f1e984545bababa21ea6fef327", null ],
+      [ "Int", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ac5e7b3648cd07cc6331e50c381567786aeee347a9daebfc71bd11173576222798", null ],
+      [ "UInt", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ac5e7b3648cd07cc6331e50c381567786a40c67d830bad09d54b60c0dd1b77fa25", null ],
+      [ "Int64", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ac5e7b3648cd07cc6331e50c381567786aea229018fdeb4791fda17ac3110a13ec", null ],
+      [ "UInt64", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ac5e7b3648cd07cc6331e50c381567786a5950dec94f299c957482efafc0b3e600", null ],
+      [ "AtomicCounter", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ac5e7b3648cd07cc6331e50c381567786a4c8a7b2eacd6bd8f949955546b2c7a57", null ],
+      [ "Half", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ac5e7b3648cd07cc6331e50c381567786a8f7513b7e1875beaf427efeeacaec7bc", null ],
+      [ "Float", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ac5e7b3648cd07cc6331e50c381567786a204a437c294c2b1c14966876564f881c", null ],
+      [ "Double", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ac5e7b3648cd07cc6331e50c381567786ab25c70e64189f79d0a91459a2bbed36b", null ],
+      [ "Struct", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ac5e7b3648cd07cc6331e50c381567786a4ab3bcdc4028d01f1e6e25b55a90fdf1", null ],
+      [ "Image", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ac5e7b3648cd07cc6331e50c381567786a0b2b1764b169e7034b9beb50fb1a6d3a", null ],
+      [ "SampledImage", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ac5e7b3648cd07cc6331e50c381567786aebca428d9b6c47e378e7572b7f03a126", null ],
+      [ "Sampler", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ac5e7b3648cd07cc6331e50c381567786aa1bef16e6166b72e7557887bdc35ecbc", null ]
+    ] ],
+    [ "basetype", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#a204212609a10e945096dcd2492eff2e0", null ],
+    [ "width", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ac81d1267e23a505ef77e7aa1c2456337", null ],
+    [ "vecsize", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#a5d9b2c15a26b7bd68449184945fe8b48", null ],
+    [ "columns", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#aa49ba6c4657941282f78353d729ed7a1", null ],
+    [ "array", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#aee123ac812a388bc0e245c9a8d716186", null ],
+    [ "array_size_literal", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#aa5ecf6e27a2faefbae3364d090f56a67", null ],
+    [ "pointer", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ad4d64320134d4ca77584139a8336787f", null ],
+    [ "storage", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#acb6b8646f55d440e41387b8f9af87b7a", null ],
+    [ "member_types", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#aa300c09ba9f1715b40359e36241e0860", null ],
+    [ "image", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#a7ec6909b736db0d59e884b62c92b6caf", null ],
+    [ "type_alias", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#a14261fa0ad57dd2d650577d224dcdddd", null ],
+    [ "parent_type", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#a58250b7275e788f2426b898b7729cb79", null ],
+    [ "member_name_cache", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#ad8786bfee72dd3579fb0aa9b58806f0a", null ],
+    [ "self", "d3/dff/structspirv__cross_1_1_s_p_i_r_type.html#a9fd831e0180c40ae1f6a22e6632848c6", null ]
+];

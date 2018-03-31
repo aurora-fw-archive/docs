@@ -1,0 +1,25 @@
+var struct___g_l_f_wlibrary_n_s =
+[
+    [ "eventSource", "d3/d81/struct___g_l_f_wlibrary_n_s.html#ae0297b6477cfe5406d6cad47791ff524", null ],
+    [ "delegate", "d3/d81/struct___g_l_f_wlibrary_n_s.html#ac9bef9b96260dd26ad1a9e7287b4d812", null ],
+    [ "autoreleasePool", "d3/d81/struct___g_l_f_wlibrary_n_s.html#a965953ce1e52e3bba21cf68c19fd1450", null ],
+    [ "cursorHidden", "d3/d81/struct___g_l_f_wlibrary_n_s.html#ad8ad77fbd27eebcef8d5cb033ab0e6ea", null ],
+    [ "inputSource", "d3/d81/struct___g_l_f_wlibrary_n_s.html#a0f5eff37bafb4c2eaddf8ba2ec1360e2", null ],
+    [ "hidManager", "d3/d81/struct___g_l_f_wlibrary_n_s.html#a3d2f5238158b7433be1f4e61df37b82d", null ],
+    [ "unicodeData", "d3/d81/struct___g_l_f_wlibrary_n_s.html#a3173595db852c86e0b5ca99611275f32", null ],
+    [ "listener", "d3/d81/struct___g_l_f_wlibrary_n_s.html#a2445db7820f91d5c0348110867adb79d", null ],
+    [ "keyName", "d3/d81/struct___g_l_f_wlibrary_n_s.html#a60087ae293bd1024266723c8819c9865", null ],
+    [ "keycodes", "d3/d81/struct___g_l_f_wlibrary_n_s.html#a5999f3adcf4d63b293bad735ba7f7f3a", null ],
+    [ "scancodes", "d3/d81/struct___g_l_f_wlibrary_n_s.html#a4625ab0c8e3f2d4a57c0a101034fbfa2", null ],
+    [ "clipboardString", "d3/d81/struct___g_l_f_wlibrary_n_s.html#a194b216799b8f6e02d5153ad53f9b4da", null ],
+    [ "cascadePoint", "d3/d81/struct___g_l_f_wlibrary_n_s.html#a3d3a67c517278e6991aa6bbdd3047ac4", null ],
+    [ "restoreCursorPosX", "d3/d81/struct___g_l_f_wlibrary_n_s.html#a93e4d1c23cf55dd073b61d9f8436ade9", null ],
+    [ "restoreCursorPosY", "d3/d81/struct___g_l_f_wlibrary_n_s.html#a55f14c4b5ad2723de5e6217c550f45aa", null ],
+    [ "disabledCursorWindow", "d3/d81/struct___g_l_f_wlibrary_n_s.html#a69cc5672029442fc8a9587e155ef7636", null ],
+    [ "bundle", "d3/d81/struct___g_l_f_wlibrary_n_s.html#a4092245999e589dc59c5d90f47c51fc0", null ],
+    [ "CopyCurrentKeyboardLayoutInputSource", "d3/d81/struct___g_l_f_wlibrary_n_s.html#a332008478c35c35cf5eedf2ff7f8513b", null ],
+    [ "GetInputSourceProperty", "d3/d81/struct___g_l_f_wlibrary_n_s.html#aac719437d912cfe8792ee2c068177016", null ],
+    [ "GetKbdType", "d3/d81/struct___g_l_f_wlibrary_n_s.html#a76160446e7250a0cd655d1c72031e211", null ],
+    [ "kPropertyUnicodeKeyLayoutData", "d3/d81/struct___g_l_f_wlibrary_n_s.html#aa612dad7ef8c29f419f54e02c4466ddc", null ],
+    [ "tis", "d3/d81/struct___g_l_f_wlibrary_n_s.html#aba880df29e01994eeb46443c54743699", null ]
+];

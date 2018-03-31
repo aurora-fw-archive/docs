@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['glshaderparam',['GLShaderParam',['../d4/d63/namespace_aurora_f_w_1_1_g_engine.html#aad0e7e5e0be563e3b39138fb8a6a63af',1,'AuroraFW::GEngine']]],
-  ['glshadertype',['GLShaderType',['../d4/d63/namespace_aurora_f_w_1_1_g_engine.html#a77b58be250193834035c05dd00926a49',1,'AuroraFW::GEngine']]]
+  ['decoration',['Decoration',['../d6/dc1/namespacespv.html#ae613902552cc82dd8c58397263c76356',1,'spv']]],
+  ['dim',['Dim',['../d6/dc1/namespacespv.html#a44d6b4e3850cb9024be834fa83720773',1,'spv']]]
 ];

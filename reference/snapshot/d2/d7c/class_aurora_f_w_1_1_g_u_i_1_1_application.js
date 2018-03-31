@@ -10,10 +10,12 @@ var class_aurora_f_w_1_1_g_u_i_1_1_application =
       [ "NonUniqueFlag", "d2/d7c/class_aurora_f_w_1_1_g_u_i_1_1_application.html#ab6e45ca9683d88670312f5e8f48dd4faa81e8b6f3c929d61f561981890254c15c", null ],
       [ "OverrideAppIDFlag", "d2/d7c/class_aurora_f_w_1_1_g_u_i_1_1_application.html#ab6e45ca9683d88670312f5e8f48dd4faa510a519b36b7c6a4a2b54ec354c8b4d1", null ]
     ] ],
-    [ "Application", "d2/d7c/class_aurora_f_w_1_1_g_u_i_1_1_application.html#a4c5dae6e0369f197032a16a23fdc1fd8", null ],
+    [ "Application", "d2/d7c/class_aurora_f_w_1_1_g_u_i_1_1_application.html#ae1c8cb3d40db8777e9efb1b547a967e2", null ],
     [ "~Application", "d2/d7c/class_aurora_f_w_1_1_g_u_i_1_1_application.html#a0167084bcb7a3e789cb173e1c80d38f8", null ],
-    [ "Application", "d2/d7c/class_aurora_f_w_1_1_g_u_i_1_1_application.html#a7ed3b97a620ef6af3aeb1766f8830ff3", null ],
-    [ "operator=", "d2/d7c/class_aurora_f_w_1_1_g_u_i_1_1_application.html#a7096fbe7530a6f4e8ddbdf837c87f316", null ],
+    [ "Application", "d2/d7c/class_aurora_f_w_1_1_g_u_i_1_1_application.html#a14fd467d6bf841554cf74ebce5ed7c9e", null ],
+    [ "operator=", "d2/d7c/class_aurora_f_w_1_1_g_u_i_1_1_application.html#a2288f80c4185718a506da0e4ada6f38c", null ],
     [ "getStatus", "d2/d7c/class_aurora_f_w_1_1_g_u_i_1_1_application.html#a54edd0af445c95ac60355e1a678a7019", null ],
-    [ "connect", "d2/d7c/class_aurora_f_w_1_1_g_u_i_1_1_application.html#a8ccc451bb765fa912f97cf761adefa31", null ]
+    [ "getNativeGtkApplication", "d2/d7c/class_aurora_f_w_1_1_g_u_i_1_1_application.html#a4837f152657a7ab040cfb554fe0167df", null ],
+    [ "connect", "d2/d7c/class_aurora_f_w_1_1_g_u_i_1_1_application.html#a93536a303344f60d9db0b378efd2a96f", null ],
+    [ "connect", "d2/d7c/class_aurora_f_w_1_1_g_u_i_1_1_application.html#a1429c709bb472755ba4f88d70bbb1609", null ]
 ];

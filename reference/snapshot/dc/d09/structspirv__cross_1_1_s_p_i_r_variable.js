@@ -1,0 +1,26 @@
+var structspirv__cross_1_1_s_p_i_r_variable =
+[
+    [ "type", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#a7fb41317077307adef1446ae7c5ca899a5e81831e1393907db45eec11fd5f8c75", null ],
+    [ "SPIRVariable", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#ad5daba28d8b10e654bcb98e63a48b1a9", null ],
+    [ "SPIRVariable", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#a26acb2084331320bc6647c00e198ddf0", null ],
+    [ "basetype", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#a1716ca93ec08cba58dae8ba4ea4c99a9", null ],
+    [ "storage", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#aba019a440b9e220b7bb68415ddf04969", null ],
+    [ "decoration", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#a71473066b8d163cabffc48a31e735c47", null ],
+    [ "initializer", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#a335019d57f11fbd51b086790b99b675f", null ],
+    [ "basevariable", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#af4877892c383b6c403676b403b601f05", null ],
+    [ "dereference_chain", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#a850eec45ddc5004036cef9726d8a0098", null ],
+    [ "compat_builtin", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#aeae3337bfb0b17df18dfdad28b9e27fd", null ],
+    [ "statically_assigned", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#a3f2ad7ecfcbc1b2c63f07143bd1dd7c5", null ],
+    [ "static_expression", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#ac415321f009af78c2c2202bdced38c7c", null ],
+    [ "dependees", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#ac05788b78e92887ab55c9ce2993bbb1e", null ],
+    [ "forwardable", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#ab84909cbdbf0d83d97f3073757272b2b", null ],
+    [ "deferred_declaration", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#af0096ca8e3233e7947da8b8e98704cd0", null ],
+    [ "phi_variable", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#af270a4a66c7c0090dae84ac7d853b1fb", null ],
+    [ "remapped_variable", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#acecb21b2013b452f350020b15245e633", null ],
+    [ "remapped_components", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#afe51ab62f481209d7aa61a32eb57ff03", null ],
+    [ "dominator", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#ae06c3937edddcf9247700bd5863196c8", null ],
+    [ "loop_variable", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#abf3d9557f1ba02db93a4fa3404d4ead0", null ],
+    [ "loop_variable_enable", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#a4d4dc88669c34556491722d0fdcf39e7", null ],
+    [ "parameter", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#a88507a65905f8b898c16aacaa6e801f4", null ],
+    [ "self", "dc/d09/structspirv__cross_1_1_s_p_i_r_variable.html#a9fd831e0180c40ae1f6a22e6632848c6", null ]
+];

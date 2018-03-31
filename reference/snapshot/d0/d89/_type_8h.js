@@ -10,5 +10,6 @@ var _type_8h =
     [ "byte_t", "d0/d89/_type_8h.html#ab5e909554fd42aa0fa7dea097b1b08ef", null ],
     [ "uint_t", "d0/d89/_type_8h.html#a12a1e9b3ce141648783a82445d02b58d", null ],
     [ "uint", "d0/d89/_type_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14", null ],
-    [ "ushort", "d0/d89/_type_8h.html#a3fa7784c89589b49764048e9909d0e07", null ]
+    [ "ushort", "d0/d89/_type_8h.html#a3fa7784c89589b49764048e9909d0e07", null ],
+    [ "afw_real", "d0/d89/_type_8h.html#aca37398368e9dbb2023385a3d875e6e3", null ]
 ];

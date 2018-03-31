@@ -1,23 +1,13 @@
 var searchData=
 [
-  ['generator',['Generator',['../da/d1c/classglloader_1_1lang_1_1common_1_1generator_1_1_generator.html',1,'glloader::lang::common::generator']]],
-  ['glbuffer',['GLBuffer',['../d3/d2b/class_aurora_f_w_1_1_g_engine_1_1_g_l_buffer.html',1,'AuroraFW::GEngine']]],
-  ['glcontext',['GLContext',['../d5/dc8/class_aurora_f_w_1_1_g_engine_1_1_g_l_context.html',1,'AuroraFW::GEngine']]],
-  ['glimguiloader',['GLImGuiLoader',['../d1/ddd/class_aurora_f_w_1_1_g_engine_1_1_g_l_im_gui_loader.html',1,'AuroraFW::GEngine']]],
-  ['glindexbuffer',['GLIndexBuffer',['../d7/d5b/class_aurora_f_w_1_1_g_engine_1_1_a_p_i_1_1_g_l_index_buffer.html',1,'AuroraFW::GEngine::API']]],
-  ['glprogram',['GLProgram',['../d5/da3/class_aurora_f_w_1_1_g_engine_1_1_g_l_program.html',1,'AuroraFW::GEngine']]],
-  ['glrenderer',['GLRenderer',['../d4/ddd/class_aurora_f_w_1_1_g_engine_1_1_g_l_renderer.html',1,'AuroraFW::GEngine']]],
-  ['glshader',['GLShader',['../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html',1,'AuroraFW::GEngine']]],
-  ['glspec',['GLSpec',['../d6/d2d/classglloader_1_1spec_1_1_g_l_spec.html',1,'glloader::spec']]],
-  ['glvertexarray',['GLVertexArray',['../db/db4/class_aurora_f_w_1_1_g_engine_1_1_g_l_vertex_array.html',1,'AuroraFW::GEngine']]],
-  ['glvertexbufferelement',['GLVertexBufferElement',['../d5/dd5/struct_aurora_f_w_1_1_g_engine_1_1_g_l_vertex_buffer_element.html',1,'AuroraFW::GEngine']]],
-  ['glvertexbufferlayout',['GLVertexBufferLayout',['../db/d0d/class_aurora_f_w_1_1_g_engine_1_1_g_l_vertex_buffer_layout.html',1,'AuroraFW::GEngine']]],
-  ['glxcloader',['GLXCLoader',['../db/dca/classglloader_1_1lang_1_1c_1_1loader_1_1glx_1_1_g_l_x_c_loader.html',1,'glloader::lang::c::loader::glx']]],
-  ['glxdloader',['GLXDLoader',['../d5/d50/classglloader_1_1lang_1_1d_1_1loader_1_1glx_1_1_g_l_x_d_loader.html',1,'glloader::lang::d::loader::glx']]],
-  ['glxnimloader',['GLXNimLoader',['../de/d6b/classglloader_1_1lang_1_1nim_1_1loader_1_1glx_1_1_g_l_x_nim_loader.html',1,'glloader::lang::nim::loader::glx']]],
-  ['glxspec',['GLXSpec',['../d4/d58/classglloader_1_1spec_1_1_g_l_x_spec.html',1,'glloader::spec']]],
-  ['glxvoltloader',['GLXVoltLoader',['../d7/d7d/classglloader_1_1lang_1_1volt_1_1loader_1_1glx_1_1_g_l_x_volt_loader.html',1,'glloader::lang::volt::loader::glx']]],
-  ['glyphrangesbuilder',['GlyphRangesBuilder',['../dc/dd9/struct_im_font_atlas_1_1_glyph_ranges_builder.html',1,'ImFontAtlas']]],
-  ['graphicscontext',['GraphicsContext',['../d3/d0d/class_aurora_f_w_1_1_g_engine_1_1_graphics_context.html',1,'AuroraFW::GEngine']]],
-  ['group',['Group',['../dd/d12/classglloader_1_1parse_1_1_group.html',1,'glloader::parse']]]
+  ['fact_5fchunk',['FACT_CHUNK',['../db/dc6/struct_f_a_c_t___c_h_u_n_k.html',1,'']]],
+  ['feature',['Feature',['../d4/d6b/classglloader_1_1parse_1_1_feature.html',1,'glloader::parse']]],
+  ['file',['File',['../d0/df6/class_aurora_f_w_1_1_i_o_1_1_file.html',1,'AuroraFW::IO']]],
+  ['fileallocationfailedexception',['FileAllocationFailedException',['../d5/d09/class_aurora_f_w_1_1_i_o_1_1_file_allocation_failed_exception.html',1,'AuroraFW::IO']]],
+  ['fileisreadonlyexception',['FileIsReadOnlyException',['../d0/d66/class_aurora_f_w_1_1_i_o_1_1_file_is_read_only_exception.html',1,'AuroraFW::IO']]],
+  ['fileiswriteonlyexception',['FileIsWriteOnlyException',['../df/da1/class_aurora_f_w_1_1_i_o_1_1_file_is_write_only_exception.html',1,'AuroraFW::IO']]],
+  ['filenotfoundexception',['FileNotFoundException',['../d7/db0/class_aurora_f_w_1_1_i_o_1_1_file_not_found_exception.html',1,'AuroraFW::IO']]],
+  ['filereadstream',['FileReadStream',['../d1/d0f/class_file_read_stream.html',1,'']]],
+  ['filewritestream',['FileWriteStream',['../d8/d3e/class_file_write_stream.html',1,'']]],
+  ['flag',['Flag',['../df/de1/struct_generic_value_1_1_flag.html',1,'GenericValue']]]
 ];

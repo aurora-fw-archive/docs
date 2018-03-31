@@ -1,6 +1,7 @@
 var namespace_aurora_f_w_1_1_g_engine =
 [
     [ "API", "d1/df0/namespace_aurora_f_w_1_1_g_engine_1_1_a_p_i.html", "d1/df0/namespace_aurora_f_w_1_1_g_engine_1_1_a_p_i" ],
+    [ "Vulkan", "d8/d8b/namespace_aurora_f_w_1_1_g_engine_1_1_vulkan.html", "d8/d8b/namespace_aurora_f_w_1_1_g_engine_1_1_vulkan" ],
     [ "Application", "da/df1/class_aurora_f_w_1_1_g_engine_1_1_application.html", "da/df1/class_aurora_f_w_1_1_g_engine_1_1_application" ],
     [ "AssetManager", "d9/d4a/class_aurora_f_w_1_1_g_engine_1_1_asset_manager.html", "d9/d4a/class_aurora_f_w_1_1_g_engine_1_1_asset_manager" ],
     [ "AssetNotFoundException", "d6/de1/class_aurora_f_w_1_1_g_engine_1_1_asset_not_found_exception.html", "d6/de1/class_aurora_f_w_1_1_g_engine_1_1_asset_not_found_exception" ],
@@ -20,8 +21,17 @@ var namespace_aurora_f_w_1_1_g_engine =
     [ "ImGuiLoader", "d3/d2d/class_aurora_f_w_1_1_g_engine_1_1_im_gui_loader.html", "d3/d2d/class_aurora_f_w_1_1_g_engine_1_1_im_gui_loader" ],
     [ "InputManager", "d3/d54/class_aurora_f_w_1_1_g_engine_1_1_input_manager.html", "d3/d54/class_aurora_f_w_1_1_g_engine_1_1_input_manager" ],
     [ "InvalidShaderException", "de/dc3/class_aurora_f_w_1_1_g_engine_1_1_invalid_shader_exception.html", "de/dc3/class_aurora_f_w_1_1_g_engine_1_1_invalid_shader_exception" ],
+    [ "Renderable", "d0/d0c/class_aurora_f_w_1_1_g_engine_1_1_renderable.html", null ],
     [ "Renderer", "dd/dcb/class_aurora_f_w_1_1_g_engine_1_1_renderer.html", "dd/dcb/class_aurora_f_w_1_1_g_engine_1_1_renderer" ],
+    [ "Root", "d4/d9e/struct_aurora_f_w_1_1_g_engine_1_1_root.html", "d4/d9e/struct_aurora_f_w_1_1_g_engine_1_1_root" ],
+    [ "RTShader", "d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html", "d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader" ],
+    [ "RTShaderConverter", "dc/d4f/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader_converter.html", "dc/d4f/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader_converter" ],
+    [ "RTShaderManager", "d9/dd5/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader_manager.html", null ],
+    [ "RTShaderPipeline", "db/d45/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader_pipeline.html", null ],
+    [ "Shader", "db/d6a/class_aurora_f_w_1_1_g_engine_1_1_shader.html", "db/d6a/class_aurora_f_w_1_1_g_engine_1_1_shader" ],
     [ "TextureAsset", "dd/d1b/class_aurora_f_w_1_1_g_engine_1_1_texture_asset.html", "dd/d1b/class_aurora_f_w_1_1_g_engine_1_1_texture_asset" ],
+    [ "VKContext", "d3/d79/class_aurora_f_w_1_1_g_engine_1_1_v_k_context.html", "d3/d79/class_aurora_f_w_1_1_g_engine_1_1_v_k_context" ],
+    [ "VKRenderer", "de/d85/class_aurora_f_w_1_1_g_engine_1_1_v_k_renderer.html", "de/d85/class_aurora_f_w_1_1_g_engine_1_1_v_k_renderer" ],
     [ "Window", "df/d57/class_aurora_f_w_1_1_g_engine_1_1_window.html", "df/d57/class_aurora_f_w_1_1_g_engine_1_1_window" ],
     [ "WindowProperties", "d2/d9a/struct_aurora_f_w_1_1_g_engine_1_1_window_properties.html", "d2/d9a/struct_aurora_f_w_1_1_g_engine_1_1_window_properties" ]
 ];

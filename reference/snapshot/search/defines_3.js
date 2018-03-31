@@ -1,14 +1,21 @@
 var searchData=
 [
-  ['flt_5fdig',['FLT_DIG',['../dd/d5c/_lib_c_2_float_8h.html#a4d726a1a38b8eda9abfbc72fb27d06be',1,'Float.h']]],
-  ['flt_5fepsilon',['FLT_EPSILON',['../dd/d5c/_lib_c_2_float_8h.html#aafe5d2c4dc0edd9840f20e885dcae6ad',1,'Float.h']]],
-  ['flt_5fmant_5fdig',['FLT_MANT_DIG',['../dd/d5c/_lib_c_2_float_8h.html#a0c22779a3c997aa03c16f2d8a7e3128e',1,'Float.h']]],
-  ['flt_5fmax',['FLT_MAX',['../dd/d5c/_lib_c_2_float_8h.html#a7fbf1534f9e0f0bfdb86fb928902474c',1,'Float.h']]],
-  ['flt_5fmax_5f10_5fexp',['FLT_MAX_10_EXP',['../dd/d5c/_lib_c_2_float_8h.html#a86b561ae1011c3624b21b05fb83f61b8',1,'Float.h']]],
-  ['flt_5fmax_5fexp',['FLT_MAX_EXP',['../dd/d5c/_lib_c_2_float_8h.html#afcbc8f81f213d358c2aba21a4bcf943b',1,'Float.h']]],
-  ['flt_5fmin',['FLT_MIN',['../dd/d5c/_lib_c_2_float_8h.html#a890322b63a2fab56b8ff916c08368df6',1,'Float.h']]],
-  ['flt_5fmin_5f10_5fexp',['FLT_MIN_10_EXP',['../dd/d5c/_lib_c_2_float_8h.html#a8ea779c525f88153114854fe27c7383f',1,'Float.h']]],
-  ['flt_5fmin_5fexp',['FLT_MIN_EXP',['../dd/d5c/_lib_c_2_float_8h.html#a5dc4d8732ed5c714cb9d70043e46c7d2',1,'Float.h']]],
-  ['flt_5fradix',['FLT_RADIX',['../dd/d5c/_lib_c_2_float_8h.html#a566d8859d1a43f73f0e76619833d4d98',1,'Float.h']]],
-  ['flt_5frounds',['FLT_ROUNDS',['../dd/d5c/_lib_c_2_float_8h.html#a744ae7c1870e42f6b620ccd8f1911895',1,'Float.h']]]
+  ['c_5fmarker',['c_MARKER',['../dc/de9/aiff_8c.html#a97ea984f50caae92d65a5f953003e113',1,'c_MARKER():&#160;aiff.c'],['../d6/dbf/svx_8c.html#a97ea984f50caae92d65a5f953003e113',1,'c_MARKER():&#160;svx.c']]],
+  ['caf_5fpeak_5fchunk_5fsize',['CAF_PEAK_CHUNK_SIZE',['../d3/d93/caf_8c.html#a2cf605e335ea1107378dcd586bfe6f33',1,'caf.c']]],
+  ['caff_5fmarker',['caff_MARKER',['../d3/d93/caf_8c.html#a9c952bdd1db2dbd2f0763bcf025b2bd3',1,'caf.c']]],
+  ['cart_5fmarker',['cart_MARKER',['../d1/d86/rf64_8c.html#a725b63c945c3e7b2414a0cf9f5e3eb88',1,'cart_MARKER():&#160;rf64.c'],['../d5/dd8/wavlike_8h.html#a725b63c945c3e7b2414a0cf9f5e3eb88',1,'cart_MARKER():&#160;wavlike.h']]],
+  ['case_5fname',['CASE_NAME',['../d2/d08/alac_8c.html#aa183e95daaa8ef4e89e4434ba129f39d',1,'CASE_NAME():&#160;alac.c'],['../d8/d19/common_8c.html#aa183e95daaa8ef4e89e4434ba129f39d',1,'CASE_NAME():&#160;common.c']]],
+  ['chan_5fmarker',['CHAN_MARKER',['../dc/de9/aiff_8c.html#a3288d49b03da9e694f0553c44544e67a',1,'CHAN_MARKER():&#160;aiff.c'],['../d6/dbf/svx_8c.html#a3288d49b03da9e694f0553c44544e67a',1,'CHAN_MARKER():&#160;svx.c'],['../d3/d93/caf_8c.html#a5b23e7291cf146f89faa67b9bf6202ec',1,'chan_MARKER():&#160;caf.c']]],
+  ['changewindowmessagefilterex',['ChangeWindowMessageFilterEx',['../dc/d45/_win32_2_platform_8h.html#a88faa038236de05c5db02f7e95b79b5d',1,'Platform.h']]],
+  ['cinit',['CINIT',['../db/d31/dplib_8h.html#a62dfc04e96558940cb687450b364a974',1,'dplib.h']]],
+  ['clm_5fmarker',['clm_MARKER',['../d0/d75/wav_8c.html#a23af20b9918c257c4cf7675a39b950e2',1,'wav.c']]],
+  ['code_5fto_5flong_5fmaxbits',['CODE_TO_LONG_MAXBITS',['../d7/d3b/ag__dec_8c.html#af7cc404922bb67207b6a8097950ba864',1,'CODE_TO_LONG_MAXBITS():&#160;ag_dec.c'],['../da/d7b/ag__enc_8c.html#af7cc404922bb67207b6a8097950ba864',1,'CODE_TO_LONG_MAXBITS():&#160;ag_enc.c']]],
+  ['comm_5fmarker',['COMM_MARKER',['../dc/de9/aiff_8c.html#a49a1208bc6f7b7c366fce4482a2632b7',1,'aiff.c']]],
+  ['compile_5ftime_5fassert',['COMPILE_TIME_ASSERT',['../d3/df3/audio_2src_2sndfile_2common_8h.html#a92f0ba69c0f889de4efac3dea2b0cc8a',1,'common.h']]],
+  ['comt_5fmarker',['COMT_MARKER',['../dc/de9/aiff_8c.html#ad2a7550e6a16b551def7f416911ade5d',1,'aiff.c']]],
+  ['copy',['COPY',['../de/d06/encodings_8h.html#a0907367c18112bf8fd32e52d6c9c1681',1,'COPY():&#160;encodings.h'],['../de/d06/encodings_8h.html#a0907367c18112bf8fd32e52d6c9c1681',1,'COPY():&#160;encodings.h']]],
+  ['cpu_5fis_5fx86',['CPU_IS_X86',['../db/d17/sfconfig_8h.html#a5f9c89d43c6817ca7e92b6b0922a6389',1,'sfconfig.h']]],
+  ['cpu_5fis_5fx86_5f64',['CPU_IS_X86_64',['../db/d17/sfconfig_8h.html#a7d4b1f62425d7c0aedc1563ed7766971',1,'sfconfig.h']]],
+  ['cr8r_5fmarker',['Cr8r_MARKER',['../d0/d75/wav_8c.html#af41fa94f14a9e9b5f569edeb9860ae76',1,'wav.c']]],
+  ['cue_5fmarker',['cue_MARKER',['../d0/d75/wav_8c.html#a1cb9fa8b99c763240c24ec3803778e2e',1,'wav.c']]]
 ];

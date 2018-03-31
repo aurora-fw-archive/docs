@@ -1,6 +1,6 @@
 var struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream =
 [
-    [ "AudioIStream", "da/d61/struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream.html#ad5fa659f2fd4c12cdf6b1e9387c4ca4a", null ],
+    [ "AudioIStream", "da/d61/struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream.html#a1d11e644c7700da4f971c7991a3810df", null ],
     [ "~AudioIStream", "da/d61/struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream.html#ac79faecd56fc4b7c27031e56dbc83223", null ],
     [ "record", "da/d61/struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream.html#a3ab9d2c4af7cc0c31c5fa4a6b7023c18", null ],
     [ "pause", "da/d61/struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream.html#a153debfe46759bae0280fc4439a8e30c", null ],
@@ -14,5 +14,7 @@ var struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream =
     [ "save", "da/d61/struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream.html#a781f23dc25ec26b51205e0f145a7bd20", null ],
     [ "audioInputCallback", "da/d61/struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream.html#a720d7d18727699b87d604a216f1dc95d", null ],
     [ "path", "da/d61/struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream.html#aadcd5e2096c58367314f2f162c2610a9", null ],
-    [ "buffer", "da/d61/struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream.html#a3ed6a9200b1b50b6ba99061413048f2e", null ]
+    [ "info", "da/d61/struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream.html#a9976a315b3bb9b985a532ed5c00df03a", null ],
+    [ "buffer", "da/d61/struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream.html#a3ed6a9200b1b50b6ba99061413048f2e", null ],
+    [ "bufferSize", "da/d61/struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream.html#aa46be288d9044c630cde21cacf2a01f5", null ]
 ];

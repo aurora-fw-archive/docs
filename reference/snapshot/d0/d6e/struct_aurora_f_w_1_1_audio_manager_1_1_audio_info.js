@@ -1,13 +1,13 @@
 var struct_aurora_f_w_1_1_audio_manager_1_1_audio_info =
 [
-    [ "AudioInfo", "d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#aa6849897c0a8b7d59177ffc002315111", null ],
+    [ "AudioInfo", "d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a56413c47b21e7b6eca03f3934bc1093b", null ],
     [ "~AudioInfo", "d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a8765b3f0559f88af0131b498ed0de1eb", null ],
-    [ "getSampleRate", "d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a09ccc2a49feffd578f7c125d4a4774e9", null ],
-    [ "getFrames", "d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a38f75b9eeb79fac4bddcbb6d53224322", null ],
+    [ "getSampleRate", "d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a75a0406d6cd326d56ea3a895810fcd0e", null ],
+    [ "getFrames", "d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a58647ff9bebbffd0cece0ec724cce4c3", null ],
     [ "getChannels", "d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ab7411f4615cc8c307e9ec4322dded9e5", null ],
     [ "getFormat", "d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ab0adc389b4bb9d280239729e03b14fca", null ],
-    [ "setSampleRate", "d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#aa579ae776ce62f18019d4207b8ab5573", null ],
-    [ "setFrames", "d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a5b93ad5534cdefd6a1fe6b26fd6e22ca", null ],
+    [ "setSampleRate", "d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a4dd79fb2fc71c10c060e146f56fd21eb", null ],
+    [ "setFrames", "d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a4ad64f88eb7deadd0e868d05ff880a55", null ],
     [ "setChannels", "d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a186acd7959b69012554d1a8ba34f1c43", null ],
     [ "setFormat", "d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ad80ec9030d29e96f9a5c76dffb7aabb4", null ],
     [ "getTitle", "d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ae9a2e4fd9ad4815aae899d78420e2df8", null ],

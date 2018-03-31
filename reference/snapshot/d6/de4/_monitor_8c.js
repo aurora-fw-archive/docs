@@ -1,0 +1,28 @@
+var _monitor_8c =
+[
+    [ "compareVideoModes", "d6/de4/_monitor_8c.html#a6a4a3ce5f2b085c277fe8cb766e24570", null ],
+    [ "refreshVideoModes", "d6/de4/_monitor_8c.html#ad075cf55715e74b53df347b13ae1ce52", null ],
+    [ "_glfwInputMonitor", "d6/de4/_monitor_8c.html#a2a45c0c0677b73011b7364e2cdd9760d", null ],
+    [ "_glfwInputMonitorWindow", "d6/de4/_monitor_8c.html#a079c865515272434dc96d0f384beda9e", null ],
+    [ "_glfwAllocMonitor", "d6/de4/_monitor_8c.html#aba9010067229bd447389b85b22f15b72", null ],
+    [ "_glfwFreeMonitor", "d6/de4/_monitor_8c.html#a5555e8488ac56b446d0a28d3330666f6", null ],
+    [ "_glfwAllocGammaArrays", "d6/de4/_monitor_8c.html#acb6a8b432b06fd0accdfc0e046785109", null ],
+    [ "_glfwFreeGammaArrays", "d6/de4/_monitor_8c.html#a9ec7f45d75c8b6435f49b22b86672806", null ],
+    [ "_glfwChooseVideoMode", "d6/de4/_monitor_8c.html#acf6b57bbbf447209081a27abdc00465c", null ],
+    [ "_glfwCompareVideoModes", "d6/de4/_monitor_8c.html#aa4fbaa8f018b65095626fc495a53ba9f", null ],
+    [ "_glfwSplitBPP", "d6/de4/_monitor_8c.html#a3f83dfd3a9beffeba9bac74ec15071a0", null ],
+    [ "glfwGetMonitors", "d6/d18/group__monitor.html#gab4d483284c57e28837bc2cd9639e9665", null ],
+    [ "glfwGetPrimaryMonitor", "d6/d18/group__monitor.html#ga59ea49f377fe701dd76764183e64d9f4", null ],
+    [ "glfwGetMonitorPos", "d6/d18/group__monitor.html#ga45b5481a614ad7beb2aade9746d07563", null ],
+    [ "glfwGetMonitorPhysicalSize", "d6/d18/group__monitor.html#gad0e93a9e42b32394369cabbbdc1ab702", null ],
+    [ "glfwGetMonitorContentScale", "d6/d18/group__monitor.html#ga28d856d94bea2ce8f09a67bb0346aaff", null ],
+    [ "glfwGetMonitorName", "d6/d18/group__monitor.html#ga22f62011bae33ea8d2974eff5d14f9b8", null ],
+    [ "glfwSetMonitorUserPointer", "d6/d18/group__monitor.html#ga6d89c74c1c293f0ab78a00c3c6d1ae44", null ],
+    [ "glfwGetMonitorUserPointer", "d6/d18/group__monitor.html#ga11bc263d3967b86e2ec3e5e48762206d", null ],
+    [ "glfwSetMonitorCallback", "d6/d18/group__monitor.html#gacfa9978e57c73670577d530df23bf275", null ],
+    [ "glfwGetVideoModes", "d6/d18/group__monitor.html#ga811c28d61595e630774389985947c665", null ],
+    [ "glfwGetVideoMode", "d6/d18/group__monitor.html#gac234b63ec525c70d7e18ac84aca088c6", null ],
+    [ "glfwSetGamma", "d6/d18/group__monitor.html#ga3e4ab484476c935b4cd0bf49a5c429d6", null ],
+    [ "glfwGetGammaRamp", "d6/d18/group__monitor.html#gaeeac9198f3c91b83440eed679441f76b", null ],
+    [ "glfwSetGammaRamp", "d6/d18/group__monitor.html#gac9f36a1cfa10eab191d3029ea8bc9558", null ]
+];

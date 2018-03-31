@@ -1,0 +1,26 @@
+var ms__adpcm_8c =
+[
+    [ "MSADPCM_PRIVATE", "d5/d25/struct_m_s_a_d_p_c_m___p_r_i_v_a_t_e.html", "d5/d25/struct_m_s_a_d_p_c_m___p_r_i_v_a_t_e" ],
+    [ "IDELTA_COUNT", "d1/d70/ms__adpcm_8c.html#ab0061106f0e9bf24f557dd5a1694d019", null ],
+    [ "msadpcm_decode_block", "d1/d70/ms__adpcm_8c.html#a0f8d78440cf8cadef0a50e33734c4218", null ],
+    [ "msadpcm_read_block", "d1/d70/ms__adpcm_8c.html#a759587c724389f08eaa70b148bd8d73c", null ],
+    [ "msadpcm_encode_block", "d1/d70/ms__adpcm_8c.html#af34df3b74b8ccaac78640fde7ecb9229", null ],
+    [ "msadpcm_write_block", "d1/d70/ms__adpcm_8c.html#a187fa0acaf1a083c3c7f4d2c0d96cef2", null ],
+    [ "msadpcm_read_s", "d1/d70/ms__adpcm_8c.html#a2fc6a6f25f1b0cb88b446b4c23b9ad7e", null ],
+    [ "msadpcm_read_i", "d1/d70/ms__adpcm_8c.html#a806163df0815ca406a68b177e93f05ed", null ],
+    [ "msadpcm_read_f", "d1/d70/ms__adpcm_8c.html#a66f6eccc34f99afce12b66d646fe6251", null ],
+    [ "msadpcm_read_d", "d1/d70/ms__adpcm_8c.html#a6128408362cac80868a990bfc79c5337", null ],
+    [ "msadpcm_write_s", "d1/d70/ms__adpcm_8c.html#aba733aa313ff66890614c9aa21c1ec66", null ],
+    [ "msadpcm_write_i", "d1/d70/ms__adpcm_8c.html#a69031d9502e58860b3e58cd42ba362aa", null ],
+    [ "msadpcm_write_f", "d1/d70/ms__adpcm_8c.html#ad1547ebbf4f2ef7aa9e7e5f7175c77d6", null ],
+    [ "msadpcm_write_d", "d1/d70/ms__adpcm_8c.html#a4cd6b4088f01a5d6e2c3d90e8f159464", null ],
+    [ "msadpcm_seek", "d1/d70/ms__adpcm_8c.html#afecc175efb918670e2267cb13eb9d5ed", null ],
+    [ "msadpcm_close", "d1/d70/ms__adpcm_8c.html#af47359335972860268c6bfb3c09bda8c", null ],
+    [ "choose_predictor", "d1/d70/ms__adpcm_8c.html#ac4903437441515101f022f2e0c11ee5a", null ],
+    [ "wavlike_msadpcm_init", "d1/d70/ms__adpcm_8c.html#ae5d8029365178af67712e08f3a39ab82", null ],
+    [ "msadpcm_get_bpred", "d1/d70/ms__adpcm_8c.html#a0766450a093e5b66b4016f9899719c3d", null ],
+    [ "wavlike_msadpcm_write_adapt_coeffs", "d1/d70/ms__adpcm_8c.html#a116fe95354d23dcefd5c894d27110899", null ],
+    [ "AdaptationTable", "d1/d70/ms__adpcm_8c.html#a7c5ea01bf91042fa5775684cf52676ac", null ],
+    [ "AdaptCoeff1", "d1/d70/ms__adpcm_8c.html#a595795da84645e252fe6960a319142fc", null ],
+    [ "AdaptCoeff2", "d1/d70/ms__adpcm_8c.html#a3d52be81cf577523f6320580c9fec1ac", null ]
+];

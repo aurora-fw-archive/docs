@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['imgui',['ImGui',['../df/d13/namespace_im_gui.html',1,'']]],
-  ['imguistb',['ImGuiStb',['../dc/d59/namespace_im_gui_stb.html',1,'']]]
+  ['create_5fsymbols_5ffile',['create_symbols_file',['../d5/dbb/namespacecreate__symbols__file.html',1,'']]]
 ];

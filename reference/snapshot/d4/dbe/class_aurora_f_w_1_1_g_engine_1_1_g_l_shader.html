@@ -95,59 +95,320 @@ $(document).ready(function(){initNavTree('d4/dbe/class_aurora_f_w_1_1_g_engine_1
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d0/db5/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">AuroraFW::GEngine::GLShader Class Reference</div>  </div>
+<div class="title">AuroraFW::GEngine::GLShader Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for AuroraFW::GEngine::GLShader:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.png" usemap="#AuroraFW::GEngine::GLShader_map" alt=""/>
+  <map id="AuroraFW::GEngine::GLShader_map" name="AuroraFW::GEngine::GLShader_map">
+<area href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html" alt="AuroraFW::GEngine::RTShader" shape="rect" coords="0,56,188,80"/>
+<area href="../../db/d6a/class_aurora_f_w_1_1_g_engine_1_1_shader.html" alt="AuroraFW::GEngine::Shader" shape="rect" coords="0,0,188,24"/>
+</map>
+ </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ade5a123cbceefe560dcfb119af44441c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441c">Language</a> { <br />
+&#160;&#160;<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441ca88183b946cc5f0e8c96b2e66e1c74a7e">Language::Unknown</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441cad6308321b10e1c1466474b9248802268">Language::ARB</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441ca2a2c1392bcbaececf702b611e7d7df25">Language::GLSL</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441cacdf45fdd8960ab47314fb33febc95d9f">Language::HLSL</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441ca5202c6586cac8bee468e86d1ff854231">Language::CG</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441caba662595974ec2eed75b504f938591f3">Language::SPIR</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441ca89799bf2653b1330e1ea1b487b7088c2">Language::SPIR_V</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441cad39d0851fece4d7b8e9255bbe4797585">Language::AGAL</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441ca13b1e817327a3563d79ac22f5918b7dd">Language::PSSL</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441ca1d2d3ecb9e838586939bb4e26a603666">Language::MSL</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441ca2b634774764d5288990297908d0e1be8">Language::TGSI</a>
+<br />
+ }</td></tr>
+<tr class="separator:ade5a123cbceefe560dcfb119af44441c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66f583730652d2dcda334546111b2336"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336">LangVersion</a> { <br />
+&#160;&#160;<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336a88183b946cc5f0e8c96b2e66e1c74a7e">LangVersion::Unknown</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336abf70d67dbf399732254dc00a89fd0591">LangVersion::GLSL110</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336a2e1a1a1415d0cfa24004e0e0e5e75bf6">LangVersion::GLSL120</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336a7047416a834f677618a0a8713e54f3f2">LangVersion::GLSL130</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336a3bb23eaa4ea4f3e04533fe1aadafba79">LangVersion::GLSL140</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336ad930241d810adf7ba512df0f649a5619">LangVersion::GLSL150</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336aa0e6ab91ff8da26d476a797b90aee303">LangVersion::GLSL330</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336a4ec6fd508230c8cfa3879831cd711db1">LangVersion::GLSL330_CORE</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336a02912c5d3391fb02458678a90721b405">LangVersion::GLSL400</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336a449c8d7751f0de82dae3cdd9a7e9105e">LangVersion::GLSL400_CORE</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336a2420966214855365fcff430de048d4ab">LangVersion::GLSL410</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336a899bc52bd6e9969ffd3fbdfe9a624ebb">LangVersion::GLSL410_CORE</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336ae761516e22f8fc1e333c3bc79299cf63">LangVersion::GLSL420</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336adf59ea8b6574ba9b5a25c25d53a78aff">LangVersion::GLSL420_CORE</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336ad3342fc28681a0a200961058401a16d1">LangVersion::GLSL430</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336a7104a41227011060813b971ab4acb428">LangVersion::GLSL430_CORE</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336ace9b162d7650bcf60ee60a7e0a9137d8">LangVersion::GLSL440</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336ae0323950a4744689e4ef2d8296d5da9d">LangVersion::GLSL440_CORE</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336a83c71093410a917b289e876f2fbdbda8">LangVersion::GLSL450</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336a5933cdc917cd0fb7a3e31bf9dd0de3a6">LangVersion::GLSL450_CORE</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336adc55848d340da0eeaa925beca4ea9b3e">LangVersion::GLSL460</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336adc14ed5ebc1f21c82156111269d73335">LangVersion::GLSL460_CORE</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336a5f1b21dae42283f9e4fa711de38f097a">LangVersion::HLSL11</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336ad45aee223322e3e5e9d6a07ab945b073">LangVersion::HLSL20</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336a8a61b9ff53857ffd4d7568cd8de811f4">LangVersion::HLSL20_A</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336a1c14f4584737ea1c9f4dc4f40f617bf2">LangVersion::HLSL20_B</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336aabfdf6b72b8481544dfa1a5514c4a741">LangVersion::HLSL30</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336a7c593ef0e9db0e555d7941ccd50df922">LangVersion::HLSL40</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336adedc381b8aa5f192d18a5f2b48b9837b">LangVersion::HLSL41</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336aa64580eb9281049b56a47d5d2746db62">LangVersion::HLSL50</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336aee9b697a05c2ae190d60f6ff2105aff5">LangVersion::SPIR_12</a>, 
+<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336a24700d02680c14a4f541dbdc77350e82">LangVersion::SPIR_20</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336a649dd317597e959fb32149ac40206199">LangVersion::SPIRV</a>
+<br />
+ }</td></tr>
+<tr class="separator:a66f583730652d2dcda334546111b2336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f948d4026d08dc3a987d75752a6b678"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a9f948d4026d08dc3a987d75752a6b678">Parameter</a> : GLenum { <br />
+&#160;&#160;<a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a9f948d4026d08dc3a987d75752a6b678adc076c041e9a4e99a21c8336df0809bf">Type</a> = GL_SHADER_TYPE, 
+<a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a9f948d4026d08dc3a987d75752a6b678a1844c151cc27435d1bf22f5aa4482848">DeleteStatus</a> = GL_DELETE_STATUS, 
+<a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a9f948d4026d08dc3a987d75752a6b678a3068a044ea7cebcd27b8121abd702adc">CompileStatus</a> = GL_COMPILE_STATUS, 
+<a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a9f948d4026d08dc3a987d75752a6b678a3ed034b7dd40c34117db4c7757d552c1">LogLength</a> = GL_INFO_LOG_LENGTH, 
+<br />
+&#160;&#160;<a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a9f948d4026d08dc3a987d75752a6b678ad149eb4c82bbee62e1869d93d6d1d5d5">SourceLength</a> = GL_SHADER_SOURCE_LENGTH
+<br />
+ }</td></tr>
+<tr class="separator:a9f948d4026d08dc3a987d75752a6b678"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a990069da825321ac9297fa896c6f8ec3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a990069da825321ac9297fa896c6f8ec3">ShaderType</a> : uint { <br />
+&#160;&#160;<a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a990069da825321ac9297fa896c6f8ec3a14bf5c25bb1a6ecdaaae3c7d027f231f">Unknown</a> = 0x31, 
+<a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a990069da825321ac9297fa896c6f8ec3abe9b1c0e849ec124f0d51a1835a67e29">Cached</a> = 0x32, 
+<a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a990069da825321ac9297fa896c6f8ec3a0ac16cbdaf9fe7b9cad02a7328c6ab8e">Vertex</a> = 0x1, 
+<a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a990069da825321ac9297fa896c6f8ec3ad6297cf383361c798775f61f6a6442fc">Fragment</a> = 0x2, 
+<br />
+&#160;&#160;<a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a990069da825321ac9297fa896c6f8ec3a62600854d8648e60bc9e9d3778f1eb4e">Geometry</a> = 0x4, 
+<a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a990069da825321ac9297fa896c6f8ec3a7fb5643a8cc6c56efa5ebb7797eaa4ba">TessellationControl</a> = 0x8, 
+<a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a990069da825321ac9297fa896c6f8ec3a97034919c293e576207c26f5f8ab4da0">TessellationEvaluation</a> = 0x10, 
+<a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a990069da825321ac9297fa896c6f8ec3ab4c9f417bd9967d1b5c1e45f3edc3fdb">Compute</a> = 0x20
+<br />
+ }</td></tr>
+<tr class="separator:a990069da825321ac9297fa896c6f8ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a42dbd1a04b5ad74c97efd215ce6a07fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a42dbd1a04b5ad74c97efd215ce6a07fa">GLShader</a> (<a class="el" href="../../d4/d63/namespace_aurora_f_w_1_1_g_engine.html#a77b58be250193834035c05dd00926a49">GLShaderType</a>)</td></tr>
-<tr class="separator:a42dbd1a04b5ad74c97efd215ce6a07fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac61b248751135a25e4fd6109697df601"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#ac61b248751135a25e4fd6109697df601">GLShader</a> (<a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a990069da825321ac9297fa896c6f8ec3">ShaderType</a>)</td></tr>
+<tr class="separator:ac61b248751135a25e4fd6109697df601"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63a3a50bb8a2b2fed28e3006b47fe565"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a63a3a50bb8a2b2fed28e3006b47fe565">~GLShader</a> ()</td></tr>
 <tr class="separator:a63a3a50bb8a2b2fed28e3006b47fe565"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0f1813801c3adc9f5ae6666bad19728"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html">GLShader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#ae0f1813801c3adc9f5ae6666bad19728">compileFromFile</a> (const <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">std::string</a>)</td></tr>
+<tr class="memitem:ae0f1813801c3adc9f5ae6666bad19728"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html">GLShader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#ae0f1813801c3adc9f5ae6666bad19728">compileFromFile</a> (const std::string)</td></tr>
 <tr class="separator:ae0f1813801c3adc9f5ae6666bad19728"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a872538b90f087c9c0ffa0d1ac65affdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html">GLShader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a872538b90f087c9c0ffa0d1ac65affdb">compileFromFile</a> (const char *)</td></tr>
 <tr class="separator:a872538b90f087c9c0ffa0d1ac65affdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53b3c57dd5bf895741e28374fe28098e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html">GLShader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a53b3c57dd5bf895741e28374fe28098e">compileFromSource</a> (const <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">std::string</a> &amp;)</td></tr>
+<tr class="memitem:a633a98fba3dd2a3f8c06e2269e7fbcbf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a633a98fba3dd2a3f8c06e2269e7fbcbf">compileFromFile</a> (std::string, <a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441c">Language</a>)</td></tr>
+<tr class="separator:a633a98fba3dd2a3f8c06e2269e7fbcbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4286a95f8aa9f97d97481abe6896a1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ae4286a95f8aa9f97d97481abe6896a1c">compileFromFile</a> (<a class="el" href="../../d1/d9c/chanmap_8c.html#a4535f4b790ca9c401b2fb927a700758b">std::map</a>&lt; <a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441c">Language</a>, std::string &gt;)</td></tr>
+<tr class="separator:ae4286a95f8aa9f97d97481abe6896a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53b3c57dd5bf895741e28374fe28098e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html">GLShader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a53b3c57dd5bf895741e28374fe28098e">compileFromSource</a> (const std::string &amp;)</td></tr>
 <tr class="separator:a53b3c57dd5bf895741e28374fe28098e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3e220ab4685b02b2c2fd66ecdb4a731"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html">GLShader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#ab3e220ab4685b02b2c2fd66ecdb4a731">compileFromSource</a> (const char *)</td></tr>
 <tr class="separator:ab3e220ab4685b02b2c2fd66ecdb4a731"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33d999376ea4efcadd420ede54d116d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#acebcc1c5663f14ebde1d16831e5fed94">GLint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a33d999376ea4efcadd420ede54d116d1">getInfo</a> (<a class="el" href="../../d4/d63/namespace_aurora_f_w_1_1_g_engine.html#aad0e7e5e0be563e3b39138fb8a6a63af">GLShaderParam</a>)</td></tr>
-<tr class="separator:a33d999376ea4efcadd420ede54d116d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12144c0f10db2716079f8aa3fa5b3e36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/db6/_types_8h.html#a68c4714e43d8e827d80759f9cb864f3c">GLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a12144c0f10db2716079f8aa3fa5b3e36">getShader</a> ()</td></tr>
+<tr class="memitem:aae26903a099ee2ed5ebec22849f441b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#aae26903a099ee2ed5ebec22849f441b7">compileFromSource</a> (const char *, <a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441c">Language</a>)</td></tr>
+<tr class="separator:aae26903a099ee2ed5ebec22849f441b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f54b4b16956c974241677f4ab11f9e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d21/_internal_8h.html#a5ac0f3c4d7fafd42b284b5487a791017">GLint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a3f54b4b16956c974241677f4ab11f9e3">getInfo</a> (<a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a9f948d4026d08dc3a987d75752a6b678">Parameter</a>)</td></tr>
+<tr class="separator:a3f54b4b16956c974241677f4ab11f9e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12144c0f10db2716079f8aa3fa5b3e36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d21/_internal_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a12144c0f10db2716079f8aa3fa5b3e36">getShader</a> ()</td></tr>
 <tr class="separator:a12144c0f10db2716079f8aa3fa5b3e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0a3c36ea0b49ad96f729e2347062582"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d6a/class_aurora_f_w_1_1_g_engine_1_1_shader.html#aa0a3c36ea0b49ad96f729e2347062582">importCachedFile</a> (std::string)</td></tr>
+<tr class="separator:aa0a3c36ea0b49ad96f729e2347062582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af867635697fb944662310bced20ac7f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#af867635697fb944662310bced20ac7f3">importCachedFile</a> (std::string, <a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441c">Language</a>)</td></tr>
+<tr class="separator:af867635697fb944662310bced20ac7f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb018e05af0f21db5720571f14acf1b7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../db/d6a/class_aurora_f_w_1_1_g_engine_1_1_shader.html">Shader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d6a/class_aurora_f_w_1_1_g_engine_1_1_shader.html#acb018e05af0f21db5720571f14acf1b7">importCachedSource</a> (const char *)=0</td></tr>
+<tr class="separator:acb018e05af0f21db5720571f14acf1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68f3519c7cc2b014906e866655fd548a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a68f3519c7cc2b014906e866655fd548a">importCachedSource</a> (const char *, <a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441c">Language</a>)</td></tr>
+<tr class="separator:a68f3519c7cc2b014906e866655fd548a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80d56a0d3110e0f4af9e3556651407f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html">GLShader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a80d56a0d3110e0f4af9e3556651407f5">importCachedSourceFile</a> (const char *)</td></tr>
 <tr class="separator:a80d56a0d3110e0f4af9e3556651407f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a332249b430bb8deadbfc6640dd12dfa2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html">GLShader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a332249b430bb8deadbfc6640dd12dfa2">importCachedSourceFile</a> (<a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">std::string</a>)</td></tr>
+<tr class="memitem:a332249b430bb8deadbfc6640dd12dfa2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html">GLShader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a332249b430bb8deadbfc6640dd12dfa2">importCachedSourceFile</a> (std::string)</td></tr>
 <tr class="separator:a332249b430bb8deadbfc6640dd12dfa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaee6ede9ba13072651723462e5bc52c2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#aaee6ede9ba13072651723462e5bc52c2">isCompiled</a> ()</td></tr>
+<tr class="memitem:aaee6ede9ba13072651723462e5bc52c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d39/alac__decoder_8c.html#af6a258d8f3ee5206d682d799316314b1">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#aaee6ede9ba13072651723462e5bc52c2">isCompiled</a> ()</td></tr>
 <tr class="separator:aaee6ede9ba13072651723462e5bc52c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a590e16329b70bf84b9c2162f5a132a53"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d0/db6/_types_8h.html#a68c4714e43d8e827d80759f9cb864f3c">GLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a590e16329b70bf84b9c2162f5a132a53">compileShaderFromFile</a> (<a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">std::string</a>)</td></tr>
+<tr class="memitem:a590e16329b70bf84b9c2162f5a132a53"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d21/_internal_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a590e16329b70bf84b9c2162f5a132a53">compileShaderFromFile</a> (std::string)</td></tr>
 <tr class="separator:a590e16329b70bf84b9c2162f5a132a53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9befd886df6422244a8a9505d7147fec"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d0/db6/_types_8h.html#a68c4714e43d8e827d80759f9cb864f3c">GLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a9befd886df6422244a8a9505d7147fec">compileShaderFromFile</a> (const char *)</td></tr>
+<tr class="memitem:a9befd886df6422244a8a9505d7147fec"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d21/_internal_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a9befd886df6422244a8a9505d7147fec">compileShaderFromFile</a> (const char *)</td></tr>
 <tr class="separator:a9befd886df6422244a8a9505d7147fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abca6b513037b7669ccb6ba28a82c9ac5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d0/db6/_types_8h.html#a68c4714e43d8e827d80759f9cb864f3c">GLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#abca6b513037b7669ccb6ba28a82c9ac5">compileShaderFromSource</a> (<a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">std::string</a> &amp;)</td></tr>
+<tr class="memitem:abca6b513037b7669ccb6ba28a82c9ac5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d21/_internal_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#abca6b513037b7669ccb6ba28a82c9ac5">compileShaderFromSource</a> (std::string &amp;)</td></tr>
 <tr class="separator:abca6b513037b7669ccb6ba28a82c9ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40caffb822df94608bbd1ceec5e03303"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d0/db6/_types_8h.html#a68c4714e43d8e827d80759f9cb864f3c">GLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a40caffb822df94608bbd1ceec5e03303">compileShaderFromSource</a> (const char *)</td></tr>
+<tr class="memitem:a40caffb822df94608bbd1ceec5e03303"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d21/_internal_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a40caffb822df94608bbd1ceec5e03303">compileShaderFromSource</a> (const char *)</td></tr>
 <tr class="separator:a40caffb822df94608bbd1ceec5e03303"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adffaa83c7294d3d81317763b3ae6df5c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#acebcc1c5663f14ebde1d16831e5fed94">GLint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#adffaa83c7294d3d81317763b3ae6df5c">getShaderInfo</a> (<a class="el" href="../../d0/db6/_types_8h.html#a68c4714e43d8e827d80759f9cb864f3c">GLuint</a>, <a class="el" href="../../d4/d63/namespace_aurora_f_w_1_1_g_engine.html#aad0e7e5e0be563e3b39138fb8a6a63af">GLShaderParam</a>)</td></tr>
-<tr class="separator:adffaa83c7294d3d81317763b3ae6df5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a2ff1e9ca74f3efb00a74c722013636"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d0/db6/_types_8h.html#a68c4714e43d8e827d80759f9cb864f3c">GLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a6a2ff1e9ca74f3efb00a74c722013636">importCachedSourceFileShader</a> (<a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">std::string</a>)</td></tr>
+<tr class="memitem:a047a6c7d931816afa49e06e8772b1269"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d21/_internal_8h.html#a5ac0f3c4d7fafd42b284b5487a791017">GLint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a047a6c7d931816afa49e06e8772b1269">getShaderInfo</a> (<a class="el" href="../../d9/d21/_internal_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a>, <a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a9f948d4026d08dc3a987d75752a6b678">Parameter</a>)</td></tr>
+<tr class="separator:a047a6c7d931816afa49e06e8772b1269"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a2ff1e9ca74f3efb00a74c722013636"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d21/_internal_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a6a2ff1e9ca74f3efb00a74c722013636">importCachedSourceFileShader</a> (std::string)</td></tr>
 <tr class="separator:a6a2ff1e9ca74f3efb00a74c722013636"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e0771b36bc97682a777c10f4945239e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d0/db6/_types_8h.html#a68c4714e43d8e827d80759f9cb864f3c">GLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a0e0771b36bc97682a777c10f4945239e">importCachedSourceFileShader</a> (const char *)</td></tr>
+<tr class="memitem:a0e0771b36bc97682a777c10f4945239e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d21/_internal_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a0e0771b36bc97682a777c10f4945239e">importCachedSourceFileShader</a> (const char *)</td></tr>
 <tr class="separator:a0e0771b36bc97682a777c10f4945239e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e6b26e5a779747ff7f7c79b27e6d2eb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a3e6b26e5a779747ff7f7c79b27e6d2eb">Load</a> (<a class="el" href="../../db/d6a/class_aurora_f_w_1_1_g_engine_1_1_shader.html#acd602bbcdf1f260cb6d29ba3dddef103">Shader::ShaderType</a>, <a class="el" href="../../d5/d85/struct_aurora_f_w_1_1_g_engine_1_1_r_t_shader_1_1_settings.html">Settings</a>)</td></tr>
+<tr class="separator:a3e6b26e5a779747ff7f7c79b27e6d2eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:abe3ad91d507d5ac7584afe5104c09297"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d85/struct_aurora_f_w_1_1_g_engine_1_1_r_t_shader_1_1_settings.html">Settings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#abe3ad91d507d5ac7584afe5104c09297">_settings</a></td></tr>
+<tr class="separator:abe3ad91d507d5ac7584afe5104c09297"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a9f948d4026d08dc3a987d75752a6b678"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f948d4026d08dc3a987d75752a6b678">&#9670;&nbsp;</a></span>Parameter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a9f948d4026d08dc3a987d75752a6b678">AuroraFW::GEngine::GLShader::Parameter</a> : <a class="el" href="../../d9/d21/_internal_8h.html#a7efd7809e1632cdae75603fd1fee61c0">GLenum</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9f948d4026d08dc3a987d75752a6b678adc076c041e9a4e99a21c8336df0809bf"></a>Type&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9f948d4026d08dc3a987d75752a6b678a1844c151cc27435d1bf22f5aa4482848"></a>DeleteStatus&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9f948d4026d08dc3a987d75752a6b678a3068a044ea7cebcd27b8121abd702adc"></a>CompileStatus&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9f948d4026d08dc3a987d75752a6b678a3ed034b7dd40c34117db4c7757d552c1"></a>LogLength&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9f948d4026d08dc3a987d75752a6b678ad149eb4c82bbee62e1869d93d6d1d5d5"></a>SourceLength&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a990069da825321ac9297fa896c6f8ec3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a990069da825321ac9297fa896c6f8ec3">&#9670;&nbsp;</a></span>ShaderType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a990069da825321ac9297fa896c6f8ec3">AuroraFW::GEngine::GLShader::ShaderType</a> : <a class="el" href="../../d0/d89/_type_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a990069da825321ac9297fa896c6f8ec3a14bf5c25bb1a6ecdaaae3c7d027f231f"></a>Unknown&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a990069da825321ac9297fa896c6f8ec3abe9b1c0e849ec124f0d51a1835a67e29"></a>Cached&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a990069da825321ac9297fa896c6f8ec3a0ac16cbdaf9fe7b9cad02a7328c6ab8e"></a>Vertex&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a990069da825321ac9297fa896c6f8ec3ad6297cf383361c798775f61f6a6442fc"></a>Fragment&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a990069da825321ac9297fa896c6f8ec3a62600854d8648e60bc9e9d3778f1eb4e"></a>Geometry&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a990069da825321ac9297fa896c6f8ec3a7fb5643a8cc6c56efa5ebb7797eaa4ba"></a>TessellationControl&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a990069da825321ac9297fa896c6f8ec3a97034919c293e576207c26f5f8ab4da0"></a>TessellationEvaluation&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a990069da825321ac9297fa896c6f8ec3ab4c9f417bd9967d1b5c1e45f3edc3fdb"></a>Compute&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ade5a123cbceefe560dcfb119af44441c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade5a123cbceefe560dcfb119af44441c">&#9670;&nbsp;</a></span>Language</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441c">AuroraFW::GEngine::RTShader::Language</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ade5a123cbceefe560dcfb119af44441ca88183b946cc5f0e8c96b2e66e1c74a7e"></a>Unknown&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ade5a123cbceefe560dcfb119af44441cad6308321b10e1c1466474b9248802268"></a>ARB&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ade5a123cbceefe560dcfb119af44441ca2a2c1392bcbaececf702b611e7d7df25"></a>GLSL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ade5a123cbceefe560dcfb119af44441cacdf45fdd8960ab47314fb33febc95d9f"></a>HLSL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ade5a123cbceefe560dcfb119af44441ca5202c6586cac8bee468e86d1ff854231"></a>CG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ade5a123cbceefe560dcfb119af44441caba662595974ec2eed75b504f938591f3"></a>SPIR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ade5a123cbceefe560dcfb119af44441ca89799bf2653b1330e1ea1b487b7088c2"></a>SPIR_V&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ade5a123cbceefe560dcfb119af44441cad39d0851fece4d7b8e9255bbe4797585"></a>AGAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ade5a123cbceefe560dcfb119af44441ca13b1e817327a3563d79ac22f5918b7dd"></a>PSSL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ade5a123cbceefe560dcfb119af44441ca1d2d3ecb9e838586939bb4e26a603666"></a>MSL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ade5a123cbceefe560dcfb119af44441ca2b634774764d5288990297908d0e1be8"></a>TGSI&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a66f583730652d2dcda334546111b2336"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66f583730652d2dcda334546111b2336">&#9670;&nbsp;</a></span>LangVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#a66f583730652d2dcda334546111b2336">AuroraFW::GEngine::RTShader::LangVersion</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336a88183b946cc5f0e8c96b2e66e1c74a7e"></a>Unknown&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336abf70d67dbf399732254dc00a89fd0591"></a>GLSL110&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336a2e1a1a1415d0cfa24004e0e0e5e75bf6"></a>GLSL120&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336a7047416a834f677618a0a8713e54f3f2"></a>GLSL130&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336a3bb23eaa4ea4f3e04533fe1aadafba79"></a>GLSL140&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336ad930241d810adf7ba512df0f649a5619"></a>GLSL150&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336aa0e6ab91ff8da26d476a797b90aee303"></a>GLSL330&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336a4ec6fd508230c8cfa3879831cd711db1"></a>GLSL330_CORE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336a02912c5d3391fb02458678a90721b405"></a>GLSL400&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336a449c8d7751f0de82dae3cdd9a7e9105e"></a>GLSL400_CORE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336a2420966214855365fcff430de048d4ab"></a>GLSL410&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336a899bc52bd6e9969ffd3fbdfe9a624ebb"></a>GLSL410_CORE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336ae761516e22f8fc1e333c3bc79299cf63"></a>GLSL420&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336adf59ea8b6574ba9b5a25c25d53a78aff"></a>GLSL420_CORE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336ad3342fc28681a0a200961058401a16d1"></a>GLSL430&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336a7104a41227011060813b971ab4acb428"></a>GLSL430_CORE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336ace9b162d7650bcf60ee60a7e0a9137d8"></a>GLSL440&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336ae0323950a4744689e4ef2d8296d5da9d"></a>GLSL440_CORE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336a83c71093410a917b289e876f2fbdbda8"></a>GLSL450&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336a5933cdc917cd0fb7a3e31bf9dd0de3a6"></a>GLSL450_CORE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336adc55848d340da0eeaa925beca4ea9b3e"></a>GLSL460&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336adc14ed5ebc1f21c82156111269d73335"></a>GLSL460_CORE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336a5f1b21dae42283f9e4fa711de38f097a"></a>HLSL11&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336ad45aee223322e3e5e9d6a07ab945b073"></a>HLSL20&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336a8a61b9ff53857ffd4d7568cd8de811f4"></a>HLSL20_A&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336a1c14f4584737ea1c9f4dc4f40f617bf2"></a>HLSL20_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336aabfdf6b72b8481544dfa1a5514c4a741"></a>HLSL30&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336a7c593ef0e9db0e555d7941ccd50df922"></a>HLSL40&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336adedc381b8aa5f192d18a5f2b48b9837b"></a>HLSL41&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336aa64580eb9281049b56a47d5d2746db62"></a>HLSL50&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336aee9b697a05c2ae190d60f6ff2105aff5"></a>SPIR_12&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336a24700d02680c14a4f541dbdc77350e82"></a>SPIR_20&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66f583730652d2dcda334546111b2336a649dd317597e959fb32149ac40206199"></a>SPIRV&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a42dbd1a04b5ad74c97efd215ce6a07fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42dbd1a04b5ad74c97efd215ce6a07fa">&#9670;&nbsp;</a></span>GLShader()</h2>
+<a id="ac61b248751135a25e4fd6109697df601"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac61b248751135a25e4fd6109697df601">&#9670;&nbsp;</a></span>GLShader()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -155,7 +416,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">AuroraFW::GEngine::GLShader::GLShader </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d63/namespace_aurora_f_w_1_1_g_engine.html#a77b58be250193834035c05dd00926a49">GLShaderType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a990069da825321ac9297fa896c6f8ec3">GLShader::ShaderType</a>&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
@@ -179,7 +440,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d4/d63/namespace_aurora_f_w_1_1_g_engine.html#a77b58be250193834035c05dd00926a49adf70a1066355e6e42d3da84b5d819de1">AuroraFW::GEngine::Cached</a>, <a class="el" href="../../d1/d29/gengine_2opengl_2include_2_aurora_f_w_2_g_engine_2_g_l_2_global_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>, and <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#ac012d7614801ed69d643ad388dcfc768">glDeleteShader</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a990069da825321ac9297fa896c6f8ec3abe9b1c0e849ec124f0d51a1835a67e29">Cached</a>, and <a class="el" href="../../d1/d29/gengine_2opengl_2include_2_aurora_f_w_2_g_engine_2_g_l_2_global_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>.</p>
 
 </div>
 </div>
@@ -194,9 +455,9 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../d0/db6/_types_8h.html#a68c4714e43d8e827d80759f9cb864f3c">GLuint</a> AuroraFW::GEngine::GLShader::importCachedSourceFileShader </td>
+          <td class="memname">static <a class="el" href="../../d9/d21/_internal_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a> AuroraFW::GEngine::GLShader::importCachedSourceFileShader </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">std::string</a>&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -220,7 +481,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../d0/db6/_types_8h.html#a68c4714e43d8e827d80759f9cb864f3c">GLuint</a> AuroraFW::GEngine::GLShader::importCachedSourceFileShader </td>
+          <td class="memname">static <a class="el" href="../../d9/d21/_internal_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a> AuroraFW::GEngine::GLShader::importCachedSourceFileShader </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -246,9 +507,9 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../d0/db6/_types_8h.html#a68c4714e43d8e827d80759f9cb864f3c">GLuint</a> AuroraFW::GEngine::GLShader::compileShaderFromSource </td>
+          <td class="memname">static <a class="el" href="../../d9/d21/_internal_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a> AuroraFW::GEngine::GLShader::compileShaderFromSource </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">std::string</a> &amp;&#160;</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -272,7 +533,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../d0/db6/_types_8h.html#a68c4714e43d8e827d80759f9cb864f3c">GLuint</a> AuroraFW::GEngine::GLShader::compileShaderFromSource </td>
+          <td class="memname">static <a class="el" href="../../d9/d21/_internal_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a> AuroraFW::GEngine::GLShader::compileShaderFromSource </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -298,9 +559,9 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../d0/db6/_types_8h.html#a68c4714e43d8e827d80759f9cb864f3c">GLuint</a> AuroraFW::GEngine::GLShader::compileShaderFromFile </td>
+          <td class="memname">static <a class="el" href="../../d9/d21/_internal_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a> AuroraFW::GEngine::GLShader::compileShaderFromFile </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">std::string</a>&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -324,7 +585,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../d0/db6/_types_8h.html#a68c4714e43d8e827d80759f9cb864f3c">GLuint</a> AuroraFW::GEngine::GLShader::compileShaderFromFile </td>
+          <td class="memname">static <a class="el" href="../../d9/d21/_internal_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a> AuroraFW::GEngine::GLShader::compileShaderFromFile </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -340,8 +601,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adffaa83c7294d3d81317763b3ae6df5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adffaa83c7294d3d81317763b3ae6df5c">&#9670;&nbsp;</a></span>getShaderInfo()</h2>
+<a id="a047a6c7d931816afa49e06e8772b1269"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a047a6c7d931816afa49e06e8772b1269">&#9670;&nbsp;</a></span>getShaderInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -350,15 +611,15 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#acebcc1c5663f14ebde1d16831e5fed94">GLint</a> AuroraFW::GEngine::GLShader::getShaderInfo </td>
+          <td class="memname">static <a class="el" href="../../d9/d21/_internal_8h.html#a5ac0f3c4d7fafd42b284b5487a791017">GLint</a> AuroraFW::GEngine::GLShader::getShaderInfo </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/db6/_types_8h.html#a68c4714e43d8e827d80759f9cb864f3c">GLuint</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d21/_internal_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d63/namespace_aurora_f_w_1_1_g_engine.html#aad0e7e5e0be563e3b39138fb8a6a63af">GLShaderParam</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a9f948d4026d08dc3a987d75752a6b678">Parameter</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -403,7 +664,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html">GLShader</a>&amp; AuroraFW::GEngine::GLShader::importCachedSourceFile </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">std::string</a>&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -413,7 +674,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a53b3c57dd5bf895741e28374fe28098e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53b3c57dd5bf895741e28374fe28098e">&#9670;&nbsp;</a></span>compileFromSource() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a53b3c57dd5bf895741e28374fe28098e">&#9670;&nbsp;</a></span>compileFromSource() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -421,7 +682,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html">GLShader</a>&amp; AuroraFW::GEngine::GLShader::compileFromSource </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">std::string</a> &amp;&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -431,10 +692,13 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="ab3e220ab4685b02b2c2fd66ecdb4a731"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3e220ab4685b02b2c2fd66ecdb4a731">&#9670;&nbsp;</a></span>compileFromSource() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3e220ab4685b02b2c2fd66ecdb4a731">&#9670;&nbsp;</a></span>compileFromSource() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html">GLShader</a> &amp; AuroraFW::GEngine::GLShader::compileFromSource </td>
@@ -444,14 +708,21 @@ Static Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d0/d89/_type_8h.html#af1871475fe153320ab27abde5976f2b0">AFW_NULL</a>, <a class="el" href="../../d4/d63/namespace_aurora_f_w_1_1_g_engine.html#aad0e7e5e0be563e3b39138fb8a6a63afa8a20cfa6451728a12dbf0c32303c1bc3">AuroraFW::GEngine::CompileStatus</a>, <a class="el" href="../../d9/da3/namespace_aurora_f_w_1_1_c_l_i.html#ad597a652989d062a3f04e8b318c5e8aaa19f97896af98df53b9133b804d9a5aca">AuroraFW::CLI::Error</a>, <a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a33d999376ea4efcadd420ede54d116d1">getInfo()</a>, <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#abca6d43f43fae31f49dcb883b2f301f6">GL_FALSE</a>, <a class="el" href="../../d1/d29/gengine_2opengl_2include_2_aurora_f_w_2_g_engine_2_g_l_2_global_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>, <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#acf7a528ef1ef237d2a7676dcb0f22473">glCompileShader</a>, <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#ac012d7614801ed69d643ad388dcfc768">glDeleteShader</a>, <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a3058fd84744eb41e33773ad2b1a8c184">glGetShaderInfoLog</a>, <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a369ec108462c247e3028edc9070117a0">glShaderSource</a>, <a class="el" href="../../d9/da3/namespace_aurora_f_w_1_1_c_l_i.html#a02c55c62d122fd50ce124f700e65d79c">AuroraFW::CLI::Log()</a>, and <a class="el" href="../../d4/d63/namespace_aurora_f_w_1_1_g_engine.html#aad0e7e5e0be563e3b39138fb8a6a63afa6cb209e33f1df60b848d487b388378cf">AuroraFW::GEngine::LogLength</a>.</p>
+<p>Implements <a class="el" href="../../db/d6a/class_aurora_f_w_1_1_g_engine_1_1_shader.html#a674a05e0ea98dcd24192ccf1c2be9412">AuroraFW::GEngine::Shader</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d0/d89/_type_8h.html#af1871475fe153320ab27abde5976f2b0">AFW_NULL</a>, <a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a9f948d4026d08dc3a987d75752a6b678a3068a044ea7cebcd27b8121abd702adc">CompileStatus</a>, <a class="el" href="../../d9/da3/namespace_aurora_f_w_1_1_c_l_i.html#ad597a652989d062a3f04e8b318c5e8aaa19f97896af98df53b9133b804d9a5aca">AuroraFW::CLI::Error</a>, <a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a3f54b4b16956c974241677f4ab11f9e3">getInfo()</a>, <a class="el" href="../../d1/d29/gengine_2opengl_2include_2_aurora_f_w_2_g_engine_2_g_l_2_global_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>, <a class="el" href="../../d9/da3/namespace_aurora_f_w_1_1_c_l_i.html#a02c55c62d122fd50ce124f700e65d79c">AuroraFW::CLI::Log()</a>, and <a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a9f948d4026d08dc3a987d75752a6b678a3ed034b7dd40c34117db4c7757d552c1">LogLength</a>.</p>
 
 </div>
 </div>
 <a id="ae0f1813801c3adc9f5ae6666bad19728"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0f1813801c3adc9f5ae6666bad19728">&#9670;&nbsp;</a></span>compileFromFile() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0f1813801c3adc9f5ae6666bad19728">&#9670;&nbsp;</a></span>compileFromFile() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -459,7 +730,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html">GLShader</a>&amp; AuroraFW::GEngine::GLShader::compileFromFile </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#ae84541b4f3d8e1ea24ec0f466a8c568b">std::string</a>&#160;</td>
+          <td class="paramtype">const std::string&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -469,7 +740,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a872538b90f087c9c0ffa0d1ac65affdb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a872538b90f087c9c0ffa0d1ac65affdb">&#9670;&nbsp;</a></span>compileFromFile() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a872538b90f087c9c0ffa0d1ac65affdb">&#9670;&nbsp;</a></span>compileFromFile() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -486,23 +757,23 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a33d999376ea4efcadd420ede54d116d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33d999376ea4efcadd420ede54d116d1">&#9670;&nbsp;</a></span>getInfo()</h2>
+<a id="a3f54b4b16956c974241677f4ab11f9e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f54b4b16956c974241677f4ab11f9e3">&#9670;&nbsp;</a></span>getInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#acebcc1c5663f14ebde1d16831e5fed94">GLint</a> AuroraFW::GEngine::GLShader::getInfo </td>
+          <td class="memname"><a class="el" href="../../d9/d21/_internal_8h.html#a5ac0f3c4d7fafd42b284b5487a791017">GLint</a> AuroraFW::GEngine::GLShader::getInfo </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d63/namespace_aurora_f_w_1_1_g_engine.html#aad0e7e5e0be563e3b39138fb8a6a63af">GLShaderParam</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#a9f948d4026d08dc3a987d75752a6b678">GLShader::Parameter</a>&#160;</td>
           <td class="paramname"><em>param</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d1/d29/gengine_2opengl_2include_2_aurora_f_w_2_g_engine_2_g_l_2_global_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>, and <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#ae7002efbed794728b79205427b3ccc66">glGetShaderiv</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d29/gengine_2opengl_2include_2_aurora_f_w_2_g_engine_2_g_l_2_global_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d4/dbe/class_aurora_f_w_1_1_g_engine_1_1_g_l_shader.html#ab3e220ab4685b02b2c2fd66ecdb4a731">compileFromSource()</a>.</p>
 
@@ -515,7 +786,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool AuroraFW::GEngine::GLShader::isCompiled </td>
+          <td class="memname"><a class="el" href="../../da/d39/alac__decoder_8c.html#af6a258d8f3ee5206d682d799316314b1">bool</a> AuroraFW::GEngine::GLShader::isCompiled </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -532,12 +803,293 @@ Static Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/db6/_types_8h.html#a68c4714e43d8e827d80759f9cb864f3c">GLuint</a> AuroraFW::GEngine::GLShader::getShader </td>
+          <td class="memname"><a class="el" href="../../d9/d21/_internal_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a> AuroraFW::GEngine::GLShader::getShader </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e6b26e5a779747ff7f7c79b27e6d2eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e6b26e5a779747ff7f7c79b27e6d2eb">&#9670;&nbsp;</a></span>Load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AuroraFW::GEngine::RTShader::Load </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d6a/class_aurora_f_w_1_1_g_engine_1_1_shader.html#acd602bbcdf1f260cb6d29ba3dddef103">Shader::ShaderType</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/d85/struct_aurora_f_w_1_1_g_engine_1_1_r_t_shader_1_1_settings.html">RTShader::Settings</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a633a98fba3dd2a3f8c06e2269e7fbcbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a633a98fba3dd2a3f8c06e2269e7fbcbf">&#9670;&nbsp;</a></span>compileFromFile() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AuroraFW::GEngine::RTShader::compileFromFile </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441c">Language</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae4286a95f8aa9f97d97481abe6896a1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4286a95f8aa9f97d97481abe6896a1c">&#9670;&nbsp;</a></span>compileFromFile() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AuroraFW::GEngine::RTShader::compileFromFile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/d9c/chanmap_8c.html#a4535f4b790ca9c401b2fb927a700758b">std::map</a>&lt; <a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441c">Language</a>, std::string &gt;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af867635697fb944662310bced20ac7f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af867635697fb944662310bced20ac7f3">&#9670;&nbsp;</a></span>importCachedFile() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AuroraFW::GEngine::RTShader::importCachedFile </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441c">Language</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa0a3c36ea0b49ad96f729e2347062582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0a3c36ea0b49ad96f729e2347062582">&#9670;&nbsp;</a></span>importCachedFile() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AuroraFW::GEngine::Shader::importCachedFile </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68f3519c7cc2b014906e866655fd548a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68f3519c7cc2b014906e866655fd548a">&#9670;&nbsp;</a></span>importCachedSource() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AuroraFW::GEngine::RTShader::importCachedSource </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441c">Language</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb018e05af0f21db5720571f14acf1b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb018e05af0f21db5720571f14acf1b7">&#9670;&nbsp;</a></span>importCachedSource() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../db/d6a/class_aurora_f_w_1_1_g_engine_1_1_shader.html">Shader</a>&amp; AuroraFW::GEngine::Shader::importCachedSource </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aae26903a099ee2ed5ebec22849f441b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae26903a099ee2ed5ebec22849f441b7">&#9670;&nbsp;</a></span>compileFromSource() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AuroraFW::GEngine::RTShader::compileFromSource </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/d43/class_aurora_f_w_1_1_g_engine_1_1_r_t_shader.html#ade5a123cbceefe560dcfb119af44441c">Language</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="abe3ad91d507d5ac7584afe5104c09297"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe3ad91d507d5ac7584afe5104c09297">&#9670;&nbsp;</a></span>_settings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d85/struct_aurora_f_w_1_1_g_engine_1_1_r_t_shader_1_1_settings.html">Settings</a> AuroraFW::GEngine::RTShader::_settings</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

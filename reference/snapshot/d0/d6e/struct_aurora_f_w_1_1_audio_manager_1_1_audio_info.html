@@ -102,82 +102,114 @@ $(document).ready(function(){initNavTree('d0/d6e/struct_aurora_f_w_1_1_audio_man
 <div class="title">AuroraFW::AudioManager::AudioInfo Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>A struct to hold audio info.  
+ <a href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa6849897c0a8b7d59177ffc002315111"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#aa6849897c0a8b7d59177ffc002315111">AudioInfo</a> (SF_INFO *=nullptr, SNDFILE *=nullptr)</td></tr>
-<tr class="separator:aa6849897c0a8b7d59177ffc002315111"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56413c47b21e7b6eca03f3934bc1093b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a56413c47b21e7b6eca03f3934bc1093b">AudioInfo</a> (SF_INFO *=new SF_INFO(), SNDFILE *=nullptr)</td></tr>
+<tr class="memdesc:a56413c47b21e7b6eca03f3934bc1093b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an <a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html" title="A struct to hold audio info. ">AudioInfo</a> object, either with empty information or with already existing one.  <a href="#a56413c47b21e7b6eca03f3934bc1093b">More...</a><br /></td></tr>
+<tr class="separator:a56413c47b21e7b6eca03f3934bc1093b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8765b3f0559f88af0131b498ed0de1eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a8765b3f0559f88af0131b498ed0de1eb">~AudioInfo</a> ()</td></tr>
+<tr class="memdesc:a8765b3f0559f88af0131b498ed0de1eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructs an <a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html" title="A struct to hold audio info. ">AudioInfo</a> object.  <a href="#a8765b3f0559f88af0131b498ed0de1eb">More...</a><br /></td></tr>
 <tr class="separator:a8765b3f0559f88af0131b498ed0de1eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad517d7aa9f6251276907702362886bc"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#aad517d7aa9f6251276907702362886bc">getAlbum</a> () const</td></tr>
+<tr class="memdesc:aad517d7aa9f6251276907702362886bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the "Album" string of the audio file.  <a href="#aad517d7aa9f6251276907702362886bc">More...</a><br /></td></tr>
 <tr class="separator:aad517d7aa9f6251276907702362886bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af660811c6c664533af86f6fcbd697455"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#af660811c6c664533af86f6fcbd697455">getArtist</a> () const</td></tr>
+<tr class="memdesc:af660811c6c664533af86f6fcbd697455"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the "Artist" string of the audio file.  <a href="#af660811c6c664533af86f6fcbd697455">More...</a><br /></td></tr>
 <tr class="separator:af660811c6c664533af86f6fcbd697455"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7411f4615cc8c307e9ec4322dded9e5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ab7411f4615cc8c307e9ec4322dded9e5">getChannels</a> () const</td></tr>
+<tr class="memdesc:ab7411f4615cc8c307e9ec4322dded9e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of channels of the audio file.  <a href="#ab7411f4615cc8c307e9ec4322dded9e5">More...</a><br /></td></tr>
 <tr class="separator:ab7411f4615cc8c307e9ec4322dded9e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8db6b668793f459339c9843776dd351"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ac8db6b668793f459339c9843776dd351">getComment</a> () const</td></tr>
+<tr class="memdesc:ac8db6b668793f459339c9843776dd351"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the "Comment" string of the audio file.  <a href="#ac8db6b668793f459339c9843776dd351">More...</a><br /></td></tr>
 <tr class="separator:ac8db6b668793f459339c9843776dd351"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17a1a6f390b92f9822fa530887479522"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a17a1a6f390b92f9822fa530887479522">getCopyright</a> () const</td></tr>
+<tr class="memdesc:a17a1a6f390b92f9822fa530887479522"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the "Copyright" string of the audio file.  <a href="#a17a1a6f390b92f9822fa530887479522">More...</a><br /></td></tr>
 <tr class="separator:a17a1a6f390b92f9822fa530887479522"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c0de7ecfc69ed2e6184bcff85dd3a0f"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a5c0de7ecfc69ed2e6184bcff85dd3a0f">getDate</a> () const</td></tr>
+<tr class="memdesc:a5c0de7ecfc69ed2e6184bcff85dd3a0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the "Date" string of the audio file.  <a href="#a5c0de7ecfc69ed2e6184bcff85dd3a0f">More...</a><br /></td></tr>
 <tr class="separator:a5c0de7ecfc69ed2e6184bcff85dd3a0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0adc389b4bb9d280239729e03b14fca"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ab0adc389b4bb9d280239729e03b14fca">getFormat</a> () const</td></tr>
+<tr class="memdesc:ab0adc389b4bb9d280239729e03b14fca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the format of the audio file.  <a href="#ab0adc389b4bb9d280239729e03b14fca">More...</a><br /></td></tr>
 <tr class="separator:ab0adc389b4bb9d280239729e03b14fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38f75b9eeb79fac4bddcbb6d53224322"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a38f75b9eeb79fac4bddcbb6d53224322">getFrames</a> () const</td></tr>
-<tr class="separator:a38f75b9eeb79fac4bddcbb6d53224322"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58647ff9bebbffd0cece0ec724cce4c3"><td class="memItemLeft" align="right" valign="top">sf_count_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a58647ff9bebbffd0cece0ec724cce4c3">getFrames</a> () const</td></tr>
+<tr class="memdesc:a58647ff9bebbffd0cece0ec724cce4c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of frames of the audio file.  <a href="#a58647ff9bebbffd0cece0ec724cce4c3">More...</a><br /></td></tr>
+<tr class="separator:a58647ff9bebbffd0cece0ec724cce4c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab454c51833cb88aeca1050931595434e"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ab454c51833cb88aeca1050931595434e">getGenre</a> () const</td></tr>
+<tr class="memdesc:ab454c51833cb88aeca1050931595434e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the "Genre" string of the audio file.  <a href="#ab454c51833cb88aeca1050931595434e">More...</a><br /></td></tr>
 <tr class="separator:ab454c51833cb88aeca1050931595434e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0efed000ef99ad63f5ea57e241bd47ac"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a0efed000ef99ad63f5ea57e241bd47ac">getLicense</a> () const</td></tr>
+<tr class="memdesc:a0efed000ef99ad63f5ea57e241bd47ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the "License" string of the audio file.  <a href="#a0efed000ef99ad63f5ea57e241bd47ac">More...</a><br /></td></tr>
 <tr class="separator:a0efed000ef99ad63f5ea57e241bd47ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09ccc2a49feffd578f7c125d4a4774e9"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a09ccc2a49feffd578f7c125d4a4774e9">getSampleRate</a> () const</td></tr>
-<tr class="separator:a09ccc2a49feffd578f7c125d4a4774e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75a0406d6cd326d56ea3a895810fcd0e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a75a0406d6cd326d56ea3a895810fcd0e">getSampleRate</a> () const</td></tr>
+<tr class="memdesc:a75a0406d6cd326d56ea3a895810fcd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the sample rate of the audio file.  <a href="#a75a0406d6cd326d56ea3a895810fcd0e">More...</a><br /></td></tr>
+<tr class="separator:a75a0406d6cd326d56ea3a895810fcd0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09fe026a810dc10fdad4c026967b6040"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a09fe026a810dc10fdad4c026967b6040">getSoftware</a> () const</td></tr>
+<tr class="memdesc:a09fe026a810dc10fdad4c026967b6040"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the "Software" string of the audio file.  <a href="#a09fe026a810dc10fdad4c026967b6040">More...</a><br /></td></tr>
 <tr class="separator:a09fe026a810dc10fdad4c026967b6040"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9a2e4fd9ad4815aae899d78420e2df8"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ae9a2e4fd9ad4815aae899d78420e2df8">getTitle</a> () const</td></tr>
+<tr class="memdesc:ae9a2e4fd9ad4815aae899d78420e2df8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the "Title" string of the audio file.  <a href="#ae9a2e4fd9ad4815aae899d78420e2df8">More...</a><br /></td></tr>
 <tr class="separator:ae9a2e4fd9ad4815aae899d78420e2df8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d135128c5562b710a6d6e13d28221e0"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a0d135128c5562b710a6d6e13d28221e0">getTrackNumber</a> () const</td></tr>
+<tr class="memdesc:a0d135128c5562b710a6d6e13d28221e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the "TrackNumber" string of the audio file.  <a href="#a0d135128c5562b710a6d6e13d28221e0">More...</a><br /></td></tr>
 <tr class="separator:a0d135128c5562b710a6d6e13d28221e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aece921b69937587aa63aa28c0b6a21eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#aece921b69937587aa63aa28c0b6a21eb">setAlbum</a> (const char *album)</td></tr>
+<tr class="memitem:aece921b69937587aa63aa28c0b6a21eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#aece921b69937587aa63aa28c0b6a21eb">setAlbum</a> (const char *album)</td></tr>
+<tr class="memdesc:aece921b69937587aa63aa28c0b6a21eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the "Album" string of the audio file to the given string.  <a href="#aece921b69937587aa63aa28c0b6a21eb">More...</a><br /></td></tr>
 <tr class="separator:aece921b69937587aa63aa28c0b6a21eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad08d78846cb3f4c90807d951e1ac8e74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ad08d78846cb3f4c90807d951e1ac8e74">setArtist</a> (const char *artist)</td></tr>
+<tr class="memitem:ad08d78846cb3f4c90807d951e1ac8e74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ad08d78846cb3f4c90807d951e1ac8e74">setArtist</a> (const char *artist)</td></tr>
+<tr class="memdesc:ad08d78846cb3f4c90807d951e1ac8e74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the "Artist" string of the audio file to the given string.  <a href="#ad08d78846cb3f4c90807d951e1ac8e74">More...</a><br /></td></tr>
 <tr class="separator:ad08d78846cb3f4c90807d951e1ac8e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a186acd7959b69012554d1a8ba34f1c43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a186acd7959b69012554d1a8ba34f1c43">setChannels</a> (const int)</td></tr>
+<tr class="memitem:a186acd7959b69012554d1a8ba34f1c43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a186acd7959b69012554d1a8ba34f1c43">setChannels</a> (const int)</td></tr>
+<tr class="memdesc:a186acd7959b69012554d1a8ba34f1c43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the number of channels of the audio file.  <a href="#a186acd7959b69012554d1a8ba34f1c43">More...</a><br /></td></tr>
 <tr class="separator:a186acd7959b69012554d1a8ba34f1c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2e9850d2cc0690ce3526c514e0679ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ad2e9850d2cc0690ce3526c514e0679ab">setComment</a> (const char *comment)</td></tr>
+<tr class="memitem:ad2e9850d2cc0690ce3526c514e0679ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ad2e9850d2cc0690ce3526c514e0679ab">setComment</a> (const char *comment)</td></tr>
+<tr class="memdesc:ad2e9850d2cc0690ce3526c514e0679ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the "Comment" string of the audio file to the given string.  <a href="#ad2e9850d2cc0690ce3526c514e0679ab">More...</a><br /></td></tr>
 <tr class="separator:ad2e9850d2cc0690ce3526c514e0679ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad07bba89b230dec06c5a407e9f4d9369"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ad07bba89b230dec06c5a407e9f4d9369">setCopyright</a> (const char *copyright)</td></tr>
+<tr class="memitem:ad07bba89b230dec06c5a407e9f4d9369"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ad07bba89b230dec06c5a407e9f4d9369">setCopyright</a> (const char *copyright)</td></tr>
+<tr class="memdesc:ad07bba89b230dec06c5a407e9f4d9369"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the "Copyright" string of the audio file to the given string.  <a href="#ad07bba89b230dec06c5a407e9f4d9369">More...</a><br /></td></tr>
 <tr class="separator:ad07bba89b230dec06c5a407e9f4d9369"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9f1f53eb9e0019d35cff56c47be3cde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ad9f1f53eb9e0019d35cff56c47be3cde">setDate</a> (const char *date)</td></tr>
+<tr class="memitem:ad9f1f53eb9e0019d35cff56c47be3cde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ad9f1f53eb9e0019d35cff56c47be3cde">setDate</a> (const char *date)</td></tr>
+<tr class="memdesc:ad9f1f53eb9e0019d35cff56c47be3cde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the "Date" string of the audio file to the given string.  <a href="#ad9f1f53eb9e0019d35cff56c47be3cde">More...</a><br /></td></tr>
 <tr class="separator:ad9f1f53eb9e0019d35cff56c47be3cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad80ec9030d29e96f9a5c76dffb7aabb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ad80ec9030d29e96f9a5c76dffb7aabb4">setFormat</a> (const int)</td></tr>
+<tr class="memitem:ad80ec9030d29e96f9a5c76dffb7aabb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ad80ec9030d29e96f9a5c76dffb7aabb4">setFormat</a> (const int)</td></tr>
+<tr class="memdesc:ad80ec9030d29e96f9a5c76dffb7aabb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the format of the audio file.  <a href="#ad80ec9030d29e96f9a5c76dffb7aabb4">More...</a><br /></td></tr>
 <tr class="separator:ad80ec9030d29e96f9a5c76dffb7aabb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b93ad5534cdefd6a1fe6b26fd6e22ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a5b93ad5534cdefd6a1fe6b26fd6e22ca">setFrames</a> (const unsigned long)</td></tr>
-<tr class="separator:a5b93ad5534cdefd6a1fe6b26fd6e22ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abddf03ad07d3f0aba25328c62c54f4be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#abddf03ad07d3f0aba25328c62c54f4be">setGenre</a> (const char *genre)</td></tr>
+<tr class="memitem:a4ad64f88eb7deadd0e868d05ff880a55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a4ad64f88eb7deadd0e868d05ff880a55">setFrames</a> (const sf_count_t)</td></tr>
+<tr class="memdesc:a4ad64f88eb7deadd0e868d05ff880a55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the number of frames of the audio file.  <a href="#a4ad64f88eb7deadd0e868d05ff880a55">More...</a><br /></td></tr>
+<tr class="separator:a4ad64f88eb7deadd0e868d05ff880a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abddf03ad07d3f0aba25328c62c54f4be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#abddf03ad07d3f0aba25328c62c54f4be">setGenre</a> (const char *genre)</td></tr>
+<tr class="memdesc:abddf03ad07d3f0aba25328c62c54f4be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the "Genre" string of the audio file to the given string.  <a href="#abddf03ad07d3f0aba25328c62c54f4be">More...</a><br /></td></tr>
 <tr class="separator:abddf03ad07d3f0aba25328c62c54f4be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee82fd88cf6c5cdd5c7e7fa9fc49263b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#aee82fd88cf6c5cdd5c7e7fa9fc49263b">setLicense</a> (const char *license)</td></tr>
+<tr class="memitem:aee82fd88cf6c5cdd5c7e7fa9fc49263b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#aee82fd88cf6c5cdd5c7e7fa9fc49263b">setLicense</a> (const char *license)</td></tr>
+<tr class="memdesc:aee82fd88cf6c5cdd5c7e7fa9fc49263b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the "License" string of the audio file to the given string.  <a href="#aee82fd88cf6c5cdd5c7e7fa9fc49263b">More...</a><br /></td></tr>
 <tr class="separator:aee82fd88cf6c5cdd5c7e7fa9fc49263b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa579ae776ce62f18019d4207b8ab5573"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#aa579ae776ce62f18019d4207b8ab5573">setSampleRate</a> (const unsigned int)</td></tr>
-<tr class="separator:aa579ae776ce62f18019d4207b8ab5573"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba99e2f111517e9a0c9974307074a620"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#aba99e2f111517e9a0c9974307074a620">setSoftware</a> (const char *software)</td></tr>
+<tr class="memitem:a4dd79fb2fc71c10c060e146f56fd21eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a4dd79fb2fc71c10c060e146f56fd21eb">setSampleRate</a> (const int)</td></tr>
+<tr class="memdesc:a4dd79fb2fc71c10c060e146f56fd21eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the samplerate of the audio file.  <a href="#a4dd79fb2fc71c10c060e146f56fd21eb">More...</a><br /></td></tr>
+<tr class="separator:a4dd79fb2fc71c10c060e146f56fd21eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba99e2f111517e9a0c9974307074a620"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#aba99e2f111517e9a0c9974307074a620">setSoftware</a> (const char *software)</td></tr>
+<tr class="memdesc:aba99e2f111517e9a0c9974307074a620"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the "Software" string of the audio file to the given string.  <a href="#aba99e2f111517e9a0c9974307074a620">More...</a><br /></td></tr>
 <tr class="separator:aba99e2f111517e9a0c9974307074a620"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6200fbc0505a96a8009353fbd3ebc5f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a6200fbc0505a96a8009353fbd3ebc5f6">setTitle</a> (const char *title)</td></tr>
+<tr class="memitem:a6200fbc0505a96a8009353fbd3ebc5f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a6200fbc0505a96a8009353fbd3ebc5f6">setTitle</a> (const char *title)</td></tr>
+<tr class="memdesc:a6200fbc0505a96a8009353fbd3ebc5f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the "Title" string of the audio file to the given string.  <a href="#a6200fbc0505a96a8009353fbd3ebc5f6">More...</a><br /></td></tr>
 <tr class="separator:a6200fbc0505a96a8009353fbd3ebc5f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4ce3ed5f97ef119ed1d2f4643d68cf2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ad4ce3ed5f97ef119ed1d2f4643d68cf2">setTrackNumber</a> (const char *trackNumber)</td></tr>
+<tr class="memitem:ad4ce3ed5f97ef119ed1d2f4643d68cf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ad4ce3ed5f97ef119ed1d2f4643d68cf2">setTrackNumber</a> (const char *trackNumber)</td></tr>
+<tr class="memdesc:ad4ce3ed5f97ef119ed1d2f4643d68cf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the "TrackNumber" string of the audio file to the given string.  <a href="#ad4ce3ed5f97ef119ed1d2f4643d68cf2">More...</a><br /></td></tr>
 <tr class="separator:ad4ce3ed5f97ef119ed1d2f4643d68cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:ab89c60c0fe6b722be7c3ceb8fc0b4c2e"><td class="memItemLeft" align="right" valign="top">struct&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ab89c60c0fe6b722be7c3ceb8fc0b4c2e">AudioIStream</a></td></tr>
-<tr class="separator:ab89c60c0fe6b722be7c3ceb8fc0b4c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ba7275934e0867a9574f94fc97025ba"><td class="memItemLeft" align="right" valign="top">struct&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a4ba7275934e0867a9574f94fc97025ba">AudioOStream</a></td></tr>
-<tr class="separator:a4ba7275934e0867a9574f94fc97025ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec4328ab6b75998f1cf5e439bf797971"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#aec4328ab6b75998f1cf5e439bf797971">audioOutputCallback</a> (const <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *, <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *, <a class="el" href="../../df/d25/_lib_c_2_s_t_d_def_8h.html#aea0c7eab1ce1eebb4e879ef4e23c16ee">size_t</a>, const PaStreamCallbackTimeInfo *, PaStreamCallbackFlags, <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *)</td></tr>
+<tr class="memitem:aec4328ab6b75998f1cf5e439bf797971"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#aec4328ab6b75998f1cf5e439bf797971">audioOutputCallback</a> (const void *, void *, <a class="el" href="../../df/d25/_lib_c_2_s_t_d_def_8h.html#aea0c7eab1ce1eebb4e879ef4e23c16ee">size_t</a>, const PaStreamCallbackTimeInfo *, PaStreamCallbackFlags, void *)</td></tr>
 <tr class="separator:aec4328ab6b75998f1cf5e439bf797971"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa6849897c0a8b7d59177ffc002315111"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6849897c0a8b7d59177ffc002315111">&#9670;&nbsp;</a></span>AudioInfo()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A struct to hold audio info. </p>
+<p>A struct whose purpose is to store all the information about an audio stream/file, either technical (samplerate, channels, etc...) or additional. (title, artist, album, etc...) </p><dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a56413c47b21e7b6eca03f3934bc1093b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56413c47b21e7b6eca03f3934bc1093b">&#9670;&nbsp;</a></span>AudioInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186,7 +218,7 @@ Friends</h2></td></tr>
           <td class="memname">AuroraFW::AudioManager::AudioInfo::AudioInfo </td>
           <td>(</td>
           <td class="paramtype">SF_INFO *&#160;</td>
-          <td class="paramname"><em>sndInfo</em> = <code>nullptr</code>, </td>
+          <td class="paramname"><em>sndInfo</em> = <code>new&#160;SF_INFO()</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -201,6 +233,16 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Constructs an <a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html" title="A struct to hold audio info. ">AudioInfo</a> object, either with empty information or with already existing one. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sndInfo</td><td>The <em>libsndfile</em> info object, in case the user already has one (default = new empty object) </td></tr>
+    <tr><td class="paramname">sndFile</td><td>The <em>libsndfile</em> file object, in case the user already has one (default = nullptr) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
 
 </div>
 </div>
@@ -219,19 +261,22 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d0/d89/_type_8h.html#a50f1441c7b63f650c56142a0c07ba524">AFW_NULLPTR</a>, and <a class="el" href="../../d5/d31/namespace_aurora_f_w_1_1_audio_manager.html#acf1f3c949e024c78646ee2f154331f14">AuroraFW::AudioManager::catchSNDFILEProblem()</a>.</p>
+<p>Destructs an <a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html" title="A struct to hold audio info. ">AudioInfo</a> object. </p>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../d0/d89/_type_8h.html#a50f1441c7b63f650c56142a0c07ba524">AFW_NULLPTR</a>, <a class="el" href="../../d5/d31/namespace_aurora_f_w_1_1_audio_manager.html#acf1f3c949e024c78646ee2f154331f14">AuroraFW::AudioManager::catchSNDFILEProblem()</a>, and <a class="el" href="../../de/df7/sndfile_8c.html#a276b87553823c937c62492206f0ed81e">sf_close()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a09ccc2a49feffd578f7c125d4a4774e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09ccc2a49feffd578f7c125d4a4774e9">&#9670;&nbsp;</a></span>getSampleRate()</h2>
+<a id="a75a0406d6cd326d56ea3a895810fcd0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75a0406d6cd326d56ea3a895810fcd0e">&#9670;&nbsp;</a></span>getSampleRate()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned int AuroraFW::AudioManager::AudioInfo::getSampleRate </td>
+          <td class="memname">int AuroraFW::AudioManager::AudioInfo::getSampleRate </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -239,22 +284,34 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the sample rate of the audio file. </p>
+<dl class="section return"><dt>Returns</dt><dd>The sample rate of the audio file. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a4dd79fb2fc71c10c060e146f56fd21eb" title="Sets the samplerate of the audio file. ">setSampleRate(const int )</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">Referenced by <a class="el" href="../../da/d61/struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream.html#a1d11e644c7700da4f971c7991a3810df">AuroraFW::AudioManager::AudioIStream::AudioIStream()</a>.</p>
+
 </div>
 </div>
-<a id="a38f75b9eeb79fac4bddcbb6d53224322"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38f75b9eeb79fac4bddcbb6d53224322">&#9670;&nbsp;</a></span>getFrames()</h2>
+<a id="a58647ff9bebbffd0cece0ec724cce4c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58647ff9bebbffd0cece0ec724cce4c3">&#9670;&nbsp;</a></span>getFrames()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d25/_lib_c_2_s_t_d_def_8h.html#aea0c7eab1ce1eebb4e879ef4e23c16ee">size_t</a> AuroraFW::AudioManager::AudioInfo::getFrames </td>
+          <td class="memname">sf_count_t AuroraFW::AudioManager::AudioInfo::getFrames </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the number of frames of the audio file. </p>
+<dl class="section return"><dt>Returns</dt><dd>The number of frames of the audio file, without counting in the number of channels. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a4ad64f88eb7deadd0e868d05ff880a55" title="Sets the number of frames of the audio file. ">setFrames(const sf_count_t )</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/de8/struct_aurora_f_w_1_1_audio_manager_1_1_audio_o_stream.html#abb36f3ddb2264a389ed6e211d731df05">AuroraFW::AudioManager::AudioOStream::AudioOStream()</a>, and <a class="el" href="../../d5/d31/namespace_aurora_f_w_1_1_audio_manager.html#ab3744b14c749144a12681638d608896a">AuroraFW::AudioManager::audioOutputCallback()</a>.</p>
 
@@ -275,7 +332,12 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d6/de8/struct_aurora_f_w_1_1_audio_manager_1_1_audio_o_stream.html#abb36f3ddb2264a389ed6e211d731df05">AuroraFW::AudioManager::AudioOStream::AudioOStream()</a>, and <a class="el" href="../../d5/d31/namespace_aurora_f_w_1_1_audio_manager.html#ab3744b14c749144a12681638d608896a">AuroraFW::AudioManager::audioOutputCallback()</a>.</p>
+<p>Gets the number of channels of the audio file. </p>
+<dl class="section return"><dt>Returns</dt><dd>The number of channels of the audio file. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a186acd7959b69012554d1a8ba34f1c43" title="Sets the number of channels of the audio file. ">setChannels(const int )</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">Referenced by <a class="el" href="../../d5/d31/namespace_aurora_f_w_1_1_audio_manager.html#acce486724489ec2d8849b0fdadff741a">AuroraFW::AudioManager::audioInputCallback()</a>, <a class="el" href="../../da/d61/struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream.html#a1d11e644c7700da4f971c7991a3810df">AuroraFW::AudioManager::AudioIStream::AudioIStream()</a>, <a class="el" href="../../d6/de8/struct_aurora_f_w_1_1_audio_manager_1_1_audio_o_stream.html#abb36f3ddb2264a389ed6e211d731df05">AuroraFW::AudioManager::AudioOStream::AudioOStream()</a>, and <a class="el" href="../../d5/d31/namespace_aurora_f_w_1_1_audio_manager.html#ab3744b14c749144a12681638d608896a">AuroraFW::AudioManager::audioOutputCallback()</a>.</p>
 
 </div>
 </div>
@@ -294,41 +356,66 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the format of the audio file. </p>
+<p>The format is the result of a bit-wise operation between a major and minor value from <em>libsndfile</em>. More info on this on the lib's <a href="http://www.mega-nerd.com/libsndfile/api.html#open">API page</a>. </p><dl class="section return"><dt>Returns</dt><dd>The format as an int resulting from bit-wise operations. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ad80ec9030d29e96f9a5c76dffb7aabb4" title="Sets the format of the audio file. ">setFormat(const int )</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
 </div>
 </div>
-<a id="aa579ae776ce62f18019d4207b8ab5573"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa579ae776ce62f18019d4207b8ab5573">&#9670;&nbsp;</a></span>setSampleRate()</h2>
+<a id="a4dd79fb2fc71c10c060e146f56fd21eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dd79fb2fc71c10c060e146f56fd21eb">&#9670;&nbsp;</a></span>setSampleRate()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> AuroraFW::AudioManager::AudioInfo::setSampleRate </td>
+          <td class="memname">void AuroraFW::AudioManager::AudioInfo::setSampleRate </td>
           <td>(</td>
-          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>samplerate</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sets the samplerate of the audio file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">samplerate</td><td>The desired samplerato. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd>getSamplerate() </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
 </div>
 </div>
-<a id="a5b93ad5534cdefd6a1fe6b26fd6e22ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b93ad5534cdefd6a1fe6b26fd6e22ca">&#9670;&nbsp;</a></span>setFrames()</h2>
+<a id="a4ad64f88eb7deadd0e868d05ff880a55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ad64f88eb7deadd0e868d05ff880a55">&#9670;&nbsp;</a></span>setFrames()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> AuroraFW::AudioManager::AudioInfo::setFrames </td>
+          <td class="memname">void AuroraFW::AudioManager::AudioInfo::setFrames </td>
           <td>(</td>
-          <td class="paramtype">const unsigned long&#160;</td>
+          <td class="paramtype">const sf_count_t&#160;</td>
           <td class="paramname"><em>frames</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the number of frames of the audio file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">frames</td><td>The desired number of frames, without counting in the number of channels. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a58647ff9bebbffd0cece0ec724cce4c3" title="Gets the number of frames of the audio file. ">getFrames()</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
 
 </div>
 </div>
@@ -339,7 +426,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> AuroraFW::AudioManager::AudioInfo::setChannels </td>
+          <td class="memname">void AuroraFW::AudioManager::AudioInfo::setChannels </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>channels</em></td><td>)</td>
@@ -347,6 +434,16 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the number of channels of the audio file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channels</td><td>The desired number of channels. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ab7411f4615cc8c307e9ec4322dded9e5" title="Gets the number of channels of the audio file. ">getChannels()</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
 
 </div>
 </div>
@@ -357,7 +454,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> AuroraFW::AudioManager::AudioInfo::setFormat </td>
+          <td class="memname">void AuroraFW::AudioManager::AudioInfo::setFormat </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>format</em></td><td>)</td>
@@ -365,6 +462,16 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the format of the audio file. </p>
+<p>The format must be the result of a bit-wise operation between a major and minor value from <em>libsndfile</em>. More info on this on the lib's <a href="http://www.mega-nerd.com/libsndfile/api.html#open">API page</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">format</td><td>The desired format </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ab0adc389b4bb9d280239729e03b14fca" title="Gets the format of the audio file. ">getFormat()</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
 
 </div>
 </div>
@@ -383,6 +490,13 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the "Title" string of the audio file. </p>
+<dl class="section return"><dt>Returns</dt><dd>A string containing the data, or <em>"null"</em> if there's no data. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a6200fbc0505a96a8009353fbd3ebc5f6" title="Sets the &quot;Title&quot; string of the audio file to the given string. ">setTitle(const char* )</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../de/df7/sndfile_8c.html#a6c03e85e5091acc4aa4ad0d3d6738623">sf_get_string()</a>.</p>
+
 </div>
 </div>
 <a id="a17a1a6f390b92f9822fa530887479522"></a>
@@ -399,6 +513,13 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the "Copyright" string of the audio file. </p>
+<dl class="section return"><dt>Returns</dt><dd>A string containing the data, or <em>"null"</em> if there's no data. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ad07bba89b230dec06c5a407e9f4d9369" title="Sets the &quot;Copyright&quot; string of the audio file to the given string. ">setCopyright(const char* )</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../de/df7/sndfile_8c.html#a6c03e85e5091acc4aa4ad0d3d6738623">sf_get_string()</a>.</p>
 
 </div>
 </div>
@@ -417,6 +538,13 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the "Software" string of the audio file. </p>
+<dl class="section return"><dt>Returns</dt><dd>A string containing the data, or <em>"null"</em> if there's no data. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#aba99e2f111517e9a0c9974307074a620" title="Sets the &quot;Software&quot; string of the audio file to the given string. ">setSoftware(const char* )</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../de/df7/sndfile_8c.html#a6c03e85e5091acc4aa4ad0d3d6738623">sf_get_string()</a>.</p>
+
 </div>
 </div>
 <a id="af660811c6c664533af86f6fcbd697455"></a>
@@ -433,6 +561,13 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the "Artist" string of the audio file. </p>
+<dl class="section return"><dt>Returns</dt><dd>A string containing the data, or <em>"null"</em> if there's no data. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ad08d78846cb3f4c90807d951e1ac8e74" title="Sets the &quot;Artist&quot; string of the audio file to the given string. ">setArtist(const char* )</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../de/df7/sndfile_8c.html#a6c03e85e5091acc4aa4ad0d3d6738623">sf_get_string()</a>.</p>
 
 </div>
 </div>
@@ -451,6 +586,13 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the "Comment" string of the audio file. </p>
+<dl class="section return"><dt>Returns</dt><dd>A string containing the data, or <em>"null"</em> if there's no data. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ad2e9850d2cc0690ce3526c514e0679ab" title="Sets the &quot;Comment&quot; string of the audio file to the given string. ">setComment(const char* )</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../de/df7/sndfile_8c.html#a6c03e85e5091acc4aa4ad0d3d6738623">sf_get_string()</a>.</p>
+
 </div>
 </div>
 <a id="a5c0de7ecfc69ed2e6184bcff85dd3a0f"></a>
@@ -467,6 +609,13 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the "Date" string of the audio file. </p>
+<dl class="section return"><dt>Returns</dt><dd>A string containing the data, or <em>"null"</em> if there's no data. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ad9f1f53eb9e0019d35cff56c47be3cde" title="Sets the &quot;Date&quot; string of the audio file to the given string. ">setDate(const char* )</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../de/df7/sndfile_8c.html#a6c03e85e5091acc4aa4ad0d3d6738623">sf_get_string()</a>.</p>
 
 </div>
 </div>
@@ -485,6 +634,13 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the "Album" string of the audio file. </p>
+<dl class="section return"><dt>Returns</dt><dd>A string containing the data, or <em>"null"</em> if there's no data. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#aece921b69937587aa63aa28c0b6a21eb" title="Sets the &quot;Album&quot; string of the audio file to the given string. ">setAlbum(const char* )</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../de/df7/sndfile_8c.html#a6c03e85e5091acc4aa4ad0d3d6738623">sf_get_string()</a>.</p>
+
 </div>
 </div>
 <a id="a0efed000ef99ad63f5ea57e241bd47ac"></a>
@@ -501,6 +657,13 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the "License" string of the audio file. </p>
+<dl class="section return"><dt>Returns</dt><dd>A string containing the data, or <em>"null"</em> if there's no data. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#aee82fd88cf6c5cdd5c7e7fa9fc49263b" title="Sets the &quot;License&quot; string of the audio file to the given string. ">setLicense(const char* )</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../de/df7/sndfile_8c.html#a6c03e85e5091acc4aa4ad0d3d6738623">sf_get_string()</a>.</p>
 
 </div>
 </div>
@@ -519,6 +682,13 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the "TrackNumber" string of the audio file. </p>
+<dl class="section return"><dt>Returns</dt><dd>A string containing the data, or <em>"null"</em> if there's no data. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ad4ce3ed5f97ef119ed1d2f4643d68cf2" title="Sets the &quot;TrackNumber&quot; string of the audio file to the given string. ">setTrackNumber(const char* )</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../de/df7/sndfile_8c.html#a6c03e85e5091acc4aa4ad0d3d6738623">sf_get_string()</a>.</p>
+
 </div>
 </div>
 <a id="ab454c51833cb88aeca1050931595434e"></a>
@@ -536,6 +706,13 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the "Genre" string of the audio file. </p>
+<dl class="section return"><dt>Returns</dt><dd>A string containing the data, or <em>"null"</em> if there's no data. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#abddf03ad07d3f0aba25328c62c54f4be" title="Sets the &quot;Genre&quot; string of the audio file to the given string. ">setGenre(const char* )</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../de/df7/sndfile_8c.html#a6c03e85e5091acc4aa4ad0d3d6738623">sf_get_string()</a>.</p>
+
 </div>
 </div>
 <a id="a6200fbc0505a96a8009353fbd3ebc5f6"></a>
@@ -545,7 +722,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> AuroraFW::AudioManager::AudioInfo::setTitle </td>
+          <td class="memname">void AuroraFW::AudioManager::AudioInfo::setTitle </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>title</em></td><td>)</td>
@@ -553,6 +730,18 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the "Title" string of the audio file to the given string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>The desired string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ae9a2e4fd9ad4815aae899d78420e2df8" title="Gets the &quot;Title&quot; string of the audio file. ">getTitle()</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../de/df7/sndfile_8c.html#aafe48dfd246b12ee05f156030b8f87fb">sf_set_string()</a>.</p>
 
 </div>
 </div>
@@ -563,7 +752,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> AuroraFW::AudioManager::AudioInfo::setCopyright </td>
+          <td class="memname">void AuroraFW::AudioManager::AudioInfo::setCopyright </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>copyright</em></td><td>)</td>
@@ -571,6 +760,18 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the "Copyright" string of the audio file to the given string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">copyright</td><td>The desired string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a17a1a6f390b92f9822fa530887479522" title="Gets the &quot;Copyright&quot; string of the audio file. ">getCopyright()</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../de/df7/sndfile_8c.html#aafe48dfd246b12ee05f156030b8f87fb">sf_set_string()</a>.</p>
 
 </div>
 </div>
@@ -581,7 +782,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> AuroraFW::AudioManager::AudioInfo::setSoftware </td>
+          <td class="memname">void AuroraFW::AudioManager::AudioInfo::setSoftware </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>software</em></td><td>)</td>
@@ -589,6 +790,18 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the "Software" string of the audio file to the given string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">software</td><td>The desired string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a09fe026a810dc10fdad4c026967b6040" title="Gets the &quot;Software&quot; string of the audio file. ">getSoftware()</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../de/df7/sndfile_8c.html#aafe48dfd246b12ee05f156030b8f87fb">sf_set_string()</a>.</p>
 
 </div>
 </div>
@@ -599,7 +812,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> AuroraFW::AudioManager::AudioInfo::setArtist </td>
+          <td class="memname">void AuroraFW::AudioManager::AudioInfo::setArtist </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>artist</em></td><td>)</td>
@@ -607,6 +820,18 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the "Artist" string of the audio file to the given string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">artist</td><td>The desired string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#af660811c6c664533af86f6fcbd697455" title="Gets the &quot;Artist&quot; string of the audio file. ">getArtist()</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../de/df7/sndfile_8c.html#aafe48dfd246b12ee05f156030b8f87fb">sf_set_string()</a>.</p>
 
 </div>
 </div>
@@ -617,7 +842,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> AuroraFW::AudioManager::AudioInfo::setComment </td>
+          <td class="memname">void AuroraFW::AudioManager::AudioInfo::setComment </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>comment</em></td><td>)</td>
@@ -625,6 +850,18 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the "Comment" string of the audio file to the given string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">comment</td><td>The desired string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ac8db6b668793f459339c9843776dd351" title="Gets the &quot;Comment&quot; string of the audio file. ">getComment()</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../de/df7/sndfile_8c.html#aafe48dfd246b12ee05f156030b8f87fb">sf_set_string()</a>.</p>
 
 </div>
 </div>
@@ -635,7 +872,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> AuroraFW::AudioManager::AudioInfo::setDate </td>
+          <td class="memname">void AuroraFW::AudioManager::AudioInfo::setDate </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>date</em></td><td>)</td>
@@ -643,6 +880,18 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the "Date" string of the audio file to the given string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">date</td><td>The desired string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a5c0de7ecfc69ed2e6184bcff85dd3a0f" title="Gets the &quot;Date&quot; string of the audio file. ">getDate()</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../de/df7/sndfile_8c.html#aafe48dfd246b12ee05f156030b8f87fb">sf_set_string()</a>.</p>
 
 </div>
 </div>
@@ -653,7 +902,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> AuroraFW::AudioManager::AudioInfo::setAlbum </td>
+          <td class="memname">void AuroraFW::AudioManager::AudioInfo::setAlbum </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>album</em></td><td>)</td>
@@ -661,6 +910,18 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the "Album" string of the audio file to the given string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">album</td><td>The desired string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#aad517d7aa9f6251276907702362886bc" title="Gets the &quot;Album&quot; string of the audio file. ">getAlbum()</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../de/df7/sndfile_8c.html#aafe48dfd246b12ee05f156030b8f87fb">sf_set_string()</a>.</p>
 
 </div>
 </div>
@@ -671,7 +932,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> AuroraFW::AudioManager::AudioInfo::setLicense </td>
+          <td class="memname">void AuroraFW::AudioManager::AudioInfo::setLicense </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>license</em></td><td>)</td>
@@ -680,7 +941,17 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../dd/dc4/namespacesetup.html#a8ed6f50a28bd6a8794f8e1153baa6de9">setup::license</a>.</p>
+<p>Sets the "License" string of the audio file to the given string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">license</td><td>The desired string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a0efed000ef99ad63f5ea57e241bd47ac" title="Gets the &quot;License&quot; string of the audio file. ">getLicense()</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../dd/dc4/namespacesetup.html#a8ed6f50a28bd6a8794f8e1153baa6de9">setup::license</a>, and <a class="el" href="../../de/df7/sndfile_8c.html#aafe48dfd246b12ee05f156030b8f87fb">sf_set_string()</a>.</p>
 
 </div>
 </div>
@@ -691,7 +962,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> AuroraFW::AudioManager::AudioInfo::setTrackNumber </td>
+          <td class="memname">void AuroraFW::AudioManager::AudioInfo::setTrackNumber </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>trackNumber</em></td><td>)</td>
@@ -699,6 +970,18 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the "TrackNumber" string of the audio file to the given string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">trackNumber</td><td>The desired string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#a0d135128c5562b710a6d6e13d28221e0" title="Gets the &quot;TrackNumber&quot; string of the audio file. ">getTrackNumber()</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../de/df7/sndfile_8c.html#aafe48dfd246b12ee05f156030b8f87fb">sf_set_string()</a>.</p>
 
 </div>
 </div>
@@ -709,7 +992,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> AuroraFW::AudioManager::AudioInfo::setGenre </td>
+          <td class="memname">void AuroraFW::AudioManager::AudioInfo::setGenre </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>genre</em></td><td>)</td>
@@ -718,53 +1001,21 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sets the "Genre" string of the audio file to the given string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">genre</td><td>The desired string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d6e/struct_aurora_f_w_1_1_audio_manager_1_1_audio_info.html#ab454c51833cb88aeca1050931595434e" title="Gets the &quot;Genre&quot; string of the audio file. ">getGenre()</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>snapshot20180330 </dd></dl>
+
+<p class="reference">References <a class="el" href="../../de/df7/sndfile_8c.html#aafe48dfd246b12ee05f156030b8f87fb">sf_set_string()</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a4ba7275934e0867a9574f94fc97025ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ba7275934e0867a9574f94fc97025ba">&#9670;&nbsp;</a></span>AudioOStream</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend struct <a class="el" href="../../d6/de8/struct_aurora_f_w_1_1_audio_manager_1_1_audio_o_stream.html">AudioOStream</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab89c60c0fe6b722be7c3ceb8fc0b4c2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab89c60c0fe6b722be7c3ceb8fc0b4c2e">&#9670;&nbsp;</a></span>AudioIStream</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend struct <a class="el" href="../../da/d61/struct_aurora_f_w_1_1_audio_manager_1_1_audio_i_stream.html">AudioIStream</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aec4328ab6b75998f1cf5e439bf797971"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aec4328ab6b75998f1cf5e439bf797971">&#9670;&nbsp;</a></span>audioOutputCallback</h2>
 
@@ -777,13 +1028,13 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">int audioOutputCallback </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *&#160;</td>
+          <td class="paramtype">const void *&#160;</td>
           <td class="paramname"><em>inputBuffer</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>outputBuffer</em>, </td>
         </tr>
         <tr>
@@ -807,7 +1058,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d5/d9d/opengl-loader_2include_2_aurora_f_w_2_g_engine_2_g_l_2_loader_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a> *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>userData</em>&#160;</td>
         </tr>
         <tr>

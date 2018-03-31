@@ -14,7 +14,7 @@ Oh, and also you'll be able to do this in code:
 
 @section prerequesites-image Prerequisites
 
-This tutorial will use the two following Aurora modules:
+This tutorial will use the three following Aurora modules:
 
 - aurorafw-core
 - aurorafw-image

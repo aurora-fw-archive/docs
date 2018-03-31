@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['variant',['Variant',['../dd/def/classspirv__cross_1_1_variant.html',1,'spirv_cross']]],
+  ['vec2',['vec2',['../d8/d34/struct_aurora_f_w_1_1_math_1_1vec2.html',1,'AuroraFW::Math']]],
+  ['vec3',['vec3',['../df/da8/struct_aurora_f_w_1_1_math_1_1vec3.html',1,'AuroraFW::Math']]],
+  ['vec4',['vec4',['../d8/d6c/struct_aurora_f_w_1_1_math_1_1vec4.html',1,'AuroraFW::Math']]],
+  ['vhdr_5fchunk',['VHDR_CHUNK',['../df/d1d/struct_v_h_d_r___c_h_u_n_k.html',1,'']]],
+  ['vkcontext',['VKContext',['../d3/d79/class_aurora_f_w_1_1_g_engine_1_1_v_k_context.html',1,'AuroraFW::GEngine']]],
+  ['vkextensionproperties',['VkExtensionProperties',['../d7/de0/struct_vk_extension_properties.html',1,'']]],
+  ['vkmacossurfacecreateinfomvk',['VkMacOSSurfaceCreateInfoMVK',['../d9/d82/struct_vk_mac_o_s_surface_create_info_m_v_k.html',1,'']]],
+  ['vkmirwindowcreateinfokhr',['VkMirWindowCreateInfoKHR',['../db/d55/struct_vk_mir_window_create_info_k_h_r.html',1,'']]],
+  ['vkrenderer',['VKRenderer',['../de/d85/class_aurora_f_w_1_1_g_engine_1_1_v_k_renderer.html',1,'AuroraFW::GEngine']]],
+  ['vkwaylandsurfacecreateinfokhr',['VkWaylandSurfaceCreateInfoKHR',['../d9/d2c/struct_vk_wayland_surface_create_info_k_h_r.html',1,'']]],
+  ['vkwin32surfacecreateinfokhr',['VkWin32SurfaceCreateInfoKHR',['../dd/de3/struct_vk_win32_surface_create_info_k_h_r.html',1,'']]],
+  ['vkxcbsurfacecreateinfokhr',['VkXcbSurfaceCreateInfoKHR',['../df/dc8/struct_vk_xcb_surface_create_info_k_h_r.html',1,'']]],
+  ['vkxlibsurfacecreateinfokhr',['VkXlibSurfaceCreateInfoKHR',['../d9/d72/struct_vk_xlib_surface_create_info_k_h_r.html',1,'']]],
+  ['voc_5fdata',['VOC_DATA',['../d8/de0/struct_v_o_c___d_a_t_a.html',1,'']]],
+  ['voltgenerator',['VoltGenerator',['../db/d3f/classglloader_1_1lang_1_1volt_1_1generator_1_1_volt_generator.html',1,'glloader::lang::volt::generator']]],
+  ['vote',['VOTE',['../d6/d1f/struct_v_o_t_e.html',1,'']]]
+];
